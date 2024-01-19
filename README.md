@@ -18,10 +18,10 @@ Add Car & Save\
 ![Add Car & Save](./setup/pkqo1xq.png)
 Click Run !                                                                                         
 
-If you dont have server
-Download Hamachi
-Create a new network
-And say your aga "download hamachi aq"
-And your aga joins your network
-Now you should be see your server in Online>Lan
-If your server is not looking Check the box in main server settings in your content manager "Make server public"
+If you dont have server\
+Download Hamachi\
+Create a new network\
+And say your aga "download hamachi aq"\
+And your aga joins your network\
+Now you should be see your server in Online>Lan\
+If your server is not looking Check the box in main server settings in your content manager "Make server public"\
