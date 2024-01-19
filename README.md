@@ -16,8 +16,8 @@ And go content manager
 https://hizliresim.com/pkqo1xq
 ![Add Car
 https://hizliresim.com/hzmxx9q
-And Save
-Click Run!
+And Save                                                                                                                                                                                                              
+Click Run!                                                                                                                                                                                                                                                                                                    
 
 If you dont have server
 Download Hamachi
