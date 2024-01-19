@@ -15,7 +15,7 @@ Move Files To Folder\
 And Go Content Manager\
 ![And Go Content Manager](./setup/pkqo1xq.png)
 Add Car & Save\
-![Add Car & Save](./setup/pkqo1xq.png)
+![Add Car & Save](./setup/hzmxx9q.png)
 Click Run !                                                                                         
 
 If you dont have server
