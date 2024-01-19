@@ -2,21 +2,21 @@
 
 ## Creators
 
-[Corp14x3](https://github.com/corp14x3)
-[Sezynex](https://github.com/sezynex)
+[Sezynex](https://github.com/sezynex)\
+[corp14x3](https://github.com/corp14x3)\
+
 
 
 ## Setup Tutorial
+Find Assetto Corsa Root Folder\
 ![Find Assetto Corsa Root Folder](./setup/t9khqze.png)
-![Move files to folder]
-https://hizliresim.com/ek5zt6p
-And go content manager
-![Go to Content Manager Server]
-https://hizliresim.com/pkqo1xq
-![Add Car
-https://hizliresim.com/hzmxx9q
-And Save                                                                                                                                                                                                              
-Click Run!                                                                                                                                                                                                                                                                                                    
+Move Files To Folder\
+![Move Files To Folder](./setup/ek5zt6p.png)
+And Go Content Manager\
+![And Go Content Manager](./setup/pkqo1xq.png)
+Add Car & Save\
+![Add Car & Save](./setup/pkqo1xq.png)
+Click Run !                                                                                         
 
 If you dont have server
 Download Hamachi
