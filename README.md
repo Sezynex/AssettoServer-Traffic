@@ -1,2 +1,2 @@
 # AssettoServer-Traffic
-@corp14x3 31
+Sezynex sunucuyu kurdugu icin tesekkur ederiz
