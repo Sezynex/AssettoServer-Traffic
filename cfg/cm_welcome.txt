@@ -1,0 +1,5 @@
+For testing, rain is active with intensity 90%.
+
+[RAIN_PREVIEW]
+INTENSITY=0.9
+REQUIRED=1
