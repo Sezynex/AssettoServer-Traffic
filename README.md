@@ -24,10 +24,14 @@ Create a new network\
 And say your aga "download hamachi aq"\
 And your aga joins your network\
 Now you should be see your server in Online>Lan\
-If your server is not looking Check the box in main server settings in your content manager "Make server public"\
+If your server is not looking Check the box in main server settings in your content manager "Make server public"
 
 
 [Traffic Cars](https://link.tc/go/bRdVI)\
 [Shutoko](https://link.tc/go/y5hIF)\
 [FDR Map](https://link.tc/go/rQE93)\
 [Underground2 Map ](https://link.tc/go/3YmWX)
+
+If you take a register lobby error\
+Click the folder button\
+Go server.cfg and change the 1 to 0 "REGISTER_TO_LOBBY=0"
