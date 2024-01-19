@@ -30,4 +30,4 @@ If your server is not looking Check the box in main server settings in your cont
 [Traffic Cars](https://link.tc/go/bRdVI)\
 [Shutoko](https://link.tc/go/y5hIF)\
 [FDR Map](https://link.tc/go/rQE93)\
-[Underground2 Map ](https://link.tc/go/3YmWX)\
+[Underground2 Map ](https://link.tc/go/3YmWX)
