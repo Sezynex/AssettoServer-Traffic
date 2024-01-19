@@ -1,0 +1,1694 @@
+2024-01-19 16:58:07.971 +03:00 [INF] AssettoServer 0.0.52+85427faad6
+2024-01-19 16:58:08.471 +03:00 [WRN] Long welcome message detected. This will lead to crashes on CSP versions older than 0.1.77
+2024-01-19 16:58:08.510 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-01-19 16:58:08.566 +03:00 [INF] Starting server
+2024-01-19 16:58:08.788 +03:00 [FTL] Error starting server
+System.IO.IOException: Failed to bind to address http://0.0.0.0:8081: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass30_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IEnumerable`1 listenOptions, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at AssettoServer.Program.Main(String[] args) in AssettoServer/Program.cs:line 142
+2024-01-19 16:58:13.489 +03:00 [INF] AssettoServer 0.0.52+85427faad6
+2024-01-19 16:58:13.976 +03:00 [WRN] Long welcome message detected. This will lead to crashes on CSP versions older than 0.1.77
+2024-01-19 16:58:14.015 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-01-19 16:58:14.071 +03:00 [INF] Starting server
+2024-01-19 16:58:14.263 +03:00 [FTL] Error starting server
+System.IO.IOException: Failed to bind to address http://0.0.0.0:8081: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Only one usage of each socket address (protocol/network address/port) is normally permitted.
+ ---> System.Net.Sockets.SocketException (10048): Only one usage of each socket address (protocol/network address/port) is normally permitted.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass30_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindAsync(IEnumerable`1 listenOptions, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at AssettoServer.Program.Main(String[] args) in AssettoServer/Program.cs:line 142
+2024-01-19 16:58:18.725 +03:00 [INF] AssettoServer 0.0.52+85427faad6
+2024-01-19 16:58:19.226 +03:00 [WRN] Long welcome message detected. This will lead to crashes on CSP versions older than 0.1.77
+2024-01-19 16:58:19.264 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-01-19 16:58:19.323 +03:00 [INF] Starting server
+2024-01-19 16:58:19.516 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-01-19 16:58:19.518 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-01-19 16:58:19.521 +03:00 [DBG] Loaded admins.txt with 0 entries
+2024-01-19 16:58:19.523 +03:00 [INF] Starting HTTP server on port 8081
+2024-01-19 16:58:19.524 +03:00 [INF] Loaded 36 cars
+2024-01-19 16:58:19.534 +03:00 [DBG] Added checksum for content/tracks/csp/1061/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2024-01-19 16:58:19.534 +03:00 [DBG] Added checksum for content/tracks/csp/1061/../shuto_revival_project_beta/models_tatsumi_pa.ini
+2024-01-19 16:58:19.534 +03:00 [INF] Initialized 2 track checksums
+2024-01-19 16:58:19.536 +03:00 [DBG] Added checksum for content/cars/traffic_truck_Isuzu_Giga_long\data.acd
+2024-01-19 16:58:19.537 +03:00 [DBG] Added checksum for content/cars/traffic_f&f_truck\data.acd
+2024-01-19 16:58:19.537 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_159\data.acd
+2024-01-19 16:58:19.538 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_mito\data.acd
+2024-01-19 16:58:19.538 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_eu\data.acd
+2024-01-19 16:58:19.538 +03:00 [DBG] Added checksum for content/cars/traffic_range_rover_ss\data.acd
+2024-01-19 16:58:19.539 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_priuseu\data.acd
+2024-01-19 16:58:19.539 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70\data.acd
+2024-01-19 16:58:19.540 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_jp\data.acd
+2024-01-19 16:58:19.540 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_flatbed\data.acd
+2024-01-19 16:58:19.540 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_hauler\data.acd
+2024-01-19 16:58:19.541 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_haulerb\data.acd
+2024-01-19 16:58:19.541 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_tanker\data.acd
+2024-01-19 16:58:19.542 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_npr\data.acd
+2024-01-19 16:58:19.542 +03:00 [DBG] Added checksum for content/cars/traffic_nissan_leaf\data.acd
+2024-01-19 16:58:19.542 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_camry\data.acd
+2024-01-19 16:58:19.543 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_prius\data.acd
+2024-01-19 16:58:19.543 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70jp\data.acd
+2024-01-19 16:58:19.544 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_rav4\data.acd
+2024-01-19 16:58:19.544 +03:00 [DBG] Added checksum for content/cars/traffic_cadillac_escalade\data.acd
+2024-01-19 16:58:19.544 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_challenger_srt\data.acd
+2024-01-19 16:58:19.545 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_grand_caravan_taxi\data.acd
+2024-01-19 16:58:19.545 +03:00 [DBG] Added checksum for content/cars/traffic_crown_vic\data.acd
+2024-01-19 16:58:19.546 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_nprusa\data.acd
+2024-01-19 16:58:19.547 +03:00 [DBG] Added checksum for content/cars/nissan_gtr_sezynex_spec\data.acd
+2024-01-19 16:58:19.547 +03:00 [DBG] Added checksum for content/cars/mazda_rx8_r3_swapped\data.acd
+2024-01-19 16:58:19.548 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_m4_lci_air\data.acd
+2024-01-19 16:58:19.549 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_honda_s2000_ap2\data.acd
+2024-01-19 16:58:19.549 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_nissan_s14usdm\data.acd
+2024-01-19 16:58:19.550 +03:00 [DBG] Added checksum for content/cars/ks_ferrari_f2004\data.acd
+2024-01-19 16:58:19.552 +03:00 [DBG] Added checksum for content/cars/lotus_exos_125_s1\data.acd
+2024-01-19 16:58:19.554 +03:00 [INF] Initialized 31 car checksums
+2024-01-19 16:58:19.556 +03:00 [INF] Next session: Practice
+2024-01-19 16:58:19.557 +03:00 [INF] Switching session to id 0
+2024-01-19 16:58:19.799 +03:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=46.104.9.71&httpPort=8081
+2024-01-19 16:58:19.827 +03:00 [INF] Starting TCP server on port 9600
+2024-01-19 16:58:19.829 +03:00 [INF] Starting UDP server on port 9600
+2024-01-19 16:58:19.837 +03:00 [INF] Starting update loop with an update rate of 60hz
+2024-01-19 16:58:27.808 +03:00 [INF] AssettoServer 0.0.52+85427faad6
+2024-01-19 16:58:28.303 +03:00 [WRN] Long welcome message detected. This will lead to crashes on CSP versions older than 0.1.77
+2024-01-19 16:58:28.341 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-01-19 16:58:28.399 +03:00 [INF] Starting server
+2024-01-19 16:58:28.600 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-01-19 16:58:28.602 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-01-19 16:58:28.605 +03:00 [DBG] Loaded admins.txt with 0 entries
+2024-01-19 16:58:28.606 +03:00 [INF] Starting HTTP server on port 8081
+2024-01-19 16:58:28.607 +03:00 [INF] Loaded 36 cars
+2024-01-19 16:58:28.618 +03:00 [DBG] Added checksum for content/tracks/csp/1061/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2024-01-19 16:58:28.618 +03:00 [DBG] Added checksum for content/tracks/csp/1061/../shuto_revival_project_beta/models_tatsumi_pa.ini
+2024-01-19 16:58:28.619 +03:00 [INF] Initialized 2 track checksums
+2024-01-19 16:58:28.620 +03:00 [DBG] Added checksum for content/cars/traffic_truck_Isuzu_Giga_long\data.acd
+2024-01-19 16:58:28.621 +03:00 [DBG] Added checksum for content/cars/traffic_f&f_truck\data.acd
+2024-01-19 16:58:28.621 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_159\data.acd
+2024-01-19 16:58:28.622 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_mito\data.acd
+2024-01-19 16:58:28.622 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_eu\data.acd
+2024-01-19 16:58:28.623 +03:00 [DBG] Added checksum for content/cars/traffic_range_rover_ss\data.acd
+2024-01-19 16:58:28.623 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_priuseu\data.acd
+2024-01-19 16:58:28.623 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70\data.acd
+2024-01-19 16:58:28.624 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_jp\data.acd
+2024-01-19 16:58:28.624 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_flatbed\data.acd
+2024-01-19 16:58:28.625 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_hauler\data.acd
+2024-01-19 16:58:28.625 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_haulerb\data.acd
+2024-01-19 16:58:28.625 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_tanker\data.acd
+2024-01-19 16:58:28.626 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_npr\data.acd
+2024-01-19 16:58:28.626 +03:00 [DBG] Added checksum for content/cars/traffic_nissan_leaf\data.acd
+2024-01-19 16:58:28.627 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_camry\data.acd
+2024-01-19 16:58:28.627 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_prius\data.acd
+2024-01-19 16:58:28.627 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70jp\data.acd
+2024-01-19 16:58:28.628 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_rav4\data.acd
+2024-01-19 16:58:28.628 +03:00 [DBG] Added checksum for content/cars/traffic_cadillac_escalade\data.acd
+2024-01-19 16:58:28.629 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_challenger_srt\data.acd
+2024-01-19 16:58:28.629 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_grand_caravan_taxi\data.acd
+2024-01-19 16:58:28.629 +03:00 [DBG] Added checksum for content/cars/traffic_crown_vic\data.acd
+2024-01-19 16:58:28.630 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_nprusa\data.acd
+2024-01-19 16:58:28.631 +03:00 [DBG] Added checksum for content/cars/nissan_gtr_sezynex_spec\data.acd
+2024-01-19 16:58:28.631 +03:00 [DBG] Added checksum for content/cars/mazda_rx8_r3_swapped\data.acd
+2024-01-19 16:58:28.632 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_m4_lci_air\data.acd
+2024-01-19 16:58:28.633 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_honda_s2000_ap2\data.acd
+2024-01-19 16:58:28.633 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_nissan_s14usdm\data.acd
+2024-01-19 16:58:28.634 +03:00 [DBG] Added checksum for content/cars/ks_ferrari_f2004\data.acd
+2024-01-19 16:58:28.636 +03:00 [DBG] Added checksum for content/cars/lotus_exos_125_s1\data.acd
+2024-01-19 16:58:28.638 +03:00 [INF] Initialized 31 car checksums
+2024-01-19 16:58:28.640 +03:00 [INF] Next session: Practice
+2024-01-19 16:58:28.641 +03:00 [INF] Switching session to id 0
+2024-01-19 16:58:28.927 +03:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=46.104.9.71&httpPort=8081
+2024-01-19 16:58:28.954 +03:00 [INF] Starting TCP server on port 9600
+2024-01-19 16:58:28.956 +03:00 [INF] Starting UDP server on port 9600
+2024-01-19 16:58:28.965 +03:00 [INF] Registering server to lobby...
+2024-01-19 16:58:28.968 +03:00 [INF] Starting update loop with an update rate of 60hz
+2024-01-19 16:58:30.670 +03:00 [ERR] Error during Kunos lobby registration
+AssettoServer.Server.KunosLobbyException: ERROR,INVALID SERVER,CHECK YOUR PORT FORWARDING SETTINGS
+   at AssettoServer.Server.KunosLobbyRegistration.RegisterToLobbyAsync(CancellationToken token) in AssettoServer/Server/KunosLobbyRegistration.cs:line 114
+   at AssettoServer.Server.KunosLobbyRegistration.ExecuteAsync(CancellationToken stoppingToken) in AssettoServer/Server/KunosLobbyRegistration.cs:line 38
+2024-01-19 16:58:38.208 +03:00 [INF] AssettoServer 0.0.52+85427faad6
+2024-01-19 16:58:38.716 +03:00 [WRN] Long welcome message detected. This will lead to crashes on CSP versions older than 0.1.77
+2024-01-19 16:58:38.754 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-01-19 16:58:38.812 +03:00 [INF] Starting server
+2024-01-19 16:58:39.019 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-01-19 16:58:39.021 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-01-19 16:58:39.024 +03:00 [DBG] Loaded admins.txt with 0 entries
+2024-01-19 16:58:39.026 +03:00 [INF] Starting HTTP server on port 8081
+2024-01-19 16:58:39.026 +03:00 [INF] Loaded 36 cars
+2024-01-19 16:58:39.036 +03:00 [DBG] Added checksum for content/tracks/csp/1061/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2024-01-19 16:58:39.037 +03:00 [DBG] Added checksum for content/tracks/csp/1061/../shuto_revival_project_beta/models_tatsumi_pa.ini
+2024-01-19 16:58:39.037 +03:00 [INF] Initialized 2 track checksums
+2024-01-19 16:58:39.039 +03:00 [DBG] Added checksum for content/cars/traffic_truck_Isuzu_Giga_long\data.acd
+2024-01-19 16:58:39.040 +03:00 [DBG] Added checksum for content/cars/traffic_f&f_truck\data.acd
+2024-01-19 16:58:39.040 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_159\data.acd
+2024-01-19 16:58:39.041 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_mito\data.acd
+2024-01-19 16:58:39.041 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_eu\data.acd
+2024-01-19 16:58:39.042 +03:00 [DBG] Added checksum for content/cars/traffic_range_rover_ss\data.acd
+2024-01-19 16:58:39.042 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_priuseu\data.acd
+2024-01-19 16:58:39.043 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70\data.acd
+2024-01-19 16:58:39.043 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_jp\data.acd
+2024-01-19 16:58:39.043 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_flatbed\data.acd
+2024-01-19 16:58:39.044 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_hauler\data.acd
+2024-01-19 16:58:39.044 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_haulerb\data.acd
+2024-01-19 16:58:39.045 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_tanker\data.acd
+2024-01-19 16:58:39.045 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_npr\data.acd
+2024-01-19 16:58:39.046 +03:00 [DBG] Added checksum for content/cars/traffic_nissan_leaf\data.acd
+2024-01-19 16:58:39.046 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_camry\data.acd
+2024-01-19 16:58:39.046 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_prius\data.acd
+2024-01-19 16:58:39.047 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70jp\data.acd
+2024-01-19 16:58:39.047 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_rav4\data.acd
+2024-01-19 16:58:39.048 +03:00 [DBG] Added checksum for content/cars/traffic_cadillac_escalade\data.acd
+2024-01-19 16:58:39.048 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_challenger_srt\data.acd
+2024-01-19 16:58:39.049 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_grand_caravan_taxi\data.acd
+2024-01-19 16:58:39.049 +03:00 [DBG] Added checksum for content/cars/traffic_crown_vic\data.acd
+2024-01-19 16:58:39.049 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_nprusa\data.acd
+2024-01-19 16:58:39.050 +03:00 [DBG] Added checksum for content/cars/nissan_gtr_sezynex_spec\data.acd
+2024-01-19 16:58:39.051 +03:00 [DBG] Added checksum for content/cars/mazda_rx8_r3_swapped\data.acd
+2024-01-19 16:58:39.052 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_m4_lci_air\data.acd
+2024-01-19 16:58:39.053 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_honda_s2000_ap2\data.acd
+2024-01-19 16:58:39.053 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_nissan_s14usdm\data.acd
+2024-01-19 16:58:39.054 +03:00 [DBG] Added checksum for content/cars/ks_ferrari_f2004\data.acd
+2024-01-19 16:58:39.055 +03:00 [DBG] Added checksum for content/cars/lotus_exos_125_s1\data.acd
+2024-01-19 16:58:39.058 +03:00 [INF] Initialized 31 car checksums
+2024-01-19 16:58:39.060 +03:00 [INF] Next session: Practice
+2024-01-19 16:58:39.061 +03:00 [INF] Switching session to id 0
+2024-01-19 16:58:39.298 +03:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=46.104.9.71&httpPort=8081
+2024-01-19 16:58:39.327 +03:00 [INF] Starting TCP server on port 9600
+2024-01-19 16:58:39.329 +03:00 [INF] Starting UDP server on port 9600
+2024-01-19 16:58:39.338 +03:00 [INF] Registering server to lobby...
+2024-01-19 16:58:39.342 +03:00 [INF] Starting update loop with an update rate of 60hz
+2024-01-19 16:58:41.049 +03:00 [ERR] Error during Kunos lobby registration
+AssettoServer.Server.KunosLobbyException: ERROR,INVALID SERVER,CHECK YOUR PORT FORWARDING SETTINGS
+   at AssettoServer.Server.KunosLobbyRegistration.RegisterToLobbyAsync(CancellationToken token) in AssettoServer/Server/KunosLobbyRegistration.cs:line 114
+   at AssettoServer.Server.KunosLobbyRegistration.ExecuteAsync(CancellationToken stoppingToken) in AssettoServer/Server/KunosLobbyRegistration.cs:line 38
+2024-01-19 16:58:48.502 +03:00 [INF] Han Raikkonen (76561198141951438 - 25.51.196.59:64134) is attempting to connect (nissan_gtr_sezynex_spec)
+2024-01-19 16:58:48.503 +03:00 [DBG] Han Raikkonen supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","2146"]
+2024-01-19 16:58:48.510 +03:00 [INF] Han Raikkonen (76561198141951438, 24 (nissan_gtr_sezynex_spec-Ace_Orange_Metallic)) has connected
+2024-01-19 16:59:52.454 +03:00 [INF] corp14x3 (76561198272199111 - 25.58.251.30:60074) is attempting to connect (mazda_rx8_r3_swapped)
+2024-01-19 16:59:52.455 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","2144"]
+2024-01-19 16:59:52.455 +03:00 [INF] corp14x3 (76561198272199111, 26 (mazda_rx8_r3_swapped-01_pure_white)) has connected
+2024-01-19 17:00:08.529 +03:00 [DBG] AI Slot overbooking update - No. players: 2 - No. AI Slots: 24 - Target AI count: 48 - Overbooking: 2 - Rest: 0
+2024-01-19 17:00:11.770 +03:00 [INF] CHAT: Han Raikkonen (24): 				$CSP0:YOqrL2En
+2024-01-19 17:00:19.096 +03:00 [INF] CHAT: Han Raikkonen (24): 				$CSP0:mDr//v7/
+2024-01-19 17:00:23.796 +03:00 [INF] CHAT: Han Raikkonen (24): /admin adminullah
+2024-01-19 17:00:35.206 +03:00 [INF] CHAT: Han Raikkonen (24): /settime 23:59
+2024-01-19 17:00:35.209 +03:00 [INF] Broadcast: Time has been set.
+2024-01-19 17:00:43.273 +03:00 [INF] CHAT: Han Raikkonen (24): /setttime 15:00
+2024-01-19 17:00:48.538 +03:00 [INF] CHAT: Han Raikkonen (24): /settime 15:00
+2024-01-19 17:00:48.539 +03:00 [INF] Broadcast: Time has been set.
+2024-01-19 17:01:01.402 +03:00 [INF] CHAT: Han Raikkonen (24): 				$CSP0:mDr//v7/
+2024-01-19 17:01:02.407 +03:00 [INF] CHAT: Han Raikkonen (24): 				$CSP0:mDr//v7/
+2024-01-19 17:01:03.905 +03:00 [INF] CHAT: Han Raikkonen (24): 				$CSP0:mDr//v7/
+2024-01-19 17:01:04.911 +03:00 [INF] CHAT: Han Raikkonen (24): 				$CSP0:mDr//v7/
+2024-01-19 17:01:05.918 +03:00 [INF] CHAT: Han Raikkonen (24): 				$CSP0:mDr//v7/
+2024-01-19 17:01:06.946 +03:00 [INF] CHAT: Han Raikkonen (24): 				$CSP0:mDr//v7/
+2024-01-19 17:01:08.399 +03:00 [INF] CHAT: Han Raikkonen (24): 				$CSP0:mDr//v7/
+2024-01-19 17:01:09.405 +03:00 [INF] CHAT: Han Raikkonen (24): 				$CSP0:mDr//v7/
+2024-01-19 17:01:10.410 +03:00 [INF] CHAT: Han Raikkonen (24): 				$CSP0:mDr//v7/
+2024-01-19 17:01:11.922 +03:00 [INF] CHAT: Han Raikkonen (24): 				$CSP0:mDr//v7/
+2024-01-19 17:01:18.187 +03:00 [DBG] Car 0 reached spline end, despawning
+2024-01-19 17:01:19.825 +03:00 [DBG] Car 4 reached spline end, despawning
+2024-01-19 17:01:25.679 +03:00 [DBG] Car 18 reached spline end, despawning
+2024-01-19 17:01:26.374 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-01-19 17:01:27.372 +03:00 [DBG] Car 23 reached spline end, despawning
+2024-01-19 17:01:30.013 +03:00 [DBG] Car 8 reached spline end, despawning
+2024-01-19 17:01:32.218 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-01-19 17:01:34.120 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-01-19 17:01:35.863 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-01-19 17:01:37.190 +03:00 [DBG] Car 14 reached spline end, despawning
+2024-01-19 17:01:39.687 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-01-19 17:01:41.210 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-01-19 17:01:43.965 +03:00 [DBG] Car 23 reached spline end, despawning
+2024-01-19 17:01:46.014 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-01-19 17:01:48.540 +03:00 [INF] CHAT: Han Raikkonen (24): 				$CSP0:mDr//v7/
+2024-01-19 17:01:48.591 +03:00 [DBG] Car 21 reached spline end, despawning
+2024-01-19 17:02:06.957 +03:00 [DBG] Car 2 reached spline end, despawning
+2024-01-19 17:02:18.901 +03:00 [INF] CHAT: Han Raikkonen (24): 				$CSP0:mDr//v7/
+2024-01-19 17:02:20.964 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 27km/h
+2024-01-19 17:02:28.395 +03:00 [INF] CHAT: Han Raikkonen (24): 				$CSP0:mDr//v7/
+2024-01-19 17:02:29.896 +03:00 [INF] CHAT: Han Raikkonen (24): 				$CSP0:mDr//v7/
+2024-01-19 17:02:35.685 +03:00 [DBG] Car 2 reached spline end, despawning
+2024-01-19 17:02:35.972 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 24km/h
+2024-01-19 17:02:44.986 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-01-19 17:02:50.539 +03:00 [DBG] Car 18 reached spline end, despawning
+2024-01-19 17:02:51.075 +03:00 [DBG] Car 14 reached spline end, despawning
+2024-01-19 17:02:55.662 +03:00 [DBG] Car 12 reached spline end, despawning
+2024-01-19 17:02:55.967 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 15km/h
+2024-01-19 17:03:05.466 +03:00 [DBG] AI Slot overbooking update - No. players: 2 - No. AI Slots: 24 - Target AI count: 48 - Overbooking: 2 - Rest: 0
+2024-01-19 17:03:05.791 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-01-19 17:03:05.968 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 25km/h
+2024-01-19 17:03:06.360 +03:00 [DBG] Car 8 reached spline end, despawning
+2024-01-19 17:03:06.508 +03:00 [INF] CHAT: Han Raikkonen (24): 				$CSP0:mDr//v7/
+2024-01-19 17:03:12.322 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-01-19 17:03:12.795 +03:00 [DBG] Car 21 reached spline end, despawning
+2024-01-19 17:03:13.152 +03:00 [INF] CHAT: corp14x3 (26): 				$CSP0:YOqrL2En
+2024-01-19 17:03:14.744 +03:00 [DBG] Car 15 reached spline end, despawning
+2024-01-19 17:03:15.971 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 37km/h
+2024-01-19 17:03:24.629 +03:00 [DBG] Car 21 reached spline end, despawning
+2024-01-19 17:03:30.974 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 26km/h
+2024-01-19 17:03:37.792 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-01-19 17:04:30.252 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-01-19 17:04:39.848 +03:00 [DBG] Car 12 reached spline end, despawning
+2024-01-19 17:04:59.405 +03:00 [INF] CHAT: Han Raikkonen (24): 				$CSP0:mDr//v7/
+2024-01-19 17:05:00.419 +03:00 [INF] CHAT: Han Raikkonen (24): 				$CSP0:mDr//v7/
+2024-01-19 17:05:03.920 +03:00 [INF] CHAT: Han Raikkonen (24): 				$CSP0:mDr//v7/
+2024-01-19 17:05:14.833 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-01-19 17:05:16.272 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-01-19 17:05:18.194 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-01-19 17:05:20.264 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-01-19 17:05:21.449 +03:00 [INF] CHAT: Han Raikkonen (24): /settime 23:59
+2024-01-19 17:05:21.449 +03:00 [INF] Broadcast: Time has been set.
+2024-01-19 17:05:22.313 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-01-19 17:05:25.162 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-01-19 17:05:28.883 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-01-19 17:05:30.650 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-01-19 17:05:31.401 +03:00 [DBG] Car 21 reached spline end, despawning
+2024-01-19 17:05:32.491 +03:00 [DBG] Car 13 reached spline end, despawning
+2024-01-19 17:05:33.179 +03:00 [DBG] Car 0 reached spline end, despawning
+2024-01-19 17:05:34.234 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-01-19 17:05:34.493 +03:00 [DBG] Car 2 reached spline end, despawning
+2024-01-19 17:05:36.967 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-01-19 17:05:37.912 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-01-19 17:05:38.478 +03:00 [DBG] Car 12 reached spline end, despawning
+2024-01-19 17:05:41.000 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 177km/h
+2024-01-19 17:05:43.407 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-01-19 17:05:46.000 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 4km/h
+2024-01-19 17:05:53.326 +03:00 [INF] CHAT: Han Raikkonen (24): /setcspweather rain 230
+2024-01-19 17:05:53.329 +03:00 [INF] CSP weather transitioning to "Rain"
+2024-01-19 17:06:01.038 +03:00 [DBG] Car 23 reached spline end, despawning
+2024-01-19 17:06:06.004 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 175km/h
+2024-01-19 17:06:11.006 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 1km/h
+2024-01-19 17:06:16.095 +03:00 [INF] Collision between corp14x3 (26) and Traffic 4 (4), rel. speed 7km/h
+2024-01-19 17:06:26.009 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 129km/h
+2024-01-19 17:06:26.009 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 7 (7), rel. speed 106km/h
+2024-01-19 17:06:31.010 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 74km/h
+2024-01-19 17:06:31.010 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 1 (1), rel. speed 30km/h
+2024-01-19 17:06:31.010 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 22 (22), rel. speed 29km/h
+2024-01-19 17:06:36.010 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 1 (1), rel. speed 30km/h
+2024-01-19 17:06:36.011 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 116km/h
+2024-01-19 17:06:36.011 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 7 (7), rel. speed 70km/h
+2024-01-19 17:06:59.787 +03:00 [DBG] Car 18 reached spline end, despawning
+2024-01-19 17:07:01.268 +03:00 [DBG] Car 18 reached spline end, despawning
+2024-01-19 17:07:06.016 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 18 (18), rel. speed 78km/h
+2024-01-19 17:07:06.017 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 8km/h
+2024-01-19 17:07:11.018 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 12 (12), rel. speed 56km/h
+2024-01-19 17:07:11.018 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 56km/h
+2024-01-19 17:07:11.018 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 1 (1), rel. speed 59km/h
+2024-01-19 17:07:16.101 +03:00 [INF] Collision between corp14x3 (26) and Traffic 14 (14), rel. speed 41km/h
+2024-01-19 17:07:22.230 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-01-19 17:07:24.274 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-01-19 17:07:25.192 +03:00 [DBG] Car 15 reached spline end, despawning
+2024-01-19 17:07:26.603 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-01-19 17:07:27.019 +03:00 [DBG] Car 13 reached spline end, despawning
+2024-01-19 17:07:36.023 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 12 (12), rel. speed 75km/h
+2024-01-19 17:07:36.023 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 15km/h
+2024-01-19 17:07:41.105 +03:00 [INF] Collision between corp14x3 (26) and Traffic 4 (4), rel. speed 122km/h
+2024-01-19 17:07:41.105 +03:00 [INF] Collision between corp14x3 (26) and Traffic 3 (3), rel. speed 51km/h
+2024-01-19 17:07:43.357 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-01-19 17:07:43.925 +03:00 [DBG] Car 13 reached spline end, despawning
+2024-01-19 17:07:44.432 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-01-19 17:07:56.027 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 8 (8), rel. speed 102km/h
+2024-01-19 17:07:56.027 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 20 (20), rel. speed 192km/h
+2024-01-19 17:08:01.027 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 4 (4), rel. speed 122km/h
+2024-01-19 17:08:01.028 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 56km/h
+2024-01-19 17:08:06.028 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 28km/h
+2024-01-19 17:08:06.029 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 8 (8), rel. speed 8km/h
+2024-01-19 17:08:06.029 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 18 (18), rel. speed 58km/h
+2024-01-19 17:08:06.029 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 17 (17), rel. speed 33km/h
+2024-01-19 17:08:06.114 +03:00 [INF] Collision between corp14x3 (26) and Traffic 1 (1), rel. speed 11km/h
+2024-01-19 17:08:06.114 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 11km/h
+2024-01-19 17:08:11.030 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 22km/h
+2024-01-19 17:08:16.119 +03:00 [INF] Collision between corp14x3 (26) and Traffic 21 (21), rel. speed 14km/h
+2024-01-19 17:08:21.031 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 103km/h
+2024-01-19 17:08:21.124 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 107km/h
+2024-01-19 17:08:21.124 +03:00 [INF] Collision between corp14x3 (26) and Traffic 10 (10), rel. speed 39km/h
+2024-01-19 17:08:26.032 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 22km/h
+2024-01-19 17:08:26.113 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 38km/h
+2024-01-19 17:08:31.117 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 6km/h
+2024-01-19 17:08:36.035 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 73km/h
+2024-01-19 17:08:36.114 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 27km/h
+2024-01-19 17:08:46.036 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 78km/h
+2024-01-19 17:08:55.340 +03:00 [INF] CHAT: Han Raikkonen (24): /setcspweather clear 999
+2024-01-19 17:08:55.341 +03:00 [INF] CSP weather transitioning to "Clear"
+2024-01-19 17:09:21.127 +03:00 [INF] Collision between corp14x3 (26) and Traffic 23 (23), rel. speed 72km/h
+2024-01-19 17:09:26.131 +03:00 [INF] Collision between corp14x3 (26) and Traffic 23 (23), rel. speed 10km/h
+2024-01-19 17:09:36.046 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 244km/h
+2024-01-19 17:09:41.047 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 23 (23), rel. speed 34km/h
+2024-01-19 17:09:41.048 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 16km/h
+2024-01-19 17:09:41.130 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 13km/h
+2024-01-19 17:09:46.134 +03:00 [INF] Collision between corp14x3 (26) and Traffic 0 (0), rel. speed 78km/h
+2024-01-19 17:10:16.137 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 19km/h
+2024-01-19 17:10:21.141 +03:00 [INF] Collision between corp14x3 (26) and Traffic 11 (11), rel. speed 6km/h
+2024-01-19 17:10:36.151 +03:00 [INF] Collision between corp14x3 (26) and Traffic 18 (18), rel. speed 20km/h
+2024-01-19 17:10:41.060 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 21 (21), rel. speed 24km/h
+2024-01-19 17:10:51.062 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 20 (20), rel. speed 42km/h
+2024-01-19 17:10:51.062 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 22km/h
+2024-01-19 17:11:05.639 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-01-19 17:11:10.139 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-01-19 17:11:17.077 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-01-19 17:11:20.521 +03:00 [DBG] Car 14 reached spline end, despawning
+2024-01-19 17:11:21.152 +03:00 [INF] Collision between corp14x3 (26) and Traffic 12 (12), rel. speed 93km/h
+2024-01-19 17:11:26.549 +03:00 [DBG] Car 18 reached spline end, despawning
+2024-01-19 17:11:28.269 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-01-19 17:11:29.900 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-01-19 17:11:33.065 +03:00 [DBG] Car 15 reached spline end, despawning
+2024-01-19 17:11:36.071 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 16km/h
+2024-01-19 17:11:51.170 +03:00 [INF] Collision between corp14x3 (26) and Traffic 3 (3), rel. speed 6km/h
+2024-01-19 17:12:14.280 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-01-19 17:12:15.369 +03:00 [DBG] Car 2 reached spline end, despawning
+2024-01-19 17:12:16.168 +03:00 [INF] Collision between corp14x3 (26) and Traffic 22 (22), rel. speed 73km/h
+2024-01-19 17:12:16.168 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 43km/h
+2024-01-19 17:12:16.389 +03:00 [DBG] Car 8 reached spline end, despawning
+2024-01-19 17:12:17.081 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-01-19 17:12:21.124 +03:00 [DBG] Car 21 reached spline end, despawning
+2024-01-19 17:12:26.391 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-01-19 17:12:39.017 +03:00 [DBG] Car 4 reached spline end, despawning
+2024-01-19 17:12:42.373 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-01-19 17:13:11.188 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 13km/h
+2024-01-19 17:13:26.205 +03:00 [INF] Collision between corp14x3 (26) and Traffic 21 (21), rel. speed 52km/h
+2024-01-19 17:13:26.205 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 90km/h
+2024-01-19 17:13:26.205 +03:00 [INF] Collision between corp14x3 (26) and Traffic 22 (22), rel. speed 63km/h
+2024-01-19 17:13:31.094 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 16 (16), rel. speed 13km/h
+2024-01-19 17:13:31.094 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 162km/h
+2024-01-19 17:13:31.186 +03:00 [INF] Collision between corp14x3 (26) and Traffic 22 (22), rel. speed 47km/h
+2024-01-19 17:13:31.186 +03:00 [INF] Collision between corp14x3 (26) and Traffic 18 (18), rel. speed 15km/h
+2024-01-19 17:13:31.186 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 6km/h
+2024-01-19 17:13:36.094 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 38km/h
+2024-01-19 17:13:36.181 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 32km/h
+2024-01-19 17:13:36.182 +03:00 [INF] Collision between corp14x3 (26) and Traffic 23 (23), rel. speed 33km/h
+2024-01-19 17:13:51.187 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 32km/h
+2024-01-19 17:13:56.188 +03:00 [INF] Collision between corp14x3 (26) and Traffic 7 (7), rel. speed 17km/h
+2024-01-19 17:14:01.187 +03:00 [INF] Collision between corp14x3 (26) and Traffic 7 (7), rel. speed 31km/h
+2024-01-19 17:14:21.195 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 8km/h
+2024-01-19 17:14:26.199 +03:00 [INF] Collision between corp14x3 (26) and Traffic 13 (13), rel. speed 110km/h
+2024-01-19 17:14:26.199 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 134km/h
+2024-01-19 17:14:26.199 +03:00 [INF] Collision between corp14x3 (26) and Traffic 15 (15), rel. speed 8km/h
+2024-01-19 17:14:31.106 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 10 (10), rel. speed 12km/h
+2024-01-19 17:14:31.106 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 98km/h
+2024-01-19 17:14:31.202 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 26km/h
+2024-01-19 17:14:36.106 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 8km/h
+2024-01-19 17:14:36.196 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 12km/h
+2024-01-19 17:15:06.205 +03:00 [INF] Collision between corp14x3 (26) and Traffic 20 (20), rel. speed 114km/h
+2024-01-19 17:15:06.205 +03:00 [INF] Collision between corp14x3 (26) and Traffic 14 (14), rel. speed 125km/h
+2024-01-19 17:15:16.115 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 2 (2), rel. speed 6km/h
+2024-01-19 17:15:16.207 +03:00 [INF] Collision between corp14x3 (26) and Traffic 8 (8), rel. speed 9km/h
+2024-01-19 17:15:26.116 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 6km/h
+2024-01-19 17:15:31.207 +03:00 [INF] Collision between corp14x3 (26) and Traffic 5 (5), rel. speed 47km/h
+2024-01-19 17:15:41.209 +03:00 [INF] Collision between corp14x3 (26) and Traffic 6 (6), rel. speed 106km/h
+2024-01-19 17:15:41.209 +03:00 [INF] Collision between corp14x3 (26) and Traffic 9 (9), rel. speed 41km/h
+2024-01-19 17:15:41.209 +03:00 [INF] Collision between corp14x3 (26) and Traffic 12 (12), rel. speed 13km/h
+2024-01-19 17:15:41.209 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 80km/h
+2024-01-19 17:15:46.215 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 27km/h
+2024-01-19 17:15:46.216 +03:00 [INF] Collision between corp14x3 (26) and Traffic 18 (18), rel. speed 31km/h
+2024-01-19 17:15:51.297 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 2km/h
+2024-01-19 17:15:51.297 +03:00 [INF] Collision between corp14x3 (26) and Traffic 23 (23), rel. speed 40km/h
+2024-01-19 17:15:56.122 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 13km/h
+2024-01-19 17:16:01.214 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 4km/h
+2024-01-19 17:16:06.224 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 25km/h
+2024-01-19 17:16:11.217 +03:00 [INF] Collision between corp14x3 (26) and Traffic 5 (5), rel. speed 7km/h
+2024-01-19 17:16:16.220 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 6km/h
+2024-01-19 17:16:16.220 +03:00 [INF] Collision between corp14x3 (26) and Traffic 5 (5), rel. speed 32km/h
+2024-01-19 17:16:16.220 +03:00 [INF] Collision between corp14x3 (26) and Traffic 3 (3), rel. speed 8km/h
+2024-01-19 17:16:16.383 +03:00 [DBG] Car 14 reached spline end, despawning
+2024-01-19 17:16:21.024 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-01-19 17:16:22.879 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-01-19 17:16:29.891 +03:00 [DBG] Car 22 reached spline end, despawning
+2024-01-19 17:16:39.205 +03:00 [DBG] Car 0 reached spline end, despawning
+2024-01-19 17:16:50.574 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-01-19 17:16:51.134 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 7km/h
+2024-01-19 17:16:53.332 +03:00 [DBG] Car 8 reached spline end, despawning
+2024-01-19 17:17:02.460 +03:00 [DBG] Car 4 reached spline end, despawning
+2024-01-19 17:17:05.454 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-01-19 17:17:07.173 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-01-19 17:17:11.138 +03:00 [INF] Collision between Han Raikkonen (24) and corp14x3 (26), rel. speed 28km/h
+2024-01-19 17:17:11.233 +03:00 [INF] Collision between corp14x3 (26) and Han Raikkonen (24), rel. speed 34km/h
+2024-01-19 17:17:16.138 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 12km/h
+2024-01-19 17:17:16.235 +03:00 [INF] Collision between corp14x3 (26) and Traffic 23 (23), rel. speed 47km/h
+2024-01-19 17:17:16.235 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 109km/h
+2024-01-19 17:17:19.578 +03:00 [DBG] Car 4 reached spline end, despawning
+2024-01-19 17:17:21.140 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 20 (20), rel. speed 26km/h
+2024-01-19 17:17:21.140 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 51km/h
+2024-01-19 17:17:21.140 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 22 (22), rel. speed 45km/h
+2024-01-19 17:17:21.140 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 10 (10), rel. speed 10km/h
+2024-01-19 17:17:21.236 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 6km/h
+2024-01-19 17:17:26.140 +03:00 [INF] Collision between Han Raikkonen (24) and corp14x3 (26), rel. speed 44km/h
+2024-01-19 17:17:26.141 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 9km/h
+2024-01-19 17:17:26.242 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 4km/h
+2024-01-19 17:17:26.242 +03:00 [INF] Collision between corp14x3 (26) and Han Raikkonen (24), rel. speed 44km/h
+2024-01-19 17:17:40.997 +03:00 [INF] CHAT: Han Raikkonen (24): 				$CSP0:YOrlbf9OGg
+2024-01-19 17:18:17.219 +03:00 [DBG] Car 13 reached spline end, despawning
+2024-01-19 17:18:54.127 +03:00 [DBG] Car 23 reached spline end, despawning
+2024-01-19 17:19:05.527 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-01-19 17:19:10.319 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-01-19 17:19:42.295 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-01-19 17:19:42.878 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-01-19 17:19:45.571 +03:00 [INF] CHAT: Han Raikkonen (24): admin adminullah
+2024-01-19 17:19:50.051 +03:00 [INF] CHAT: corp14x3 (26): /admin adminullah
+2024-01-19 17:20:09.805 +03:00 [INF] CHAT: corp14x3 (26): /settime 12:00
+2024-01-19 17:20:09.806 +03:00 [INF] Broadcast: Time has been set.
+2024-01-19 17:20:22.632 +03:00 [INF] CHAT: corp14x3 (26): /help
+2024-01-19 17:20:36.389 +03:00 [INF] CHAT: Han Raikkonen (24): /kick 0
+2024-01-19 17:20:58.658 +03:00 [INF] CHAT: Han Raikkonen (24): ./setcspweather
+2024-01-19 17:21:52.167 +03:00 [INF] CHAT: corp14x3 (26): /cspweather
+2024-01-19 17:22:40.695 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-01-19 17:22:55.471 +03:00 [INF] CHAT: Han Raikkonen (24): /whois corp14x3
+2024-01-19 17:22:57.846 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-01-19 17:22:59.457 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-01-19 17:23:07.930 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-01-19 17:23:10.290 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-01-19 17:23:24.403 +03:00 [INF] CHAT: Han Raikkonen (24): 				$CSP0:mDr//v7/
+2024-01-19 17:23:28.661 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 111km/h
+2024-01-19 17:23:31.717 +03:00 [DBG] Car 14 reached spline end, despawning
+2024-01-19 17:23:32.736 +03:00 [DBG] Car 4 reached spline end, despawning
+2024-01-19 17:23:33.261 +03:00 [DBG] Car 13 reached spline end, despawning
+2024-01-19 17:23:34.138 +03:00 [DBG] Car 18 reached spline end, despawning
+2024-01-19 17:23:39.403 +03:00 [INF] CHAT: corp14x3 (26): /pit han
+2024-01-19 17:23:43.524 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-01-19 17:23:45.062 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-01-19 17:23:46.224 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-01-19 17:23:46.746 +03:00 [DBG] Car 8 reached spline end, despawning
+2024-01-19 17:23:47.578 +03:00 [DBG] Car 21 reached spline end, despawning
+2024-01-19 17:23:48.643 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-01-19 17:24:13.332 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-01-19 17:24:15.728 +03:00 [DBG] Car 22 reached spline end, despawning
+2024-01-19 17:24:17.453 +03:00 [DBG] Car 12 reached spline end, despawning
+2024-01-19 17:24:19.371 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-01-19 17:24:21.471 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-01-19 17:24:22.767 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-01-19 17:24:35.607 +03:00 [DBG] Car 13 reached spline end, despawning
+2024-01-19 17:24:37.703 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-01-19 17:24:40.268 +03:00 [DBG] Car 12 reached spline end, despawning
+2024-01-19 17:24:42.262 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-01-19 17:24:57.603 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-01-19 17:25:00.721 +03:00 [DBG] Car 4 reached spline end, despawning
+2024-01-19 17:25:26.002 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-01-19 17:25:27.552 +03:00 [INF] CHAT: corp14x3 (26): /setcspweather Snow 60
+2024-01-19 17:25:27.552 +03:00 [INF] CSP weather transitioning to "Snow"
+2024-01-19 17:25:51.346 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 13km/h
+2024-01-19 17:25:56.714 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-01-19 17:26:01.350 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 55km/h
+2024-01-19 17:26:05.523 +03:00 [INF] CHAT: Han Raikkonen (24): /setcspweather snow 2
+2024-01-19 17:26:05.523 +03:00 [INF] CSP weather transitioning to "Snow"
+2024-01-19 17:26:06.349 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 5km/h
+2024-01-19 17:26:11.349 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 10km/h
+2024-01-19 17:26:16.350 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 11km/h
+2024-01-19 17:26:22.217 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-01-19 17:26:29.858 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-01-19 17:26:32.150 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-01-19 17:26:33.776 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-01-19 17:26:38.243 +03:00 [INF] CHAT: Han Raikkonen (24): /setcspweather clear 10
+2024-01-19 17:26:38.244 +03:00 [INF] CSP weather transitioning to "Clear"
+2024-01-19 17:26:46.756 +03:00 [DBG] Car 14 reached spline end, despawning
+2024-01-19 17:27:01.365 +03:00 [INF] Collision between corp14x3 (26) and Traffic 14 (14), rel. speed 145km/h
+2024-01-19 17:27:01.365 +03:00 [INF] Collision between corp14x3 (26) and Traffic 23 (23), rel. speed 79km/h
+2024-01-19 17:27:02.958 +03:00 [DBG] Car 21 reached spline end, despawning
+2024-01-19 17:27:05.235 +03:00 [DBG] Car 4 reached spline end, despawning
+2024-01-19 17:27:06.362 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 8km/h
+2024-01-19 17:27:06.918 +03:00 [DBG] Car 12 reached spline end, despawning
+2024-01-19 17:27:08.428 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-01-19 17:27:09.758 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-01-19 17:27:10.862 +03:00 [DBG] Car 18 reached spline end, despawning
+2024-01-19 17:27:13.463 +03:00 [DBG] Car 15 reached spline end, despawning
+2024-01-19 17:27:15.115 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-01-19 17:27:26.367 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 160km/h
+2024-01-19 17:27:26.367 +03:00 [INF] Collision between corp14x3 (26) and Traffic 9 (9), rel. speed 111km/h
+2024-01-19 17:27:28.967 +03:00 [DBG] Car 12 reached spline end, despawning
+2024-01-19 17:27:30.819 +03:00 [INF] CHAT: Han Raikkonen (24): /setcspweather rain 900
+2024-01-19 17:27:30.820 +03:00 [INF] CSP weather transitioning to "Rain"
+2024-01-19 17:27:31.225 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-01-19 17:27:31.369 +03:00 [INF] Collision between corp14x3 (26) and Traffic 4 (4), rel. speed 76km/h
+2024-01-19 17:27:31.369 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 91km/h
+2024-01-19 17:27:31.369 +03:00 [INF] Collision between corp14x3 (26) and Traffic 1 (1), rel. speed 3km/h
+2024-01-19 17:27:33.079 +03:00 [DBG] Car 4 reached spline end, despawning
+2024-01-19 17:27:39.764 +03:00 [DBG] Car 8 reached spline end, despawning
+2024-01-19 17:27:53.714 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 5 (5), rel. speed 16km/h
+2024-01-19 17:28:16.361 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-01-19 17:28:19.693 +03:00 [DBG] Car 13 reached spline end, despawning
+2024-01-19 17:28:26.381 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 11km/h
+2024-01-19 17:28:26.381 +03:00 [INF] Collision between corp14x3 (26) and Traffic 11 (11), rel. speed 92km/h
+2024-01-19 17:28:29.282 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-01-19 17:28:31.967 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-01-19 17:28:33.186 +03:00 [DBG] Car 13 reached spline end, despawning
+2024-01-19 17:28:35.678 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-01-19 17:28:37.048 +03:00 [DBG] Car 22 reached spline end, despawning
+2024-01-19 17:28:37.754 +03:00 [DBG] Car 23 reached spline end, despawning
+2024-01-19 17:28:38.723 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 8 (8), rel. speed 25km/h
+2024-01-19 17:28:43.433 +03:00 [DBG] Car 13 reached spline end, despawning
+2024-01-19 17:28:45.194 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-01-19 17:28:47.767 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-01-19 17:28:48.726 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 0 (0), rel. speed 50km/h
+2024-01-19 17:28:48.726 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 12 (12), rel. speed 27km/h
+2024-01-19 17:28:49.736 +03:00 [DBG] Car 2 reached spline end, despawning
+2024-01-19 17:28:53.726 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 1 (1), rel. speed 31km/h
+2024-01-19 17:28:53.726 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 8km/h
+2024-01-19 17:28:54.517 +03:00 [DBG] Car 23 reached spline end, despawning
+2024-01-19 17:28:55.150 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-01-19 17:29:01.391 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 4km/h
+2024-01-19 17:29:17.379 +03:00 [INF] CHAT: Han Raikkonen (24): /settime 23:00
+2024-01-19 17:29:17.379 +03:00 [INF] Broadcast: Time has been set.
+2024-01-19 17:29:21.396 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 10km/h
+2024-01-19 17:29:26.396 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 2km/h
+2024-01-19 17:29:51.398 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 29km/h
+2024-01-19 17:29:56.407 +03:00 [INF] Collision between corp14x3 (26) and Traffic 8 (8), rel. speed 27km/h
+2024-01-19 17:30:01.401 +03:00 [INF] Collision between corp14x3 (26) and Traffic 8 (8), rel. speed 26km/h
+2024-01-19 17:30:01.401 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 20km/h
+2024-01-19 17:30:01.401 +03:00 [INF] Collision between corp14x3 (26) and Traffic 23 (23), rel. speed 11km/h
+2024-01-19 17:30:06.402 +03:00 [INF] Collision between corp14x3 (26) and Traffic 23 (23), rel. speed 11km/h
+2024-01-19 17:30:06.402 +03:00 [INF] Collision between corp14x3 (26) and Traffic 14 (14), rel. speed 15km/h
+2024-01-19 17:30:06.402 +03:00 [INF] Collision between corp14x3 (26) and Traffic 8 (8), rel. speed 19km/h
+2024-01-19 17:30:11.414 +03:00 [INF] Collision between corp14x3 (26) and Traffic 13 (13), rel. speed 28km/h
+2024-01-19 17:30:11.414 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 17km/h
+2024-01-19 17:30:11.414 +03:00 [INF] Collision between corp14x3 (26) and Traffic 23 (23), rel. speed 25km/h
+2024-01-19 17:30:16.403 +03:00 [INF] Collision between corp14x3 (26) and Traffic 23 (23), rel. speed 18km/h
+2024-01-19 17:30:16.403 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 20km/h
+2024-01-19 17:30:21.405 +03:00 [INF] Collision between corp14x3 (26) and Traffic 6 (6), rel. speed 19km/h
+2024-01-19 17:30:21.405 +03:00 [INF] Collision between corp14x3 (26) and Traffic 16 (16), rel. speed 41km/h
+2024-01-19 17:30:21.405 +03:00 [INF] Collision between corp14x3 (26) and Traffic 23 (23), rel. speed 8km/h
+2024-01-19 17:30:26.408 +03:00 [INF] Collision between corp14x3 (26) and Traffic 9 (9), rel. speed 20km/h
+2024-01-19 17:30:26.408 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 17km/h
+2024-01-19 17:30:26.408 +03:00 [INF] Collision between corp14x3 (26) and Traffic 6 (6), rel. speed 13km/h
+2024-01-19 17:30:26.408 +03:00 [INF] Collision between corp14x3 (26) and Traffic 11 (11), rel. speed 23km/h
+2024-01-19 17:30:31.424 +03:00 [INF] Collision between corp14x3 (26) and Traffic 11 (11), rel. speed 11km/h
+2024-01-19 17:30:36.418 +03:00 [INF] Collision between corp14x3 (26) and Traffic 6 (6), rel. speed 42km/h
+2024-01-19 17:30:41.414 +03:00 [INF] Collision between corp14x3 (26) and Traffic 9 (9), rel. speed 4km/h
+2024-01-19 17:30:41.414 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 7km/h
+2024-01-19 17:31:01.419 +03:00 [INF] Collision between corp14x3 (26) and Traffic 3 (3), rel. speed 196km/h
+2024-01-19 17:31:03.752 +03:00 [INF] Collision between Han Raikkonen (24) and corp14x3 (26), rel. speed 131km/h
+2024-01-19 17:31:03.753 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 60km/h
+2024-01-19 17:31:03.753 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 4 (4), rel. speed 116km/h
+2024-01-19 17:31:06.418 +03:00 [INF] Collision between corp14x3 (26) and Han Raikkonen (24), rel. speed 130km/h
+2024-01-19 17:31:06.418 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 42km/h
+2024-01-19 17:31:56.429 +03:00 [INF] Collision between corp14x3 (26) and Traffic 4 (4), rel. speed 58km/h
+2024-01-19 17:31:56.429 +03:00 [INF] Collision between corp14x3 (26) and Han Raikkonen (24), rel. speed 22km/h
+2024-01-19 17:31:56.429 +03:00 [INF] Collision between corp14x3 (26) and Traffic 21 (21), rel. speed 41km/h
+2024-01-19 17:31:58.763 +03:00 [INF] Collision between Han Raikkonen (24) and corp14x3 (26), rel. speed 23km/h
+2024-01-19 17:32:01.436 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 10km/h
+2024-01-19 17:32:06.429 +03:00 [INF] Collision between corp14x3 (26) and Traffic 18 (18), rel. speed 7km/h
+2024-01-19 17:32:31.445 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 111km/h
+2024-01-19 17:32:36.435 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 11km/h
+2024-01-19 17:32:46.440 +03:00 [INF] Collision between corp14x3 (26) and Han Raikkonen (24), rel. speed 14km/h
+2024-01-19 17:32:48.773 +03:00 [INF] Collision between Han Raikkonen (24) and corp14x3 (26), rel. speed 11km/h
+2024-01-19 17:32:56.440 +03:00 [INF] Collision between corp14x3 (26) and Traffic 3 (3), rel. speed 11km/h
+2024-01-19 17:32:58.775 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 150km/h
+2024-01-19 17:32:58.775 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 1 (1), rel. speed 25km/h
+2024-01-19 17:32:58.775 +03:00 [INF] Collision between Han Raikkonen (24) and corp14x3 (26), rel. speed 72km/h
+2024-01-19 17:33:01.446 +03:00 [INF] Collision between corp14x3 (26) and Han Raikkonen (24), rel. speed 68km/h
+2024-01-19 17:33:01.446 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 18km/h
+2024-01-19 17:33:03.776 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 1 (1), rel. speed 33km/h
+2024-01-19 17:33:03.776 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 61km/h
+2024-01-19 17:33:08.777 +03:00 [INF] Collision between Han Raikkonen (24) and corp14x3 (26), rel. speed 17km/h
+2024-01-19 17:33:11.456 +03:00 [INF] Collision between corp14x3 (26) and Han Raikkonen (24), rel. speed 20km/h
+2024-01-19 17:33:23.780 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 17 (17), rel. speed 8km/h
+2024-01-19 17:33:28.781 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 3 (3), rel. speed 143km/h
+2024-01-19 17:33:28.781 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 13km/h
+2024-01-19 17:33:33.782 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 118km/h
+2024-01-19 17:33:33.782 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 15 (15), rel. speed 121km/h
+2024-01-19 17:33:33.782 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 18 (18), rel. speed 51km/h
+2024-01-19 17:33:38.783 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 130km/h
+2024-01-19 17:33:38.783 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 1 (1), rel. speed 113km/h
+2024-01-19 17:34:27.904 +03:00 [DBG] Car 13 reached spline end, despawning
+2024-01-19 17:34:29.211 +03:00 [DBG] Car 0 reached spline end, despawning
+2024-01-19 17:34:31.461 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 13km/h
+2024-01-19 17:34:32.216 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-01-19 17:34:33.794 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 20 (20), rel. speed 58km/h
+2024-01-19 17:34:33.794 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 12 (12), rel. speed 70km/h
+2024-01-19 17:34:33.794 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 125km/h
+2024-01-19 17:34:36.467 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 110km/h
+2024-01-19 17:34:37.942 +03:00 [DBG] Received clean exit from Han Raikkonen (24)
+2024-01-19 17:34:37.945 +03:00 [DBG] Disconnecting Han Raikkonen (25.51.196.59:64134)
+2024-01-19 17:34:37.951 +03:00 [INF] Han Raikkonen has disconnected
+2024-01-19 17:34:55.913 +03:00 [INF] Han Raikkonen (76561198141951438 - 25.51.196.59:64405) is attempting to connect (ks_ferrari_f2004)
+2024-01-19 17:34:55.914 +03:00 [DBG] Han Raikkonen supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","2146"]
+2024-01-19 17:34:55.914 +03:00 [INF] Han Raikkonen (76561198141951438, 34 (ks_ferrari_f2004-00_official)) has connected
+2024-01-19 17:34:59.299 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-01-19 17:35:18.715 +03:00 [DBG] Car 0 reached spline end, despawning
+2024-01-19 17:35:20.381 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-01-19 17:35:21.470 +03:00 [INF] Collision between corp14x3 (26) and Traffic 8 (8), rel. speed 19km/h
+2024-01-19 17:35:21.470 +03:00 [INF] Collision between corp14x3 (26) and Traffic 14 (14), rel. speed 19km/h
+2024-01-19 17:35:21.470 +03:00 [INF] Collision between corp14x3 (26) and Traffic 18 (18), rel. speed 6km/h
+2024-01-19 17:35:21.470 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 7km/h
+2024-01-19 17:35:23.065 +03:00 [DBG] Car 4 reached spline end, despawning
+2024-01-19 17:35:25.297 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-01-19 17:35:26.471 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 41km/h
+2024-01-19 17:35:26.471 +03:00 [INF] Collision between corp14x3 (26) and Traffic 11 (11), rel. speed 36km/h
+2024-01-19 17:35:34.673 +03:00 [DBG] Car 15 reached spline end, despawning
+2024-01-19 17:35:38.134 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-01-19 17:35:47.475 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-01-19 17:36:16.484 +03:00 [INF] Collision between corp14x3 (26) and Traffic 21 (21), rel. speed 49km/h
+2024-01-19 17:36:16.484 +03:00 [INF] Collision between corp14x3 (26) and Traffic 14 (14), rel. speed 25km/h
+2024-01-19 17:36:19.881 +03:00 [DBG] Disconnecting Han Raikkonen (25.51.196.59:64405)
+2024-01-19 17:36:19.881 +03:00 [INF] Han Raikkonen has disconnected
+2024-01-19 17:36:21.484 +03:00 [INF] Collision between corp14x3 (26) and environment, rel. speed 25km/h
+2024-01-19 17:36:25.533 +03:00 [DBG] Received clean exit from corp14x3 (26)
+2024-01-19 17:36:25.533 +03:00 [DBG] Disconnecting corp14x3 (25.58.251.30:60074)
+2024-01-19 17:36:25.533 +03:00 [INF] corp14x3 has disconnected
+2024-01-19 17:36:31.605 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-01-19 17:38:13.509 +03:00 [INF] AssettoServer 0.0.52+85427faad6
+2024-01-19 17:38:14.049 +03:00 [WRN] Long welcome message detected. This will lead to crashes on CSP versions older than 0.1.77
+2024-01-19 17:38:14.086 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-01-19 17:38:14.141 +03:00 [INF] Starting server
+2024-01-19 17:38:14.336 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-01-19 17:38:14.341 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-01-19 17:38:14.345 +03:00 [DBG] Loaded admins.txt with 0 entries
+2024-01-19 17:38:14.346 +03:00 [INF] Starting HTTP server on port 8081
+2024-01-19 17:38:14.347 +03:00 [INF] Loaded 25 cars
+2024-01-19 17:38:14.357 +03:00 [DBG] Added checksum for content/tracks/csp/1061/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2024-01-19 17:38:14.358 +03:00 [DBG] Added checksum for content/tracks/csp/1061/../shuto_revival_project_beta/models_tatsumi_pa.ini
+2024-01-19 17:38:14.358 +03:00 [INF] Initialized 2 track checksums
+2024-01-19 17:38:14.361 +03:00 [DBG] Added checksum for content/cars/traffic_f&f_truck\data.acd
+2024-01-19 17:38:14.362 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_159\data.acd
+2024-01-19 17:38:14.363 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_mito\data.acd
+2024-01-19 17:38:14.364 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_eu\data.acd
+2024-01-19 17:38:14.366 +03:00 [DBG] Added checksum for content/cars/traffic_range_rover_ss\data.acd
+2024-01-19 17:38:14.367 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_priuseu\data.acd
+2024-01-19 17:38:14.368 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70\data.acd
+2024-01-19 17:38:14.370 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_jp\data.acd
+2024-01-19 17:38:14.371 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_flatbed\data.acd
+2024-01-19 17:38:14.372 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_hauler\data.acd
+2024-01-19 17:38:14.373 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_haulerb\data.acd
+2024-01-19 17:38:14.374 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_tanker\data.acd
+2024-01-19 17:38:14.375 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_npr\data.acd
+2024-01-19 17:38:14.376 +03:00 [DBG] Added checksum for content/cars/traffic_nissan_leaf\data.acd
+2024-01-19 17:38:14.377 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_camry\data.acd
+2024-01-19 17:38:14.378 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_prius\data.acd
+2024-01-19 17:38:14.379 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70jp\data.acd
+2024-01-19 17:38:14.380 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_rav4\data.acd
+2024-01-19 17:38:14.381 +03:00 [DBG] Added checksum for content/cars/traffic_cadillac_escalade\data.acd
+2024-01-19 17:38:14.383 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_challenger_srt\data.acd
+2024-01-19 17:38:14.384 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_grand_caravan_taxi\data.acd
+2024-01-19 17:38:14.385 +03:00 [DBG] Added checksum for content/cars/traffic_crown_vic\data.acd
+2024-01-19 17:38:14.386 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_nprusa\data.acd
+2024-01-19 17:38:14.389 +03:00 [DBG] Added checksum for content/cars/vrc_2005_mclaren_mp420\data.acd
+2024-01-19 17:38:14.390 +03:00 [DBG] Added checksum for content/cars/mazda_rx8_r3_swapped\data.acd
+2024-01-19 17:38:14.393 +03:00 [INF] Initialized 25 car checksums
+2024-01-19 17:38:14.395 +03:00 [INF] Next session: Practice
+2024-01-19 17:38:14.396 +03:00 [INF] Switching session to id 0
+2024-01-19 17:38:14.676 +03:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=46.104.9.71&httpPort=8081
+2024-01-19 17:38:14.704 +03:00 [INF] Starting TCP server on port 9600
+2024-01-19 17:38:14.706 +03:00 [INF] Starting UDP server on port 9600
+2024-01-19 17:38:14.716 +03:00 [INF] Registering server to lobby...
+2024-01-19 17:38:14.719 +03:00 [INF] Starting update loop with an update rate of 60hz
+2024-01-19 17:38:16.417 +03:00 [ERR] Error during Kunos lobby registration
+AssettoServer.Server.KunosLobbyException: ERROR,INVALID SERVER,CHECK YOUR PORT FORWARDING SETTINGS
+   at AssettoServer.Server.KunosLobbyRegistration.RegisterToLobbyAsync(CancellationToken token) in AssettoServer/Server/KunosLobbyRegistration.cs:line 114
+   at AssettoServer.Server.KunosLobbyRegistration.ExecuteAsync(CancellationToken stoppingToken) in AssettoServer/Server/KunosLobbyRegistration.cs:line 38
+2024-01-19 17:39:12.070 +03:00 [INF] AssettoServer 0.0.52+85427faad6
+2024-01-19 17:39:12.551 +03:00 [WRN] Long welcome message detected. This will lead to crashes on CSP versions older than 0.1.77
+2024-01-19 17:39:12.596 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-01-19 17:39:12.658 +03:00 [INF] Starting server
+2024-01-19 17:39:12.860 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-01-19 17:39:12.862 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-01-19 17:39:12.865 +03:00 [DBG] Loaded admins.txt with 0 entries
+2024-01-19 17:39:12.866 +03:00 [INF] Starting HTTP server on port 8081
+2024-01-19 17:39:12.867 +03:00 [INF] Loaded 25 cars
+2024-01-19 17:39:12.877 +03:00 [DBG] Added checksum for content/tracks/csp/1061/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2024-01-19 17:39:12.877 +03:00 [DBG] Added checksum for content/tracks/csp/1061/../shuto_revival_project_beta/models_tatsumi_pa.ini
+2024-01-19 17:39:12.878 +03:00 [INF] Initialized 2 track checksums
+2024-01-19 17:39:12.879 +03:00 [DBG] Added checksum for content/cars/traffic_f&f_truck\data.acd
+2024-01-19 17:39:12.879 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_159\data.acd
+2024-01-19 17:39:12.880 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_mito\data.acd
+2024-01-19 17:39:12.880 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_eu\data.acd
+2024-01-19 17:39:12.881 +03:00 [DBG] Added checksum for content/cars/traffic_range_rover_ss\data.acd
+2024-01-19 17:39:12.881 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_priuseu\data.acd
+2024-01-19 17:39:12.882 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70\data.acd
+2024-01-19 17:39:12.882 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_jp\data.acd
+2024-01-19 17:39:12.882 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_flatbed\data.acd
+2024-01-19 17:39:12.883 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_hauler\data.acd
+2024-01-19 17:39:12.883 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_haulerb\data.acd
+2024-01-19 17:39:12.883 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_tanker\data.acd
+2024-01-19 17:39:12.884 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_npr\data.acd
+2024-01-19 17:39:12.884 +03:00 [DBG] Added checksum for content/cars/traffic_nissan_leaf\data.acd
+2024-01-19 17:39:12.885 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_camry\data.acd
+2024-01-19 17:39:12.885 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_prius\data.acd
+2024-01-19 17:39:12.885 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70jp\data.acd
+2024-01-19 17:39:12.886 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_rav4\data.acd
+2024-01-19 17:39:12.886 +03:00 [DBG] Added checksum for content/cars/traffic_cadillac_escalade\data.acd
+2024-01-19 17:39:12.887 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_challenger_srt\data.acd
+2024-01-19 17:39:12.887 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_grand_caravan_taxi\data.acd
+2024-01-19 17:39:12.887 +03:00 [DBG] Added checksum for content/cars/traffic_crown_vic\data.acd
+2024-01-19 17:39:12.888 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_nprusa\data.acd
+2024-01-19 17:39:12.890 +03:00 [DBG] Added checksum for content/cars/vrc_2005_mclaren_mp420\data.acd
+2024-01-19 17:39:12.890 +03:00 [DBG] Added checksum for content/cars/mazda_rx8_r3_swapped\data.acd
+2024-01-19 17:39:12.893 +03:00 [INF] Initialized 25 car checksums
+2024-01-19 17:39:12.895 +03:00 [INF] Next session: Practice
+2024-01-19 17:39:12.896 +03:00 [INF] Switching session to id 0
+2024-01-19 17:39:13.140 +03:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=46.104.9.71&httpPort=8081
+2024-01-19 17:39:13.167 +03:00 [INF] Starting TCP server on port 9600
+2024-01-19 17:39:13.169 +03:00 [INF] Starting UDP server on port 9600
+2024-01-19 17:39:13.178 +03:00 [INF] Registering server to lobby...
+2024-01-19 17:39:13.182 +03:00 [INF] Starting update loop with an update rate of 60hz
+2024-01-19 17:39:14.873 +03:00 [ERR] Error during Kunos lobby registration
+AssettoServer.Server.KunosLobbyException: ERROR,INVALID SERVER,CHECK YOUR PORT FORWARDING SETTINGS
+   at AssettoServer.Server.KunosLobbyRegistration.RegisterToLobbyAsync(CancellationToken token) in AssettoServer/Server/KunosLobbyRegistration.cs:line 114
+   at AssettoServer.Server.KunosLobbyRegistration.ExecuteAsync(CancellationToken stoppingToken) in AssettoServer/Server/KunosLobbyRegistration.cs:line 38
+2024-01-19 17:39:29.062 +03:00 [INF] Han Raikkonen (76561198141951438 - 169.254.52.187:64501) is attempting to connect (vrc_2005_mclaren_mp420)
+2024-01-19 17:39:29.063 +03:00 [DBG] Han Raikkonen supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","2146"]
+2024-01-19 17:39:29.071 +03:00 [INF] Han Raikkonen (76561198141951438, 23 (vrc_2005_mclaren_mp420-09_Raikkonen_R15)) has connected
+2024-01-19 17:39:43.490 +03:00 [INF] corp14x3 (76561198272199111 - 25.58.251.30:60472) is attempting to connect (mazda_rx8_r3_swapped)
+2024-01-19 17:39:43.490 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","2144"]
+2024-01-19 17:39:43.490 +03:00 [INF] corp14x3 (76561198272199111, 24 (mazda_rx8_r3_swapped-01_pure_white)) has connected
+2024-01-19 17:40:17.228 +03:00 [DBG] AI Slot overbooking update - No. players: 2 - No. AI Slots: 23 - Target AI count: 46 - Overbooking: 2 - Rest: 0
+2024-01-19 17:40:19.157 +03:00 [INF] CHAT: Han Raikkonen (23): 				$CSP0:YOqrL2En
+2024-01-19 17:41:26.899 +03:00 [DBG] AI Slot overbooking update - No. players: 2 - No. AI Slots: 23 - Target AI count: 46 - Overbooking: 2 - Rest: 0
+2024-01-19 17:41:31.584 +03:00 [INF] CHAT: corp14x3 (24): 				$CSP0:YOqrL2En
+2024-01-19 17:41:55.697 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 31km/h
+2024-01-19 17:41:59.880 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 56km/h
+2024-01-19 17:42:08.014 +03:00 [INF] CHAT: Han Raikkonen (23): /settime 23:59
+2024-01-19 17:42:15.530 +03:00 [INF] CHAT: Han Raikkonen (23): /admin adminullah
+2024-01-19 17:42:19.884 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 2km/h
+2024-01-19 17:42:23.167 +03:00 [INF] CHAT: Han Raikkonen (23): /settime 23:00
+2024-01-19 17:42:23.168 +03:00 [INF] Broadcast: Time has been set.
+2024-01-19 17:42:23.386 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-01-19 17:42:24.224 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-01-19 17:42:24.885 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 23km/h
+2024-01-19 17:42:28.668 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-01-19 17:42:29.886 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 0km/h
+2024-01-19 17:42:36.614 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-01-19 17:42:38.120 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-01-19 17:42:39.845 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-01-19 17:42:41.686 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-01-19 17:42:45.317 +03:00 [DBG] Car 12 reached spline end, despawning
+2024-01-19 17:42:46.904 +03:00 [DBG] Car 15 reached spline end, despawning
+2024-01-19 17:42:50.057 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-01-19 17:42:51.192 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-01-19 17:42:52.421 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-01-19 17:42:53.021 +03:00 [DBG] Car 14 reached spline end, despawning
+2024-01-19 17:43:06.438 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-01-19 17:43:10.301 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-01-19 17:43:15.709 +03:00 [INF] Collision between corp14x3 (24) and Traffic 8 (8), rel. speed 108km/h
+2024-01-19 17:43:17.756 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-01-19 17:43:18.400 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-01-19 17:43:20.081 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-01-19 17:43:20.712 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 62km/h
+2024-01-19 17:43:20.712 +03:00 [INF] Collision between corp14x3 (24) and Traffic 3 (3), rel. speed 15km/h
+2024-01-19 17:43:25.712 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 1km/h
+2024-01-19 17:43:56.733 +03:00 [DBG] Car 21 reached spline end, despawning
+2024-01-19 17:44:00.723 +03:00 [INF] Collision between corp14x3 (24) and Traffic 7 (7), rel. speed 81km/h
+2024-01-19 17:44:00.724 +03:00 [INF] Collision between corp14x3 (24) and Traffic 16 (16), rel. speed 69km/h
+2024-01-19 17:44:00.724 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 107km/h
+2024-01-19 17:44:04.324 +03:00 [DBG] Car 21 reached spline end, despawning
+2024-01-19 17:44:05.664 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-01-19 17:44:05.720 +03:00 [INF] Collision between corp14x3 (24) and Traffic 16 (16), rel. speed 25km/h
+2024-01-19 17:44:17.783 +03:00 [DBG] Car 21 reached spline end, despawning
+2024-01-19 17:44:20.218 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-01-19 17:44:21.459 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-01-19 17:44:25.496 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-01-19 17:44:25.729 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 14km/h
+2024-01-19 17:44:30.726 +03:00 [INF] Collision between corp14x3 (24) and Traffic 3 (3), rel. speed 3km/h
+2024-01-19 17:44:35.142 +03:00 [DBG] Received clean exit from Han Raikkonen (23)
+2024-01-19 17:44:35.144 +03:00 [DBG] Disconnecting Han Raikkonen (169.254.52.187:64501)
+2024-01-19 17:44:35.146 +03:00 [INF] Han Raikkonen has disconnected
+2024-01-19 17:44:35.728 +03:00 [INF] Collision between corp14x3 (24) and Traffic 18 (18), rel. speed 58km/h
+2024-01-19 17:44:40.728 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 66km/h
+2024-01-19 17:44:40.728 +03:00 [INF] Collision between corp14x3 (24) and Traffic 15 (15), rel. speed 54km/h
+2024-01-19 17:44:45.561 +03:00 [INF] Han Raikkonen (76561198141951438 - 169.254.52.187:64573) is attempting to connect (vrc_2005_mclaren_mp420)
+2024-01-19 17:44:45.561 +03:00 [DBG] Han Raikkonen supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","2146"]
+2024-01-19 17:44:45.561 +03:00 [INF] Han Raikkonen (76561198141951438, 23 (vrc_2005_mclaren_mp420-09_Raikkonen_R15)) has connected
+2024-01-19 17:44:45.729 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 2km/h
+2024-01-19 17:44:50.745 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 3km/h
+2024-01-19 17:44:54.558 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-01-19 17:44:55.731 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 10km/h
+2024-01-19 17:45:00.735 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 10km/h
+2024-01-19 17:45:05.734 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 6km/h
+2024-01-19 17:45:34.886 +03:00 [DBG] AI Slot overbooking update - No. players: 2 - No. AI Slots: 23 - Target AI count: 46 - Overbooking: 2 - Rest: 0
+2024-01-19 17:45:36.776 +03:00 [INF] CHAT: Han Raikkonen (23): 				$CSP0:YOqrL2En
+2024-01-19 17:45:43.611 +03:00 [DBG] Car 15 reached spline end, despawning
+2024-01-19 17:45:44.144 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-01-19 17:45:44.724 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-01-19 17:46:00.751 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 94km/h
+2024-01-19 17:46:00.751 +03:00 [INF] Collision between corp14x3 (24) and Traffic 9 (9), rel. speed 45km/h
+2024-01-19 17:46:00.751 +03:00 [INF] Collision between corp14x3 (24) and Traffic 1 (1), rel. speed 54km/h
+2024-01-19 17:46:00.751 +03:00 [INF] Collision between corp14x3 (24) and Traffic 5 (5), rel. speed 94km/h
+2024-01-19 17:46:25.759 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 124km/h
+2024-01-19 17:46:30.757 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 18km/h
+2024-01-19 17:46:50.754 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 26km/h
+2024-01-19 17:46:55.757 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 3km/h
+2024-01-19 17:47:00.757 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 60km/h
+2024-01-19 17:47:15.761 +03:00 [INF] Collision between corp14x3 (24) and Traffic 2 (2), rel. speed 9km/h
+2024-01-19 17:47:15.761 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 11km/h
+2024-01-19 17:47:15.987 +03:00 [DBG] Car 14 reached spline end, despawning
+2024-01-19 17:47:16.974 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-01-19 17:47:20.768 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 104km/h
+2024-01-19 17:47:32.643 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 34km/h
+2024-01-19 17:47:50.769 +03:00 [INF] Collision between corp14x3 (24) and Traffic 15 (15), rel. speed 8km/h
+2024-01-19 17:47:50.769 +03:00 [INF] Collision between corp14x3 (24) and Traffic 7 (7), rel. speed 76km/h
+2024-01-19 17:48:20.778 +03:00 [INF] Collision between corp14x3 (24) and Traffic 0 (0), rel. speed 12km/h
+2024-01-19 17:48:20.778 +03:00 [INF] Collision between corp14x3 (24) and Traffic 16 (16), rel. speed 10km/h
+2024-01-19 17:48:20.778 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 21km/h
+2024-01-19 17:48:30.777 +03:00 [INF] Collision between corp14x3 (24) and Traffic 4 (4), rel. speed 36km/h
+2024-01-19 17:48:30.777 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 78km/h
+2024-01-19 17:48:35.782 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 4km/h
+2024-01-19 17:48:35.783 +03:00 [INF] Collision between corp14x3 (24) and Traffic 4 (4), rel. speed 8km/h
+2024-01-19 17:48:47.658 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 6 (6), rel. speed 80km/h
+2024-01-19 17:48:47.658 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 136km/h
+2024-01-19 17:48:47.658 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 3 (3), rel. speed 45km/h
+2024-01-19 17:48:50.787 +03:00 [INF] Collision between corp14x3 (24) and Traffic 21 (21), rel. speed 36km/h
+2024-01-19 17:48:50.787 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 14km/h
+2024-01-19 17:48:52.659 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 3 (3), rel. speed 29km/h
+2024-01-19 17:48:52.659 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 6 (6), rel. speed 29km/h
+2024-01-19 17:48:52.659 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 50km/h
+2024-01-19 17:48:52.659 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 13 (13), rel. speed 42km/h
+2024-01-19 17:48:55.782 +03:00 [INF] Collision between corp14x3 (24) and Traffic 21 (21), rel. speed 5km/h
+2024-01-19 17:48:57.660 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 30km/h
+2024-01-19 17:48:57.660 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 19 (19), rel. speed 29km/h
+2024-01-19 17:48:58.965 +03:00 [DBG] Car 21 reached spline end, despawning
+2024-01-19 17:49:00.796 +03:00 [INF] Collision between corp14x3 (24) and Traffic 15 (15), rel. speed 50km/h
+2024-01-19 17:49:00.796 +03:00 [INF] Collision between corp14x3 (24) and Traffic 3 (3), rel. speed 41km/h
+2024-01-19 17:49:02.661 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 4km/h
+2024-01-19 17:49:02.661 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 19 (19), rel. speed 14km/h
+2024-01-19 17:49:07.662 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 19 (19), rel. speed 5km/h
+2024-01-19 17:49:07.662 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 33km/h
+2024-01-19 17:49:29.527 +03:00 [DBG] Car 2 reached spline end, despawning
+2024-01-19 17:50:45.808 +03:00 [INF] Collision between corp14x3 (24) and Traffic 22 (22), rel. speed 13km/h
+2024-01-19 17:50:45.808 +03:00 [INF] Collision between corp14x3 (24) and Traffic 18 (18), rel. speed 28km/h
+2024-01-19 17:50:45.808 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 37km/h
+2024-01-19 17:51:05.811 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 165km/h
+2024-01-19 17:51:45.821 +03:00 [INF] Collision between corp14x3 (24) and Traffic 4 (4), rel. speed 19km/h
+2024-01-19 17:51:45.821 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 73km/h
+2024-01-19 17:52:02.697 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 0 (0), rel. speed 2km/h
+2024-01-19 17:52:10.831 +03:00 [INF] Collision between corp14x3 (24) and Traffic 17 (17), rel. speed 27km/h
+2024-01-19 17:52:10.831 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 16km/h
+2024-01-19 17:52:20.829 +03:00 [INF] Collision between corp14x3 (24) and Traffic 16 (16), rel. speed 9km/h
+2024-01-19 17:52:22.701 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 16 (16), rel. speed 16km/h
+2024-01-19 17:52:56.577 +03:00 [DBG] Car 18 reached spline end, despawning
+2024-01-19 17:53:15.145 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-01-19 17:53:20.848 +03:00 [INF] Collision between corp14x3 (24) and Traffic 10 (10), rel. speed 26km/h
+2024-01-19 17:53:30.852 +03:00 [INF] Collision between corp14x3 (24) and Traffic 2 (2), rel. speed 36km/h
+2024-01-19 17:53:35.853 +03:00 [INF] Collision between corp14x3 (24) and Traffic 2 (2), rel. speed 12km/h
+2024-01-19 17:53:35.853 +03:00 [INF] Collision between corp14x3 (24) and Traffic 14 (14), rel. speed 21km/h
+2024-01-19 17:53:37.716 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 5 (5), rel. speed 14km/h
+2024-01-19 17:53:40.850 +03:00 [INF] Collision between corp14x3 (24) and Traffic 14 (14), rel. speed 4km/h
+2024-01-19 17:53:40.850 +03:00 [INF] Collision between corp14x3 (24) and Traffic 8 (8), rel. speed 2km/h
+2024-01-19 17:53:42.176 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-01-19 17:53:42.717 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 5 (5), rel. speed 17km/h
+2024-01-19 17:53:42.717 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 25km/h
+2024-01-19 17:53:42.717 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 11 (11), rel. speed 40km/h
+2024-01-19 17:53:47.718 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 10km/h
+2024-01-19 17:53:52.719 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 22km/h
+2024-01-19 17:53:57.720 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 42km/h
+2024-01-19 17:53:57.720 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 9 (9), rel. speed 58km/h
+2024-01-19 17:54:00.855 +03:00 [INF] Collision between corp14x3 (24) and Traffic 14 (14), rel. speed 23km/h
+2024-01-19 17:54:01.900 +03:00 [DBG] Car 13 reached spline end, despawning
+2024-01-19 17:54:02.721 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 19km/h
+2024-01-19 17:54:04.307 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-01-19 17:54:05.201 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-01-19 17:54:06.319 +03:00 [DBG] Car 12 reached spline end, despawning
+2024-01-19 17:54:09.676 +03:00 [DBG] Car 0 reached spline end, despawning
+2024-01-19 17:54:10.970 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-01-19 17:54:12.593 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-01-19 17:54:12.723 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 19 (19), rel. speed 43km/h
+2024-01-19 17:54:12.723 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 143km/h
+2024-01-19 17:54:12.723 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 11 (11), rel. speed 34km/h
+2024-01-19 17:54:14.563 +03:00 [DBG] Car 2 reached spline end, despawning
+2024-01-19 17:54:17.724 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 11 (11), rel. speed 13km/h
+2024-01-19 17:54:17.724 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 19 (19), rel. speed 35km/h
+2024-01-19 17:54:17.724 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 20km/h
+2024-01-19 17:54:20.869 +03:00 [INF] Collision between corp14x3 (24) and Traffic 11 (11), rel. speed 77km/h
+2024-01-19 17:54:22.725 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 19km/h
+2024-01-19 17:54:22.725 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 11 (11), rel. speed 18km/h
+2024-01-19 17:54:25.861 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 99km/h
+2024-01-19 17:54:27.726 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 11 (11), rel. speed 17km/h
+2024-01-19 17:54:31.689 +03:00 [DBG] Car 12 reached spline end, despawning
+2024-01-19 17:54:32.412 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-01-19 17:54:33.517 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-01-19 17:54:36.428 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-01-19 17:54:38.376 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-01-19 17:54:38.990 +03:00 [DBG] Car 13 reached spline end, despawning
+2024-01-19 17:54:40.628 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-01-19 17:54:41.951 +03:00 [DBG] Car 15 reached spline end, despawning
+2024-01-19 17:54:45.276 +03:00 [DBG] Car 8 reached spline end, despawning
+2024-01-19 17:54:46.225 +03:00 [DBG] Car 22 reached spline end, despawning
+2024-01-19 17:54:46.800 +03:00 [DBG] Car 18 reached spline end, despawning
+2024-01-19 17:55:10.870 +03:00 [INF] Collision between corp14x3 (24) and Traffic 11 (11), rel. speed 23km/h
+2024-01-19 17:55:10.870 +03:00 [INF] Collision between corp14x3 (24) and Traffic 10 (10), rel. speed 3km/h
+2024-01-19 17:55:40.882 +03:00 [INF] Collision between corp14x3 (24) and Traffic 22 (22), rel. speed 9km/h
+2024-01-19 17:55:45.872 +03:00 [INF] Collision between corp14x3 (24) and Traffic 3 (3), rel. speed 47km/h
+2024-01-19 17:55:45.873 +03:00 [INF] Collision between corp14x3 (24) and Traffic 6 (6), rel. speed 24km/h
+2024-01-19 17:55:45.873 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 36km/h
+2024-01-19 17:55:50.876 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 15km/h
+2024-01-19 17:55:55.876 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 6km/h
+2024-01-19 17:56:00.884 +03:00 [INF] Collision between corp14x3 (24) and Traffic 22 (22), rel. speed 46km/h
+2024-01-19 17:56:50.898 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 10km/h
+2024-01-19 17:56:55.893 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 5km/h
+2024-01-19 17:57:11.072 +03:00 [INF] CHAT: corp14x3 (24): Teleport to: Heiwajima PA North/Position 1
+2024-01-19 17:57:22.210 +03:00 [INF] CHAT: Han Raikkonen (23): Teleport to: Yokohama - Daikoku/Position 1
+2024-01-19 17:57:24.679 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-01-19 17:57:32.201 +03:00 [INF] CHAT: Han Raikkonen (23): Teleport to: Yokohama - Daikoku/Position 2
+2024-01-19 17:57:40.901 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 7km/h
+2024-01-19 17:58:00.910 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 82km/h
+2024-01-19 17:58:00.910 +03:00 [INF] Collision between corp14x3 (24) and Traffic 9 (9), rel. speed 162km/h
+2024-01-19 17:58:05.916 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 5km/h
+2024-01-19 17:58:05.916 +03:00 [INF] Collision between corp14x3 (24) and Traffic 13 (13), rel. speed 56km/h
+2024-01-19 17:58:10.910 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 3km/h
+2024-01-19 17:58:16.344 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-01-19 17:58:25.919 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 6km/h
+2024-01-19 17:58:57.780 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 1 (1), rel. speed 10km/h
+2024-01-19 17:59:22.885 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-01-19 17:59:25.923 +03:00 [INF] Collision between corp14x3 (24) and Traffic 3 (3), rel. speed 30km/h
+2024-01-19 17:59:27.796 +03:00 [DBG] Car 2 reached spline end, despawning
+2024-01-19 17:59:29.085 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-01-19 17:59:30.935 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 7km/h
+2024-01-19 17:59:32.168 +03:00 [DBG] Car 14 reached spline end, despawning
+2024-01-19 17:59:35.927 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 17km/h
+2024-01-19 17:59:35.928 +03:00 [INF] Collision between corp14x3 (24) and Traffic 13 (13), rel. speed 21km/h
+2024-01-19 17:59:35.928 +03:00 [INF] Collision between corp14x3 (24) and Traffic 3 (3), rel. speed 11km/h
+2024-01-19 17:59:37.788 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 10km/h
+2024-01-19 17:59:40.937 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 20km/h
+2024-01-19 17:59:40.937 +03:00 [INF] Collision between corp14x3 (24) and Traffic 13 (13), rel. speed 6km/h
+2024-01-19 17:59:42.789 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 15 (15), rel. speed 23km/h
+2024-01-19 17:59:45.496 +03:00 [DBG] Car 13 reached spline end, despawning
+2024-01-19 17:59:45.928 +03:00 [INF] Collision between corp14x3 (24) and Han Raikkonen (23), rel. speed 4km/h
+2024-01-19 17:59:45.928 +03:00 [INF] Collision between corp14x3 (24) and Traffic 22 (22), rel. speed 18km/h
+2024-01-19 17:59:45.928 +03:00 [INF] Collision between corp14x3 (24) and Traffic 12 (12), rel. speed 7km/h
+2024-01-19 17:59:47.662 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-01-19 17:59:47.790 +03:00 [INF] Collision between Han Raikkonen (23) and corp14x3 (24), rel. speed 5km/h
+2024-01-19 17:59:50.934 +03:00 [INF] Collision between corp14x3 (24) and Traffic 12 (12), rel. speed 5km/h
+2024-01-19 17:59:50.934 +03:00 [INF] Collision between corp14x3 (24) and Han Raikkonen (23), rel. speed 1km/h
+2024-01-19 17:59:50.934 +03:00 [INF] Collision between corp14x3 (24) and Traffic 19 (19), rel. speed 3km/h
+2024-01-19 17:59:52.791 +03:00 [INF] Collision between Han Raikkonen (23) and corp14x3 (24), rel. speed 3km/h
+2024-01-19 17:59:55.929 +03:00 [INF] Collision between corp14x3 (24) and Traffic 19 (19), rel. speed 3km/h
+2024-01-19 17:59:55.929 +03:00 [INF] Collision between corp14x3 (24) and Han Raikkonen (23), rel. speed 4km/h
+2024-01-19 17:59:55.929 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 21km/h
+2024-01-19 17:59:57.792 +03:00 [INF] Collision between Han Raikkonen (23) and corp14x3 (24), rel. speed 0km/h
+2024-01-19 17:59:57.792 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 23km/h
+2024-01-19 17:59:58.513 +03:00 [DBG] Car 15 reached spline end, despawning
+2024-01-19 17:59:59.065 +03:00 [DBG] Car 22 reached spline end, despawning
+2024-01-19 18:00:00.500 +03:00 [DBG] Car 2 reached spline end, despawning
+2024-01-19 18:00:01.682 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-01-19 18:00:02.293 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-01-19 18:00:03.937 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-01-19 18:00:08.386 +03:00 [DBG] Car 0 reached spline end, despawning
+2024-01-19 18:00:10.264 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-01-19 18:00:10.933 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 22km/h
+2024-01-19 18:00:10.933 +03:00 [INF] Collision between corp14x3 (24) and Traffic 11 (11), rel. speed 43km/h
+2024-01-19 18:00:35.940 +03:00 [INF] Collision between corp14x3 (24) and Traffic 16 (16), rel. speed 118km/h
+2024-01-19 18:00:35.940 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 46km/h
+2024-01-19 18:00:37.800 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 11 (11), rel. speed 56km/h
+2024-01-19 18:00:37.800 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 35km/h
+2024-01-19 18:00:37.800 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 21 (21), rel. speed 38km/h
+2024-01-19 18:00:40.943 +03:00 [INF] Collision between corp14x3 (24) and Traffic 19 (19), rel. speed 135km/h
+2024-01-19 18:00:40.943 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 18km/h
+2024-01-19 18:00:41.103 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-01-19 18:00:42.801 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 49km/h
+2024-01-19 18:00:42.801 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 11 (11), rel. speed 26km/h
+2024-01-19 18:00:45.941 +03:00 [INF] Collision between corp14x3 (24) and Traffic 16 (16), rel. speed 139km/h
+2024-01-19 18:00:45.941 +03:00 [INF] Collision between corp14x3 (24) and Traffic 14 (14), rel. speed 8km/h
+2024-01-19 18:00:45.941 +03:00 [INF] Collision between corp14x3 (24) and Traffic 15 (15), rel. speed 82km/h
+2024-01-19 18:00:47.127 +03:00 [DBG] Car 22 reached spline end, despawning
+2024-01-19 18:00:47.802 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 29km/h
+2024-01-19 18:00:50.479 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-01-19 18:00:50.945 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 14km/h
+2024-01-19 18:00:50.945 +03:00 [INF] Collision between corp14x3 (24) and Traffic 20 (20), rel. speed 28km/h
+2024-01-19 18:00:52.803 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 7 (7), rel. speed 9km/h
+2024-01-19 18:00:52.803 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 9 (9), rel. speed 47km/h
+2024-01-19 18:00:55.949 +03:00 [INF] Collision between corp14x3 (24) and Traffic 13 (13), rel. speed 15km/h
+2024-01-19 18:00:55.949 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 4km/h
+2024-01-19 18:01:00.948 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 20km/h
+2024-01-19 18:01:00.948 +03:00 [INF] Collision between corp14x3 (24) and Traffic 22 (22), rel. speed 8km/h
+2024-01-19 18:01:00.948 +03:00 [INF] Collision between corp14x3 (24) and Traffic 16 (16), rel. speed 10km/h
+2024-01-19 18:01:00.948 +03:00 [INF] Collision between corp14x3 (24) and Traffic 14 (14), rel. speed 31km/h
+2024-01-19 18:01:02.805 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 21 (21), rel. speed 223km/h
+2024-01-19 18:01:02.805 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 48km/h
+2024-01-19 18:01:05.947 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 7km/h
+2024-01-19 18:01:05.947 +03:00 [INF] Collision between corp14x3 (24) and Traffic 3 (3), rel. speed 2km/h
+2024-01-19 18:01:05.947 +03:00 [INF] Collision between corp14x3 (24) and Traffic 11 (11), rel. speed 9km/h
+2024-01-19 18:01:05.947 +03:00 [INF] Collision between corp14x3 (24) and Traffic 0 (0), rel. speed 102km/h
+2024-01-19 18:01:10.945 +03:00 [INF] Collision between corp14x3 (24) and Traffic 15 (15), rel. speed 89km/h
+2024-01-19 18:01:10.946 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 24km/h
+2024-01-19 18:01:10.946 +03:00 [INF] Collision between corp14x3 (24) and Traffic 8 (8), rel. speed 75km/h
+2024-01-19 18:01:13.403 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-01-19 18:01:15.952 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 6km/h
+2024-01-19 18:01:15.952 +03:00 [INF] Collision between corp14x3 (24) and Traffic 21 (21), rel. speed 59km/h
+2024-01-19 18:01:15.952 +03:00 [INF] Collision between corp14x3 (24) and Traffic 7 (7), rel. speed 52km/h
+2024-01-19 18:01:18.757 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-01-19 18:01:19.955 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-01-19 18:01:20.953 +03:00 [INF] Collision between corp14x3 (24) and Traffic 14 (14), rel. speed 45km/h
+2024-01-19 18:01:20.953 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 7km/h
+2024-01-19 18:01:20.953 +03:00 [INF] Collision between corp14x3 (24) and Traffic 19 (19), rel. speed 49km/h
+2024-01-19 18:01:22.803 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-01-19 18:01:25.968 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 11km/h
+2024-01-19 18:01:25.968 +03:00 [INF] Collision between corp14x3 (24) and Traffic 17 (17), rel. speed 67km/h
+2024-01-19 18:01:30.957 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 5km/h
+2024-01-19 18:01:30.957 +03:00 [INF] Collision between corp14x3 (24) and Traffic 8 (8), rel. speed 130km/h
+2024-01-19 18:01:35.951 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 10km/h
+2024-01-19 18:01:35.951 +03:00 [INF] Collision between corp14x3 (24) and Traffic 7 (7), rel. speed 82km/h
+2024-01-19 18:01:35.951 +03:00 [INF] Collision between corp14x3 (24) and Traffic 20 (20), rel. speed 103km/h
+2024-01-19 18:01:40.962 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 25km/h
+2024-01-19 18:01:40.963 +03:00 [INF] Collision between corp14x3 (24) and Traffic 0 (0), rel. speed 88km/h
+2024-01-19 18:01:44.051 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-01-19 18:01:45.849 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-01-19 18:01:46.307 +03:00 [DBG] Car 14 reached spline end, despawning
+2024-01-19 18:01:48.269 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-01-19 18:01:48.810 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-01-19 18:01:49.411 +03:00 [DBG] Car 18 reached spline end, despawning
+2024-01-19 18:01:51.050 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-01-19 18:01:51.983 +03:00 [DBG] Car 13 reached spline end, despawning
+2024-01-19 18:01:52.859 +03:00 [DBG] Car 22 reached spline end, despawning
+2024-01-19 18:01:53.624 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-01-19 18:01:54.420 +03:00 [DBG] Car 2 reached spline end, despawning
+2024-01-19 18:01:55.691 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-01-19 18:01:57.475 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-01-19 18:01:57.888 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-01-19 18:01:58.225 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-01-19 18:01:59.803 +03:00 [DBG] Car 8 reached spline end, despawning
+2024-01-19 18:01:59.924 +03:00 [DBG] Car 0 reached spline end, despawning
+2024-01-19 18:02:00.398 +03:00 [DBG] Car 2 reached spline end, despawning
+2024-01-19 18:02:00.504 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-01-19 18:02:01.100 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-01-19 18:02:09.864 +03:00 [DBG] Car 22 reached spline end, despawning
+2024-01-19 18:02:35.148 +03:00 [DBG] Car 22 reached spline end, despawning
+2024-01-19 18:02:42.825 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 0 (0), rel. speed 284km/h
+2024-01-19 18:02:42.825 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 94km/h
+2024-01-19 18:02:42.825 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 15 (15), rel. speed 81km/h
+2024-01-19 18:02:42.825 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 12 (12), rel. speed 61km/h
+2024-01-19 18:02:47.826 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 12 (12), rel. speed 5km/h
+2024-01-19 18:02:47.826 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 23km/h
+2024-01-19 18:02:50.221 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-01-19 18:02:50.267 +03:00 [DBG] Car 4 reached spline end, despawning
+2024-01-19 18:02:56.476 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-01-19 18:02:57.828 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 6 (6), rel. speed 316km/h
+2024-01-19 18:02:57.828 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 22 (22), rel. speed 150km/h
+2024-01-19 18:02:57.828 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 2 (2), rel. speed 31km/h
+2024-01-19 18:02:57.828 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 83km/h
+2024-01-19 18:03:02.829 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 4 (4), rel. speed 84km/h
+2024-01-19 18:03:02.829 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 28km/h
+2024-01-19 18:03:02.829 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 0 (0), rel. speed 49km/h
+2024-01-19 18:03:08.197 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-01-19 18:03:10.667 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-01-19 18:03:11.328 +03:00 [DBG] Car 0 reached spline end, despawning
+2024-01-19 18:03:11.741 +03:00 [DBG] Car 15 reached spline end, despawning
+2024-01-19 18:03:11.871 +03:00 [INF] CHAT: Han Raikkonen (23): /pit han
+2024-01-19 18:03:12.339 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-01-19 18:03:13.384 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-01-19 18:03:17.127 +03:00 [INF] CHAT: Han Raikkonen (23): /admin adminulllah
+2024-01-19 18:03:19.757 +03:00 [DBG] Car 22 reached spline end, despawning
+2024-01-19 18:03:21.915 +03:00 [INF] CHAT: Han Raikkonen (23): /admin adminulllah
+2024-01-19 18:03:25.959 +03:00 [INF] CHAT: Han Raikkonen (23): /admin adminulllah
+2024-01-19 18:03:28.372 +03:00 [INF] CHAT: Han Raikkonen (23): /pit han
+2024-01-19 18:03:37.884 +03:00 [INF] CHAT: Han Raikkonen (23): /settime 12:00
+2024-01-19 18:03:40.060 +03:00 [DBG] Car 12 reached spline end, despawning
+2024-01-19 18:03:40.980 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 29km/h
+2024-01-19 18:03:46.691 +03:00 [INF] CHAT: Han Raikkonen (23): /admin adminullah
+2024-01-19 18:03:51.064 +03:00 [INF] CHAT: Han Raikkonen (23): /pit han
+2024-01-19 18:03:55.476 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-01-19 18:04:04.371 +03:00 [DBG] Car 15 reached spline end, despawning
+2024-01-19 18:04:05.318 +03:00 [DBG] Car 8 reached spline end, despawning
+2024-01-19 18:04:08.641 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-01-19 18:04:09.226 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-01-19 18:04:11.526 +03:00 [DBG] Car 0 reached spline end, despawning
+2024-01-19 18:04:13.047 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-01-19 18:04:13.893 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-01-19 18:04:14.581 +03:00 [DBG] Car 0 reached spline end, despawning
+2024-01-19 18:04:15.225 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-01-19 18:04:15.822 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 35km/h
+2024-01-19 18:04:17.210 +03:00 [DBG] Car 0 reached spline end, despawning
+2024-01-19 18:04:18.316 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-01-19 18:04:20.693 +03:00 [DBG] Car 0 reached spline end, despawning
+2024-01-19 18:04:23.591 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-01-19 18:04:24.249 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-01-19 18:04:26.084 +03:00 [DBG] Car 8 reached spline end, despawning
+2024-01-19 18:04:27.610 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-01-19 18:04:28.038 +03:00 [DBG] Car 4 reached spline end, despawning
+2024-01-19 18:04:28.038 +03:00 [DBG] Car 15 reached spline end, despawning
+2024-01-19 18:04:28.563 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-01-19 18:04:28.593 +03:00 [DBG] Car 12 reached spline end, despawning
+2024-01-19 18:04:29.211 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-01-19 18:04:30.774 +03:00 [DBG] Car 21 reached spline end, despawning
+2024-01-19 18:04:32.238 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-01-19 18:04:32.820 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-01-19 18:04:45.994 +03:00 [INF] Collision between corp14x3 (24) and Traffic 5 (5), rel. speed 15km/h
+2024-01-19 18:04:48.090 +03:00 [DBG] Car 0 reached spline end, despawning
+2024-01-19 18:04:52.118 +03:00 [DBG] Car 15 reached spline end, despawning
+2024-01-19 18:04:55.114 +03:00 [DBG] Car 21 reached spline end, despawning
+2024-01-19 18:04:58.256 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-01-19 18:05:01.562 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-01-19 18:05:04.275 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-01-19 18:05:05.013 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-01-19 18:05:05.567 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-01-19 18:05:05.582 +03:00 [DBG] Car 13 reached spline end, despawning
+2024-01-19 18:05:06.180 +03:00 [DBG] Car 12 reached spline end, despawning
+2024-01-19 18:05:06.993 +03:00 [DBG] Car 14 reached spline end, despawning
+2024-01-19 18:05:21.006 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 14km/h
+2024-01-19 18:05:31.005 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 8km/h
+2024-01-19 18:05:36.014 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 0km/h
+2024-01-19 18:05:47.234 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-01-19 18:05:47.523 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-01-19 18:07:18.523 +03:00 [DBG] Car 2 reached spline end, despawning
+2024-01-19 18:07:19.259 +03:00 [DBG] Car 21 reached spline end, despawning
+2024-01-19 18:07:20.116 +03:00 [DBG] Car 13 reached spline end, despawning
+2024-01-19 18:07:25.823 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-01-19 18:07:55.866 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 18 (18), rel. speed 116km/h
+2024-01-19 18:07:55.866 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 202km/h
+2024-01-19 18:07:55.866 +03:00 [INF] Collision between Han Raikkonen (23) and corp14x3 (24), rel. speed 228km/h
+2024-01-19 18:07:56.037 +03:00 [INF] Collision between corp14x3 (24) and Han Raikkonen (23), rel. speed 147km/h
+2024-01-19 18:07:56.038 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 37km/h
+2024-01-19 18:07:57.769 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-01-19 18:08:00.867 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 60km/h
+2024-01-19 18:08:00.867 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 4 (4), rel. speed 53km/h
+2024-01-19 18:08:01.038 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 26km/h
+2024-01-19 18:08:05.868 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 23km/h
+2024-01-19 18:08:05.868 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 0 (0), rel. speed 38km/h
+2024-01-19 18:08:05.868 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 1 (1), rel. speed 25km/h
+2024-01-19 18:08:10.869 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 1km/h
+2024-01-19 18:08:11.125 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-01-19 18:08:12.551 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-01-19 18:08:15.458 +03:00 [DBG] Car 4 reached spline end, despawning
+2024-01-19 18:09:40.887 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 21 (21), rel. speed 173km/h
+2024-01-19 18:09:40.887 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 234km/h
+2024-01-19 18:09:40.887 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 4 (4), rel. speed 106km/h
+2024-01-19 18:09:40.887 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 14 (14), rel. speed 21km/h
+2024-01-19 18:09:41.127 +03:00 [INF] Collision between corp14x3 (24) and Traffic 4 (4), rel. speed 139km/h
+2024-01-19 18:09:45.888 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 39km/h
+2024-01-19 18:09:50.889 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 28km/h
+2024-01-19 18:11:09.051 +03:00 [DBG] Car 22 reached spline end, despawning
+2024-01-19 18:11:10.859 +03:00 [DBG] Car 0 reached spline end, despawning
+2024-01-19 18:11:22.667 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-01-19 18:11:23.001 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-01-19 18:11:23.570 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-01-19 18:11:28.923 +03:00 [DBG] Car 13 reached spline end, despawning
+2024-01-19 18:11:29.655 +03:00 [DBG] Car 14 reached spline end, despawning
+2024-01-19 18:11:30.469 +03:00 [DBG] Car 18 reached spline end, despawning
+2024-01-19 18:11:30.666 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-01-19 18:11:31.695 +03:00 [DBG] Car 8 reached spline end, despawning
+2024-01-19 18:11:39.098 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-01-19 18:11:39.512 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-01-19 18:11:41.608 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-01-19 18:11:46.086 +03:00 [INF] Collision between corp14x3 (24) and Traffic 19 (19), rel. speed 31km/h
+2024-01-19 18:11:46.086 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 14km/h
+2024-01-19 18:11:50.913 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 84km/h
+2024-01-19 18:11:55.496 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-01-19 18:11:55.907 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-01-19 18:11:59.331 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-01-19 18:11:59.725 +03:00 [DBG] Car 15 reached spline end, despawning
+2024-01-19 18:12:00.216 +03:00 [DBG] Car 4 reached spline end, despawning
+2024-01-19 18:12:00.692 +03:00 [DBG] Car 8 reached spline end, despawning
+2024-01-19 18:12:01.100 +03:00 [INF] Collision between corp14x3 (24) and Traffic 22 (22), rel. speed 9km/h
+2024-01-19 18:12:01.227 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-01-19 18:12:06.098 +03:00 [INF] Collision between corp14x3 (24) and Traffic 2 (2), rel. speed 60km/h
+2024-01-19 18:12:11.106 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 92km/h
+2024-01-19 18:12:11.106 +03:00 [INF] Collision between corp14x3 (24) and Traffic 6 (6), rel. speed 9km/h
+2024-01-19 18:12:13.100 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-01-19 18:12:14.092 +03:00 [DBG] Car 2 reached spline end, despawning
+2024-01-19 18:12:21.100 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 103km/h
+2024-01-19 18:12:21.100 +03:00 [INF] Collision between corp14x3 (24) and Traffic 20 (20), rel. speed 24km/h
+2024-01-19 18:12:21.909 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-01-19 18:12:23.973 +03:00 [DBG] Car 21 reached spline end, despawning
+2024-01-19 18:12:24.755 +03:00 [DBG] Car 4 reached spline end, despawning
+2024-01-19 18:12:25.505 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-01-19 18:12:25.920 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 13 (13), rel. speed 32km/h
+2024-01-19 18:12:25.920 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 43km/h
+2024-01-19 18:12:25.920 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 0 (0), rel. speed 42km/h
+2024-01-19 18:12:25.920 +03:00 [INF] Collision between Han Raikkonen (23) and corp14x3 (24), rel. speed 50km/h
+2024-01-19 18:12:26.107 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 37km/h
+2024-01-19 18:12:26.107 +03:00 [INF] Collision between corp14x3 (24) and Han Raikkonen (23), rel. speed 50km/h
+2024-01-19 18:12:26.107 +03:00 [INF] Collision between corp14x3 (24) and Traffic 0 (0), rel. speed 12km/h
+2024-01-19 18:12:26.409 +03:00 [DBG] Car 8 reached spline end, despawning
+2024-01-19 18:12:27.615 +03:00 [DBG] Car 12 reached spline end, despawning
+2024-01-19 18:12:28.147 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-01-19 18:12:28.742 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-01-19 18:12:29.190 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-01-19 18:12:29.190 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-01-19 18:12:29.696 +03:00 [DBG] Car 21 reached spline end, despawning
+2024-01-19 18:12:30.388 +03:00 [DBG] Car 8 reached spline end, despawning
+2024-01-19 18:12:31.105 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 11km/h
+2024-01-19 18:12:31.764 +03:00 [DBG] Car 2 reached spline end, despawning
+2024-01-19 18:12:32.283 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-01-19 18:12:32.758 +03:00 [DBG] Car 8 reached spline end, despawning
+2024-01-19 18:12:35.185 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-01-19 18:12:35.765 +03:00 [DBG] Car 15 reached spline end, despawning
+2024-01-19 18:12:35.922 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 0 (0), rel. speed 7km/h
+2024-01-19 18:12:35.922 +03:00 [INF] Collision between Han Raikkonen (23) and corp14x3 (24), rel. speed 9km/h
+2024-01-19 18:12:36.097 +03:00 [INF] Collision between corp14x3 (24) and Han Raikkonen (23), rel. speed 8km/h
+2024-01-19 18:12:36.097 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 23km/h
+2024-01-19 18:12:36.121 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-01-19 18:12:37.519 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-01-19 18:12:38.273 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-01-19 18:12:38.946 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-01-19 18:12:40.258 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-01-19 18:12:40.923 +03:00 [INF] Collision between Han Raikkonen (23) and corp14x3 (24), rel. speed 13km/h
+2024-01-19 18:12:40.923 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 0 (0), rel. speed 23km/h
+2024-01-19 18:12:40.923 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 31km/h
+2024-01-19 18:12:41.098 +03:00 [INF] Collision between corp14x3 (24) and Han Raikkonen (23), rel. speed 14km/h
+2024-01-19 18:12:41.098 +03:00 [INF] Collision between corp14x3 (24) and Traffic 0 (0), rel. speed 10km/h
+2024-01-19 18:12:41.405 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-01-19 18:12:44.235 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-01-19 18:12:45.229 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-01-19 18:12:45.924 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 7km/h
+2024-01-19 18:12:45.924 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 0 (0), rel. speed 13km/h
+2024-01-19 18:12:46.102 +03:00 [INF] Collision between corp14x3 (24) and Han Raikkonen (23), rel. speed 1km/h
+2024-01-19 18:12:46.102 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 16km/h
+2024-01-19 18:12:46.102 +03:00 [INF] Collision between corp14x3 (24) and Traffic 0 (0), rel. speed 6km/h
+2024-01-19 18:12:46.948 +03:00 [DBG] Car 18 reached spline end, despawning
+2024-01-19 18:12:47.716 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-01-19 18:12:47.930 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-01-19 18:12:48.511 +03:00 [DBG] Car 18 reached spline end, despawning
+2024-01-19 18:12:48.925 +03:00 [DBG] Car 15 reached spline end, despawning
+2024-01-19 18:12:49.935 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-01-19 18:12:50.104 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-01-19 18:12:50.778 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-01-19 18:12:50.925 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 25km/h
+2024-01-19 18:12:50.925 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 0 (0), rel. speed 53km/h
+2024-01-19 18:12:52.875 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-01-19 18:12:53.288 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-01-19 18:12:53.928 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-01-19 18:12:54.189 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-01-19 18:12:55.445 +03:00 [DBG] Car 8 reached spline end, despawning
+2024-01-19 18:12:55.926 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 33km/h
+2024-01-19 18:12:56.060 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-01-19 18:12:56.380 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-01-19 18:12:56.823 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-01-19 18:12:57.283 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-01-19 18:12:58.599 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-01-19 18:12:58.844 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-01-19 18:12:59.368 +03:00 [DBG] Car 8 reached spline end, despawning
+2024-01-19 18:12:59.761 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-01-19 18:13:00.925 +03:00 [DBG] Car 8 reached spline end, despawning
+2024-01-19 18:13:01.584 +03:00 [DBG] Car 15 reached spline end, despawning
+2024-01-19 18:13:02.377 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-01-19 18:13:02.901 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-01-19 18:13:04.295 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-01-19 18:13:04.923 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-01-19 18:13:05.522 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-01-19 18:13:06.829 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-01-19 18:13:15.678 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-01-19 18:13:16.259 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-01-19 18:13:21.108 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 118km/h
+2024-01-19 18:13:25.932 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 100km/h
+2024-01-19 18:13:25.932 +03:00 [INF] Collision between Han Raikkonen (23) and corp14x3 (24), rel. speed 42km/h
+2024-01-19 18:13:26.107 +03:00 [INF] Collision between corp14x3 (24) and Han Raikkonen (23), rel. speed 42km/h
+2024-01-19 18:13:30.933 +03:00 [INF] Collision between Han Raikkonen (23) and corp14x3 (24), rel. speed 1km/h
+2024-01-19 18:13:36.116 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 61km/h
+2024-01-19 18:13:46.124 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 98km/h
+2024-01-19 18:13:50.961 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-01-19 18:14:25.944 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 197km/h
+2024-01-19 18:14:25.944 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 9 (9), rel. speed 29km/h
+2024-01-19 18:14:30.945 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 35km/h
+2024-01-19 18:14:30.945 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 1 (1), rel. speed 71km/h
+2024-01-19 18:14:31.125 +03:00 [INF] Collision between corp14x3 (24) and Traffic 0 (0), rel. speed 75km/h
+2024-01-19 18:14:31.125 +03:00 [INF] Collision between corp14x3 (24) and Traffic 9 (9), rel. speed 66km/h
+2024-01-19 18:14:31.125 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 16km/h
+2024-01-19 18:14:36.130 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 46km/h
+2024-01-19 18:14:40.947 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 17 (17), rel. speed 60km/h
+2024-01-19 18:14:40.947 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 22 (22), rel. speed 52km/h
+2024-01-19 18:14:40.947 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 9 (9), rel. speed 5km/h
+2024-01-19 18:14:40.947 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 15km/h
+2024-01-19 18:14:41.127 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 4km/h
+2024-01-19 18:14:41.127 +03:00 [INF] Collision between corp14x3 (24) and Traffic 9 (9), rel. speed 13km/h
+2024-01-19 18:14:41.127 +03:00 [INF] Collision between corp14x3 (24) and Traffic 17 (17), rel. speed 25km/h
+2024-01-19 18:14:45.475 +03:00 [DBG] Received clean exit from Han Raikkonen (23)
+2024-01-19 18:14:45.475 +03:00 [DBG] Disconnecting Han Raikkonen (169.254.52.187:64573)
+2024-01-19 18:14:45.476 +03:00 [INF] Han Raikkonen has disconnected
+2024-01-19 18:14:46.125 +03:00 [INF] Collision between corp14x3 (24) and Traffic 9 (9), rel. speed 22km/h
+2024-01-19 18:14:46.125 +03:00 [INF] Collision between corp14x3 (24) and Traffic 17 (17), rel. speed 4km/h
+2024-01-19 18:16:01.145 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 10km/h
+2024-01-19 18:16:06.157 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 4km/h
+2024-01-19 18:17:01.157 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 11km/h
+2024-01-19 18:17:11.452 +03:00 [INF] Collision between corp14x3 (24) and Traffic 14 (14), rel. speed 10km/h
+2024-01-19 18:17:19.121 +03:00 [INF] Han Raikkonen (76561198141951438 - 25.51.196.59:64733) is attempting to connect (vrc_2005_mclaren_mp420)
+2024-01-19 18:17:19.121 +03:00 [DBG] Han Raikkonen supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","2146"]
+2024-01-19 18:17:19.121 +03:00 [INF] Han Raikkonen (76561198141951438, 23 (vrc_2005_mclaren_mp420-09_Raikkonen_R15)) has connected
+2024-01-19 18:17:21.166 +03:00 [INF] Collision between corp14x3 (24) and Traffic 10 (10), rel. speed 3km/h
+2024-01-19 18:17:51.176 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 7km/h
+2024-01-19 18:18:07.538 +03:00 [DBG] AI Slot overbooking update - No. players: 2 - No. AI Slots: 23 - Target AI count: 46 - Overbooking: 2 - Rest: 0
+2024-01-19 18:18:09.602 +03:00 [INF] CHAT: Han Raikkonen (23): 				$CSP0:YOqrL2En
+2024-01-19 18:18:11.389 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 17km/h
+2024-01-19 18:18:21.183 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 24km/h
+2024-01-19 18:18:41.200 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 5km/h
+2024-01-19 18:18:46.411 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 21km/h
+2024-01-19 18:18:53.249 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-01-19 18:19:11.638 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-01-19 18:19:12.254 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-01-19 18:19:26.190 +03:00 [INF] Collision between corp14x3 (24) and Traffic 4 (4), rel. speed 161km/h
+2024-01-19 18:19:36.191 +03:00 [INF] Collision between corp14x3 (24) and Traffic 7 (7), rel. speed 55km/h
+2024-01-19 18:19:36.191 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 25km/h
+2024-01-19 18:19:41.194 +03:00 [INF] Collision between corp14x3 (24) and Traffic 7 (7), rel. speed 4km/h
+2024-01-19 18:19:41.194 +03:00 [INF] Collision between corp14x3 (24) and Traffic 12 (12), rel. speed 39km/h
+2024-01-19 18:19:41.194 +03:00 [INF] Collision between corp14x3 (24) and Traffic 3 (3), rel. speed 33km/h
+2024-01-19 18:19:41.194 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 83km/h
+2024-01-19 18:19:46.319 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 54km/h
+2024-01-19 18:19:46.319 +03:00 [INF] Collision between corp14x3 (24) and Traffic 12 (12), rel. speed 26km/h
+2024-01-19 18:20:11.198 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 20km/h
+2024-01-19 18:20:11.859 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-01-19 18:20:50.120 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-01-19 18:20:51.209 +03:00 [INF] Collision between corp14x3 (24) and Traffic 22 (22), rel. speed 47km/h
+2024-01-19 18:20:51.209 +03:00 [INF] Collision between corp14x3 (24) and Traffic 4 (4), rel. speed 45km/h
+2024-01-19 18:21:02.308 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-01-19 18:21:03.980 +03:00 [DBG] Car 12 reached spline end, despawning
+2024-01-19 18:21:04.902 +03:00 [DBG] Car 13 reached spline end, despawning
+2024-01-19 18:21:06.208 +03:00 [INF] Collision between corp14x3 (24) and Traffic 0 (0), rel. speed 89km/h
+2024-01-19 18:21:06.208 +03:00 [INF] Collision between corp14x3 (24) and Traffic 17 (17), rel. speed 3km/h
+2024-01-19 18:21:06.270 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-01-19 18:21:14.693 +03:00 [DBG] Car 8 reached spline end, despawning
+2024-01-19 18:21:21.215 +03:00 [INF] Collision between corp14x3 (24) and Traffic 16 (16), rel. speed 179km/h
+2024-01-19 18:21:26.219 +03:00 [INF] Collision between corp14x3 (24) and Traffic 7 (7), rel. speed 98km/h
+2024-01-19 18:21:26.219 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 134km/h
+2024-01-19 18:21:26.219 +03:00 [INF] Collision between corp14x3 (24) and Traffic 10 (10), rel. speed 15km/h
+2024-01-19 18:21:31.239 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 7km/h
+2024-01-19 18:21:31.239 +03:00 [INF] Collision between corp14x3 (24) and Traffic 7 (7), rel. speed 24km/h
+2024-01-19 18:21:35.459 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-01-19 18:21:51.227 +03:00 [INF] Collision between corp14x3 (24) and Traffic 3 (3), rel. speed 9km/h
+2024-01-19 18:21:56.232 +03:00 [INF] Collision between corp14x3 (24) and Traffic 6 (6), rel. speed 99km/h
+2024-01-19 18:22:01.222 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 37km/h
+2024-01-19 18:22:01.222 +03:00 [INF] Collision between corp14x3 (24) and Traffic 14 (14), rel. speed 26km/h
+2024-01-19 18:22:06.368 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 1km/h
+2024-01-19 18:22:06.368 +03:00 [INF] Collision between corp14x3 (24) and Traffic 17 (17), rel. speed 17km/h
+2024-01-19 18:22:11.222 +03:00 [INF] Collision between corp14x3 (24) and Traffic 0 (0), rel. speed 9km/h
+2024-01-19 18:22:11.223 +03:00 [INF] Collision between corp14x3 (24) and Traffic 18 (18), rel. speed 14km/h
+2024-01-19 18:22:16.230 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 23km/h
+2024-01-19 18:22:21.228 +03:00 [INF] Collision between corp14x3 (24) and Traffic 15 (15), rel. speed 31km/h
+2024-01-19 18:22:21.228 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 16km/h
+2024-01-19 18:22:26.229 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 21km/h
+2024-01-19 18:22:26.229 +03:00 [INF] Collision between corp14x3 (24) and Traffic 13 (13), rel. speed 32km/h
+2024-01-19 18:22:52.388 +03:00 [INF] Collision between corp14x3 (24) and Traffic 15 (15), rel. speed 8km/h
+2024-01-19 18:22:56.235 +03:00 [INF] Collision between corp14x3 (24) and Traffic 17 (17), rel. speed 6km/h
+2024-01-19 18:22:56.235 +03:00 [INF] Collision between corp14x3 (24) and Traffic 18 (18), rel. speed 8km/h
+2024-01-19 18:23:01.245 +03:00 [INF] Collision between corp14x3 (24) and Traffic 21 (21), rel. speed 106km/h
+2024-01-19 18:23:06.245 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 13km/h
+2024-01-19 18:23:21.943 +03:00 [DBG] Car 14 reached spline end, despawning
+2024-01-19 18:23:26.367 +03:00 [INF] Collision between corp14x3 (24) and Traffic 7 (7), rel. speed 169km/h
+2024-01-19 18:23:26.367 +03:00 [INF] Collision between corp14x3 (24) and Traffic 5 (5), rel. speed 100km/h
+2024-01-19 18:23:26.367 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 33km/h
+2024-01-19 18:23:31.247 +03:00 [INF] Collision between corp14x3 (24) and environment, rel. speed 31km/h
+2024-01-19 18:23:31.247 +03:00 [INF] Collision between corp14x3 (24) and Traffic 11 (11), rel. speed 65km/h
+2024-01-19 18:23:52.689 +03:00 [DBG] Car 0 reached spline end, despawning
+2024-01-19 18:23:53.318 +03:00 [DBG] Car 4 reached spline end, despawning
+2024-01-19 18:23:53.916 +03:00 [DBG] Car 13 reached spline end, despawning
+2024-01-19 18:24:04.809 +03:00 [DBG] Car 2 reached spline end, despawning
+2024-01-19 18:24:17.509 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-01-19 18:24:18.041 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-01-19 18:24:44.717 +03:00 [INF] CHAT: corp14x3 (24): /setcspweather haze 10
+2024-01-19 18:24:56.060 +03:00 [INF] CHAT: corp14x3 (24): /admin adminullah
+2024-01-19 18:24:59.551 +03:00 [INF] CHAT: corp14x3 (24): /setcspweather haze 10
+2024-01-19 18:24:59.553 +03:00 [INF] CSP weather transitioning to "Haze"
+2024-01-19 18:25:20.048 +03:00 [INF] CHAT: corp14x3 (24): /timeset 12:00
+2024-01-19 18:25:25.342 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 22km/h
+2024-01-19 18:25:25.537 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-01-19 18:25:30.343 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 0km/h
+2024-01-19 18:25:30.563 +03:00 [INF] CHAT: corp14x3 (24): /settime 12:00
+2024-01-19 18:25:30.564 +03:00 [INF] Broadcast: Time has been set.
+2024-01-19 18:25:43.409 +03:00 [INF] CHAT: corp14x3 (24): /setcspweather snow 10
+2024-01-19 18:25:43.410 +03:00 [INF] CSP weather transitioning to "Snow"
+2024-01-19 18:25:45.346 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 27km/h
+2024-01-19 18:25:49.056 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-01-19 18:26:05.423 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-01-19 18:26:09.649 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-01-19 18:26:10.351 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 64km/h
+2024-01-19 18:26:21.961 +03:00 [DBG] Car 0 reached spline end, despawning
+2024-01-19 18:26:23.932 +03:00 [INF] CHAT: corp14x3 (24): /settime 18:00 10
+2024-01-19 18:26:25.354 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 7km/h
+2024-01-19 18:26:29.746 +03:00 [INF] CHAT: corp14x3 (24): /settime 18:00
+2024-01-19 18:26:29.746 +03:00 [INF] Broadcast: Time has been set.
+2024-01-19 18:26:31.454 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-01-19 18:26:35.496 +03:00 [DBG] Car 2 reached spline end, despawning
+2024-01-19 18:26:40.357 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 22km/h
+2024-01-19 18:26:40.736 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-01-19 18:26:45.358 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 16km/h
+2024-01-19 18:26:45.709 +03:00 [INF] CHAT: Han Raikkonen (23): /settime 16:00
+2024-01-19 18:26:51.688 +03:00 [INF] CHAT: Han Raikkonen (23): /admin adminullah
+2024-01-19 18:26:52.550 +03:00 [INF] CHAT: corp14x3 (24): /settime 16:00
+2024-01-19 18:26:52.551 +03:00 [INF] Broadcast: Time has been set.
+2024-01-19 18:27:00.361 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 3km/h
+2024-01-19 18:27:05.727 +03:00 [INF] CHAT: Han Raikkonen (23): /setcspweather clear 19
+2024-01-19 18:27:05.728 +03:00 [INF] CSP weather transitioning to "Clear"
+2024-01-19 18:27:13.405 +03:00 [DBG] Car 0 reached spline end, despawning
+2024-01-19 18:27:14.534 +03:00 [DBG] Car 22 reached spline end, despawning
+2024-01-19 18:27:14.995 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-01-19 18:27:31.547 +03:00 [DBG] Car 12 reached spline end, despawning
+2024-01-19 18:27:32.014 +03:00 [INF] CHAT: corp14x3 (24): /cspweather
+2024-01-19 18:27:35.368 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 23km/h
+2024-01-19 18:27:36.323 +03:00 [DBG] Car 14 reached spline end, despawning
+2024-01-19 18:27:36.721 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-01-19 18:27:37.195 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-01-19 18:27:37.672 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-01-19 18:27:38.130 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-01-19 18:27:38.237 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-01-19 18:27:42.328 +03:00 [DBG] Car 8 reached spline end, despawning
+2024-01-19 18:27:46.505 +03:00 [INF] CHAT: Han Raikkonen (23): /setcspweather squarrs 19
+2024-01-19 18:27:47.968 +03:00 [INF] CHAT: corp14x3 (24): /cspweather Squalls
+2024-01-19 18:27:48.819 +03:00 [DBG] Car 15 reached spline end, despawning
+2024-01-19 18:27:51.689 +03:00 [INF] CHAT: Han Raikkonen (23): /setcspweather
+2024-01-19 18:27:55.349 +03:00 [INF] CHAT: corp14x3 (24): /setcspweather Squalls
+2024-01-19 18:27:55.632 +03:00 [DBG] Car 18 reached spline end, despawning
+2024-01-19 18:27:59.023 +03:00 [INF] CHAT: corp14x3 (24): /setcspweather Squalls 10
+2024-01-19 18:27:59.023 +03:00 [INF] CSP weather transitioning to "Squalls"
+2024-01-19 18:27:59.182 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-01-19 18:28:01.576 +03:00 [DBG] Car 12 reached spline end, despawning
+2024-01-19 18:28:01.913 +03:00 [DBG] Car 22 reached spline end, despawning
+2024-01-19 18:28:01.934 +03:00 [INF] CHAT: Han Raikkonen (23): /cspweather
+2024-01-19 18:28:02.856 +03:00 [DBG] Car 14 reached spline end, despawning
+2024-01-19 18:28:03.341 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-01-19 18:28:03.875 +03:00 [DBG] Car 21 reached spline end, despawning
+2024-01-19 18:28:06.181 +03:00 [DBG] Car 2 reached spline end, despawning
+2024-01-19 18:28:12.522 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-01-19 18:28:16.489 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-01-19 18:28:23.728 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-01-19 18:28:24.075 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-01-19 18:28:26.232 +03:00 [INF] CHAT: Han Raikkonen (23): /setcspweather smoke 10
+2024-01-19 18:28:26.233 +03:00 [INF] CSP weather transitioning to "Smoke"
+2024-01-19 18:28:31.775 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-01-19 18:28:33.441 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-01-19 18:28:35.380 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 24km/h
+2024-01-19 18:28:38.329 +03:00 [DBG] Car 18 reached spline end, despawning
+2024-01-19 18:28:38.681 +03:00 [DBG] Car 15 reached spline end, despawning
+2024-01-19 18:29:13.063 +03:00 [INF] CHAT: corp14x3 (24): /setcspweather tornado 10
+2024-01-19 18:29:13.064 +03:00 [INF] CSP weather transitioning to "Tornado"
+2024-01-19 18:29:35.099 +03:00 [DBG] Received clean exit from corp14x3 (24)
+2024-01-19 18:29:35.100 +03:00 [DBG] Disconnecting corp14x3 (25.58.251.30:60472)
+2024-01-19 18:29:35.100 +03:00 [INF] corp14x3 has disconnected
+2024-01-19 18:29:43.252 +03:00 [DBG] Received clean exit from Han Raikkonen (23)
+2024-01-19 18:29:43.252 +03:00 [DBG] Disconnecting Han Raikkonen (25.51.196.59:64733)
+2024-01-19 18:29:43.252 +03:00 [INF] Han Raikkonen has disconnected
+2024-01-19 18:33:32.821 +03:00 [DBG] Car 13 reached spline end, despawning
+2024-01-19 18:34:11.090 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-01-19 18:34:15.171 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-01-19 18:34:39.606 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-01-19 18:38:53.026 +03:00 [DBG] Car 4 reached spline end, despawning
+2024-01-19 18:38:56.583 +03:00 [DBG] Car 21 reached spline end, despawning
+2024-01-19 18:43:40.303 +03:00 [DBG] Car 4 reached spline end, despawning
+2024-01-19 20:11:24.323 +03:00 [INF] AssettoServer 0.0.52+85427faad6
+2024-01-19 20:11:24.857 +03:00 [WRN] Long welcome message detected. This will lead to crashes on CSP versions older than 0.1.77
+2024-01-19 20:11:24.897 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-01-19 20:11:24.954 +03:00 [INF] Starting server
+2024-01-19 20:11:25.148 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-01-19 20:11:25.150 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-01-19 20:11:25.153 +03:00 [DBG] Loaded admins.txt with 0 entries
+2024-01-19 20:11:25.155 +03:00 [INF] Starting HTTP server on port 8081
+2024-01-19 20:11:25.155 +03:00 [INF] Loaded 25 cars
+2024-01-19 20:11:25.165 +03:00 [DBG] Added checksum for content/tracks/csp/1061/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2024-01-19 20:11:25.166 +03:00 [DBG] Added checksum for content/tracks/csp/1061/../shuto_revival_project_beta/models_tatsumi_pa.ini
+2024-01-19 20:11:25.166 +03:00 [INF] Initialized 2 track checksums
+2024-01-19 20:11:25.169 +03:00 [DBG] Added checksum for content/cars/traffic_f&f_truck\data.acd
+2024-01-19 20:11:25.170 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_159\data.acd
+2024-01-19 20:11:25.171 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_mito\data.acd
+2024-01-19 20:11:25.172 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_eu\data.acd
+2024-01-19 20:11:25.174 +03:00 [DBG] Added checksum for content/cars/traffic_range_rover_ss\data.acd
+2024-01-19 20:11:25.175 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_priuseu\data.acd
+2024-01-19 20:11:25.176 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70\data.acd
+2024-01-19 20:11:25.177 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_jp\data.acd
+2024-01-19 20:11:25.179 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_flatbed\data.acd
+2024-01-19 20:11:25.180 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_hauler\data.acd
+2024-01-19 20:11:25.181 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_haulerb\data.acd
+2024-01-19 20:11:25.182 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_tanker\data.acd
+2024-01-19 20:11:25.183 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_npr\data.acd
+2024-01-19 20:11:25.184 +03:00 [DBG] Added checksum for content/cars/traffic_nissan_leaf\data.acd
+2024-01-19 20:11:25.185 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_camry\data.acd
+2024-01-19 20:11:25.186 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_prius\data.acd
+2024-01-19 20:11:25.187 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70jp\data.acd
+2024-01-19 20:11:25.188 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_rav4\data.acd
+2024-01-19 20:11:25.189 +03:00 [DBG] Added checksum for content/cars/traffic_cadillac_escalade\data.acd
+2024-01-19 20:11:25.191 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_challenger_srt\data.acd
+2024-01-19 20:11:25.192 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_grand_caravan_taxi\data.acd
+2024-01-19 20:11:25.196 +03:00 [DBG] Added checksum for content/cars/traffic_crown_vic\data.acd
+2024-01-19 20:11:25.197 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_nprusa\data.acd
+2024-01-19 20:11:25.199 +03:00 [DBG] Added checksum for content/cars/vrc_2005_mclaren_mp420\data.acd
+2024-01-19 20:11:25.200 +03:00 [DBG] Added checksum for content/cars/mazda_rx8_r3_swapped\data.acd
+2024-01-19 20:11:25.202 +03:00 [INF] Initialized 25 car checksums
+2024-01-19 20:11:25.204 +03:00 [INF] Next session: Practice
+2024-01-19 20:11:25.205 +03:00 [INF] Switching session to id 0
+2024-01-19 20:11:25.472 +03:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=46.104.9.71&httpPort=8081
+2024-01-19 20:11:25.499 +03:00 [INF] Starting TCP server on port 9600
+2024-01-19 20:11:25.501 +03:00 [INF] Starting UDP server on port 9600
+2024-01-19 20:11:25.511 +03:00 [INF] Registering server to lobby...
+2024-01-19 20:11:25.514 +03:00 [INF] Starting update loop with an update rate of 60hz
+2024-01-19 20:11:27.203 +03:00 [ERR] Error during Kunos lobby registration
+AssettoServer.Server.KunosLobbyException: ERROR,INVALID SERVER,CHECK YOUR PORT FORWARDING SETTINGS
+   at AssettoServer.Server.KunosLobbyRegistration.RegisterToLobbyAsync(CancellationToken token) in AssettoServer/Server/KunosLobbyRegistration.cs:line 114
+   at AssettoServer.Server.KunosLobbyRegistration.ExecuteAsync(CancellationToken stoppingToken) in AssettoServer/Server/KunosLobbyRegistration.cs:line 38
+2024-01-19 20:12:43.149 +03:00 [INF] Han Raikkonen (76561198141951438 - 25.51.196.59:63365) is attempting to connect (vrc_2005_mclaren_mp420)
+2024-01-19 20:12:43.151 +03:00 [DBG] Han Raikkonen supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","2745"]
+2024-01-19 20:12:43.159 +03:00 [INF] Han Raikkonen (76561198141951438, 23 (vrc_2005_mclaren_mp420-09_Raikkonen_R15)) has connected
+2024-01-19 20:13:42.085 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 23 - Target AI count: 23 - Overbooking: 1 - Rest: 0
+2024-01-19 20:13:43.729 +03:00 [INF] CHAT: Han Raikkonen (23): 				$CSP0:YOqrL2En
+2024-01-19 20:16:29.549 +03:00 [DBG] Received clean exit from Han Raikkonen (23)
+2024-01-19 20:16:29.552 +03:00 [DBG] Disconnecting Han Raikkonen (25.51.196.59:63365)
+2024-01-19 20:16:29.555 +03:00 [INF] Han Raikkonen has disconnected
+2024-01-19 20:17:44.307 +03:00 [INF] Han Raikkonen (76561198141951438 - 25.51.196.59:63540) is attempting to connect (vrc_2005_mclaren_mp420)
+2024-01-19 20:17:44.307 +03:00 [DBG] Han Raikkonen supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","2745"]
+2024-01-19 20:17:44.307 +03:00 [INF] Han Raikkonen (76561198141951438, 23 (vrc_2005_mclaren_mp420-09_Raikkonen_R15)) has connected
+2024-01-19 20:18:33.641 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 23 - Target AI count: 23 - Overbooking: 1 - Rest: 0
+2024-01-19 20:18:34.708 +03:00 [INF] CHAT: Han Raikkonen (23): 				$CSP0:YOqrL2En
+2024-01-19 20:20:07.455 +03:00 [INF] CHAT: Han Raikkonen (23): /admin adminullah
+2024-01-19 20:20:15.152 +03:00 [INF] CHAT: Han Raikkonen (23): /setcspweather clear 10
+2024-01-19 20:20:15.156 +03:00 [INF] CSP weather transitioning to "Clear"
+2024-01-19 20:23:44.748 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 1km/h
+2024-01-19 20:23:49.744 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 0km/h
+2024-01-19 20:25:22.463 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-01-19 20:25:23.302 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-01-19 20:25:28.101 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-01-19 20:25:28.606 +03:00 [DBG] Car 12 reached spline end, despawning
+2024-01-19 20:25:37.738 +03:00 [DBG] Car 13 reached spline end, despawning
+2024-01-19 20:25:41.097 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-01-19 20:25:50.531 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-01-19 20:26:01.660 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-01-19 20:29:02.320 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-01-19 20:29:13.333 +03:00 [DBG] Car 13 reached spline end, despawning
+2024-01-19 20:29:20.099 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-01-19 20:29:23.844 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-01-19 20:29:30.566 +03:00 [DBG] Car 0 reached spline end, despawning
+2024-01-19 20:29:41.892 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-01-19 20:29:51.720 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-01-19 20:29:52.156 +03:00 [DBG] Car 21 reached spline end, despawning
+2024-01-19 20:31:06.089 +03:00 [DBG] Received clean exit from Han Raikkonen (23)
+2024-01-19 20:31:06.090 +03:00 [DBG] Disconnecting Han Raikkonen (25.51.196.59:63540)
+2024-01-19 20:31:06.091 +03:00 [INF] Han Raikkonen has disconnected
+2024-01-19 20:31:47.411 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-01-19 20:31:58.648 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-01-19 20:32:01.704 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-01-19 20:32:02.220 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-01-19 20:32:03.237 +03:00 [DBG] Car 21 reached spline end, despawning
+2024-01-19 20:32:06.825 +03:00 [DBG] Car 14 reached spline end, despawning
+2024-01-19 20:36:17.379 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-01-19 20:36:33.213 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-01-19 20:37:30.301 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-01-19 20:37:30.301 +03:00 [DBG] Car 22 reached spline end, despawning
+2024-01-19 20:41:29.135 +03:00 [DBG] Car 18 reached spline end, despawning
+2024-01-19 20:42:24.253 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-01-19 20:42:24.254 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-01-19 20:42:24.764 +03:00 [DBG] Car 0 reached spline end, despawning
+2024-01-19 20:42:25.276 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-01-19 20:42:31.901 +03:00 [DBG] Car 15 reached spline end, despawning
+2024-01-19 20:42:32.408 +03:00 [DBG] Car 4 reached spline end, despawning
+2024-01-19 20:42:41.606 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-01-19 20:42:44.166 +03:00 [DBG] Car 13 reached spline end, despawning
+2024-01-19 20:43:29.084 +03:00 [DBG] Car 12 reached spline end, despawning
+2024-01-19 20:43:41.311 +03:00 [DBG] Car 2 reached spline end, despawning
+2024-01-19 20:44:59.860 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-01-19 20:45:56.517 +03:00 [DBG] Car 8 reached spline end, despawning
+2024-01-19 21:39:57.023 +03:00 [INF] AssettoServer 0.0.52+85427faad6
+2024-01-19 21:39:57.559 +03:00 [WRN] Long welcome message detected. This will lead to crashes on CSP versions older than 0.1.77
+2024-01-19 21:39:57.595 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-01-19 21:39:57.653 +03:00 [INF] Starting server
+2024-01-19 21:39:57.832 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-01-19 21:39:57.834 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-01-19 21:39:57.837 +03:00 [DBG] Loaded admins.txt with 0 entries
+2024-01-19 21:39:57.838 +03:00 [INF] Starting HTTP server on port 8081
+2024-01-19 21:39:57.839 +03:00 [INF] Loaded 25 cars
+2024-01-19 21:39:57.849 +03:00 [DBG] Added checksum for content/tracks/csp/1061/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2024-01-19 21:39:57.849 +03:00 [DBG] Added checksum for content/tracks/csp/1061/../shuto_revival_project_beta/models_tatsumi_pa.ini
+2024-01-19 21:39:57.849 +03:00 [INF] Initialized 2 track checksums
+2024-01-19 21:39:57.851 +03:00 [DBG] Added checksum for content/cars/traffic_f&f_truck\data.acd
+2024-01-19 21:39:57.851 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_159\data.acd
+2024-01-19 21:39:57.852 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_mito\data.acd
+2024-01-19 21:39:57.852 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_eu\data.acd
+2024-01-19 21:39:57.853 +03:00 [DBG] Added checksum for content/cars/traffic_range_rover_ss\data.acd
+2024-01-19 21:39:57.853 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_priuseu\data.acd
+2024-01-19 21:39:57.853 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70\data.acd
+2024-01-19 21:39:57.854 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_jp\data.acd
+2024-01-19 21:39:57.854 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_flatbed\data.acd
+2024-01-19 21:39:57.855 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_hauler\data.acd
+2024-01-19 21:39:57.855 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_haulerb\data.acd
+2024-01-19 21:39:57.856 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_tanker\data.acd
+2024-01-19 21:39:57.856 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_npr\data.acd
+2024-01-19 21:39:57.856 +03:00 [DBG] Added checksum for content/cars/traffic_nissan_leaf\data.acd
+2024-01-19 21:39:57.857 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_camry\data.acd
+2024-01-19 21:39:57.857 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_prius\data.acd
+2024-01-19 21:39:57.858 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70jp\data.acd
+2024-01-19 21:39:57.858 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_rav4\data.acd
+2024-01-19 21:39:57.859 +03:00 [DBG] Added checksum for content/cars/traffic_cadillac_escalade\data.acd
+2024-01-19 21:39:57.859 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_challenger_srt\data.acd
+2024-01-19 21:39:57.860 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_grand_caravan_taxi\data.acd
+2024-01-19 21:39:57.860 +03:00 [DBG] Added checksum for content/cars/traffic_crown_vic\data.acd
+2024-01-19 21:39:57.860 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_nprusa\data.acd
+2024-01-19 21:39:57.862 +03:00 [DBG] Added checksum for content/cars/vrc_2005_mclaren_mp420\data.acd
+2024-01-19 21:39:57.863 +03:00 [DBG] Added checksum for content/cars/mazda_rx8_r3_swapped\data.acd
+2024-01-19 21:39:57.866 +03:00 [INF] Initialized 25 car checksums
+2024-01-19 21:39:57.867 +03:00 [INF] Next session: Practice
+2024-01-19 21:39:57.868 +03:00 [INF] Switching session to id 0
+2024-01-19 21:39:58.056 +03:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=78.164.31.175&httpPort=8081
+2024-01-19 21:39:58.083 +03:00 [INF] Starting TCP server on port 9600
+2024-01-19 21:39:58.085 +03:00 [INF] Starting UDP server on port 9600
+2024-01-19 21:39:58.094 +03:00 [INF] Registering server to lobby...
+2024-01-19 21:39:58.097 +03:00 [INF] Starting update loop with an update rate of 60hz
+2024-01-19 21:39:59.738 +03:00 [ERR] Error during Kunos lobby registration
+AssettoServer.Server.KunosLobbyException: ERROR,INVALID SERVER,CHECK YOUR PORT FORWARDING SETTINGS
+   at AssettoServer.Server.KunosLobbyRegistration.RegisterToLobbyAsync(CancellationToken token) in AssettoServer/Server/KunosLobbyRegistration.cs:line 114
+   at AssettoServer.Server.KunosLobbyRegistration.ExecuteAsync(CancellationToken stoppingToken) in AssettoServer/Server/KunosLobbyRegistration.cs:line 38
+2024-01-19 21:40:19.390 +03:00 [INF] Han Raikkonen (76561198141951438 - 25.51.196.59:52027) is attempting to connect (vrc_2005_mclaren_mp420)
+2024-01-19 21:40:19.392 +03:00 [DBG] Han Raikkonen supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","2745"]
+2024-01-19 21:40:19.399 +03:00 [INF] Han Raikkonen (76561198141951438, 23 (vrc_2005_mclaren_mp420-09_Raikkonen_R15)) has connected
+2024-01-19 21:41:08.046 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 23 - Target AI count: 23 - Overbooking: 1 - Rest: 0
+2024-01-19 21:41:09.169 +03:00 [INF] CHAT: Han Raikkonen (23): 				$CSP0:YOqrL2En
+2024-01-19 21:41:32.285 +03:00 [DBG] Received clean exit from Han Raikkonen (23)
+2024-01-19 21:41:32.286 +03:00 [DBG] Disconnecting Han Raikkonen (25.51.196.59:52027)
+2024-01-19 21:41:32.289 +03:00 [INF] Han Raikkonen has disconnected
+2024-01-19 21:41:59.434 +03:00 [INF] Han Raikkonen (76561198141951438 - 25.51.196.59:52076) is attempting to connect (vrc_2005_mclaren_mp420)
+2024-01-19 21:41:59.434 +03:00 [DBG] Han Raikkonen supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","2745"]
+2024-01-19 21:41:59.435 +03:00 [INF] Han Raikkonen (76561198141951438, 23 (vrc_2005_mclaren_mp420-09_Raikkonen_R15)) has connected
+2024-01-19 21:42:51.257 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 23 - Target AI count: 23 - Overbooking: 1 - Rest: 0
+2024-01-19 21:42:52.358 +03:00 [INF] CHAT: Han Raikkonen (23): 				$CSP0:YOqrL2En
+2024-01-19 21:43:57.737 +03:00 [DBG] Received clean exit from Han Raikkonen (23)
+2024-01-19 21:43:57.737 +03:00 [DBG] Disconnecting Han Raikkonen (25.51.196.59:52076)
+2024-01-19 21:43:57.737 +03:00 [INF] Han Raikkonen has disconnected
+2024-01-19 22:04:26.383 +03:00 [INF] Han Raikkonen (76561198141951438 - 25.51.196.59:52381) is attempting to connect (mazda_rx8_r3_swapped)
+2024-01-19 22:04:26.383 +03:00 [DBG] Han Raikkonen supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","2745"]
+2024-01-19 22:04:26.383 +03:00 [INF] Han Raikkonen (76561198141951438, 24 (mazda_rx8_r3_swapped-01_pure_white)) has connected
+2024-01-19 22:05:16.641 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 23 - Target AI count: 23 - Overbooking: 1 - Rest: 0
+2024-01-19 22:05:17.564 +03:00 [INF] CHAT: Han Raikkonen (24): 				$CSP0:YOqrL2En
+2024-01-19 22:07:05.081 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-01-19 22:07:07.781 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 21km/h
+2024-01-19 22:07:08.880 +03:00 [DBG] Car 13 reached spline end, despawning
+2024-01-19 22:07:09.512 +03:00 [DBG] Car 8 reached spline end, despawning
+2024-01-19 22:08:07.085 +03:00 [DBG] Received clean exit from Han Raikkonen (24)
+2024-01-19 22:08:07.085 +03:00 [DBG] Disconnecting Han Raikkonen (25.51.196.59:52381)
+2024-01-19 22:08:07.086 +03:00 [INF] Han Raikkonen has disconnected

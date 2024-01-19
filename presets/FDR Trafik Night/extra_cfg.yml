@@ -1,0 +1,144 @@
+# Force clients to use track params (coordinates, time zone) specified on the server. CSP 0.1.79+ required
+ForceServerTrackParams: false
+# Allow cars to have multiple data checksums. Instead of a single checksummed data.acd, you can have multiple data*.acd files in the car folder and players can join with any of these files
+EnableAlternativeCarChecksums: true
+# Enable the AC UDP plugin interface compatible with Kunos acServer plugins
+EnableLegacyPluginInterface: false
+# Enable Steam ticket validation. Requires CSP 0.1.75+ and a recent version of Content Manager
+UseSteamAuth: false
+# List of DLC App IDs that are required to join. Steam auth must be enabled. Possible values: https://steamdb.info/app/244210/dlc/
+ValidateDlcOwnership: []
+# Enable AFK autokick
+EnableAntiAfk: true
+# Maximum allowed AFK time before kick
+MaxAfkTimeMinutes: 10
+# Players might try to get around the AFK kick by doing inputs once in a while without actually driving. Set this to MininumSpeed to autokick players idling
+AfkKickBehavior: PlayerInput
+# Maximum ping before autokick
+MaxPing: 300
+# Maximum ping duration before autokick
+MaxPingSeconds: 10
+# Force headlights on for all cars
+ForceLights: true
+# Distance for network optimizations. Players outside of this range will send less updates to reduce network traffic
+NetworkBubbleDistance: 500
+# Refresh rate for players outside of the network bubble
+OutsideNetworkBubbleRefreshRateHz: 64
+# Enable server details in CM. Required for server description
+EnableServerDetails: true
+# Server description shown in Content Manager. EnableServerDetails must be on
+ServerDescription: ''
+# Link server time to real map time. For correct timezones there must be an entry for the map here: https://github.com/ac-custom-shaders-patch/acc-extension-config/blob/master/config/data_track_params.ini
+EnableRealTime: false
+# Enable new CSP weather handling. Allows rain and smooth weather transitions. Requires CSP 0.1.76+
+EnableWeatherFx: true
+# Reduce track grip when the track is wet. This is much worse than proper CSP rain physics but allows you to run clients with public/Patreon CSP at the same time
+RainTrackGripReductionPercent: 0.20
+# Enable AI traffic
+EnableAi: true
+# List of plugins to enable
+EnablePlugins: []
+# Ignore some common configuration errors. More info: https://assettoserver.org/docs/common-configuration-errors
+IgnoreConfigurationErrors:
+  MissingCarChecksums: true
+  MissingTrackParams: true
+  WrongServerDetails: true
+  UnsafeAdminWhitelist: true
+# Enable CSP client messages feature. Requires CSP 0.1.77+
+EnableClientMessages: false
+# Enable CSP custom position updates. This is an improved version of batched position updates, reducing network traffic even further. CSP 0.1.77+ required
+EnableCustomUpdate: true
+# Maximum time a player can spend on the loading screen before being disconnected
+PlayerLoadingTimeoutMinutes: 10
+# Port to control the server using Source RCON protocol. 0 to disable.
+RconPort: 0
+# Dump contents of welcome message and CSP extra options to a file. For debug purposes only.
+DebugWelcomeMessage: false
+# Name and path of file-based user groups
+UserGroups:
+  default_blacklist: blacklist.txt
+  default_whitelist: whitelist.txt
+  default_admins: admins.txt
+# Name of user group to be used for blacklist
+BlacklistUserGroup: default_blacklist
+# Name of user group to be used for whitelist
+WhitelistUserGroup: default_whitelist
+# Name of user group to be used for admins
+AdminUserGroup: default_admins
+AiParams:
+# Radius around a player in which AI cars won't despawn
+  PlayerRadiusMeters: 200
+  # Offset the player radius in direction of the velocity of the player so AI cars will despawn earlier behind a player
+  PlayerPositionOffsetMeters: 100
+  # AFK timeout for players. Players who are AFK longer than this won't spawn AI cars
+  PlayerAfkTimeoutSeconds: 10
+  # Maximum distance to the AI spline for a player to spawn AI cars. This helps with parts of the map without traffic so AI cars won't spawn far away from players
+  MaxPlayerDistanceToAiSplineMeters: 7
+  # Minimum amount of spline points in front of a player where AI cars will spawn
+  MinSpawnDistancePoints: 100
+  # Maximum amount of spline points in front of a player where AI cars will spawn
+  MaxSpawnDistancePoints: 400
+  # Minimum distance between AI cars
+  MinAiSafetyDistanceMeters: 15
+  # Maximum distance between AI cars
+  MaxAiSafetyDistanceMeters: 50
+  # Minimum spawn distance for AI states of the same car slot. If you set this too low you risk AI states despawning or AI states becoming invisible for some players when multiple states are close together
+  StateSpawnDistanceMeters: 1000
+  # Minimum distance between AI states of the same car slot. If states get closer than this one of them will be forced to despawn
+  MinStateDistanceMeters: 200
+  # Minimum spawn distance to players
+  SpawnSafetyDistanceToPlayerMeters: 150
+  # Minimum time in which a newly spawned AI car cannot despawn
+  MinSpawnProtectionTimeSeconds: 4
+  # Maximum time in which a newly spawned AI car cannot despawn
+  MaxSpawnProtectionTimeSeconds: 8
+  # Minimum time an AI car will stop/slow down after a collision
+  MinCollisionStopTimeSeconds: 1
+  # Maximum time an AI car will stop/slow down after a collision
+  MaxCollisionStopTimeSeconds: 3
+  # Default maximum AI speed. This is not an absolute maximum and can be overridden with RightLaneOffsetKph and MaxSpeedVariationPercent
+  MaxSpeedKph: 120
+  # Speed offset for right lanes. Will be added to MaxSpeedKph
+  RightLaneOffsetKph: 30
+  # Maximum speed variation
+  MaxSpeedVariationPercent: 0.15000000596046448
+  # Default AI car deceleration for obstacle/collision detection (m/s^2)
+  DefaultDeceleration: 8.5
+  # Default AI car acceleration for obstacle/collision detection (m/s^2)
+  DefaultAcceleration: 2.5
+  # Maximum AI car target count for AI slot overbooking. This is not an absolute maximum and might be slightly higher
+  MaxAiTargetCount: 600
+  # Number of AI cars per player the server will try to keep
+  AiPerPlayerTargetCount: 50
+  # Soft player limit, the server will stop accepting new players when this many players are reached. Use this to ensure a minimum amount of AI cars. 0 to disable.
+  MaxPlayerCount: 0
+  # Hide AI car nametags and make them invisible on the minimap. Broken on CSP versions < 0.1.78
+  HideAiCars: true
+  # AI spline height offset. Use this if the AI spline is too close to the ground
+  SplineHeightOffsetMeters: 0
+  # Lane width for adjacent lane detection
+  LaneWidthMeters: 3
+  # Enable two way traffic. This will allow AI cars to spawn in lanes with the opposite direction of travel to the player.
+  TwoWayTraffic: false
+  # AI cornering speed factor. Lower = AI cars will drive slower around corners.
+  CorneringSpeedFactor: 0.50
+  # AI cornering brake distance factor. Lower = AI cars will brake later for corners.
+  CorneringBrakeDistanceFactor: 1.5
+  # AI cornering brake force factor. This is multiplied with DefaultDeceleration. Lower = AI cars will brake less hard for corners.
+  CorneringBrakeForceFactor: 1
+  # Name prefix for AI cars. Names will be in the form of '<NamePrefix> <SessionId>'
+  NamePrefix: Traffic
+  # Ignore obstacles for some time if the AI car is stopped for longer than x seconds
+  IgnoreObstaclesAfterSeconds: 10
+  # Apply scale to some traffic density related settings. Increasing this DOES NOT magically increase your traffic density, it is dependent on your other settings. Values higher than 1 not recommended.
+  TrafficDensity: 3
+  # Dynamic (hourly) traffic density. List must have exactly 24 entries in the format [0.2, 0.5, 1, 0.7, ...]
+  HourlyTrafficDensity: 
+  # Tyre diameter of AI cars in meters, shouldn't have to be changed unless some cars are creating lots of smoke.
+  TyreDiameterMeters: 0.64999997615814209
+  # Apply some smoothing to AI spline camber
+  SmoothCamber: false
+  # Show debug overlay for AI cars
+  Debug: false
+  # Override some settings for specific car models/skins
+  CarSpecificOverrides: []
