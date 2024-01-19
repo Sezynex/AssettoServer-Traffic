@@ -8,6 +8,7 @@
 
 ## Setup Tutorial
 ![Find Assetto Corsa Root Folder](https://hizliresim.com/t9khqze)
+[url=https://hizliresim.com/90ig1jh][img]https://i.hizliresim.com/90ig1jh.png[/img][/url]
 ![Move files to folder](https://hizliresim.com/ek5zt6p)
 And go content manager
 ![Go to Content Manager Server](https://hizliresim.com/pkqo1xq)
