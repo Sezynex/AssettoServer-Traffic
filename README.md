@@ -3,7 +3,7 @@
 ## Creators
 
 [Sezynex](https://github.com/sezynex)\
-[corp14x3](https://github.com/corp14x3)\
+[corp14x3](https://github.com/corp14x3)
 
 
 
@@ -18,10 +18,10 @@ Add Car & Save\
 ![Add Car & Save](./setup/hzmxx9q.png)
 Click Run !                                                                                         
 
-If you dont have server
-Download Hamachi
-Create a new network
-And say your aga "download hamachi aq"
-And your aga joins your network
-Now you should be see your server in Online>Lan
-If your server is not looking Check the box in main server settings in your content manager "Make server public"
+If you dont have server\
+Download Hamachi\
+Create a new network\
+And say your aga "download hamachi aq"\
+And your aga joins your network\
+Now you should be see your server in Online>Lan\
+If your server is not looking Check the box in main server settings in your content manager "Make server public"\
