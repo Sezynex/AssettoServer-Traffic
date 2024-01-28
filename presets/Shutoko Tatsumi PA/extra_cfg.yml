@@ -97,7 +97,7 @@ AiParams:
   # Maximum time an AI car will stop/slow down after a collision
   MaxCollisionStopTimeSeconds: 3
   # Default maximum AI speed. This is not an absolute maximum and can be overridden with RightLaneOffsetKph and MaxSpeedVariationPercent
-  MaxSpeedKph: 120
+  MaxSpeedKph: 100
   # Speed offset for right lanes. Will be added to MaxSpeedKph
   RightLaneOffsetKph: 30
   # Maximum speed variation

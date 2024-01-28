@@ -131,7 +131,7 @@ AiParams:
   # Ignore obstacles for some time if the AI car is stopped for longer than x seconds
   IgnoreObstaclesAfterSeconds: 10
   # Apply scale to some traffic density related settings. Increasing this DOES NOT magically increase your traffic density, it is dependent on your other settings. Values higher than 1 not recommended.
-  TrafficDensity: 14
+  TrafficDensity: 3
   # Dynamic (hourly) traffic density. List must have exactly 24 entries in the format [0.2, 0.5, 1, 0.7, ...]
   HourlyTrafficDensity: 
   # Tyre diameter of AI cars in meters, shouldn't have to be changed unless some cars are creating lots of smoke.
