@@ -1,0 +1,356 @@
+2024-09-20 00:47:32.153 +03:00 [INF] AssettoServer 0.0.52+85427faad6
+2024-09-20 00:47:32.934 +03:00 [WRN] Long welcome message detected. This will lead to crashes on CSP versions older than 0.1.77
+2024-09-20 00:47:32.995 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-09-20 00:47:33.140 +03:00 [INF] Starting server
+2024-09-20 00:47:33.452 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-09-20 00:47:33.457 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-09-20 00:47:33.458 +03:00 [DBG] Loaded admins.txt with 0 entries
+2024-09-20 00:47:33.459 +03:00 [INF] Starting HTTP server on port 8081
+2024-09-20 00:47:33.460 +03:00 [INF] Loaded 28 cars
+2024-09-20 00:47:33.480 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2024-09-20 00:47:33.487 +03:00 [DBG] Added checksum for content/tracks/csp/1061/../shuto_revival_project_beta/ngg_layout/data/surfaces.ini
+2024-09-20 00:47:33.487 +03:00 [INF] Initialized 2 track checksums
+2024-09-20 00:47:33.489 +03:00 [DBG] Added checksum for content/cars/traffic_f&f_truck\data.acd
+2024-09-20 00:47:33.490 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_159\data.acd
+2024-09-20 00:47:33.490 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_mito\data.acd
+2024-09-20 00:47:33.491 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_eu\data.acd
+2024-09-20 00:47:33.491 +03:00 [DBG] Added checksum for content/cars/traffic_range_rover_ss\data.acd
+2024-09-20 00:47:33.492 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_priuseu\data.acd
+2024-09-20 00:47:33.493 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70\data.acd
+2024-09-20 00:47:33.493 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_jp\data.acd
+2024-09-20 00:47:33.494 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_flatbed\data.acd
+2024-09-20 00:47:33.494 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_hauler\data.acd
+2024-09-20 00:47:33.495 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_haulerb\data.acd
+2024-09-20 00:47:33.495 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_tanker\data.acd
+2024-09-20 00:47:33.496 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_npr\data.acd
+2024-09-20 00:47:33.496 +03:00 [DBG] Added checksum for content/cars/traffic_nissan_leaf\data.acd
+2024-09-20 00:47:33.497 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_camry\data.acd
+2024-09-20 00:47:33.497 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_prius\data.acd
+2024-09-20 00:47:33.498 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70jp\data.acd
+2024-09-20 00:47:33.498 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_rav4\data.acd
+2024-09-20 00:47:33.499 +03:00 [DBG] Added checksum for content/cars/traffic_cadillac_escalade\data.acd
+2024-09-20 00:47:33.499 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_challenger_srt\data.acd
+2024-09-20 00:47:33.500 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_grand_caravan_taxi\data.acd
+2024-09-20 00:47:33.500 +03:00 [DBG] Added checksum for content/cars/traffic_crown_vic\data.acd
+2024-09-20 00:47:33.501 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_nprusa\data.acd
+2024-09-20 00:47:33.502 +03:00 [DBG] Added checksum for content/cars/ks_porsche_911_gt3_rs\data.acd
+2024-09-20 00:47:33.502 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_bmw_f30_lci\data.acd
+2024-09-20 00:47:33.503 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_m4_lci_air\data.acd
+2024-09-20 00:47:33.505 +03:00 [DBG] Added checksum for content/cars/f1_2011_redbull\data.acd
+2024-09-20 00:47:33.506 +03:00 [DBG] Added checksum for content/cars/ks_ferrari_fxx_k\data.acd
+2024-09-20 00:47:33.508 +03:00 [INF] Initialized 28 car checksums
+2024-09-20 00:47:33.510 +03:00 [INF] Next session: Practice
+2024-09-20 00:47:33.511 +03:00 [INF] Switching session to id 0
+2024-09-20 00:47:33.753 +03:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=31.223.112.141&httpPort=8081
+2024-09-20 00:47:33.789 +03:00 [INF] Starting TCP server on port 9600
+2024-09-20 00:47:33.791 +03:00 [INF] Starting UDP server on port 9600
+2024-09-20 00:47:33.801 +03:00 [INF] Starting update loop with an update rate of 60hz
+2024-09-20 00:48:10.773 +03:00 [INF] Han Raikkonen (76561198141951438 - 192.168.31.6:28852) is attempting to connect (06_ygt_53_bmw_f30_lci)
+2024-09-20 00:48:10.774 +03:00 [DBG] Han Raikkonen supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","2745"]
+2024-09-20 00:48:10.781 +03:00 [INF] Han Raikkonen (76561198141951438, 24 (06_ygt_53_bmw_f30_lci-kaplama3)) has connected
+2024-09-20 00:49:23.459 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 23 - Target AI count: 23 - Overbooking: 1 - Rest: 0
+2024-09-20 00:49:26.690 +03:00 [INF] CHAT: Han Raikkonen (24): 				$CSP0:YOqrL2En
+2024-09-20 00:50:17.656 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 15 (15), rel. speed 153km/h
+2024-09-20 00:50:24.293 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-09-20 00:50:27.404 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-09-20 00:50:28.135 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-09-20 00:50:57.661 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 23km/h
+2024-09-20 00:51:02.662 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 20km/h
+2024-09-20 00:51:12.664 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 15 (15), rel. speed 70km/h
+2024-09-20 00:52:52.684 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 14km/h
+2024-09-20 00:53:07.687 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 77km/h
+2024-09-20 00:53:12.688 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 5km/h
+2024-09-20 00:53:37.693 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 49km/h
+2024-09-20 00:53:42.694 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 9km/h
+2024-09-20 00:54:22.702 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 18km/h
+2024-09-20 00:54:27.703 +03:00 [INF] Collision between Han Raikkonen (24) and Traffic 5 (5), rel. speed 17km/h
+2024-09-20 00:54:27.703 +03:00 [INF] Collision between Han Raikkonen (24) and environment, rel. speed 31km/h
+2024-09-20 00:54:28.241 +03:00 [DBG] Received clean exit from Han Raikkonen (24)
+2024-09-20 00:54:28.243 +03:00 [DBG] Disconnecting Han Raikkonen (192.168.31.6:28852)
+2024-09-20 00:54:28.245 +03:00 [INF] Han Raikkonen has disconnected
+2024-09-20 00:54:46.743 +03:00 [INF] Han Raikkonen (76561198141951438 - 192.168.31.6:28940) is attempting to connect (ks_ferrari_fxx_k)
+2024-09-20 00:54:46.743 +03:00 [DBG] Han Raikkonen supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","2745"]
+2024-09-20 00:54:46.744 +03:00 [INF] Han Raikkonen (76561198141951438, 27 (ks_ferrari_fxx_k-fes_2021_77_white)) has connected
+2024-09-20 00:55:48.794 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 23 - Target AI count: 23 - Overbooking: 1 - Rest: 0
+2024-09-20 00:55:51.555 +03:00 [INF] CHAT: Han Raikkonen (27): 				$CSP0:YOqrL2En
+2024-09-20 00:56:34.654 +03:00 [INF] Collision between Han Raikkonen (27) and Traffic 17 (17), rel. speed 145km/h
+2024-09-20 00:56:38.410 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-09-20 00:56:54.659 +03:00 [INF] Collision between Han Raikkonen (27) and Traffic 3 (3), rel. speed 64km/h
+2024-09-20 00:56:54.659 +03:00 [INF] Collision between Han Raikkonen (27) and Traffic 10 (10), rel. speed 82km/h
+2024-09-20 00:57:14.662 +03:00 [INF] Collision between Han Raikkonen (27) and Traffic 20 (20), rel. speed 110km/h
+2024-09-20 00:57:14.662 +03:00 [INF] Collision between Han Raikkonen (27) and Traffic 17 (17), rel. speed 118km/h
+2024-09-20 00:57:14.662 +03:00 [INF] Collision between Han Raikkonen (27) and environment, rel. speed 65km/h
+2024-09-20 00:57:19.663 +03:00 [INF] Collision between Han Raikkonen (27) and environment, rel. speed 41km/h
+2024-09-20 00:57:24.664 +03:00 [INF] Collision between Han Raikkonen (27) and environment, rel. speed 0km/h
+2024-09-20 00:57:29.665 +03:00 [INF] Collision between Han Raikkonen (27) and environment, rel. speed 1km/h
+2024-09-20 00:57:49.669 +03:00 [INF] Collision between Han Raikkonen (27) and Traffic 13 (13), rel. speed 15km/h
+2024-09-20 00:57:49.670 +03:00 [INF] Collision between Han Raikkonen (27) and environment, rel. speed 2km/h
+2024-09-20 00:57:54.670 +03:00 [INF] Collision between Han Raikkonen (27) and environment, rel. speed 2km/h
+2024-09-20 00:57:54.671 +03:00 [INF] Collision between Han Raikkonen (27) and Traffic 13 (13), rel. speed 20km/h
+2024-09-20 00:57:59.672 +03:00 [INF] Collision between Han Raikkonen (27) and Traffic 13 (13), rel. speed 4km/h
+2024-09-20 00:57:59.672 +03:00 [INF] Collision between Han Raikkonen (27) and environment, rel. speed 30km/h
+2024-09-20 00:58:04.680 +03:00 [INF] Collision between Han Raikkonen (27) and environment, rel. speed 0km/h
+2024-09-20 00:58:09.674 +03:00 [INF] Collision between Han Raikkonen (27) and environment, rel. speed 0km/h
+2024-09-20 00:58:14.675 +03:00 [INF] Collision between Han Raikkonen (27) and environment, rel. speed 0km/h
+2024-09-20 00:58:55.711 +03:00 [DBG] Car 15 reached spline end, despawning
+2024-09-20 00:58:58.456 +03:00 [DBG] Car 12 reached spline end, despawning
+2024-09-20 00:58:59.455 +03:00 [DBG] Car 18 reached spline end, despawning
+2024-09-20 00:59:03.952 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-09-20 00:59:04.607 +03:00 [DBG] Car 14 reached spline end, despawning
+2024-09-20 00:59:21.462 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-09-20 00:59:33.254 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-09-20 00:59:33.740 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-09-20 01:00:56.543 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-09-20 01:01:03.623 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-09-20 01:01:24.713 +03:00 [INF] Collision between Han Raikkonen (27) and environment, rel. speed 128km/h
+2024-09-20 01:01:29.713 +03:00 [INF] Collision between Han Raikkonen (27) and environment, rel. speed 69km/h
+2024-09-20 01:02:14.722 +03:00 [INF] Collision between Han Raikkonen (27) and Traffic 0 (0), rel. speed 147km/h
+2024-09-20 01:02:14.722 +03:00 [INF] Collision between Han Raikkonen (27) and environment, rel. speed 67km/h
+2024-09-20 01:02:19.724 +03:00 [INF] Collision between Han Raikkonen (27) and Traffic 0 (0), rel. speed 0km/h
+2024-09-20 01:02:19.724 +03:00 [INF] Collision between Han Raikkonen (27) and Traffic 1 (1), rel. speed 21km/h
+2024-09-20 01:02:19.724 +03:00 [INF] Collision between Han Raikkonen (27) and Traffic 4 (4), rel. speed 30km/h
+2024-09-20 01:02:24.724 +03:00 [INF] Collision between Han Raikkonen (27) and Traffic 4 (4), rel. speed 23km/h
+2024-09-20 01:02:24.724 +03:00 [INF] Collision between Han Raikkonen (27) and Traffic 16 (16), rel. speed 6km/h
+2024-09-20 01:02:34.727 +03:00 [INF] Collision between Han Raikkonen (27) and Traffic 5 (5), rel. speed 40km/h
+2024-09-20 01:02:39.728 +03:00 [INF] Collision between Han Raikkonen (27) and Traffic 5 (5), rel. speed 18km/h
+2024-09-20 01:02:39.728 +03:00 [INF] Collision between Han Raikkonen (27) and environment, rel. speed 30km/h
+2024-09-20 01:02:39.728 +03:00 [INF] Collision between Han Raikkonen (27) and Traffic 17 (17), rel. speed 50km/h
+2024-09-20 01:02:39.728 +03:00 [INF] Collision between Han Raikkonen (27) and Traffic 8 (8), rel. speed 40km/h
+2024-09-20 01:02:44.728 +03:00 [INF] Collision between Han Raikkonen (27) and Traffic 8 (8), rel. speed 17km/h
+2024-09-20 01:02:44.728 +03:00 [INF] Collision between Han Raikkonen (27) and environment, rel. speed 39km/h
+2024-09-20 01:02:53.269 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-09-20 01:02:58.397 +03:00 [DBG] Car 12 reached spline end, despawning
+2024-09-20 01:02:58.711 +03:00 [DBG] Car 22 reached spline end, despawning
+2024-09-20 01:03:00.146 +03:00 [DBG] Car 18 reached spline end, despawning
+2024-09-20 01:03:02.806 +03:00 [DBG] Car 4 reached spline end, despawning
+2024-09-20 01:03:03.290 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-09-20 01:03:03.880 +03:00 [DBG] Car 0 reached spline end, despawning
+2024-09-20 01:03:29.738 +03:00 [INF] Collision between Han Raikkonen (27) and environment, rel. speed 127km/h
+2024-09-20 01:03:29.738 +03:00 [INF] Collision between Han Raikkonen (27) and Traffic 15 (15), rel. speed 104km/h
+2024-09-20 01:03:34.738 +03:00 [INF] Collision between Han Raikkonen (27) and environment, rel. speed 110km/h
+2024-09-20 01:03:34.739 +03:00 [INF] Collision between Han Raikkonen (27) and Traffic 20 (20), rel. speed 123km/h
+2024-09-20 01:03:59.743 +03:00 [INF] Collision between Han Raikkonen (27) and Traffic 13 (13), rel. speed 108km/h
+2024-09-20 01:04:04.744 +03:00 [INF] Collision between Han Raikkonen (27) and environment, rel. speed 56km/h
+2024-09-20 01:04:06.173 +03:00 [DBG] Received clean exit from Han Raikkonen (27)
+2024-09-20 01:04:06.174 +03:00 [DBG] Disconnecting Han Raikkonen (192.168.31.6:28940)
+2024-09-20 01:04:06.175 +03:00 [INF] Han Raikkonen has disconnected
+2024-09-20 23:20:41.410 +03:00 [INF] AssettoServer 0.0.52+85427faad6
+2024-09-20 23:20:42.232 +03:00 [WRN] Long welcome message detected. This will lead to crashes on CSP versions older than 0.1.77
+2024-09-20 23:20:42.295 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-09-20 23:20:42.436 +03:00 [INF] Starting server
+2024-09-20 23:20:42.720 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-09-20 23:20:42.725 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-09-20 23:20:42.726 +03:00 [DBG] Loaded admins.txt with 0 entries
+2024-09-20 23:20:42.726 +03:00 [INF] Starting HTTP server on port 8081
+2024-09-20 23:20:42.727 +03:00 [INF] Loaded 26 cars
+2024-09-20 23:20:42.749 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2024-09-20 23:20:42.755 +03:00 [DBG] Added checksum for content/tracks/csp/1061/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2024-09-20 23:20:42.756 +03:00 [INF] Initialized 2 track checksums
+2024-09-20 23:20:42.757 +03:00 [DBG] Added checksum for content/cars/traffic_f&f_truck\data.acd
+2024-09-20 23:20:42.758 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_159\data.acd
+2024-09-20 23:20:42.758 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_mito\data.acd
+2024-09-20 23:20:42.759 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_eu\data.acd
+2024-09-20 23:20:42.759 +03:00 [DBG] Added checksum for content/cars/traffic_range_rover_ss\data.acd
+2024-09-20 23:20:42.760 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_priuseu\data.acd
+2024-09-20 23:20:42.761 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70\data.acd
+2024-09-20 23:20:42.761 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_jp\data.acd
+2024-09-20 23:20:42.762 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_flatbed\data.acd
+2024-09-20 23:20:42.762 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_hauler\data.acd
+2024-09-20 23:20:42.763 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_haulerb\data.acd
+2024-09-20 23:20:42.763 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_tanker\data.acd
+2024-09-20 23:20:42.764 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_npr\data.acd
+2024-09-20 23:20:42.764 +03:00 [DBG] Added checksum for content/cars/traffic_nissan_leaf\data.acd
+2024-09-20 23:20:42.765 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_camry\data.acd
+2024-09-20 23:20:42.765 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_prius\data.acd
+2024-09-20 23:20:42.766 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70jp\data.acd
+2024-09-20 23:20:42.766 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_rav4\data.acd
+2024-09-20 23:20:42.767 +03:00 [DBG] Added checksum for content/cars/traffic_cadillac_escalade\data.acd
+2024-09-20 23:20:42.767 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_challenger_srt\data.acd
+2024-09-20 23:20:42.768 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_grand_caravan_taxi\data.acd
+2024-09-20 23:20:42.768 +03:00 [DBG] Added checksum for content/cars/traffic_crown_vic\data.acd
+2024-09-20 23:20:42.769 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_nprusa\data.acd
+2024-09-20 23:20:42.769 +03:00 [DBG] Added checksum for content/cars/ks_porsche_911_gt3_rs\data.acd
+2024-09-20 23:20:42.770 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_m4_lci_air\data.acd
+2024-09-20 23:20:42.772 +03:00 [DBG] Added checksum for content/cars/f1_2011_redbull\data.acd
+2024-09-20 23:20:42.774 +03:00 [INF] Initialized 26 car checksums
+2024-09-20 23:20:42.776 +03:00 [INF] Next session: Practice
+2024-09-20 23:20:42.777 +03:00 [INF] Switching session to id 0
+2024-09-20 23:20:43.011 +03:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=95.70.162.14&httpPort=8081
+2024-09-20 23:20:43.050 +03:00 [INF] Starting TCP server on port 9600
+2024-09-20 23:20:43.052 +03:00 [INF] Starting UDP server on port 9600
+2024-09-20 23:20:43.062 +03:00 [INF] Starting update loop with an update rate of 60hz
+2024-09-20 23:22:03.509 +03:00 [INF] Han Raikkonen (76561198141951438 - 192.168.31.6:8572) is attempting to connect (f1_2011_redbull)
+2024-09-20 23:22:03.510 +03:00 [DBG] Han Raikkonen supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","2745"]
+2024-09-20 23:22:03.516 +03:00 [INF] Han Raikkonen (76561198141951438, 25 (f1_2011_redbull-1)) has connected
+2024-09-20 23:23:10.441 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 23 - Target AI count: 23 - Overbooking: 1 - Rest: 0
+2024-09-20 23:23:13.618 +03:00 [INF] CHAT: Han Raikkonen (25): 				$CSP0:YOqrL2En
+2024-09-20 23:23:25.182 +03:00 [INF] CHAT: Han Raikkonen (25): /settime 23:50
+2024-09-20 23:23:25.208 +03:00 [INF] Broadcast: Time has been set.
+2024-09-20 23:23:44.749 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 84km/h
+2024-09-20 23:24:01.880 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-09-20 23:24:49.759 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 9 (9), rel. speed 161km/h
+2024-09-20 23:24:49.759 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 11 (11), rel. speed 126km/h
+2024-09-20 23:24:54.760 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 8 (8), rel. speed 23km/h
+2024-09-20 23:24:54.760 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 59km/h
+2024-09-20 23:25:06.990 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-09-20 23:25:09.781 +03:00 [DBG] Car 8 reached spline end, despawning
+2024-09-20 23:25:24.773 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 16 (16), rel. speed 71km/h
+2024-09-20 23:25:24.773 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 139km/h
+2024-09-20 23:25:26.230 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-09-20 23:25:29.766 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 70km/h
+2024-09-20 23:25:29.767 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 22 (22), rel. speed 57km/h
+2024-09-20 23:25:29.767 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 19 (19), rel. speed 37km/h
+2024-09-20 23:26:39.781 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 4 (4), rel. speed 111km/h
+2024-09-20 23:26:44.781 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 11 (11), rel. speed 150km/h
+2024-09-20 23:26:44.781 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 54km/h
+2024-09-20 23:27:13.164 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-09-20 23:27:15.605 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-09-20 23:27:16.804 +03:00 [DBG] Car 0 reached spline end, despawning
+2024-09-20 23:27:49.795 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 14 (14), rel. speed 159km/h
+2024-09-20 23:27:49.795 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 8 (8), rel. speed 107km/h
+2024-09-20 23:27:49.795 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 4 (4), rel. speed 107km/h
+2024-09-20 23:27:54.795 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 4 (4), rel. speed 13km/h
+2024-09-20 23:27:54.795 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 69km/h
+2024-09-20 23:27:54.795 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 8 (8), rel. speed 85km/h
+2024-09-20 23:27:59.796 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 21 (21), rel. speed 8km/h
+2024-09-20 23:28:09.798 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 19 (19), rel. speed 54km/h
+2024-09-20 23:28:14.799 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 17 (17), rel. speed 35km/h
+2024-09-20 23:28:14.799 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 7km/h
+2024-09-20 23:28:19.800 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 22 (22), rel. speed 34km/h
+2024-09-20 23:28:52.701 +03:00 [DBG] Car 0 reached spline end, despawning
+2024-09-20 23:28:57.401 +03:00 [DBG] Car 12 reached spline end, despawning
+2024-09-20 23:30:09.823 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 11 (11), rel. speed 128km/h
+2024-09-20 23:30:09.823 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 213km/h
+2024-09-20 23:30:09.823 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 3 (3), rel. speed 184km/h
+2024-09-20 23:30:14.823 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 11 (11), rel. speed 38km/h
+2024-09-20 23:30:14.823 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 24km/h
+2024-09-20 23:30:58.556 +03:00 [DBG] Car 0 reached spline end, despawning
+2024-09-20 23:31:24.837 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 259km/h
+2024-09-20 23:31:29.838 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 200km/h
+2024-09-20 23:31:57.659 +03:00 [DBG] Car 21 reached spline end, despawning
+2024-09-20 23:32:02.221 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-09-20 23:32:44.853 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 21 (21), rel. speed 114km/h
+2024-09-20 23:32:44.853 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 9 (9), rel. speed 58km/h
+2024-09-20 23:32:44.853 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 13 (13), rel. speed 14km/h
+2024-09-20 23:32:59.856 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 0 (0), rel. speed 39km/h
+2024-09-20 23:34:09.870 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 16 (16), rel. speed 134km/h
+2024-09-20 23:34:09.870 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 11 (11), rel. speed 32km/h
+2024-09-20 23:34:09.871 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 146km/h
+2024-09-20 23:34:30.262 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-09-20 23:34:31.845 +03:00 [DBG] Car 22 reached spline end, despawning
+2024-09-20 23:35:19.884 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 10 (10), rel. speed 181km/h
+2024-09-20 23:35:24.885 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 16 (16), rel. speed 121km/h
+2024-09-20 23:35:54.891 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 19 (19), rel. speed 51km/h
+2024-09-20 23:35:54.891 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 0 (0), rel. speed 46km/h
+2024-09-20 23:35:54.891 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 28km/h
+2024-09-20 23:35:59.892 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 19 (19), rel. speed 96km/h
+2024-09-20 23:35:59.892 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 22km/h
+2024-09-20 23:35:59.892 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 20 (20), rel. speed 55km/h
+2024-09-20 23:36:59.905 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 2 (2), rel. speed 41km/h
+2024-09-20 23:37:04.905 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 8 (8), rel. speed 49km/h
+2024-09-20 23:37:04.905 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 2 (2), rel. speed 70km/h
+2024-09-20 23:37:04.905 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 75km/h
+2024-09-20 23:37:04.905 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 15 (15), rel. speed 29km/h
+2024-09-20 23:38:04.917 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 5 (5), rel. speed 21km/h
+2024-09-20 23:38:04.917 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 63km/h
+2024-09-20 23:39:10.239 +03:00 [DBG] Car 4 reached spline end, despawning
+2024-09-20 23:39:10.531 +03:00 [DBG] Car 21 reached spline end, despawning
+2024-09-20 23:39:12.268 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-09-20 23:39:12.974 +03:00 [DBG] Car 21 reached spline end, despawning
+2024-09-20 23:39:14.021 +03:00 [DBG] Car 18 reached spline end, despawning
+2024-09-20 23:39:15.280 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-09-20 23:39:16.152 +03:00 [DBG] Car 4 reached spline end, despawning
+2024-09-20 23:39:18.235 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-09-20 23:39:19.480 +03:00 [DBG] Car 2 reached spline end, despawning
+2024-09-20 23:39:20.295 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-09-20 23:39:20.631 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-09-20 23:39:21.200 +03:00 [DBG] Car 12 reached spline end, despawning
+2024-09-20 23:39:59.941 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 1km/h
+2024-09-20 23:40:39.948 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 0 (0), rel. speed 26km/h
+2024-09-20 23:40:49.950 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 19 (19), rel. speed 21km/h
+2024-09-20 23:40:49.950 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 79km/h
+2024-09-20 23:40:54.951 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 32km/h
+2024-09-20 23:41:41.864 +03:00 [DBG] Car 15 reached spline end, despawning
+2024-09-20 23:41:47.644 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-09-20 23:41:50.176 +03:00 [DBG] Car 15 reached spline end, despawning
+2024-09-20 23:41:51.006 +03:00 [DBG] Car 0 reached spline end, despawning
+2024-09-20 23:41:56.013 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-09-20 23:41:56.335 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-09-20 23:41:57.749 +03:00 [DBG] Car 8 reached spline end, despawning
+2024-09-20 23:41:58.485 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-09-20 23:42:34.971 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 14 (14), rel. speed 108km/h
+2024-09-20 23:42:34.971 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 5km/h
+2024-09-20 23:42:39.972 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 41km/h
+2024-09-20 23:42:39.972 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 7 (7), rel. speed 42km/h
+2024-09-20 23:43:15.915 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-09-20 23:43:17.069 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-09-20 23:43:18.342 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-09-20 23:43:26.673 +03:00 [DBG] Car 14 reached spline end, despawning
+2024-09-20 23:43:27.625 +03:00 [DBG] Car 14 reached spline end, despawning
+2024-09-20 23:43:27.996 +03:00 [DBG] Car 18 reached spline end, despawning
+2024-09-20 23:45:15.003 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 48km/h
+2024-09-20 23:45:48.720 +03:00 [DBG] Car 0 reached spline end, despawning
+2024-09-20 23:46:16.651 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-09-20 23:46:23.275 +03:00 [DBG] Car 0 reached spline end, despawning
+2024-09-20 23:47:05.025 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 19 (19), rel. speed 17km/h
+2024-09-20 23:47:10.026 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 11 (11), rel. speed 20km/h
+2024-09-20 23:47:10.027 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 24km/h
+2024-09-20 23:47:15.027 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 155km/h
+2024-09-20 23:47:15.027 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 20 (20), rel. speed 34km/h
+2024-09-20 23:47:35.031 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 2 (2), rel. speed 135km/h
+2024-09-20 23:47:35.031 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 134km/h
+2024-09-20 23:48:59.841 +03:00 [DBG] Car 14 reached spline end, despawning
+2024-09-20 23:49:10.050 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 13 (13), rel. speed 125km/h
+2024-09-20 23:49:10.050 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 156km/h
+2024-09-20 23:49:15.051 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 37km/h
+2024-09-20 23:49:45.057 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 0 (0), rel. speed 198km/h
+2024-09-20 23:50:00.060 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 20 (20), rel. speed 6km/h
+2024-09-20 23:50:00.060 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 6 (6), rel. speed 16km/h
+2024-09-20 23:50:05.061 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 20 (20), rel. speed 19km/h
+2024-09-20 23:50:05.061 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 26km/h
+2024-09-20 23:50:10.459 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-09-20 23:50:11.058 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-09-20 23:50:14.239 +03:00 [DBG] Car 2 reached spline end, despawning
+2024-09-20 23:50:14.975 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-09-20 23:50:15.063 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 129km/h
+2024-09-20 23:50:35.067 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 75km/h
+2024-09-20 23:51:10.074 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 194km/h
+2024-09-20 23:51:20.076 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 4 (4), rel. speed 3km/h
+2024-09-20 23:52:15.087 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 112km/h
+2024-09-20 23:52:15.087 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 20 (20), rel. speed 54km/h
+2024-09-20 23:52:20.089 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 20 (20), rel. speed 21km/h
+2024-09-20 23:52:25.089 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 17 (17), rel. speed 119km/h
+2024-09-20 23:52:30.090 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 7 (7), rel. speed 131km/h
+2024-09-20 23:52:30.090 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 1 (1), rel. speed 13km/h
+2024-09-20 23:52:40.093 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 9 (9), rel. speed 152km/h
+2024-09-20 23:52:55.095 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 1 (1), rel. speed 86km/h
+2024-09-20 23:53:30.103 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 15 (15), rel. speed 124km/h
+2024-09-20 23:53:30.103 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 18km/h
+2024-09-20 23:53:55.107 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 7 (7), rel. speed 98km/h
+2024-09-20 23:54:45.117 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 1 (1), rel. speed 7km/h
+2024-09-20 23:54:45.117 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 5 (5), rel. speed 76km/h
+2024-09-20 23:54:45.117 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 32km/h
+2024-09-20 23:55:10.123 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 127km/h
+2024-09-20 23:55:10.123 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 14 (14), rel. speed 13km/h
+2024-09-20 23:55:10.123 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 8 (8), rel. speed 23km/h
+2024-09-20 23:55:20.125 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 0 (0), rel. speed 31km/h
+2024-09-20 23:55:20.125 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 1 (1), rel. speed 8km/h
+2024-09-20 23:55:20.125 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 39km/h
+2024-09-20 23:55:30.126 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 4 (4), rel. speed 117km/h
+2024-09-20 23:55:30.127 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 20 (20), rel. speed 24km/h
+2024-09-20 23:55:50.130 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 5 (5), rel. speed 4km/h
+2024-09-20 23:55:50.130 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 12 (12), rel. speed 44km/h
+2024-09-20 23:56:50.142 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 0 (0), rel. speed 29km/h
+2024-09-20 23:56:55.143 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 8 (8), rel. speed 74km/h
+2024-09-20 23:57:05.145 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 134km/h
+2024-09-20 23:57:25.149 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 1km/h
+2024-09-20 23:57:35.151 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 10 (10), rel. speed 28km/h
+2024-09-20 23:57:35.151 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 40km/h
+2024-09-20 23:58:10.158 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 10 (10), rel. speed 150km/h
+2024-09-20 23:58:10.158 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 6 (6), rel. speed 156km/h
+2024-09-20 23:58:10.158 +03:00 [INF] Collision between Han Raikkonen (25) and environment, rel. speed 140km/h
+2024-09-20 23:58:15.123 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-09-20 23:59:11.994 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-09-20 23:59:15.165 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-09-20 23:59:20.046 +03:00 [DBG] Car 12 reached spline end, despawning
+2024-09-20 23:59:55.179 +03:00 [INF] Collision between Han Raikkonen (25) and Traffic 21 (21), rel. speed 153km/h

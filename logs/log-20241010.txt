@@ -1,0 +1,284 @@
+2024-10-10 00:14:37.534 +03:00 [INF] AssettoServer 0.0.52+85427faad6
+2024-10-10 00:14:38.336 +03:00 [WRN] Long welcome message detected. This will lead to crashes on CSP versions older than 0.1.77
+2024-10-10 00:14:38.394 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-10-10 00:14:38.529 +03:00 [INF] Starting server
+2024-10-10 00:14:38.827 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-10-10 00:14:38.832 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-10-10 00:14:38.833 +03:00 [DBG] Loaded admins.txt with 0 entries
+2024-10-10 00:14:38.834 +03:00 [INF] Starting HTTP server on port 8081
+2024-10-10 00:14:38.835 +03:00 [INF] Loaded 26 cars
+2024-10-10 00:14:38.856 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2024-10-10 00:14:38.863 +03:00 [DBG] Added checksum for content/tracks/csp/1061/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2024-10-10 00:14:38.863 +03:00 [INF] Initialized 2 track checksums
+2024-10-10 00:14:38.865 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_159\data.acd
+2024-10-10 00:14:38.865 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_mito\data.acd
+2024-10-10 00:14:38.866 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_eu\data.acd
+2024-10-10 00:14:38.866 +03:00 [DBG] Added checksum for content/cars/traffic_range_rover_ss\data.acd
+2024-10-10 00:14:38.867 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_priuseu\data.acd
+2024-10-10 00:14:38.867 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70\data.acd
+2024-10-10 00:14:38.868 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_jp\data.acd
+2024-10-10 00:14:38.868 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_flatbed\data.acd
+2024-10-10 00:14:38.869 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_hauler\data.acd
+2024-10-10 00:14:38.869 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_haulerb\data.acd
+2024-10-10 00:14:38.870 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_tanker\data.acd
+2024-10-10 00:14:38.870 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_npr\data.acd
+2024-10-10 00:14:38.871 +03:00 [DBG] Added checksum for content/cars/traffic_nissan_leaf\data.acd
+2024-10-10 00:14:38.871 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_camry\data.acd
+2024-10-10 00:14:38.871 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_prius\data.acd
+2024-10-10 00:14:38.872 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70jp\data.acd
+2024-10-10 00:14:38.872 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_rav4\data.acd
+2024-10-10 00:14:38.873 +03:00 [DBG] Added checksum for content/cars/traffic_cadillac_escalade\data.acd
+2024-10-10 00:14:38.873 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_challenger_srt\data.acd
+2024-10-10 00:14:38.874 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_grand_caravan_taxi\data.acd
+2024-10-10 00:14:38.874 +03:00 [DBG] Added checksum for content/cars/traffic_crown_vic\data.acd
+2024-10-10 00:14:38.875 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_nprusa\data.acd
+2024-10-10 00:14:38.876 +03:00 [DBG] Added checksum for content/cars/vrc_2005_mclaren_mp420\data.acd
+2024-10-10 00:14:38.877 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_nissan_s14usdm\data.acd
+2024-10-10 00:14:38.878 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_m4_lci_air\data.acd
+2024-10-10 00:14:38.881 +03:00 [INF] Initialized 25 car checksums
+2024-10-10 00:14:38.883 +03:00 [INF] Next session: Practice
+2024-10-10 00:14:38.883 +03:00 [INF] Switching session to id 0
+2024-10-10 00:14:54.206 +03:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=95.70.162.67&httpPort=8081
+2024-10-10 00:14:54.246 +03:00 [INF] Starting TCP server on port 9600
+2024-10-10 00:14:54.248 +03:00 [INF] Starting UDP server on port 9600
+2024-10-10 00:14:54.258 +03:00 [INF] Starting update loop with an update rate of 60hz
+2024-10-10 00:17:30.593 +03:00 [INF] AssettoServer 0.0.52+85427faad6
+2024-10-10 00:17:31.085 +03:00 [WRN] Long welcome message detected. This will lead to crashes on CSP versions older than 0.1.77
+2024-10-10 00:17:31.119 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-10-10 00:17:31.177 +03:00 [INF] Starting server
+2024-10-10 00:17:31.374 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-10-10 00:17:31.379 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-10-10 00:17:31.380 +03:00 [DBG] Loaded admins.txt with 0 entries
+2024-10-10 00:17:31.381 +03:00 [INF] Starting HTTP server on port 8081
+2024-10-10 00:17:31.382 +03:00 [INF] Loaded 26 cars
+2024-10-10 00:17:31.392 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2024-10-10 00:17:31.394 +03:00 [DBG] Added checksum for content/tracks/csp/1061/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2024-10-10 00:17:31.394 +03:00 [INF] Initialized 2 track checksums
+2024-10-10 00:17:31.396 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_159\data.acd
+2024-10-10 00:17:31.396 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_mito\data.acd
+2024-10-10 00:17:31.397 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_eu\data.acd
+2024-10-10 00:17:31.397 +03:00 [DBG] Added checksum for content/cars/traffic_range_rover_ss\data.acd
+2024-10-10 00:17:31.398 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_priuseu\data.acd
+2024-10-10 00:17:31.398 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70\data.acd
+2024-10-10 00:17:31.398 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_jp\data.acd
+2024-10-10 00:17:31.399 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_flatbed\data.acd
+2024-10-10 00:17:31.399 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_hauler\data.acd
+2024-10-10 00:17:31.400 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_haulerb\data.acd
+2024-10-10 00:17:31.400 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_tanker\data.acd
+2024-10-10 00:17:31.400 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_npr\data.acd
+2024-10-10 00:17:31.401 +03:00 [DBG] Added checksum for content/cars/traffic_nissan_leaf\data.acd
+2024-10-10 00:17:31.401 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_camry\data.acd
+2024-10-10 00:17:31.402 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_prius\data.acd
+2024-10-10 00:17:31.402 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70jp\data.acd
+2024-10-10 00:17:31.403 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_rav4\data.acd
+2024-10-10 00:17:31.403 +03:00 [DBG] Added checksum for content/cars/traffic_cadillac_escalade\data.acd
+2024-10-10 00:17:31.403 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_challenger_srt\data.acd
+2024-10-10 00:17:31.404 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_grand_caravan_taxi\data.acd
+2024-10-10 00:17:31.404 +03:00 [DBG] Added checksum for content/cars/traffic_crown_vic\data.acd
+2024-10-10 00:17:31.405 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_nprusa\data.acd
+2024-10-10 00:17:31.406 +03:00 [DBG] Added checksum for content/cars/vrc_2005_mclaren_mp420\data.acd
+2024-10-10 00:17:31.407 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_nissan_s14usdm\data.acd
+2024-10-10 00:17:31.408 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_m4_lci_air\data.acd
+2024-10-10 00:17:31.410 +03:00 [INF] Initialized 25 car checksums
+2024-10-10 00:17:31.412 +03:00 [INF] Next session: Practice
+2024-10-10 00:17:31.413 +03:00 [INF] Switching session to id 0
+2024-10-10 00:17:46.729 +03:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=95.70.162.67&httpPort=8081
+2024-10-10 00:17:46.758 +03:00 [INF] Starting TCP server on port 9600
+2024-10-10 00:17:46.760 +03:00 [INF] Starting UDP server on port 9600
+2024-10-10 00:17:46.768 +03:00 [INF] Starting update loop with an update rate of 60hz
+2024-10-10 00:18:18.905 +03:00 [INF] Han Raikkonen (76561198141951438 - 192.168.31.6:32546) is attempting to connect (vrc_2005_mclaren_mp420)
+2024-10-10 00:18:18.907 +03:00 [DBG] Han Raikkonen supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","3045"]
+2024-10-10 00:18:18.915 +03:00 [INF] Han Raikkonen (76561198141951438, 23 (vrc_2005_mclaren_mp420-09_Raikkonen_R14)) has connected
+2024-10-10 00:20:03.479 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 23 - Target AI count: 23 - Overbooking: 1 - Rest: 0
+2024-10-10 00:20:06.912 +03:00 [INF] CHAT: Han Raikkonen (23): 				$CSP0:YOqrL2En
+2024-10-10 00:22:24.893 +03:00 [DBG] Car 2 reached spline end, despawning
+2024-10-10 00:22:25.898 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-10-10 00:22:34.996 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-10-10 00:22:40.091 +03:00 [DBG] Car 14 reached spline end, despawning
+2024-10-10 00:23:06.769 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 3 (3), rel. speed 54km/h
+2024-10-10 00:23:06.771 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 110km/h
+2024-10-10 00:23:11.767 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 65km/h
+2024-10-10 00:23:17.598 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-10-10 00:23:22.432 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-10-10 00:23:23.548 +03:00 [DBG] Car 2 reached spline end, despawning
+2024-10-10 00:24:21.781 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 15 (15), rel. speed 131km/h
+2024-10-10 00:24:21.781 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 16 (16), rel. speed 86km/h
+2024-10-10 00:24:21.781 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 97km/h
+2024-10-10 00:24:31.783 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 21 (21), rel. speed 6km/h
+2024-10-10 00:24:31.783 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 111km/h
+2024-10-10 00:24:41.785 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 36km/h
+2024-10-10 00:25:26.794 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 20 (20), rel. speed 140km/h
+2024-10-10 00:25:26.794 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 92km/h
+2024-10-10 00:25:26.794 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 4 (4), rel. speed 108km/h
+2024-10-10 00:25:36.796 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 15 (15), rel. speed 168km/h
+2024-10-10 00:25:36.796 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 81km/h
+2024-10-10 00:25:41.797 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 35km/h
+2024-10-10 00:25:46.798 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 38km/h
+2024-10-10 00:26:21.805 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 2 (2), rel. speed 139km/h
+2024-10-10 00:26:40.776 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-10-10 00:26:41.573 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-10-10 00:26:41.809 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 61km/h
+2024-10-10 00:26:41.809 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 14 (14), rel. speed 173km/h
+2024-10-10 00:26:46.810 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 24km/h
+2024-10-10 00:26:51.467 +03:00 [DBG] Received clean exit from Han Raikkonen (23)
+2024-10-10 00:26:51.469 +03:00 [DBG] Disconnecting Han Raikkonen (192.168.31.6:32546)
+2024-10-10 00:26:51.471 +03:00 [INF] Han Raikkonen has disconnected
+2024-10-10 22:30:46.139 +03:00 [INF] AssettoServer 0.0.52+85427faad6
+2024-10-10 22:30:47.325 +03:00 [WRN] Long welcome message detected. This will lead to crashes on CSP versions older than 0.1.77
+2024-10-10 22:30:47.483 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-10-10 22:30:47.702 +03:00 [INF] Starting server
+2024-10-10 22:30:48.121 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-10-10 22:30:48.129 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-10-10 22:30:48.131 +03:00 [INF] Starting HTTP server on port 8081
+2024-10-10 22:30:48.132 +03:00 [DBG] Loaded admins.txt with 0 entries
+2024-10-10 22:30:48.132 +03:00 [INF] Loaded 27 cars
+2024-10-10 22:30:48.160 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2024-10-10 22:30:48.168 +03:00 [DBG] Added checksum for content/tracks/csp/1061/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2024-10-10 22:30:48.169 +03:00 [INF] Initialized 2 track checksums
+2024-10-10 22:30:48.171 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_159\data.acd
+2024-10-10 22:30:48.176 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_mito\data.acd
+2024-10-10 22:30:48.178 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_eu\data.acd
+2024-10-10 22:30:48.180 +03:00 [DBG] Added checksum for content/cars/traffic_range_rover_ss\data.acd
+2024-10-10 22:30:48.185 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_priuseu\data.acd
+2024-10-10 22:30:48.188 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70\data.acd
+2024-10-10 22:30:48.190 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_jp\data.acd
+2024-10-10 22:30:48.192 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_flatbed\data.acd
+2024-10-10 22:30:48.196 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_hauler\data.acd
+2024-10-10 22:30:48.201 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_haulerb\data.acd
+2024-10-10 22:30:48.204 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_tanker\data.acd
+2024-10-10 22:30:48.206 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_npr\data.acd
+2024-10-10 22:30:48.209 +03:00 [DBG] Added checksum for content/cars/traffic_nissan_leaf\data.acd
+2024-10-10 22:30:48.213 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_camry\data.acd
+2024-10-10 22:30:48.251 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_prius\data.acd
+2024-10-10 22:30:48.254 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70jp\data.acd
+2024-10-10 22:30:48.256 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_rav4\data.acd
+2024-10-10 22:30:48.260 +03:00 [DBG] Added checksum for content/cars/traffic_cadillac_escalade\data.acd
+2024-10-10 22:30:48.262 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_challenger_srt\data.acd
+2024-10-10 22:30:48.264 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_grand_caravan_taxi\data.acd
+2024-10-10 22:30:48.265 +03:00 [DBG] Added checksum for content/cars/traffic_crown_vic\data.acd
+2024-10-10 22:30:48.268 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_nprusa\data.acd
+2024-10-10 22:30:48.275 +03:00 [DBG] Added checksum for content/cars/vrc_2005_mclaren_mp420\data.acd
+2024-10-10 22:30:48.319 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_nissan_s14usdm\data.acd
+2024-10-10 22:30:48.326 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_m4_lci_air\data.acd
+2024-10-10 22:30:48.335 +03:00 [DBG] Added checksum for content/cars/f1_2011_redbull\data.acd
+2024-10-10 22:30:48.338 +03:00 [INF] Initialized 26 car checksums
+2024-10-10 22:30:48.340 +03:00 [INF] Next session: Practice
+2024-10-10 22:30:48.341 +03:00 [INF] Switching session to id 0
+2024-10-10 22:31:03.782 +03:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=31.223.109.44&httpPort=8081
+2024-10-10 22:31:03.829 +03:00 [INF] Starting TCP server on port 9600
+2024-10-10 22:31:03.832 +03:00 [INF] Starting UDP server on port 9600
+2024-10-10 22:31:03.844 +03:00 [INF] Starting update loop with an update rate of 60hz
+2024-10-10 22:31:28.050 +03:00 [INF] ENES BASUR SUNGERSIKEN (76561198141951438 - 192.168.31.6:16798) is attempting to connect (f1_2011_redbull)
+2024-10-10 22:31:28.052 +03:00 [DBG] ENES BASUR SUNGERSIKEN supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","3045"]
+2024-10-10 22:31:28.061 +03:00 [INF] ENES BASUR SUNGERSIKEN (76561198141951438, 26 (f1_2011_redbull-1)) has connected
+2024-10-10 22:32:37.100 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 23 - Target AI count: 23 - Overbooking: 1 - Rest: 0
+2024-10-10 22:32:40.479 +03:00 [INF] CHAT: ENES BASUR SUNGERSIKEN (26): 				$CSP0:YOqrL2En
+2024-10-10 22:33:21.689 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-10-10 22:33:23.084 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-10-10 22:33:24.186 +03:00 [DBG] Car 14 reached spline end, despawning
+2024-10-10 22:34:26.053 +03:00 [DBG] Car 2 reached spline end, despawning
+2024-10-10 22:35:06.655 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 18 (18), rel. speed 242km/h
+2024-10-10 22:35:06.656 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and environment, rel. speed 34km/h
+2024-10-10 22:35:41.649 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 21 (21), rel. speed 149km/h
+2024-10-10 22:35:41.649 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and environment, rel. speed 84km/h
+2024-10-10 22:35:41.649 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 6 (6), rel. speed 73km/h
+2024-10-10 22:35:46.649 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and environment, rel. speed 23km/h
+2024-10-10 22:36:51.644 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 20 (20), rel. speed 180km/h
+2024-10-10 22:36:51.644 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and environment, rel. speed 72km/h
+2024-10-10 22:36:52.595 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-10-10 22:36:57.866 +03:00 [DBG] Car 2 reached spline end, despawning
+2024-10-10 22:36:58.354 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-10-10 22:36:59.075 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-10-10 22:37:11.643 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 0 (0), rel. speed 7km/h
+2024-10-10 22:37:26.642 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 1 (1), rel. speed 40km/h
+2024-10-10 22:37:31.642 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 22 (22), rel. speed 119km/h
+2024-10-10 22:37:31.642 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 10 (10), rel. speed 32km/h
+2024-10-10 22:37:33.260 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-10-10 22:37:34.469 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-10-10 22:37:51.640 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 5 (5), rel. speed 182km/h
+2024-10-10 22:37:51.640 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and environment, rel. speed 241km/h
+2024-10-10 22:37:56.640 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 19 (19), rel. speed 148km/h
+2024-10-10 22:37:56.640 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and environment, rel. speed 93km/h
+2024-10-10 22:38:31.638 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 7 (7), rel. speed 176km/h
+2024-10-10 22:38:31.638 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 11 (11), rel. speed 218km/h
+2024-10-10 22:38:31.638 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and environment, rel. speed 58km/h
+2024-10-10 22:38:36.637 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and environment, rel. speed 14km/h
+2024-10-10 22:38:51.636 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 3 (3), rel. speed 210km/h
+2024-10-10 22:38:51.636 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 5 (5), rel. speed 51km/h
+2024-10-10 22:38:51.637 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 19 (19), rel. speed 26km/h
+2024-10-10 22:38:51.637 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and environment, rel. speed 20km/h
+2024-10-10 22:38:51.637 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 21 (21), rel. speed 91km/h
+2024-10-10 22:39:26.634 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 19 (19), rel. speed 85km/h
+2024-10-10 22:39:26.634 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 14 (14), rel. speed 26km/h
+2024-10-10 22:39:31.634 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and environment, rel. speed 92km/h
+2024-10-10 22:39:31.634 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 14 (14), rel. speed 57km/h
+2024-10-10 22:39:31.634 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 5 (5), rel. speed 16km/h
+2024-10-10 22:39:31.634 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 15 (15), rel. speed 24km/h
+2024-10-10 22:39:31.635 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 18 (18), rel. speed 21km/h
+2024-10-10 22:39:36.633 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and environment, rel. speed 12km/h
+2024-10-10 22:39:41.633 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and environment, rel. speed 8km/h
+2024-10-10 22:40:26.630 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and environment, rel. speed 276km/h
+2024-10-10 22:40:31.630 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and environment, rel. speed 82km/h
+2024-10-10 22:40:36.629 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and environment, rel. speed 39km/h
+2024-10-10 22:40:41.629 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and environment, rel. speed 6km/h
+2024-10-10 22:40:56.628 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and environment, rel. speed 42km/h
+2024-10-10 22:41:06.627 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 9 (9), rel. speed 56km/h
+2024-10-10 22:41:06.628 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 2 (2), rel. speed 97km/h
+2024-10-10 22:41:06.628 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and environment, rel. speed 82km/h
+2024-10-10 22:41:10.954 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-10-10 22:41:11.261 +03:00 [DBG] Car 22 reached spline end, despawning
+2024-10-10 22:41:11.627 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and environment, rel. speed 5km/h
+2024-10-10 22:41:20.618 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-10-10 22:41:32.577 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-10-10 22:42:11.623 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 5 (5), rel. speed 211km/h
+2024-10-10 22:42:11.623 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 20 (20), rel. speed 186km/h
+2024-10-10 22:42:11.623 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and environment, rel. speed 294km/h
+2024-10-10 22:42:41.621 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 17 (17), rel. speed 183km/h
+2024-10-10 22:42:41.621 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 15 (15), rel. speed 84km/h
+2024-10-10 22:42:41.621 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and environment, rel. speed 50km/h
+2024-10-10 22:42:46.621 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 17 (17), rel. speed 6km/h
+2024-10-10 22:42:50.292 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-10-10 22:43:09.965 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-10-10 22:43:12.706 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-10-10 22:43:13.714 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-10-10 22:43:26.618 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 4 (4), rel. speed 108km/h
+2024-10-10 22:43:56.616 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 17 (17), rel. speed 180km/h
+2024-10-10 22:43:56.616 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 7 (7), rel. speed 33km/h
+2024-10-10 22:43:56.616 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and environment, rel. speed 34km/h
+2024-10-10 22:44:01.616 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and environment, rel. speed 38km/h
+2024-10-10 22:44:01.616 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 8 (8), rel. speed 50km/h
+2024-10-10 22:44:06.615 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 8 (8), rel. speed 7km/h
+2024-10-10 22:44:17.198 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-10-10 22:44:17.597 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-10-10 22:44:18.872 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-10-10 22:44:34.466 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-10-10 22:44:46.613 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and environment, rel. speed 246km/h
+2024-10-10 22:44:51.613 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 1 (1), rel. speed 152km/h
+2024-10-10 22:44:51.613 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and environment, rel. speed 238km/h
+2024-10-10 22:44:51.613 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 5 (5), rel. speed 183km/h
+2024-10-10 22:45:16.611 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and environment, rel. speed 84km/h
+2024-10-10 22:45:16.611 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 6 (6), rel. speed 207km/h
+2024-10-10 22:45:16.611 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 10 (10), rel. speed 90km/h
+2024-10-10 22:45:21.611 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and environment, rel. speed 57km/h
+2024-10-10 22:45:31.610 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 0 (0), rel. speed 4km/h
+2024-10-10 22:45:51.609 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 19 (19), rel. speed 157km/h
+2024-10-10 22:46:06.608 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 7 (7), rel. speed 10km/h
+2024-10-10 22:46:26.606 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 8 (8), rel. speed 4km/h
+2024-10-10 22:47:12.574 +03:00 [DBG] Car 14 reached spline end, despawning
+2024-10-10 22:47:15.892 +03:00 [DBG] Car 4 reached spline end, despawning
+2024-10-10 22:47:46.304 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-10-10 22:47:47.269 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-10-10 22:47:47.713 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-10-10 22:48:06.600 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 16 (16), rel. speed 120km/h
+2024-10-10 22:48:06.600 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 20 (20), rel. speed 101km/h
+2024-10-10 22:48:51.597 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and environment, rel. speed 248km/h
+2024-10-10 22:48:51.597 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 5 (5), rel. speed 6km/h
+2024-10-10 22:49:16.595 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 16 (16), rel. speed 89km/h
+2024-10-10 22:49:16.595 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 0 (0), rel. speed 103km/h
+2024-10-10 22:49:16.595 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and environment, rel. speed 146km/h
+2024-10-10 22:49:16.595 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 21 (21), rel. speed 44km/h
+2024-10-10 22:49:21.595 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and environment, rel. speed 63km/h
+2024-10-10 22:49:21.595 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (26) and Traffic 4 (4), rel. speed 40km/h
+2024-10-10 22:49:27.705 +03:00 [DBG] Received clean exit from ENES BASUR SUNGERSIKEN (26)
+2024-10-10 22:49:27.708 +03:00 [DBG] Disconnecting ENES BASUR SUNGERSIKEN (192.168.31.6:16798)
+2024-10-10 22:49:27.710 +03:00 [INF] ENES BASUR SUNGERSIKEN has disconnected
