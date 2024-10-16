@@ -1,0 +1,295 @@
+2024-10-11 02:18:20.655 +03:00 [INF] AssettoServer 0.0.52+85427faad6
+2024-10-11 02:18:21.518 +03:00 [WRN] Long welcome message detected. This will lead to crashes on CSP versions older than 0.1.77
+2024-10-11 02:18:21.691 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-10-11 02:18:21.831 +03:00 [INF] Starting server
+2024-10-11 02:18:22.169 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-10-11 02:18:22.174 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-10-11 02:18:22.175 +03:00 [DBG] Loaded admins.txt with 0 entries
+2024-10-11 02:18:22.176 +03:00 [INF] Starting HTTP server on port 8081
+2024-10-11 02:18:22.177 +03:00 [INF] Loaded 28 cars
+2024-10-11 02:18:22.199 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2024-10-11 02:18:22.205 +03:00 [DBG] Added checksum for content/tracks/csp/1061/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2024-10-11 02:18:22.206 +03:00 [INF] Initialized 2 track checksums
+2024-10-11 02:18:22.207 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_159\data.acd
+2024-10-11 02:18:22.207 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_mito\data.acd
+2024-10-11 02:18:22.208 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_eu\data.acd
+2024-10-11 02:18:22.208 +03:00 [DBG] Added checksum for content/cars/traffic_range_rover_ss\data.acd
+2024-10-11 02:18:22.209 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_priuseu\data.acd
+2024-10-11 02:18:22.209 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70\data.acd
+2024-10-11 02:18:22.210 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_jp\data.acd
+2024-10-11 02:18:22.210 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_flatbed\data.acd
+2024-10-11 02:18:22.211 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_hauler\data.acd
+2024-10-11 02:18:22.211 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_haulerb\data.acd
+2024-10-11 02:18:22.212 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_tanker\data.acd
+2024-10-11 02:18:22.212 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_npr\data.acd
+2024-10-11 02:18:22.213 +03:00 [DBG] Added checksum for content/cars/traffic_nissan_leaf\data.acd
+2024-10-11 02:18:22.213 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_camry\data.acd
+2024-10-11 02:18:22.213 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_prius\data.acd
+2024-10-11 02:18:22.214 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70jp\data.acd
+2024-10-11 02:18:22.214 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_rav4\data.acd
+2024-10-11 02:18:22.215 +03:00 [DBG] Added checksum for content/cars/traffic_cadillac_escalade\data.acd
+2024-10-11 02:18:22.215 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_challenger_srt\data.acd
+2024-10-11 02:18:22.216 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_grand_caravan_taxi\data.acd
+2024-10-11 02:18:22.216 +03:00 [DBG] Added checksum for content/cars/traffic_crown_vic\data.acd
+2024-10-11 02:18:22.217 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_nprusa\data.acd
+2024-10-11 02:18:22.218 +03:00 [DBG] Added checksum for content/cars/vrc_2005_mclaren_mp420\data.acd
+2024-10-11 02:18:22.219 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_nissan_s14usdm\data.acd
+2024-10-11 02:18:22.220 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_m4_lci_air\data.acd
+2024-10-11 02:18:22.221 +03:00 [DBG] Added checksum for content/cars/f1_2011_redbull\data.acd
+2024-10-11 02:18:22.222 +03:00 [DBG] Added checksum for content/cars/ks_bmw_m4_akrapovic\data.acd
+2024-10-11 02:18:22.224 +03:00 [INF] Initialized 27 car checksums
+2024-10-11 02:18:22.226 +03:00 [INF] Next session: Practice
+2024-10-11 02:18:22.227 +03:00 [INF] Switching session to id 0
+2024-10-11 02:18:37.586 +03:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=31.223.109.44&httpPort=8081
+2024-10-11 02:18:37.627 +03:00 [INF] Starting TCP server on port 9600
+2024-10-11 02:18:37.631 +03:00 [INF] Starting UDP server on port 9600
+2024-10-11 02:18:37.642 +03:00 [INF] Starting update loop with an update rate of 60hz
+2024-10-11 02:18:44.412 +03:00 [INF] ENES BASUR SUNGERSIKEN (76561198141951438 - 192.168.31.6:40794) is attempting to connect (ks_bmw_m4_akrapovic)
+2024-10-11 02:18:44.413 +03:00 [DBG] ENES BASUR SUNGERSIKEN supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","3045"]
+2024-10-11 02:18:44.420 +03:00 [INF] ENES BASUR SUNGERSIKEN (76561198141951438, 27 (ks_bmw_m4_akrapovic-austin_yellow_metallic)) has connected
+2024-10-11 02:19:47.536 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 23 - Target AI count: 23 - Overbooking: 1 - Rest: 0
+2024-10-11 02:19:50.996 +03:00 [INF] CHAT: ENES BASUR SUNGERSIKEN (27): 				$CSP0:YOqrL2En
+2024-10-11 02:20:43.968 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-10-11 02:20:57.004 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 180km/h
+2024-10-11 02:20:57.005 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 8 (8), rel. speed 96km/h
+2024-10-11 02:21:02.028 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 1km/h
+2024-10-11 02:21:57.012 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 0km/h
+2024-10-11 02:22:02.013 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 0km/h
+2024-10-11 02:23:22.029 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 0km/h
+2024-10-11 02:24:15.409 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-10-11 02:24:17.040 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 17 (17), rel. speed 18km/h
+2024-10-11 02:24:19.326 +03:00 [DBG] Car 15 reached spline end, despawning
+2024-10-11 02:24:36.167 +03:00 [DBG] Car 15 reached spline end, despawning
+2024-10-11 02:24:52.047 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 9km/h
+2024-10-11 02:25:07.049 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 13 (13), rel. speed 124km/h
+2024-10-11 02:25:07.050 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 4 (4), rel. speed 8km/h
+2024-10-11 02:25:07.050 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 169km/h
+2024-10-11 02:25:07.050 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 7 (7), rel. speed 54km/h
+2024-10-11 02:25:12.050 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 7 (7), rel. speed 20km/h
+2024-10-11 02:25:12.051 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 20 (20), rel. speed 10km/h
+2024-10-11 02:26:37.067 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 18 (18), rel. speed 9km/h
+2024-10-11 02:26:52.070 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 21 (21), rel. speed 84km/h
+2024-10-11 02:26:52.071 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 17 (17), rel. speed 59km/h
+2024-10-11 02:27:27.077 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 10km/h
+2024-10-11 02:27:32.078 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 11km/h
+2024-10-11 02:28:02.084 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 22 (22), rel. speed 9km/h
+2024-10-11 02:28:07.085 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 13 (13), rel. speed 120km/h
+2024-10-11 02:28:07.085 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 7 (7), rel. speed 85km/h
+2024-10-11 02:28:14.135 +03:00 [DBG] Car 21 reached spline end, despawning
+2024-10-11 02:28:17.939 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-10-11 02:28:27.089 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 22 (22), rel. speed 134km/h
+2024-10-11 02:28:27.089 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 14km/h
+2024-10-11 02:28:32.090 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 3 (3), rel. speed 79km/h
+2024-10-11 02:28:37.091 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 3 (3), rel. speed 28km/h
+2024-10-11 02:28:57.951 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-10-11 02:28:59.250 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-10-11 02:29:02.134 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-10-11 02:29:13.671 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-10-11 02:29:14.755 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-10-11 02:29:42.104 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 7 (7), rel. speed 78km/h
+2024-10-11 02:29:42.104 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 18 (18), rel. speed 78km/h
+2024-10-11 02:30:07.109 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 9km/h
+2024-10-11 02:30:12.110 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 4km/h
+2024-10-11 02:30:17.111 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 11 (11), rel. speed 9km/h
+2024-10-11 02:30:17.112 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 3 (3), rel. speed 143km/h
+2024-10-11 02:30:37.114 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 11 (11), rel. speed 105km/h
+2024-10-11 02:30:37.115 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 17 (17), rel. speed 17km/h
+2024-10-11 02:30:37.115 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 16 (16), rel. speed 120km/h
+2024-10-11 02:30:42.118 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 41km/h
+2024-10-11 02:30:42.118 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 11 (11), rel. speed 112km/h
+2024-10-11 02:30:42.118 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 9 (9), rel. speed 71km/h
+2024-10-11 02:30:47.116 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 2km/h
+2024-10-11 02:31:02.119 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 2km/h
+2024-10-11 02:31:07.120 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 0km/h
+2024-10-11 02:31:23.531 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-10-11 02:31:26.213 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-10-11 02:31:28.072 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-10-11 02:31:28.876 +03:00 [DBG] Car 12 reached spline end, despawning
+2024-10-11 02:31:47.128 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 19 (19), rel. speed 35km/h
+2024-10-11 02:32:27.136 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 8 (8), rel. speed 87km/h
+2024-10-11 02:32:31.932 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-10-11 02:32:32.137 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 15 (15), rel. speed 76km/h
+2024-10-11 02:32:32.847 +03:00 [DBG] Car 0 reached spline end, despawning
+2024-10-11 02:32:40.646 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-10-11 02:32:46.687 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-10-11 02:32:51.249 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-10-11 02:32:52.210 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-10-11 02:33:07.144 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 15 (15), rel. speed 165km/h
+2024-10-11 02:33:07.144 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 158km/h
+2024-10-11 02:33:12.145 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 12km/h
+2024-10-11 02:33:52.153 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 14 (14), rel. speed 94km/h
+2024-10-11 02:33:57.154 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 14 (14), rel. speed 17km/h
+2024-10-11 02:34:37.162 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 15 (15), rel. speed 54km/h
+2024-10-11 02:34:37.162 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 138km/h
+2024-10-11 02:34:42.163 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 8 (8), rel. speed 28km/h
+2024-10-11 02:34:42.163 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 12 (12), rel. speed 60km/h
+2024-10-11 02:34:42.163 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 75km/h
+2024-10-11 02:34:42.163 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 2 (2), rel. speed 107km/h
+2024-10-11 02:34:47.164 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 47km/h
+2024-10-11 02:35:11.630 +03:00 [DBG] Car 15 reached spline end, despawning
+2024-10-11 02:35:12.393 +03:00 [DBG] Car 11 reached spline end, despawning
+2024-10-11 02:35:15.709 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-10-11 02:36:09.679 +03:00 [DBG] Car 15 reached spline end, despawning
+2024-10-11 02:36:12.036 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-10-11 02:36:14.361 +03:00 [DBG] Car 22 reached spline end, despawning
+2024-10-11 02:36:15.547 +03:00 [DBG] Car 2 reached spline end, despawning
+2024-10-11 02:36:20.667 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-10-11 02:36:22.182 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 3 (3), rel. speed 120km/h
+2024-10-11 02:36:23.360 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-10-11 02:36:26.088 +03:00 [DBG] Car 14 reached spline end, despawning
+2024-10-11 02:36:27.122 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-10-11 02:36:29.875 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-10-11 02:36:52.189 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 9 (9), rel. speed 120km/h
+2024-10-11 02:36:52.189 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 184km/h
+2024-10-11 02:36:57.189 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 84km/h
+2024-10-11 02:36:57.190 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 0 (0), rel. speed 34km/h
+2024-10-11 02:36:57.190 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 22 (22), rel. speed 39km/h
+2024-10-11 02:37:27.195 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 10 (10), rel. speed 9km/h
+2024-10-11 02:37:27.195 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 11 (11), rel. speed 157km/h
+2024-10-11 02:37:32.196 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 10 (10), rel. speed 110km/h
+2024-10-11 02:37:32.196 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 11 (11), rel. speed 79km/h
+2024-10-11 02:38:02.202 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 9 (9), rel. speed 35km/h
+2024-10-11 02:38:12.204 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 6 (6), rel. speed 57km/h
+2024-10-11 02:38:27.207 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 18 (18), rel. speed 170km/h
+2024-10-11 02:38:27.207 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 177km/h
+2024-10-11 02:38:27.207 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 6 (6), rel. speed 131km/h
+2024-10-11 02:38:27.207 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 0 (0), rel. speed 50km/h
+2024-10-11 02:38:32.208 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 0 (0), rel. speed 24km/h
+2024-10-11 02:39:17.217 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 17 (17), rel. speed 76km/h
+2024-10-11 02:39:31.431 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-10-11 02:39:32.054 +03:00 [DBG] Car 8 reached spline end, despawning
+2024-10-11 02:39:52.224 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 14 (14), rel. speed 106km/h
+2024-10-11 02:39:52.224 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 15 (15), rel. speed 45km/h
+2024-10-11 02:40:02.226 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 14 (14), rel. speed 20km/h
+2024-10-11 02:40:02.226 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 15 (15), rel. speed 111km/h
+2024-10-11 02:40:02.226 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 6 (6), rel. speed 33km/h
+2024-10-11 02:40:47.235 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 202km/h
+2024-10-11 02:40:52.236 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 78km/h
+2024-10-11 02:40:52.236 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 5 (5), rel. speed 14km/h
+2024-10-11 02:40:57.237 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 5 (5), rel. speed 11km/h
+2024-10-11 02:40:57.237 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 22km/h
+2024-10-11 02:41:02.238 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 7 (7), rel. speed 41km/h
+2024-10-11 02:41:02.238 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 5 (5), rel. speed 15km/h
+2024-10-11 02:41:02.238 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 5km/h
+2024-10-11 02:42:17.253 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 13km/h
+2024-10-11 02:42:17.253 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 1 (1), rel. speed 95km/h
+2024-10-11 02:42:42.257 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 69km/h
+2024-10-11 02:42:47.259 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 16km/h
+2024-10-11 02:43:12.264 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 22km/h
+2024-10-11 02:44:02.273 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 12km/h
+2024-10-11 02:44:12.275 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 0 (0), rel. speed 55km/h
+2024-10-11 02:44:12.275 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 12 (12), rel. speed 44km/h
+2024-10-11 02:44:12.275 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 59km/h
+2024-10-11 02:44:17.034 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-10-11 02:44:17.276 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 7km/h
+2024-10-11 02:44:27.278 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 16 (16), rel. speed 28km/h
+2024-10-11 02:44:32.279 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 55km/h
+2024-10-11 02:45:06.337 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-10-11 02:45:07.286 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 107km/h
+2024-10-11 02:45:12.287 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 14km/h
+2024-10-11 02:45:12.287 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 3 (3), rel. speed 47km/h
+2024-10-11 02:45:16.216 +03:00 [DBG] Car 6 reached spline end, despawning
+2024-10-11 02:45:20.248 +03:00 [DBG] Car 3 reached spline end, despawning
+2024-10-11 02:45:22.289 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 7 (7), rel. speed 11km/h
+2024-10-11 02:45:22.289 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 13km/h
+2024-10-11 02:45:27.290 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 0km/h
+2024-10-11 02:46:22.301 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 14 (14), rel. speed 161km/h
+2024-10-11 02:46:27.302 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 110km/h
+2024-10-11 02:46:27.302 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 9 (9), rel. speed 28km/h
+2024-10-11 02:46:32.303 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 61km/h
+2024-10-11 02:46:32.303 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 10 (10), rel. speed 44km/h
+2024-10-11 02:46:37.304 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 3 (3), rel. speed 25km/h
+2024-10-11 02:47:07.310 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 2km/h
+2024-10-11 02:47:12.311 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 0km/h
+2024-10-11 02:47:20.359 +03:00 [DBG] Car 14 reached spline end, despawning
+2024-10-11 02:47:34.763 +03:00 [DBG] Car 0 reached spline end, despawning
+2024-10-11 02:47:38.068 +03:00 [DBG] Car 8 reached spline end, despawning
+2024-10-11 02:47:41.600 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-10-11 02:47:42.331 +03:00 [DBG] Car 4 reached spline end, despawning
+2024-10-11 02:47:46.831 +03:00 [DBG] Car 2 reached spline end, despawning
+2024-10-11 02:47:47.777 +03:00 [DBG] Car 8 reached spline end, despawning
+2024-10-11 02:47:50.733 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-10-11 02:48:07.322 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 75km/h
+2024-10-11 02:48:12.323 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 58km/h
+2024-10-11 02:48:12.323 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 6 (6), rel. speed 43km/h
+2024-10-11 02:48:17.324 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 18km/h
+2024-10-11 02:48:22.325 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 1km/h
+2024-10-11 02:49:02.333 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 182km/h
+2024-10-11 02:49:02.333 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 13 (13), rel. speed 61km/h
+2024-10-11 02:49:07.334 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 28km/h
+2024-10-11 02:49:07.334 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 13 (13), rel. speed 48km/h
+2024-10-11 02:49:32.339 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 9 (9), rel. speed 8km/h
+2024-10-11 02:49:32.339 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 12 (12), rel. speed 25km/h
+2024-10-11 02:49:37.339 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 24km/h
+2024-10-11 02:50:22.349 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 3 (3), rel. speed 27km/h
+2024-10-11 02:50:32.350 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 7 (7), rel. speed 12km/h
+2024-10-11 02:50:32.351 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 19 (19), rel. speed 118km/h
+2024-10-11 02:50:32.351 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 174km/h
+2024-10-11 02:50:32.351 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 17 (17), rel. speed 46km/h
+2024-10-11 02:50:52.354 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 13km/h
+2024-10-11 02:51:44.395 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-10-11 02:51:46.464 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-10-11 02:51:52.366 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 10 (10), rel. speed 2km/h
+2024-10-11 02:51:57.367 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 12 (12), rel. speed 3km/h
+2024-10-11 02:51:57.367 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 15 (15), rel. speed 10km/h
+2024-10-11 02:52:22.372 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 17 (17), rel. speed 72km/h
+2024-10-11 02:52:22.372 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 148km/h
+2024-10-11 02:52:27.373 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 35km/h
+2024-10-11 02:52:30.604 +03:00 [DBG] Car 15 reached spline end, despawning
+2024-10-11 02:52:31.415 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-10-11 02:52:43.252 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-10-11 02:52:57.379 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 1 (1), rel. speed 12km/h
+2024-10-11 02:52:57.379 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 17 (17), rel. speed 113km/h
+2024-10-11 02:52:59.128 +03:00 [DBG] Car 15 reached spline end, despawning
+2024-10-11 02:53:02.380 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 4 (4), rel. speed 27km/h
+2024-10-11 02:53:02.380 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 45km/h
+2024-10-11 02:53:52.390 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 15 (15), rel. speed 210km/h
+2024-10-11 02:53:52.390 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 13 (13), rel. speed 103km/h
+2024-10-11 02:53:52.390 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 2 (2), rel. speed 22km/h
+2024-10-11 02:53:52.390 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 19km/h
+2024-10-11 02:54:16.171 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-10-11 02:54:16.869 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-10-11 02:54:20.849 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-10-11 02:54:21.961 +03:00 [DBG] Car 19 reached spline end, despawning
+2024-10-11 02:54:32.023 +03:00 [DBG] Car 8 reached spline end, despawning
+2024-10-11 02:54:52.402 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 4 (4), rel. speed 128km/h
+2024-10-11 02:54:52.402 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 12 (12), rel. speed 105km/h
+2024-10-11 02:54:52.402 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 173km/h
+2024-10-11 02:54:52.402 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 0 (0), rel. speed 42km/h
+2024-10-11 02:54:57.403 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 0 (0), rel. speed 14km/h
+2024-10-11 02:54:57.403 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 4km/h
+2024-10-11 02:55:02.404 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 4 (4), rel. speed 12km/h
+2024-10-11 02:56:02.416 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 20 (20), rel. speed 10km/h
+2024-10-11 02:56:02.416 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 114km/h
+2024-10-11 02:56:07.417 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 21km/h
+2024-10-11 02:57:32.434 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 58km/h
+2024-10-11 02:57:40.875 +03:00 [DBG] Car 14 reached spline end, despawning
+2024-10-11 02:57:44.677 +03:00 [DBG] Car 12 reached spline end, despawning
+2024-10-11 02:57:46.235 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-10-11 02:57:47.437 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 5 (5), rel. speed 24km/h
+2024-10-11 02:57:49.826 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-10-11 02:57:57.439 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 38km/h
+2024-10-11 02:58:02.440 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 17km/h
+2024-10-11 02:58:47.449 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 7 (7), rel. speed 81km/h
+2024-10-11 02:58:47.449 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 0 (0), rel. speed 32km/h
+2024-10-11 02:58:52.450 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 40km/h
+2024-10-11 02:58:57.451 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 29km/h
+2024-10-11 02:58:57.451 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 0 (0), rel. speed 54km/h
+2024-10-11 02:59:02.452 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 19km/h
+2024-10-11 02:59:02.452 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 16 (16), rel. speed 32km/h
+2024-10-11 02:59:07.453 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 19km/h
+2024-10-11 02:59:27.456 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 54km/h
+2024-10-11 02:59:32.458 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 27km/h
+2024-10-11 03:00:00.119 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-10-11 03:00:01.137 +03:00 [DBG] Car 18 reached spline end, despawning
+2024-10-11 03:00:06.193 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-10-11 03:00:06.771 +03:00 [DBG] Car 18 reached spline end, despawning
+2024-10-11 03:00:07.437 +03:00 [DBG] Car 7 reached spline end, despawning
+2024-10-11 03:00:09.438 +03:00 [DBG] Car 5 reached spline end, despawning
+2024-10-11 03:00:12.334 +03:00 [DBG] Car 16 reached spline end, despawning
+2024-10-11 03:00:13.372 +03:00 [DBG] Car 13 reached spline end, despawning
+2024-10-11 03:00:42.471 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and Traffic 7 (7), rel. speed 123km/h
+2024-10-11 03:00:47.472 +03:00 [INF] Collision between ENES BASUR SUNGERSIKEN (27) and environment, rel. speed 149km/h
+2024-10-11 03:00:51.770 +03:00 [DBG] Received clean exit from ENES BASUR SUNGERSIKEN (27)
+2024-10-11 03:00:51.772 +03:00 [DBG] Disconnecting ENES BASUR SUNGERSIKEN (192.168.31.6:40794)
+2024-10-11 03:00:51.776 +03:00 [INF] ENES BASUR SUNGERSIKEN has disconnected

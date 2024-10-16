@@ -1,0 +1,185 @@
+2024-09-05 00:54:01.349 +03:00 [INF] AssettoServer 0.0.52+85427faad6
+2024-09-05 00:54:01.856 +03:00 [WRN] Long welcome message detected. This will lead to crashes on CSP versions older than 0.1.77
+2024-09-05 00:54:01.891 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-09-05 00:54:01.953 +03:00 [INF] Starting server
+2024-09-05 00:54:02.178 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-09-05 00:54:02.180 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-09-05 00:54:02.183 +03:00 [DBG] Loaded admins.txt with 0 entries
+2024-09-05 00:54:02.185 +03:00 [INF] Starting HTTP server on port 8081
+2024-09-05 00:54:02.186 +03:00 [INF] Loaded 36 cars
+2024-09-05 00:54:02.203 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2024-09-05 00:54:02.205 +03:00 [DBG] Added checksum for content/tracks/csp/1061/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2024-09-05 00:54:02.205 +03:00 [INF] Initialized 2 track checksums
+2024-09-05 00:54:02.207 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_159\data.acd
+2024-09-05 00:54:02.207 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_mito\data.acd
+2024-09-05 00:54:02.208 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_eu\data.acd
+2024-09-05 00:54:02.208 +03:00 [DBG] Added checksum for content/cars/traffic_range_rover_ss\data.acd
+2024-09-05 00:54:02.209 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70\data.acd
+2024-09-05 00:54:02.209 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_jp\data.acd
+2024-09-05 00:54:02.210 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_flatbed\data.acd
+2024-09-05 00:54:02.211 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_priuseu\data.acd
+2024-09-05 00:54:02.211 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_hauler\data.acd
+2024-09-05 00:54:02.212 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_haulerb\data.acd
+2024-09-05 00:54:02.212 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_tanker\data.acd
+2024-09-05 00:54:02.213 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_npr\data.acd
+2024-09-05 00:54:02.213 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_camry\data.acd
+2024-09-05 00:54:02.214 +03:00 [DBG] Added checksum for content/cars/traffic_nissan_leaf\data.acd
+2024-09-05 00:54:02.214 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_prius\data.acd
+2024-09-05 00:54:02.215 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70jp\data.acd
+2024-09-05 00:54:02.215 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_rav4\data.acd
+2024-09-05 00:54:02.216 +03:00 [DBG] Added checksum for content/cars/traffic_cadillac_escalade\data.acd
+2024-09-05 00:54:02.217 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_challenger_srt\data.acd
+2024-09-05 00:54:02.217 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_grand_caravan_taxi\data.acd
+2024-09-05 00:54:02.218 +03:00 [DBG] Added checksum for content/cars/traffic_crown_vic\data.acd
+2024-09-05 00:54:02.218 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_nprusa\data.acd
+2024-09-05 00:54:02.219 +03:00 [DBG] Added checksum for content/cars/ks_nissan_skyline_r34\data.acd
+2024-09-05 00:54:02.219 +03:00 [DBG] Added checksum for content/cars/ks_nissan_370z\data.acd
+2024-09-05 00:54:02.220 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_m4_lci_air\data.acd
+2024-09-05 00:54:02.221 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_nissan_s14usdm\data.acd
+2024-09-05 00:54:02.222 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_nissan_350z\data.acd
+2024-09-05 00:54:02.222 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_honda_civic_ies\data.acd
+2024-09-05 00:54:02.223 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_honda_s2000_ap2\data.acd
+2024-09-05 00:54:02.226 +03:00 [INF] Initialized 29 car checksums
+2024-09-05 00:54:02.228 +03:00 [INF] Next session: Practice
+2024-09-05 00:54:02.229 +03:00 [INF] Switching session to id 0
+2024-09-05 00:54:02.491 +03:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=31.223.105.51&httpPort=8081
+2024-09-05 00:54:02.522 +03:00 [INF] Starting TCP server on port 9600
+2024-09-05 00:54:02.524 +03:00 [INF] Starting UDP server on port 9600
+2024-09-05 00:54:02.535 +03:00 [INF] Starting update loop with an update rate of 60hz
+2024-09-05 01:31:37.856 +03:00 [INF] AssettoServer 0.0.52+85427faad6
+2024-09-05 01:31:38.363 +03:00 [WRN] Long welcome message detected. This will lead to crashes on CSP versions older than 0.1.77
+2024-09-05 01:31:38.398 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-09-05 01:31:38.455 +03:00 [INF] Starting server
+2024-09-05 01:31:38.681 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-09-05 01:31:38.683 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-09-05 01:31:38.686 +03:00 [DBG] Loaded admins.txt with 0 entries
+2024-09-05 01:31:38.687 +03:00 [INF] Starting HTTP server on port 8081
+2024-09-05 01:31:38.688 +03:00 [INF] Loaded 40 cars
+2024-09-05 01:31:38.704 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2024-09-05 01:31:38.710 +03:00 [DBG] Added checksum for content/tracks/csp/1061/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2024-09-05 01:31:38.711 +03:00 [INF] Initialized 2 track checksums
+2024-09-05 01:31:38.713 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_159\data.acd
+2024-09-05 01:31:38.715 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_mito\data.acd
+2024-09-05 01:31:38.716 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_eu\data.acd
+2024-09-05 01:31:38.717 +03:00 [DBG] Added checksum for content/cars/traffic_range_rover_ss\data.acd
+2024-09-05 01:31:38.719 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70\data.acd
+2024-09-05 01:31:38.720 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_jp\data.acd
+2024-09-05 01:31:38.721 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_flatbed\data.acd
+2024-09-05 01:31:38.722 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_priuseu\data.acd
+2024-09-05 01:31:38.724 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_hauler\data.acd
+2024-09-05 01:31:38.725 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_haulerb\data.acd
+2024-09-05 01:31:38.727 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_tanker\data.acd
+2024-09-05 01:31:38.728 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_npr\data.acd
+2024-09-05 01:31:38.729 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_camry\data.acd
+2024-09-05 01:31:38.730 +03:00 [DBG] Added checksum for content/cars/traffic_nissan_leaf\data.acd
+2024-09-05 01:31:38.732 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_prius\data.acd
+2024-09-05 01:31:38.733 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70jp\data.acd
+2024-09-05 01:31:38.735 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_rav4\data.acd
+2024-09-05 01:31:38.736 +03:00 [DBG] Added checksum for content/cars/traffic_cadillac_escalade\data.acd
+2024-09-05 01:31:38.737 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_challenger_srt\data.acd
+2024-09-05 01:31:38.740 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_grand_caravan_taxi\data.acd
+2024-09-05 01:31:38.741 +03:00 [DBG] Added checksum for content/cars/traffic_crown_vic\data.acd
+2024-09-05 01:31:38.742 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_nprusa\data.acd
+2024-09-05 01:31:38.744 +03:00 [DBG] Added checksum for content/cars/ks_nissan_370z\data.acd
+2024-09-05 01:31:38.746 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_m4_lci_air\data.acd
+2024-09-05 01:31:38.748 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_nissan_s14usdm\data.acd
+2024-09-05 01:31:38.750 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_nissan_350z\data.acd
+2024-09-05 01:31:38.752 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_honda_civic_ies\data.acd
+2024-09-05 01:31:38.754 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_honda_s2000_ap2\data.acd
+2024-09-05 01:31:38.756 +03:00 [INF] Initialized 28 car checksums
+2024-09-05 01:31:38.758 +03:00 [INF] Next session: Practice
+2024-09-05 01:31:38.759 +03:00 [INF] Switching session to id 0
+2024-09-05 01:32:07.031 +03:00 [INF] AssettoServer 0.0.52+85427faad6
+2024-09-05 01:32:07.521 +03:00 [WRN] Long welcome message detected. This will lead to crashes on CSP versions older than 0.1.77
+2024-09-05 01:32:07.557 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-09-05 01:32:07.616 +03:00 [INF] Starting server
+2024-09-05 01:32:07.807 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-09-05 01:32:07.809 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-09-05 01:32:07.812 +03:00 [DBG] Loaded admins.txt with 0 entries
+2024-09-05 01:32:07.814 +03:00 [INF] Starting HTTP server on port 8081
+2024-09-05 01:32:07.815 +03:00 [INF] Loaded 40 cars
+2024-09-05 01:32:07.825 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2024-09-05 01:32:07.826 +03:00 [DBG] Added checksum for content/tracks/csp/1061/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2024-09-05 01:32:07.827 +03:00 [INF] Initialized 2 track checksums
+2024-09-05 01:32:07.828 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_159\data.acd
+2024-09-05 01:32:07.828 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_mito\data.acd
+2024-09-05 01:32:07.829 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_eu\data.acd
+2024-09-05 01:32:07.829 +03:00 [DBG] Added checksum for content/cars/traffic_range_rover_ss\data.acd
+2024-09-05 01:32:07.830 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70\data.acd
+2024-09-05 01:32:07.830 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_jp\data.acd
+2024-09-05 01:32:07.831 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_flatbed\data.acd
+2024-09-05 01:32:07.831 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_priuseu\data.acd
+2024-09-05 01:32:07.832 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_hauler\data.acd
+2024-09-05 01:32:07.832 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_haulerb\data.acd
+2024-09-05 01:32:07.833 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_tanker\data.acd
+2024-09-05 01:32:07.833 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_npr\data.acd
+2024-09-05 01:32:07.834 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_camry\data.acd
+2024-09-05 01:32:07.834 +03:00 [DBG] Added checksum for content/cars/traffic_nissan_leaf\data.acd
+2024-09-05 01:32:07.835 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_prius\data.acd
+2024-09-05 01:32:07.835 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70jp\data.acd
+2024-09-05 01:32:07.836 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_rav4\data.acd
+2024-09-05 01:32:07.836 +03:00 [DBG] Added checksum for content/cars/traffic_cadillac_escalade\data.acd
+2024-09-05 01:32:07.837 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_challenger_srt\data.acd
+2024-09-05 01:32:07.837 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_grand_caravan_taxi\data.acd
+2024-09-05 01:32:07.838 +03:00 [DBG] Added checksum for content/cars/traffic_crown_vic\data.acd
+2024-09-05 01:32:07.838 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_nprusa\data.acd
+2024-09-05 01:32:07.839 +03:00 [DBG] Added checksum for content/cars/ks_nissan_370z\data.acd
+2024-09-05 01:32:07.840 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_m4_lci_air\data.acd
+2024-09-05 01:32:07.841 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_nissan_s14usdm\data.acd
+2024-09-05 01:32:07.841 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_nissan_350z\data.acd
+2024-09-05 01:32:07.842 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_honda_civic_ies\data.acd
+2024-09-05 01:32:07.843 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_honda_s2000_ap2\data.acd
+2024-09-05 01:32:07.845 +03:00 [INF] Initialized 28 car checksums
+2024-09-05 01:32:07.847 +03:00 [INF] Next session: Practice
+2024-09-05 01:32:07.848 +03:00 [INF] Switching session to id 0
+2024-09-05 01:32:09.037 +03:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=31.223.112.140&httpPort=8081
+2024-09-05 01:32:09.067 +03:00 [INF] Starting TCP server on port 9600
+2024-09-05 01:32:09.069 +03:00 [INF] Starting UDP server on port 9600
+2024-09-05 01:32:09.079 +03:00 [INF] Starting update loop with an update rate of 60hz
+2024-09-05 01:32:43.937 +03:00 [INF] AssettoServer 0.0.52+85427faad6
+2024-09-05 01:32:44.417 +03:00 [WRN] Long welcome message detected. This will lead to crashes on CSP versions older than 0.1.77
+2024-09-05 01:32:44.452 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-09-05 01:32:44.511 +03:00 [INF] Starting server
+2024-09-05 01:32:44.696 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-09-05 01:32:44.698 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-09-05 01:32:44.701 +03:00 [DBG] Loaded admins.txt with 0 entries
+2024-09-05 01:32:44.703 +03:00 [INF] Starting HTTP server on port 8081
+2024-09-05 01:32:44.703 +03:00 [INF] Loaded 40 cars
+2024-09-05 01:32:44.713 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2024-09-05 01:32:44.714 +03:00 [DBG] Added checksum for content/tracks/csp/1061/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2024-09-05 01:32:44.715 +03:00 [INF] Initialized 2 track checksums
+2024-09-05 01:32:44.716 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_159\data.acd
+2024-09-05 01:32:44.716 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_mito\data.acd
+2024-09-05 01:32:44.717 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_eu\data.acd
+2024-09-05 01:32:44.717 +03:00 [DBG] Added checksum for content/cars/traffic_range_rover_ss\data.acd
+2024-09-05 01:32:44.718 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70\data.acd
+2024-09-05 01:32:44.718 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_jp\data.acd
+2024-09-05 01:32:44.719 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_flatbed\data.acd
+2024-09-05 01:32:44.719 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_priuseu\data.acd
+2024-09-05 01:32:44.720 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_hauler\data.acd
+2024-09-05 01:32:44.720 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_haulerb\data.acd
+2024-09-05 01:32:44.721 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_tanker\data.acd
+2024-09-05 01:32:44.721 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_npr\data.acd
+2024-09-05 01:32:44.722 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_camry\data.acd
+2024-09-05 01:32:44.722 +03:00 [DBG] Added checksum for content/cars/traffic_nissan_leaf\data.acd
+2024-09-05 01:32:44.723 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_prius\data.acd
+2024-09-05 01:32:44.724 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70jp\data.acd
+2024-09-05 01:32:44.724 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_rav4\data.acd
+2024-09-05 01:32:44.724 +03:00 [DBG] Added checksum for content/cars/traffic_cadillac_escalade\data.acd
+2024-09-05 01:32:44.725 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_challenger_srt\data.acd
+2024-09-05 01:32:44.725 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_grand_caravan_taxi\data.acd
+2024-09-05 01:32:44.726 +03:00 [DBG] Added checksum for content/cars/traffic_crown_vic\data.acd
+2024-09-05 01:32:44.726 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_nprusa\data.acd
+2024-09-05 01:32:44.727 +03:00 [DBG] Added checksum for content/cars/ks_nissan_370z\data.acd
+2024-09-05 01:32:44.728 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_m4_lci_air\data.acd
+2024-09-05 01:32:44.729 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_nissan_s14usdm\data.acd
+2024-09-05 01:32:44.729 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_nissan_350z\data.acd
+2024-09-05 01:32:44.730 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_honda_civic_ies\data.acd
+2024-09-05 01:32:44.731 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_honda_s2000_ap2\data.acd
+2024-09-05 01:32:44.733 +03:00 [INF] Initialized 28 car checksums
+2024-09-05 01:32:44.735 +03:00 [INF] Next session: Practice
+2024-09-05 01:32:44.736 +03:00 [INF] Switching session to id 0
+2024-09-05 01:32:44.937 +03:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=31.223.112.140&httpPort=8081
+2024-09-05 01:32:44.964 +03:00 [INF] Starting TCP server on port 9600
+2024-09-05 01:32:44.966 +03:00 [INF] Starting UDP server on port 9600
+2024-09-05 01:32:44.974 +03:00 [INF] Starting update loop with an update rate of 60hz

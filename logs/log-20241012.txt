@@ -1,0 +1,46 @@
+2024-10-12 00:42:40.354 +03:00 [INF] AssettoServer 0.0.52+85427faad6
+2024-10-12 00:42:41.253 +03:00 [WRN] Long welcome message detected. This will lead to crashes on CSP versions older than 0.1.77
+2024-10-12 00:42:41.312 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-10-12 00:42:41.457 +03:00 [INF] Starting server
+2024-10-12 00:42:41.795 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-10-12 00:42:41.797 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-10-12 00:42:41.802 +03:00 [DBG] Loaded admins.txt with 0 entries
+2024-10-12 00:42:41.803 +03:00 [INF] Starting HTTP server on port 8081
+2024-10-12 00:42:41.804 +03:00 [INF] Loaded 28 cars
+2024-10-12 00:42:41.827 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2024-10-12 00:42:41.833 +03:00 [DBG] Added checksum for content/tracks/csp/1061/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2024-10-12 00:42:41.834 +03:00 [INF] Initialized 2 track checksums
+2024-10-12 00:42:41.836 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_159\data.acd
+2024-10-12 00:42:41.836 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_mito\data.acd
+2024-10-12 00:42:41.837 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_eu\data.acd
+2024-10-12 00:42:41.837 +03:00 [DBG] Added checksum for content/cars/traffic_range_rover_ss\data.acd
+2024-10-12 00:42:41.838 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_priuseu\data.acd
+2024-10-12 00:42:41.838 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70\data.acd
+2024-10-12 00:42:41.839 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_jp\data.acd
+2024-10-12 00:42:41.840 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_flatbed\data.acd
+2024-10-12 00:42:41.840 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_hauler\data.acd
+2024-10-12 00:42:41.841 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_haulerb\data.acd
+2024-10-12 00:42:41.841 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_tanker\data.acd
+2024-10-12 00:42:41.842 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_npr\data.acd
+2024-10-12 00:42:41.842 +03:00 [DBG] Added checksum for content/cars/traffic_nissan_leaf\data.acd
+2024-10-12 00:42:41.843 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_camry\data.acd
+2024-10-12 00:42:41.843 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_prius\data.acd
+2024-10-12 00:42:41.844 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70jp\data.acd
+2024-10-12 00:42:41.844 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_rav4\data.acd
+2024-10-12 00:42:41.844 +03:00 [DBG] Added checksum for content/cars/traffic_cadillac_escalade\data.acd
+2024-10-12 00:42:41.845 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_challenger_srt\data.acd
+2024-10-12 00:42:41.845 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_grand_caravan_taxi\data.acd
+2024-10-12 00:42:41.846 +03:00 [DBG] Added checksum for content/cars/traffic_crown_vic\data.acd
+2024-10-12 00:42:41.846 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_nprusa\data.acd
+2024-10-12 00:42:41.848 +03:00 [DBG] Added checksum for content/cars/vrc_2005_mclaren_mp420\data.acd
+2024-10-12 00:42:41.849 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_nissan_s14usdm\data.acd
+2024-10-12 00:42:41.850 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_m4_lci_air\data.acd
+2024-10-12 00:42:41.851 +03:00 [DBG] Added checksum for content/cars/f1_2011_redbull\data.acd
+2024-10-12 00:42:41.852 +03:00 [DBG] Added checksum for content/cars/ks_bmw_m4_akrapovic\data.acd
+2024-10-12 00:42:41.855 +03:00 [INF] Initialized 27 car checksums
+2024-10-12 00:42:41.857 +03:00 [INF] Next session: Practice
+2024-10-12 00:42:41.858 +03:00 [INF] Switching session to id 0
+2024-10-12 00:42:42.116 +03:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=31.223.112.51&httpPort=8081
+2024-10-12 00:42:42.151 +03:00 [INF] Starting TCP server on port 9600
+2024-10-12 00:42:42.153 +03:00 [INF] Starting UDP server on port 9600
+2024-10-12 00:42:42.162 +03:00 [INF] Starting update loop with an update rate of 60hz

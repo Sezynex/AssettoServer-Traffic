@@ -15,9 +15,9 @@ MaxAfkTimeMinutes: 10
 # Players might try to get around the AFK kick by doing inputs once in a while without actually driving. Set this to MininumSpeed to autokick players idling
 AfkKickBehavior: PlayerInput
 # Maximum ping before autokick
-MaxPing: 300
+MaxPing: 99999
 # Maximum ping duration before autokick
-MaxPingSeconds: 10
+MaxPingSeconds: 99999
 # Force headlights on for all cars
 ForceLights: true
 # Distance for network optimizations. Players outside of this range will send less updates to reduce network traffic

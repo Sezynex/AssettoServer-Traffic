@@ -1,0 +1,160 @@
+2024-10-07 22:09:59.301 +03:00 [INF] AssettoServer 0.0.52+85427faad6
+2024-10-07 22:10:00.151 +03:00 [WRN] Long welcome message detected. This will lead to crashes on CSP versions older than 0.1.77
+2024-10-07 22:10:00.206 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-10-07 22:10:00.344 +03:00 [INF] Starting server
+2024-10-07 22:10:00.657 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-10-07 22:10:00.664 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-10-07 22:10:00.669 +03:00 [DBG] Loaded admins.txt with 0 entries
+2024-10-07 22:10:00.671 +03:00 [INF] Starting HTTP server on port 8081
+2024-10-07 22:10:00.677 +03:00 [INF] Loaded 27 cars
+2024-10-07 22:10:00.729 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2024-10-07 22:10:00.735 +03:00 [DBG] Added checksum for content/tracks/csp/1061/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2024-10-07 22:10:00.735 +03:00 [INF] Initialized 2 track checksums
+2024-10-07 22:10:00.737 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_159\data.acd
+2024-10-07 22:10:00.737 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_mito\data.acd
+2024-10-07 22:10:00.738 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_eu\data.acd
+2024-10-07 22:10:00.738 +03:00 [DBG] Added checksum for content/cars/traffic_range_rover_ss\data.acd
+2024-10-07 22:10:00.739 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_priuseu\data.acd
+2024-10-07 22:10:00.739 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70\data.acd
+2024-10-07 22:10:00.740 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_jp\data.acd
+2024-10-07 22:10:00.740 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_flatbed\data.acd
+2024-10-07 22:10:00.741 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_hauler\data.acd
+2024-10-07 22:10:00.741 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_haulerb\data.acd
+2024-10-07 22:10:00.741 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_tanker\data.acd
+2024-10-07 22:10:00.742 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_npr\data.acd
+2024-10-07 22:10:00.742 +03:00 [DBG] Added checksum for content/cars/traffic_nissan_leaf\data.acd
+2024-10-07 22:10:00.743 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_camry\data.acd
+2024-10-07 22:10:00.743 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_prius\data.acd
+2024-10-07 22:10:00.744 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70jp\data.acd
+2024-10-07 22:10:00.744 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_rav4\data.acd
+2024-10-07 22:10:00.745 +03:00 [DBG] Added checksum for content/cars/traffic_cadillac_escalade\data.acd
+2024-10-07 22:10:00.745 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_challenger_srt\data.acd
+2024-10-07 22:10:00.746 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_grand_caravan_taxi\data.acd
+2024-10-07 22:10:00.746 +03:00 [DBG] Added checksum for content/cars/traffic_crown_vic\data.acd
+2024-10-07 22:10:00.747 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_nprusa\data.acd
+2024-10-07 22:10:00.748 +03:00 [DBG] Added checksum for content/cars/vrc_2005_mclaren_mp420\data.acd
+2024-10-07 22:10:00.749 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_nissan_s14usdm\data.acd
+2024-10-07 22:10:00.750 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_m4_lci_air\data.acd
+2024-10-07 22:10:00.750 +03:00 [DBG] Added checksum for content/cars/ks_ferrari_812_superfast\data.acd
+2024-10-07 22:10:00.753 +03:00 [INF] Initialized 26 car checksums
+2024-10-07 22:10:00.754 +03:00 [INF] Next session: Practice
+2024-10-07 22:10:00.755 +03:00 [INF] Switching session to id 0
+2024-10-07 22:10:01.024 +03:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=31.223.109.134&httpPort=8081
+2024-10-07 22:10:01.060 +03:00 [INF] Starting TCP server on port 9600
+2024-10-07 22:10:01.062 +03:00 [INF] Starting UDP server on port 9600
+2024-10-07 22:10:01.073 +03:00 [INF] Starting update loop with an update rate of 60hz
+2024-10-07 22:10:59.713 +03:00 [INF] Han Raikkonen (76561198141951438 - 192.168.31.6:51749) is attempting to connect (vrc_2005_mclaren_mp420)
+2024-10-07 22:10:59.715 +03:00 [DBG] Han Raikkonen supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","3045"]
+2024-10-07 22:10:59.724 +03:00 [INF] Han Raikkonen (76561198141951438, 23 (vrc_2005_mclaren_mp420-09_Raikkonen_R14)) has connected
+2024-10-07 22:12:09.700 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 23 - Target AI count: 23 - Overbooking: 1 - Rest: 0
+2024-10-07 22:12:13.186 +03:00 [INF] CHAT: Han Raikkonen (23): 				$CSP0:YOqrL2En
+2024-10-07 22:12:50.799 +03:00 [DBG] Car 18 reached spline end, despawning
+2024-10-07 22:12:52.891 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-10-07 22:12:53.933 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 17 (17), rel. speed 137km/h
+2024-10-07 22:12:53.935 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 69km/h
+2024-10-07 22:13:00.466 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-10-07 22:13:01.155 +03:00 [DBG] Car 1 reached spline end, despawning
+2024-10-07 22:13:03.932 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 22 (22), rel. speed 279km/h
+2024-10-07 22:13:33.938 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 19 (19), rel. speed 164km/h
+2024-10-07 22:13:33.938 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 6 (6), rel. speed 28km/h
+2024-10-07 22:13:34.369 +03:00 [DBG] Car 0 reached spline end, despawning
+2024-10-07 22:13:37.300 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-10-07 22:13:39.102 +03:00 [DBG] Car 17 reached spline end, despawning
+2024-10-07 22:13:40.809 +03:00 [DBG] Car 4 reached spline end, despawning
+2024-10-07 22:13:58.943 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 0 (0), rel. speed 87km/h
+2024-10-07 22:13:58.943 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 55km/h
+2024-10-07 22:13:58.943 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 19 (19), rel. speed 20km/h
+2024-10-07 22:14:13.946 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 19 (19), rel. speed 124km/h
+2024-10-07 22:14:13.946 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 3 (3), rel. speed 49km/h
+2024-10-07 22:14:15.038 +03:00 [DBG] Received clean exit from Han Raikkonen (23)
+2024-10-07 22:14:15.040 +03:00 [DBG] Disconnecting Han Raikkonen (192.168.31.6:51749)
+2024-10-07 22:14:15.042 +03:00 [INF] Han Raikkonen has disconnected
+2024-10-07 23:41:05.652 +03:00 [INF] AssettoServer 0.0.52+85427faad6
+2024-10-07 23:41:06.519 +03:00 [WRN] Long welcome message detected. This will lead to crashes on CSP versions older than 0.1.77
+2024-10-07 23:41:06.576 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2024-10-07 23:41:06.714 +03:00 [INF] Starting server
+2024-10-07 23:41:07.030 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2024-10-07 23:41:07.036 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2024-10-07 23:41:07.040 +03:00 [DBG] Loaded admins.txt with 0 entries
+2024-10-07 23:41:07.041 +03:00 [INF] Starting HTTP server on port 8081
+2024-10-07 23:41:07.042 +03:00 [INF] Loaded 27 cars
+2024-10-07 23:41:07.065 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2024-10-07 23:41:07.072 +03:00 [DBG] Added checksum for content/tracks/csp/1061/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2024-10-07 23:41:07.073 +03:00 [INF] Initialized 2 track checksums
+2024-10-07 23:41:07.074 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_159\data.acd
+2024-10-07 23:41:07.074 +03:00 [DBG] Added checksum for content/cars/traffic_alfa_mito\data.acd
+2024-10-07 23:41:07.075 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_eu\data.acd
+2024-10-07 23:41:07.075 +03:00 [DBG] Added checksum for content/cars/traffic_range_rover_ss\data.acd
+2024-10-07 23:41:07.076 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_priuseu\data.acd
+2024-10-07 23:41:07.076 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70\data.acd
+2024-10-07 23:41:07.077 +03:00 [DBG] Added checksum for content/cars/traffic_audi_a4_jp\data.acd
+2024-10-07 23:41:07.077 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_flatbed\data.acd
+2024-10-07 23:41:07.078 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_hauler\data.acd
+2024-10-07 23:41:07.078 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_haulerb\data.acd
+2024-10-07 23:41:07.079 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_tanker\data.acd
+2024-10-07 23:41:07.079 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_npr\data.acd
+2024-10-07 23:41:07.080 +03:00 [DBG] Added checksum for content/cars/traffic_nissan_leaf\data.acd
+2024-10-07 23:41:07.080 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_camry\data.acd
+2024-10-07 23:41:07.080 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_prius\data.acd
+2024-10-07 23:41:07.081 +03:00 [DBG] Added checksum for content/cars/traffic_volvo_v70jp\data.acd
+2024-10-07 23:41:07.081 +03:00 [DBG] Added checksum for content/cars/traffic_toyota_rav4\data.acd
+2024-10-07 23:41:07.082 +03:00 [DBG] Added checksum for content/cars/traffic_cadillac_escalade\data.acd
+2024-10-07 23:41:07.082 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_challenger_srt\data.acd
+2024-10-07 23:41:07.083 +03:00 [DBG] Added checksum for content/cars/traffic_dodge_grand_caravan_taxi\data.acd
+2024-10-07 23:41:07.083 +03:00 [DBG] Added checksum for content/cars/traffic_crown_vic\data.acd
+2024-10-07 23:41:07.084 +03:00 [DBG] Added checksum for content/cars/traffic_isuzu_nprusa\data.acd
+2024-10-07 23:41:07.085 +03:00 [DBG] Added checksum for content/cars/vrc_2005_mclaren_mp420\data.acd
+2024-10-07 23:41:07.086 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_nissan_s14usdm\data.acd
+2024-10-07 23:41:07.087 +03:00 [DBG] Added checksum for content/cars/06_ygt_53_m4_lci_air\data.acd
+2024-10-07 23:41:07.088 +03:00 [DBG] Added checksum for content/cars/ks_ferrari_812_superfast\data.acd
+2024-10-07 23:41:07.090 +03:00 [INF] Initialized 26 car checksums
+2024-10-07 23:41:07.093 +03:00 [INF] Next session: Practice
+2024-10-07 23:41:07.093 +03:00 [INF] Switching session to id 0
+2024-10-07 23:41:07.490 +03:00 [INF] Server invite link: https://acstuff.ru/s/q:race/online/join?ip=31.223.105.124&httpPort=8081
+2024-10-07 23:41:07.527 +03:00 [INF] Starting TCP server on port 9600
+2024-10-07 23:41:07.529 +03:00 [INF] Starting UDP server on port 9600
+2024-10-07 23:41:07.539 +03:00 [INF] Starting update loop with an update rate of 60hz
+2024-10-07 23:41:58.796 +03:00 [INF] Han Raikkonen (76561198141951438 - 192.168.1.48:53866) is attempting to connect (vrc_2005_mclaren_mp420)
+2024-10-07 23:41:58.800 +03:00 [DBG] Han Raikkonen supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","3045"]
+2024-10-07 23:41:58.806 +03:00 [INF] Han Raikkonen (76561198141951438, 23 (vrc_2005_mclaren_mp420-09_Raikkonen_R14)) has connected
+2024-10-07 23:43:08.036 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 23 - Target AI count: 23 - Overbooking: 1 - Rest: 0
+2024-10-07 23:43:11.714 +03:00 [INF] CHAT: Han Raikkonen (23): 				$CSP0:YOqrL2En
+2024-10-07 23:43:55.811 +03:00 [DBG] Car 12 reached spline end, despawning
+2024-10-07 23:43:58.451 +03:00 [DBG] Car 22 reached spline end, despawning
+2024-10-07 23:44:01.489 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 11 (11), rel. speed 211km/h
+2024-10-07 23:44:06.487 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 6 (6), rel. speed 176km/h
+2024-10-07 23:44:06.488 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 121km/h
+2024-10-07 23:45:11.500 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 4 (4), rel. speed 78km/h
+2024-10-07 23:45:11.500 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 101km/h
+2024-10-07 23:45:16.501 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 1 (1), rel. speed 16km/h
+2024-10-07 23:45:16.501 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 3 (3), rel. speed 68km/h
+2024-10-07 23:45:16.501 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 40km/h
+2024-10-07 23:45:21.505 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 8km/h
+2024-10-07 23:45:26.503 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 31km/h
+2024-10-07 23:45:51.832 +03:00 [DBG] Car 10 reached spline end, despawning
+2024-10-07 23:45:52.564 +03:00 [DBG] Car 9 reached spline end, despawning
+2024-10-07 23:45:57.509 +03:00 [DBG] Car 18 reached spline end, despawning
+2024-10-07 23:46:01.510 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 5km/h
+2024-10-07 23:46:01.510 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 1 (1), rel. speed 157km/h
+2024-10-07 23:46:01.510 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 20 (20), rel. speed 131km/h
+2024-10-07 23:46:06.511 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 20 (20), rel. speed 3km/h
+2024-10-07 23:46:06.511 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 178km/h
+2024-10-07 23:46:56.521 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 8 (8), rel. speed 117km/h
+2024-10-07 23:47:36.529 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 21 (21), rel. speed 252km/h
+2024-10-07 23:47:41.530 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 122km/h
+2024-10-07 23:47:41.530 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 22 (22), rel. speed 33km/h
+2024-10-07 23:48:11.536 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 90km/h
+2024-10-07 23:48:34.726 +03:00 [DBG] Car 20 reached spline end, despawning
+2024-10-07 23:48:36.659 +03:00 [DBG] Car 4 reached spline end, despawning
+2024-10-07 23:48:56.545 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 21 (21), rel. speed 120km/h
+2024-10-07 23:48:56.545 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 4 (4), rel. speed 48km/h
+2024-10-07 23:49:26.551 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 6 (6), rel. speed 219km/h
+2024-10-07 23:49:31.552 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 190km/h
+2024-10-07 23:49:36.553 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 11 (11), rel. speed 97km/h
+2024-10-07 23:49:36.553 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 36km/h
+2024-10-07 23:49:41.554 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 58km/h
+2024-10-07 23:49:51.556 +03:00 [INF] Collision between Han Raikkonen (23) and Traffic 22 (22), rel. speed 105km/h
+2024-10-07 23:49:51.556 +03:00 [INF] Collision between Han Raikkonen (23) and environment, rel. speed 111km/h
+2024-10-07 23:49:51.951 +03:00 [DBG] Received clean exit from Han Raikkonen (23)
+2024-10-07 23:49:51.954 +03:00 [DBG] Disconnecting Han Raikkonen (192.168.1.48:53866)
+2024-10-07 23:49:51.956 +03:00 [INF] Han Raikkonen has disconnected
