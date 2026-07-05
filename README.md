@@ -54,5 +54,5 @@ If you do not have a static IP address or port forwarding configured, you can us
 3. Find the line `REGISTER_TO_LOBBY=1` and change its value to `0`:
    ```text
    REGISTER_TO_LOBBY=0
-  ```
+     ```
 4. Save and close the file.
