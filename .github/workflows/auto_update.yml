@@ -1,0 +1,67 @@
+name: AssettoServer Otomatik Güncelleme (LFS Destekli)
+
+on:
+  schedule:
+    # Her gün gece 00:00'da otomatik kontrol eder
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Manuel olarak panelden tetikleme butonu ekler
+
+jobs:
+  sync-release:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Kodu Klonla
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0 # Git geçmişini ve LFS takibini bozmamak için tam çekim yapıyoruz
+
+      - name: Git LFS Kurulumu ve Takibi
+        run: |
+          git lfs install
+          # Büyük olabilecek exe ve dll dosyalarını LFS'e tanıtıyoruz
+          git lfs track "acServer.exe"
+          git lfs track "AssettoServer.exe"
+          git lfs track "*.exe"
+          git lfs track "*.dll"
+
+      - name: En Güncel Windows Release Zip Dosyasını Tespit Et ve İndir
+        run: |
+          echo "Hedef repodan son sürüm bilgileri alınıyor..."
+          # GitHub API kullanarak en son release içeriğini çekiyoruz
+          LATEST_RELEASE_JSON=$(curl -s https://api.github.com/repos/compujuckel/AssettoServer/releases/latest)
+          
+          # Tam olarak "assetto-server-win-x64.zip" dosyasının indirme linkini yakalıyoruz
+          DOWNLOAD_URL=$(echo "$LATEST_RELEASE_JSON" | grep -oE "https://github.com/[^\"]+/assetto-server-win-x64\.zip" | head -n 1)
+          
+          if [ -z "$DOWNLOAD_URL" ]; then
+            echo "Hata: assetto-server-win-x64.zip dosyası release içinde bulunamadı!"
+            exit 1
+          fi
+          
+          echo "İndirilecek URL: $DOWNLOAD_URL"
+          curl -L "$DOWNLOAD_URL" -o assetto_latest.zip
+
+      - name: Zip İçeriğini Çıkart ve Mevcut Klasörle Eşitle
+        run: |
+          # Geçici klasör oluşturup zip'i oraya açıyoruz
+          mkdir -p temp_extract
+          unzip -o assetto_latest.zip -d temp_extract
+          
+          # İndirilen dosyaları ana dizine kopyalıyoruz (mevcutların üzerine yazar)
+          cp -r temp_extract/* ./
+          
+          # Geçici temizlik
+          rm -rf assetto_latest.zip temp_extract
+
+      - name: Değişiklikleri Git LFS ile Otomatik Pushla
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # LFS ayarlarını ve yeni gelen tüm dosyaları git'e ekle
+          git add .gitattributes
+          git add .
+          
+          # Eğer karşı repoda güncelleme olduysa ve dosya içerikleri değiştiyse commit atıp pushla
+          git diff-index --quiet HEAD || (git commit -m "Otomatik Güncelleme: AssettoServer son sürüm dosyaları çekildi (LFS)" && git push)
