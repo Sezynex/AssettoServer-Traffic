@@ -1,0 +1,1174 @@
+2026-06-11 00:08:31.162 +03:00 [INF] AssettoServer 0.0.55-pre35
+2026-06-11 00:08:31.183 +03:00 [DBG] Server was started through Content Manager
+2026-06-11 00:08:31.187 +03:00 [DBG] Loading server_cfg.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\server_cfg.ini
+2026-06-11 00:08:31.203 +03:00 [DBG] Loading entry_list.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\entry_list.ini
+2026-06-11 00:08:31.415 +03:00 [DBG] Loading extra_cfg.yml from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\extra_cfg.yml
+2026-06-11 00:08:31.487 +03:00 [DBG] Using minimum required CSP Version 3879
+2026-06-11 00:08:31.764 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2026-06-11 00:08:31.791 +03:00 [INF] Starting server
+2026-06-11 00:08:31.874 +03:00 [INF] Loaded 32 cars
+2026-06-11 00:08:31.881 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2026-06-11 00:08:31.881 +03:00 [DBG] Added checksum for content/tracks/csp/3879/../H/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2026-06-11 00:08:31.881 +03:00 [INF] Initialized 2 track checksums
+2026-06-11 00:08:31.882 +03:00 [DBG] Added checksum for traffic_alfa_159
+2026-06-11 00:08:31.882 +03:00 [DBG] Added checksum for traffic_audi_a4_eu
+2026-06-11 00:08:31.883 +03:00 [DBG] Added checksum for traffic_toyota_priuseu
+2026-06-11 00:08:31.883 +03:00 [DBG] Added checksum for traffic_volvo_v70
+2026-06-11 00:08:31.883 +03:00 [DBG] Added checksum for traffic_audi_a4_jp
+2026-06-11 00:08:31.883 +03:00 [DBG] Added checksum for traffic_isuzu_flatbed
+2026-06-11 00:08:31.883 +03:00 [DBG] Added checksum for traffic_isuzu_hauler
+2026-06-11 00:08:31.884 +03:00 [DBG] Added checksum for traffic_isuzu_haulerb
+2026-06-11 00:08:31.884 +03:00 [DBG] Added checksum for traffic_isuzu_tanker
+2026-06-11 00:08:31.884 +03:00 [DBG] Added checksum for traffic_isuzu_npr
+2026-06-11 00:08:31.884 +03:00 [DBG] Added checksum for traffic_nissan_leaf
+2026-06-11 00:08:31.885 +03:00 [DBG] Added checksum for traffic_toyota_camry
+2026-06-11 00:08:31.885 +03:00 [DBG] Added checksum for traffic_toyota_prius
+2026-06-11 00:08:31.885 +03:00 [DBG] Added checksum for traffic_volvo_v70jp
+2026-06-11 00:08:31.885 +03:00 [DBG] Added checksum for traffic_toyota_rav4
+2026-06-11 00:08:31.886 +03:00 [DBG] Added checksum for traffic_cadillac_escalade
+2026-06-11 00:08:31.886 +03:00 [DBG] Added checksum for traffic_dodge_challenger_srt
+2026-06-11 00:08:31.886 +03:00 [DBG] Added checksum for traffic_dodge_grand_caravan_taxi
+2026-06-11 00:08:31.886 +03:00 [DBG] Added checksum for traffic_crown_vic
+2026-06-11 00:08:31.887 +03:00 [DBG] Added checksum for 06_ygt_53_m4_lci_air
+2026-06-11 00:08:31.887 +03:00 [DBG] Added checksum for hd_f430_scuderiaspider
+2026-06-11 00:08:31.889 +03:00 [INF] Initialized 21 car checksums
+2026-06-11 00:08:32.025 +03:00 [INF] Next session: Practice - Length: 720 minutes
+2026-06-11 00:08:32.026 +03:00 [INF] Switching session to id 0
+2026-06-11 00:08:32.110 +03:00 [INF] Starting HTTP server on port 8081
+2026-06-11 00:08:32.110 +03:00 [INF] Starting UDP server on port 9600
+2026-06-11 00:08:32.111 +03:00 [INF] Starting TCP server on port 9600
+2026-06-11 00:08:32.111 +03:00 [INF] Starting update loop with an update rate of 60hz
+2026-06-11 00:08:32.116 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2026-06-11 00:08:32.118 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2026-06-11 00:08:32.119 +03:00 [DBG] Loaded admins.txt with 0 entries
+2026-06-11 00:08:32.120 +03:00 [INF] Invite link: https://acstuff.club/s/q:race/online/join?ip=212.154.2.92&httpPort=8081
+2026-06-11 00:08:32.120 +03:00 [INF] Server startup completed
+2026-06-11 00:08:44.750 +03:00 [INF] corp14x3 (76561199521796457 - 192.168.1.0:63735) is attempting to connect (06_ygt_53_m4_lci_air)
+2026-06-11 00:08:44.752 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 00:08:44.757 +03:00 [INF] corp14x3 (76561199521796457, 30 (06_ygt_53_m4_lci_air-01_melborune_red)) has connected
+2026-06-11 00:09:03.024 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 30 - Target AI count: 30 - Overbooking: 1 - Rest: 0
+2026-06-11 00:09:03.319 +03:00 [INF] CSP handshake received from corp14x3 (30): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-06-11 00:21:55.682 +03:00 [DBG] Received clean exit from corp14x3 (30)
+2026-06-11 00:21:55.683 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 192.168.1.0:63735)
+2026-06-11 00:21:55.684 +03:00 [INF] corp14x3 has disconnected
+2026-06-11 00:22:39.947 +03:00 [INF] corp14x3 (76561199521796457 - 192.168.1.0:62388) is attempting to connect (06_ygt_53_m4_lci_air)
+2026-06-11 00:22:39.947 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 00:22:39.948 +03:00 [INF] corp14x3 (76561199521796457, 30 (06_ygt_53_m4_lci_air-01_melborune_red)) has connected
+2026-06-11 00:22:58.802 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 30 - Target AI count: 30 - Overbooking: 1 - Rest: 0
+2026-06-11 00:22:59.084 +03:00 [INF] CSP handshake received from corp14x3 (30): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-06-11 00:24:08.920 +03:00 [DBG] Received clean exit from corp14x3 (30)
+2026-06-11 00:24:08.920 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 192.168.1.0:62388)
+2026-06-11 00:24:08.921 +03:00 [INF] corp14x3 has disconnected
+2026-06-11 00:24:32.413 +03:00 [DBG] Car 5 reached spline end, despawning
+2026-06-11 00:24:41.059 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-11 00:24:42.087 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-06-11 00:24:44.619 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-06-11 00:26:18.666 +03:00 [INF] corp14x3 (76561199521796457 - 192.168.1.0:54259) is attempting to connect (06_ygt_53_m4_lci_air)
+2026-06-11 00:26:18.666 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 00:26:18.666 +03:00 [INF] corp14x3 (76561199521796457, 30 (06_ygt_53_m4_lci_air-01_melborune_red)) has connected
+2026-06-11 00:26:36.712 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 30 - Target AI count: 30 - Overbooking: 1 - Rest: 0
+2026-06-11 00:26:37.026 +03:00 [INF] CSP handshake received from corp14x3 (30): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-06-11 00:27:34.931 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 11km/h
+2026-06-11 00:28:28.032 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-06-11 00:28:32.928 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-11 00:30:43.160 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-06-11 00:30:59.566 +03:00 [DBG] Car 27 reached spline end, despawning
+2026-06-11 00:31:02.797 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-06-11 00:32:03.306 +03:00 [INF] Collision between corp14x3 (30) and Traffic 17 (17), rel. speed 2km/h
+2026-06-11 00:32:12.185 +03:00 [INF] Collision between corp14x3 (30) and Traffic 16 (16), rel. speed 45km/h
+2026-06-11 00:32:12.317 +03:00 [INF] Collision between corp14x3 (30) and Traffic 25 (25), rel. speed 12km/h
+2026-06-11 00:32:56.798 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 11km/h
+2026-06-11 00:33:02.529 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 27km/h
+2026-06-11 00:33:04.925 +03:00 [INF] Collision between corp14x3 (30) and Traffic 24 (24), rel. speed 12km/h
+2026-06-11 00:34:09.189 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 44km/h
+2026-06-11 00:34:13.676 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 24km/h
+2026-06-11 00:35:00.705 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 10km/h
+2026-06-11 00:35:01.961 +03:00 [INF] Collision between corp14x3 (30) and Traffic 2 (2), rel. speed 16km/h
+2026-06-11 00:35:17.060 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 8km/h
+2026-06-11 00:35:22.242 +03:00 [DBG] Received clean exit from corp14x3 (30)
+2026-06-11 00:35:22.242 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 192.168.1.0:54259)
+2026-06-11 00:35:22.242 +03:00 [INF] corp14x3 has disconnected
+2026-06-11 00:37:50.758 +03:00 [DBG] Car 8 reached spline end, despawning
+2026-06-11 00:37:54.352 +03:00 [DBG] Car 27 reached spline end, despawning
+2026-06-11 00:37:59.970 +03:00 [DBG] Car 21 reached spline end, despawning
+2026-06-11 00:38:14.300 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-06-11 00:38:15.827 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-11 00:38:25.046 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-06-11 00:38:27.097 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-06-11 00:38:28.622 +03:00 [DBG] Car 28 reached spline end, despawning
+2026-06-11 00:38:30.156 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-06-11 00:38:30.668 +03:00 [DBG] Car 7 reached spline end, despawning
+2026-06-11 00:38:39.365 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-06-11 00:38:42.953 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-06-11 00:38:47.055 +03:00 [DBG] Car 29 reached spline end, despawning
+2026-06-11 00:38:53.711 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-06-11 00:38:54.224 +03:00 [DBG] Car 25 reached spline end, despawning
+2026-06-11 00:38:59.317 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-06-11 00:39:13.648 +03:00 [DBG] Car 18 reached spline end, despawning
+2026-06-11 00:39:15.184 +03:00 [DBG] Car 20 reached spline end, despawning
+2026-06-11 00:39:34.636 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-06-11 00:39:35.150 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-06-11 00:39:36.173 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-06-11 00:39:37.199 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-06-11 00:39:43.856 +03:00 [DBG] Car 5 reached spline end, despawning
+2026-06-11 00:39:55.130 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-06-11 00:39:57.181 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-06-11 00:42:37.287 +03:00 [DBG] Car 22 reached spline end, despawning
+2026-06-11 00:42:42.934 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-06-11 00:43:07.464 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-06-11 01:04:24.968 +03:00 [INF] AssettoServer 0.0.55-pre35
+2026-06-11 01:04:24.991 +03:00 [DBG] Server was started through Content Manager
+2026-06-11 01:04:24.996 +03:00 [DBG] Loading server_cfg.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\underground\server_cfg.ini
+2026-06-11 01:04:25.014 +03:00 [DBG] Loading entry_list.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\underground\entry_list.ini
+2026-06-11 01:04:25.245 +03:00 [DBG] Loading extra_cfg.yml from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\underground\extra_cfg.yml
+2026-06-11 01:04:25.317 +03:00 [DBG] Using minimum required CSP Version 3879
+2026-06-11 01:04:25.597 +03:00 [DBG] Mapping cached AI spline 078D4196FAE3C031.aic1 to memory
+2026-06-11 01:04:25.608 +03:00 [INF] Starting server
+2026-06-11 01:04:25.696 +03:00 [INF] Loaded 38 cars
+2026-06-11 01:04:25.702 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2026-06-11 01:04:25.703 +03:00 [DBG] Added checksum for content/tracks/csp/3879/../H/../nfsu2/data/surfaces.ini
+2026-06-11 01:04:25.703 +03:00 [INF] Initialized 2 track checksums
+2026-06-11 01:04:25.704 +03:00 [DBG] Added checksum for traffic_alfa_159
+2026-06-11 01:04:25.704 +03:00 [DBG] Added checksum for traffic_audi_a4_eu
+2026-06-11 01:04:25.704 +03:00 [DBG] Added checksum for traffic_toyota_priuseu
+2026-06-11 01:04:25.705 +03:00 [DBG] Added checksum for traffic_volvo_v70
+2026-06-11 01:04:25.705 +03:00 [DBG] Added checksum for traffic_audi_a4_jp
+2026-06-11 01:04:25.705 +03:00 [DBG] Added checksum for traffic_isuzu_flatbed
+2026-06-11 01:04:25.705 +03:00 [DBG] Added checksum for traffic_isuzu_hauler
+2026-06-11 01:04:25.706 +03:00 [DBG] Added checksum for traffic_isuzu_haulerb
+2026-06-11 01:04:25.706 +03:00 [DBG] Added checksum for traffic_isuzu_tanker
+2026-06-11 01:04:25.706 +03:00 [DBG] Added checksum for traffic_isuzu_npr
+2026-06-11 01:04:25.706 +03:00 [DBG] Added checksum for traffic_nissan_leaf
+2026-06-11 01:04:25.707 +03:00 [DBG] Added checksum for traffic_toyota_camry
+2026-06-11 01:04:25.707 +03:00 [DBG] Added checksum for traffic_toyota_prius
+2026-06-11 01:04:25.707 +03:00 [DBG] Added checksum for traffic_volvo_v70jp
+2026-06-11 01:04:25.707 +03:00 [DBG] Added checksum for traffic_toyota_rav4
+2026-06-11 01:04:25.708 +03:00 [DBG] Added checksum for traffic_cadillac_escalade
+2026-06-11 01:04:25.708 +03:00 [DBG] Added checksum for traffic_dodge_challenger_srt
+2026-06-11 01:04:25.708 +03:00 [DBG] Added checksum for traffic_dodge_grand_caravan_taxi
+2026-06-11 01:04:25.708 +03:00 [DBG] Added checksum for traffic_crown_vic
+2026-06-11 01:04:25.709 +03:00 [DBG] Added checksum for amgeshnik_mercedes_e500_w212
+2026-06-11 01:04:25.709 +03:00 [DBG] Added checksum for ism_e346_street_c_gt3_vss
+2026-06-11 01:04:25.710 +03:00 [DBG] Added checksum for gk_bmw_540i
+2026-06-11 01:04:25.710 +03:00 [DBG] Added checksum for ms_bmw_f30_340i
+2026-06-11 01:04:25.710 +03:00 [DBG] Added checksum for vw_golf_r
+2026-06-11 01:04:25.711 +03:00 [DBG] Added checksum for MRNDES_Honda_Civic_1992
+2026-06-11 01:04:25.711 +03:00 [DBG] Added checksum for sl_peugeot_508_pse_2019
+2026-06-11 01:04:25.711 +03:00 [DBG] Added checksum for ford_rs_18
+2026-06-11 01:04:25.713 +03:00 [INF] Initialized 27 car checksums
+2026-06-11 01:04:25.953 +03:00 [INF] Next session: Practice - Length: 720 minutes
+2026-06-11 01:04:25.953 +03:00 [INF] Switching session to id 0
+2026-06-11 01:04:25.956 +03:00 [WRN] Using UTC as default time zone
+2026-06-11 01:04:26.032 +03:00 [INF] Starting HTTP server on port 8081
+2026-06-11 01:04:26.033 +03:00 [INF] Starting UDP server on port 9600
+2026-06-11 01:04:26.033 +03:00 [INF] Starting TCP server on port 9600
+2026-06-11 01:04:26.033 +03:00 [INF] Starting update loop with an update rate of 60hz
+2026-06-11 01:04:26.039 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2026-06-11 01:04:26.041 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2026-06-11 01:04:26.041 +03:00 [DBG] Loaded admins.txt with 0 entries
+2026-06-11 01:04:26.043 +03:00 [INF] Invite link: https://acstuff.club/s/q:race/online/join?ip=212.154.2.92&httpPort=8081
+2026-06-11 01:04:26.043 +03:00 [INF] Server startup completed
+2026-06-11 01:04:39.929 +03:00 [INF] corp14x3 (76561199521796457 - 192.168.1.0:50092) is attempting to connect (ford_rs_18)
+2026-06-11 01:04:39.931 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 01:04:39.936 +03:00 [INF] corp14x3 (76561199521796457, 37 (ford_rs_18-00_Nitrous Blue Special metallic)) has connected
+2026-06-11 01:05:03.155 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 30 - Target AI count: 30 - Overbooking: 1 - Rest: 0
+2026-06-11 01:05:03.470 +03:00 [INF] CSP handshake received from corp14x3 (37): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-06-11 01:06:46.667 +03:00 [INF] KENSİK (76561199467268064 - 94.55.236.0:64852) is attempting to connect (ism_e346_street_c_gt3_vss)
+2026-06-11 01:06:46.668 +03:00 [DBG] KENSİK supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 01:06:46.668 +03:00 [INF] KENSİK (76561199467268064, 31 (ism_e346_street_c_gt3_vss-Alpine_White_III)) has connected
+2026-06-11 01:07:11.968 +03:00 [DBG] AI Slot overbooking update - No. players: 2 - No. AI Slots: 30 - Target AI count: 60 - Overbooking: 2 - Rest: 0
+2026-06-11 01:07:12.361 +03:00 [INF] CSP handshake received from KENSİK (31): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=16274150991130116486
+2026-06-11 01:07:42.760 +03:00 [INF] Pycharm (76561198840295673 - 185.20.6.0:25500) is attempting to connect (sl_peugeot_508_pse_2019)
+2026-06-11 01:07:42.760 +03:00 [DBG] Pycharm supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 01:07:42.760 +03:00 [INF] Pycharm (76561198840295673, 36 (sl_peugeot_508_pse_2019-_Gris S??l??nium)) has connected
+2026-06-11 01:08:23.116 +03:00 [DBG] AI Slot overbooking update - No. players: 3 - No. AI Slots: 30 - Target AI count: 90 - Overbooking: 3 - Rest: 0
+2026-06-11 01:08:25.425 +03:00 [INF] CSP handshake received from Pycharm (36): Version=3879 WeatherFX=true InputMethod="Wheel" RainFX=true HWID=13117711692736825102
+2026-06-11 01:09:13.617 +03:00 [INF] Collision between corp14x3 (37) and KENSİK (31), rel. speed 24km/h
+2026-06-11 01:09:13.635 +03:00 [INF] Collision between KENSİK (31) and corp14x3 (37), rel. speed 30km/h
+2026-06-11 01:09:20.961 +03:00 [INF] Collision between corp14x3 (37) and environment, rel. speed 2km/h
+2026-06-11 01:09:57.143 +03:00 [INF] Collision between KENSİK (31) and environment, rel. speed 89km/h
+2026-06-11 01:10:09.580 +03:00 [INF] Collision between Pycharm (36) and environment, rel. speed 10km/h
+2026-06-11 01:10:25.563 +03:00 [INF] Collision between KENSİK (31) and environment, rel. speed 56km/h
+2026-06-11 01:11:14.405 +03:00 [INF] Collision between KENSİK (31) and environment, rel. speed 57km/h
+2026-06-11 01:11:47.660 +03:00 [INF] Collision between KENSİK (31) and environment, rel. speed 25km/h
+2026-06-11 01:12:16.424 +03:00 [INF] Collision between KENSİK (31) and Pycharm (36), rel. speed 18km/h
+2026-06-11 01:12:16.424 +03:00 [INF] Collision between Pycharm (36) and KENSİK (31), rel. speed 11km/h
+2026-06-11 01:12:19.390 +03:00 [INF] Collision between Pycharm (36) and environment, rel. speed 76km/h
+2026-06-11 01:12:34.340 +03:00 [INF] Collision between KENSİK (31) and environment, rel. speed 9km/h
+2026-06-11 01:12:38.285 +03:00 [INF] Collision between Pycharm (36) and KENSİK (31), rel. speed 40km/h
+2026-06-11 01:12:38.290 +03:00 [INF] Collision between KENSİK (31) and Pycharm (36), rel. speed 54km/h
+2026-06-11 01:12:56.590 +03:00 [INF] Collision between corp14x3 (37) and environment, rel. speed 14km/h
+2026-06-11 01:13:17.331 +03:00 [INF] Collision between Pycharm (36) and environment, rel. speed 29km/h
+2026-06-11 01:13:17.459 +03:00 [INF] Collision between KENSİK (31) and environment, rel. speed 58km/h
+2026-06-11 01:14:06.027 +03:00 [INF] Collision between KENSİK (31) and environment, rel. speed 13km/h
+2026-06-11 01:14:41.484 +03:00 [INF] Collision between Pycharm (36) and KENSİK (31), rel. speed 20km/h
+2026-06-11 01:14:41.496 +03:00 [INF] Collision between KENSİK (31) and Pycharm (36), rel. speed 30km/h
+2026-06-11 01:15:28.261 +03:00 [INF] Collision between Pycharm (36) and KENSİK (31), rel. speed 41km/h
+2026-06-11 01:15:28.267 +03:00 [INF] Collision between KENSİK (31) and Pycharm (36), rel. speed 51km/h
+2026-06-11 01:15:52.381 +03:00 [INF] Collision between corp14x3 (37) and Pycharm (36), rel. speed 78km/h
+2026-06-11 01:15:52.390 +03:00 [INF] Collision between Pycharm (36) and corp14x3 (37), rel. speed 76km/h
+2026-06-11 01:15:54.621 +03:00 [INF] Collision between corp14x3 (37) and environment, rel. speed 21km/h
+2026-06-11 01:15:56.661 +03:00 [INF] Collision between corp14x3 (37) and environment, rel. speed 12km/h
+2026-06-11 01:16:49.237 +03:00 [INF] Collision between Pycharm (36) and environment, rel. speed 7km/h
+2026-06-11 01:16:56.323 +03:00 [INF] Collision between corp14x3 (37) and KENSİK (31), rel. speed 232km/h
+2026-06-11 01:16:56.339 +03:00 [INF] Collision between KENSİK (31) and corp14x3 (37), rel. speed 267km/h
+2026-06-11 01:17:42.850 +03:00 [INF] Collision between KENSİK (31) and environment, rel. speed 60km/h
+2026-06-11 01:18:30.279 +03:00 [INF] Collision between KENSİK (31) and environment, rel. speed 8km/h
+2026-06-11 01:19:02.931 +03:00 [INF] Collision between corp14x3 (37) and environment, rel. speed 7km/h
+2026-06-11 01:19:07.701 +03:00 [INF] Collision between corp14x3 (37) and environment, rel. speed 0km/h
+2026-06-11 01:19:21.539 +03:00 [INF] Collision between KENSİK (31) and environment, rel. speed 60km/h
+2026-06-11 01:19:24.939 +03:00 [INF] Collision between Pycharm (36) and environment, rel. speed 94km/h
+2026-06-11 01:19:28.362 +03:00 [INF] Collision between Pycharm (36) and corp14x3 (37), rel. speed 18km/h
+2026-06-11 01:19:28.362 +03:00 [INF] Collision between corp14x3 (37) and Pycharm (36), rel. speed 16km/h
+2026-06-11 01:19:34.820 +03:00 [INF] Collision between KENSİK (31) and environment, rel. speed 11km/h
+2026-06-11 01:19:38.349 +03:00 [INF] Collision between KENSİK (31) and environment, rel. speed 10km/h
+2026-06-11 01:19:38.625 +03:00 [INF] Collision between corp14x3 (37) and environment, rel. speed 16km/h
+2026-06-11 01:19:42.127 +03:00 [INF] Collision between KENSİK (31) and Pycharm (36), rel. speed 26km/h
+2026-06-11 01:19:42.128 +03:00 [INF] Collision between Pycharm (36) and KENSİK (31), rel. speed 17km/h
+2026-06-11 01:19:57.593 +03:00 [INF] Collision between KENSİK (31) and environment, rel. speed 35km/h
+2026-06-11 01:20:03.085 +03:00 [INF] Collision between corp14x3 (37) and KENSİK (31), rel. speed 6km/h
+2026-06-11 01:20:03.096 +03:00 [INF] Collision between KENSİK (31) and corp14x3 (37), rel. speed 7km/h
+2026-06-11 01:20:41.822 +03:00 [INF] Collision between Pycharm (36) and environment, rel. speed 7km/h
+2026-06-11 01:20:44.545 +03:00 [INF] Collision between corp14x3 (37) and Pycharm (36), rel. speed 31km/h
+2026-06-11 01:20:44.549 +03:00 [INF] Collision between Pycharm (36) and corp14x3 (37), rel. speed 41km/h
+2026-06-11 01:20:54.614 +03:00 [INF] Collision between Pycharm (36) and environment, rel. speed 11km/h
+2026-06-11 01:20:56.913 +03:00 [INF] Collision between Pycharm (36) and environment, rel. speed 3km/h
+2026-06-11 01:21:02.479 +03:00 [INF] Collision between KENSİK (31) and environment, rel. speed 11km/h
+2026-06-11 01:21:15.075 +03:00 [INF] CHAT: corp14x3 (37): /settime 10:00
+2026-06-11 01:21:15.091 +03:00 [INF] Broadcast: Time has been set.
+2026-06-11 01:21:23.769 +03:00 [INF] CHAT: corp14x3 (37): /settime 22:00
+2026-06-11 01:21:23.773 +03:00 [INF] Broadcast: Time has been set.
+2026-06-11 01:22:35.846 +03:00 [INF] Collision between KENSİK (31) and environment, rel. speed 57km/h
+2026-06-11 01:22:36.830 +03:00 [INF] Collision between Pycharm (36) and environment, rel. speed 81km/h
+2026-06-11 01:22:37.523 +03:00 [INF] Collision between Pycharm (36) and KENSİK (31), rel. speed 51km/h
+2026-06-11 01:22:37.534 +03:00 [INF] Collision between KENSİK (31) and Pycharm (36), rel. speed 67km/h
+2026-06-11 01:22:41.499 +03:00 [INF] Collision between KENSİK (31) and Pycharm (36), rel. speed 21km/h
+2026-06-11 01:22:41.781 +03:00 [INF] Collision between Pycharm (36) and KENSİK (31), rel. speed 17km/h
+2026-06-11 01:22:45.138 +03:00 [INF] Collision between Pycharm (36) and KENSİK (31), rel. speed 5km/h
+2026-06-11 01:22:45.184 +03:00 [INF] Collision between KENSİK (31) and Pycharm (36), rel. speed 1km/h
+2026-06-11 01:22:54.378 +03:00 [INF] Collision between corp14x3 (37) and Pycharm (36), rel. speed 109km/h
+2026-06-11 01:22:54.384 +03:00 [INF] Collision between Pycharm (36) and corp14x3 (37), rel. speed 103km/h
+2026-06-11 01:22:58.391 +03:00 [INF] Collision between Pycharm (36) and environment, rel. speed 11km/h
+2026-06-11 01:22:58.785 +03:00 [INF] Collision between KENSİK (31) and environment, rel. speed 4km/h
+2026-06-11 01:23:09.705 +03:00 [INF] Collision between Pycharm (36) and environment, rel. speed 47km/h
+2026-06-11 01:23:17.354 +03:00 [INF] Collision between Pycharm (36) and environment, rel. speed 22km/h
+2026-06-11 01:23:26.190 +03:00 [INF] Collision between Pycharm (36) and environment, rel. speed 7km/h
+2026-06-11 01:23:33.758 +03:00 [INF] Collision between Pycharm (36) and KENSİK (31), rel. speed 23km/h
+2026-06-11 01:23:33.773 +03:00 [INF] Collision between KENSİK (31) and Pycharm (36), rel. speed 32km/h
+2026-06-11 01:23:52.212 +03:00 [INF] Ardaschumacher (76561198834121069 - 104.28.164.0:34247) is attempting to connect (gk_bmw_540i)
+2026-06-11 01:23:52.212 +03:00 [DBG] Ardaschumacher supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 01:23:52.212 +03:00 [INF] Ardaschumacher (76561198834121069, 32 (gk_bmw_540i-Alpine White III)) has connected
+2026-06-11 01:23:52.960 +03:00 [INF] Collision between corp14x3 (37) and environment, rel. speed 46km/h
+2026-06-11 01:24:05.482 +03:00 [INF] Collision between Pycharm (36) and KENSİK (31), rel. speed 40km/h
+2026-06-11 01:24:05.484 +03:00 [INF] Collision between KENSİK (31) and Pycharm (36), rel. speed 54km/h
+2026-06-11 01:24:07.103 +03:00 [INF] Collision between KENSİK (31) and environment, rel. speed 73km/h
+2026-06-11 01:24:07.291 +03:00 [INF] Collision between Pycharm (36) and environment, rel. speed 51km/h
+2026-06-11 01:24:07.482 +03:00 [INF] Collision between Pycharm (36) and KENSİK (31), rel. speed 11km/h
+2026-06-11 01:24:07.484 +03:00 [INF] Collision between KENSİK (31) and Pycharm (36), rel. speed 7km/h
+2026-06-11 01:24:24.523 +03:00 [INF] Collision between Pycharm (36) and environment, rel. speed 90km/h
+2026-06-11 01:24:44.074 +03:00 [INF] Collision between Pycharm (36) and environment, rel. speed 25km/h
+2026-06-11 01:24:49.482 +03:00 [INF] Collision between corp14x3 (37) and KENSİK (31), rel. speed 23km/h
+2026-06-11 01:24:49.492 +03:00 [INF] Collision between KENSİK (31) and corp14x3 (37), rel. speed 28km/h
+2026-06-11 01:24:50.903 +03:00 [INF] Collision between KENSİK (31) and environment, rel. speed 18km/h
+2026-06-11 01:24:52.928 +03:00 [INF] Collision between KENSİK (31) and environment, rel. speed 22km/h
+2026-06-11 01:24:54.100 +03:00 [DBG] AI Slot overbooking update - No. players: 4 - No. AI Slots: 30 - Target AI count: 120 - Overbooking: 4 - Rest: 0
+2026-06-11 01:24:59.083 +03:00 [INF] CSP handshake received from Ardaschumacher (32): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=17088649112657117920
+2026-06-11 01:25:18.720 +03:00 [INF] Collision between KENSİK (31) and Traffic 3 (3), rel. speed 79km/h
+2026-06-11 01:25:20.815 +03:00 [INF] Collision between corp14x3 (37) and Traffic 29 (29), rel. speed 26km/h
+2026-06-11 01:25:22.089 +03:00 [INF] Collision between corp14x3 (37) and environment, rel. speed 40km/h
+2026-06-11 01:25:23.064 +03:00 [INF] Collision between KENSİK (31) and environment, rel. speed 38km/h
+2026-06-11 01:25:23.069 +03:00 [INF] Collision between Pycharm (36) and environment, rel. speed 55km/h
+2026-06-11 01:25:27.024 +03:00 [INF] Collision between Pycharm (36) and environment, rel. speed 19km/h
+2026-06-11 01:25:29.025 +03:00 [INF] Collision between Pycharm (36) and environment, rel. speed 2km/h
+2026-06-11 01:25:31.025 +03:00 [INF] Collision between Pycharm (36) and environment, rel. speed 0km/h
+2026-06-11 01:25:49.212 +03:00 [INF] Collision between corp14x3 (37) and Traffic 29 (29), rel. speed 8km/h
+2026-06-11 01:25:51.913 +03:00 [INF] Collision between corp14x3 (37) and Traffic 24 (24), rel. speed 22km/h
+2026-06-11 01:26:13.411 +03:00 [INF] Collision between KENSİK (31) and Traffic 5 (5), rel. speed 47km/h
+2026-06-11 01:26:19.496 +03:00 [INF] Collision between Pycharm (36) and environment, rel. speed 34km/h
+2026-06-11 01:26:24.950 +03:00 [INF] Collision between Pycharm (36) and environment, rel. speed 8km/h
+2026-06-11 01:26:27.189 +03:00 [INF] Collision between Ardaschumacher (32) and environment, rel. speed 14km/h
+2026-06-11 01:26:36.969 +03:00 [INF] Collision between Ardaschumacher (32) and environment, rel. speed 43km/h
+2026-06-11 01:26:43.602 +03:00 [INF] Collision between Ardaschumacher (32) and environment, rel. speed 12km/h
+2026-06-11 01:26:45.606 +03:00 [INF] Collision between Ardaschumacher (32) and environment, rel. speed 1km/h
+2026-06-11 01:26:59.073 +03:00 [INF] Collision between Ardaschumacher (32) and Traffic 7 (7), rel. speed 83km/h
+2026-06-11 01:27:07.175 +03:00 [INF] Collision between Ardaschumacher (32) and Traffic 11 (11), rel. speed 77km/h
+2026-06-11 01:27:09.287 +03:00 [INF] Collision between Pycharm (36) and environment, rel. speed 33km/h
+2026-06-11 01:27:16.407 +03:00 [INF] Collision between Pycharm (36) and KENSİK (31), rel. speed 14km/h
+2026-06-11 01:27:16.414 +03:00 [INF] Collision between KENSİK (31) and Pycharm (36), rel. speed 24km/h
+2026-06-11 01:27:35.158 +03:00 [INF] Collision between KENSİK (31) and environment, rel. speed 12km/h
+2026-06-11 01:27:37.040 +03:00 [DBG] Received clean exit from Pycharm (36)
+2026-06-11 01:27:37.042 +03:00 [DBG] Disconnecting Pycharm (76561198840295673 - 185.20.6.0:25500)
+2026-06-11 01:27:37.042 +03:00 [INF] Pycharm has disconnected
+2026-06-11 01:27:48.646 +03:00 [INF] Collision between Ardaschumacher (32) and environment, rel. speed 7km/h
+2026-06-11 01:27:58.042 +03:00 [INF] Pycharm (76561198840295673 - 185.20.6.0:25652) is attempting to connect (gk_bmw_540i)
+2026-06-11 01:27:58.042 +03:00 [DBG] Pycharm supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 01:27:58.042 +03:00 [DBG] Disconnecting Pycharm (76561198840295673 - 185.20.6.0:25652)
+2026-06-11 01:28:20.865 +03:00 [INF] Pycharm (76561198840295673 - 185.20.6.0:25923) is attempting to connect (gk_bmw_540i)
+2026-06-11 01:28:20.865 +03:00 [DBG] Pycharm supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 01:28:20.866 +03:00 [DBG] Disconnecting Pycharm (76561198840295673 - 185.20.6.0:25923)
+2026-06-11 01:28:39.448 +03:00 [INF] Collision between Ardaschumacher (32) and environment, rel. speed 57km/h
+2026-06-11 01:28:41.634 +03:00 [INF] Collision between Ardaschumacher (32) and environment, rel. speed 1km/h
+2026-06-11 01:28:45.636 +03:00 [INF] Pycharm (76561198840295673 - 185.20.6.0:25924) is attempting to connect (vw_golf_r)
+2026-06-11 01:28:45.636 +03:00 [DBG] Pycharm supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 01:28:45.636 +03:00 [INF] Pycharm (76561198840295673, 34 (vw_golf_r-black)) has connected
+2026-06-11 01:28:54.988 +03:00 [INF] Collision between KENSİK (31) and environment, rel. speed 28km/h
+2026-06-11 01:28:56.185 +03:00 [INF] Collision between corp14x3 (37) and KENSİK (31), rel. speed 12km/h
+2026-06-11 01:29:05.365 +03:00 [DBG] Disconnecting Pycharm (76561198840295673 - 185.20.6.0:25924)
+2026-06-11 01:29:05.365 +03:00 [INF] Pycharm has disconnected
+2026-06-11 01:29:11.673 +03:00 [INF] Collision between corp14x3 (37) and environment, rel. speed 27km/h
+2026-06-11 01:29:26.461 +03:00 [INF] Pycharm (76561198840295673 - 185.20.6.0:25866) is attempting to connect (MRNDES_Honda_Civic_1992)
+2026-06-11 01:29:26.461 +03:00 [DBG] Pycharm supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 01:29:26.461 +03:00 [INF] Pycharm (76561198840295673, 35 (MRNDES_Honda_Civic_1992-Aztec Green Pearl)) has connected
+2026-06-11 01:29:40.016 +03:00 [DBG] AI Slot overbooking update - No. players: 4 - No. AI Slots: 30 - Target AI count: 120 - Overbooking: 4 - Rest: 0
+2026-06-11 01:29:40.519 +03:00 [INF] CSP handshake received from Pycharm (35): Version=3879 WeatherFX=true InputMethod="Wheel" RainFX=true HWID=13117711692736825102
+2026-06-11 01:29:53.871 +03:00 [INF] Collision between Ardaschumacher (32) and environment, rel. speed 21km/h
+2026-06-11 01:30:08.430 +03:00 [INF] Collision between Ardaschumacher (32) and environment, rel. speed 4km/h
+2026-06-11 01:30:39.163 +03:00 [INF] Collision between Ardaschumacher (32) and environment, rel. speed 10km/h
+2026-06-11 01:30:43.851 +03:00 [INF] Collision between Ardaschumacher (32) and environment, rel. speed 6km/h
+2026-06-11 01:31:09.022 +03:00 [INF] Collision between KENSİK (31) and environment, rel. speed 9km/h
+2026-06-11 01:32:54.347 +03:00 [INF] Collision between Ardaschumacher (32) and environment, rel. speed 10km/h
+2026-06-11 01:33:48.051 +03:00 [INF] Collision between KENSİK (31) and environment, rel. speed 13km/h
+2026-06-11 01:36:14.299 +03:00 [INF] Collision between corp14x3 (37) and Pycharm (35), rel. speed 89km/h
+2026-06-11 01:36:14.308 +03:00 [INF] Collision between Pycharm (35) and corp14x3 (37), rel. speed 104km/h
+2026-06-11 01:36:14.308 +03:00 [INF] Collision between Pycharm (35) and KENSİK (31), rel. speed 68km/h
+2026-06-11 01:36:14.317 +03:00 [INF] Collision between KENSİK (31) and Pycharm (35), rel. speed 55km/h
+2026-06-11 01:36:29.192 +03:00 [INF] Collision between Pycharm (35) and Ardaschumacher (32), rel. speed 21km/h
+2026-06-11 01:36:29.194 +03:00 [INF] Collision between Ardaschumacher (32) and Pycharm (35), rel. speed 23km/h
+2026-06-11 01:36:31.194 +03:00 [INF] Collision between Pycharm (35) and Ardaschumacher (32), rel. speed 56km/h
+2026-06-11 01:36:31.201 +03:00 [INF] Collision between Ardaschumacher (32) and Pycharm (35), rel. speed 26km/h
+2026-06-11 01:36:37.590 +03:00 [INF] Collision between corp14x3 (37) and Ardaschumacher (32), rel. speed 4km/h
+2026-06-11 01:36:37.600 +03:00 [INF] Collision between Ardaschumacher (32) and corp14x3 (37), rel. speed 4km/h
+2026-06-11 01:36:39.592 +03:00 [INF] Collision between corp14x3 (37) and Ardaschumacher (32), rel. speed 2km/h
+2026-06-11 01:36:39.604 +03:00 [INF] Collision between Ardaschumacher (32) and corp14x3 (37), rel. speed 8km/h
+2026-06-11 01:38:22.297 +03:00 [INF] Collision between KENSİK (31) and Ardaschumacher (32), rel. speed 13km/h
+2026-06-11 01:38:22.300 +03:00 [INF] Collision between Ardaschumacher (32) and KENSİK (31), rel. speed 10km/h
+2026-06-11 01:38:40.580 +03:00 [DBG] Received clean exit from KENSİK (31)
+2026-06-11 01:38:40.580 +03:00 [DBG] Disconnecting KENSİK (76561199467268064 - 94.55.236.0:64852)
+2026-06-11 01:38:40.581 +03:00 [INF] KENSİK has disconnected
+2026-06-11 01:38:47.875 +03:00 [DBG] Received clean exit from Ardaschumacher (32)
+2026-06-11 01:38:47.875 +03:00 [DBG] Disconnecting Ardaschumacher (76561198834121069 - 104.28.164.0:34247)
+2026-06-11 01:38:47.875 +03:00 [INF] Ardaschumacher has disconnected
+2026-06-11 01:38:52.190 +03:00 [DBG] Received clean exit from corp14x3 (37)
+2026-06-11 01:38:52.190 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 192.168.1.0:50092)
+2026-06-11 01:38:52.190 +03:00 [INF] corp14x3 has disconnected
+2026-06-11 01:38:57.159 +03:00 [INF] Ardaschumacher (76561198834121069 - 104.28.164.0:33973) is attempting to connect (vw_golf_r)
+2026-06-11 01:38:57.159 +03:00 [DBG] Ardaschumacher supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 01:38:57.159 +03:00 [INF] Ardaschumacher (76561198834121069, 34 (vw_golf_r-black)) has connected
+2026-06-11 01:39:21.444 +03:00 [INF] corp14x3 (76561199521796457 - 192.168.1.0:60534) is attempting to connect (amgeshnik_mercedes_e500_w212)
+2026-06-11 01:39:21.444 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 01:39:21.444 +03:00 [INF] corp14x3 (76561199521796457, 30 (amgeshnik_mercedes_e500_w212-bely)) has connected
+2026-06-11 01:39:28.271 +03:00 [DBG] Disconnecting Ardaschumacher (76561198834121069 - 104.28.164.0:33973)
+2026-06-11 01:39:28.271 +03:00 [INF] Ardaschumacher has disconnected
+2026-06-11 01:39:29.232 +03:00 [DBG] AI Slot overbooking update - No. players: 2 - No. AI Slots: 30 - Target AI count: 60 - Overbooking: 2 - Rest: 0
+2026-06-11 01:39:29.543 +03:00 [INF] CSP handshake received from corp14x3 (30): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-06-11 01:39:30.726 +03:00 [INF] KENSİK (76561199467268064 - 94.55.236.0:61839) is attempting to connect (ms_bmw_f30_340i)
+2026-06-11 01:39:30.726 +03:00 [DBG] KENSİK supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 01:39:30.726 +03:00 [INF] KENSİK (76561199467268064, 33 (ms_bmw_f30_340i-Alpine_White_III)) has connected
+2026-06-11 01:39:44.845 +03:00 [DBG] AI Slot overbooking update - No. players: 3 - No. AI Slots: 30 - Target AI count: 90 - Overbooking: 3 - Rest: 0
+2026-06-11 01:39:45.214 +03:00 [INF] CSP handshake received from KENSİK (33): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=16274150991130116486
+2026-06-11 01:40:26.763 +03:00 [INF] Ardaschumacher (76561198834121069 - 104.28.164.0:33413) is attempting to connect (sl_peugeot_508_pse_2019)
+2026-06-11 01:40:26.763 +03:00 [DBG] Ardaschumacher supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 01:40:26.763 +03:00 [INF] Ardaschumacher (76561198834121069, 36 (sl_peugeot_508_pse_2019-_Gris S??l??nium)) has connected
+2026-06-11 01:40:37.486 +03:00 [DBG] Received clean exit from corp14x3 (30)
+2026-06-11 01:40:37.486 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 192.168.1.0:60534)
+2026-06-11 01:40:37.487 +03:00 [INF] corp14x3 has disconnected
+2026-06-11 01:40:41.718 +03:00 [DBG] Received clean exit from KENSİK (33)
+2026-06-11 01:40:41.718 +03:00 [DBG] Disconnecting KENSİK (76561199467268064 - 94.55.236.0:61839)
+2026-06-11 01:40:41.718 +03:00 [INF] KENSİK has disconnected
+2026-06-11 01:40:43.043 +03:00 [DBG] AI Slot overbooking update - No. players: 2 - No. AI Slots: 30 - Target AI count: 60 - Overbooking: 2 - Rest: 0
+2026-06-11 01:40:45.640 +03:00 [INF] CSP handshake received from Ardaschumacher (36): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=17088649112657117920
+2026-06-11 01:41:28.968 +03:00 [INF] corp14x3 (76561199521796457 - 192.168.1.0:60543) is attempting to connect (gk_bmw_540i)
+2026-06-11 01:41:28.968 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 01:41:28.968 +03:00 [INF] corp14x3 (76561199521796457, 32 (gk_bmw_540i-Alpine White III)) has connected
+2026-06-11 01:41:36.590 +03:00 [DBG] AI Slot overbooking update - No. players: 3 - No. AI Slots: 30 - Target AI count: 90 - Overbooking: 3 - Rest: 0
+2026-06-11 01:41:36.896 +03:00 [INF] CSP handshake received from corp14x3 (32): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-06-11 01:41:50.884 +03:00 [INF] Collision between Ardaschumacher (36) and environment, rel. speed 82km/h
+2026-06-11 01:42:06.963 +03:00 [INF] Collision between Ardaschumacher (36) and environment, rel. speed 29km/h
+2026-06-11 01:42:52.288 +03:00 [INF] Collision between Ardaschumacher (36) and environment, rel. speed 20km/h
+2026-06-11 01:43:39.857 +03:00 [INF] Collision between Ardaschumacher (36) and environment, rel. speed 26km/h
+2026-06-11 01:44:01.891 +03:00 [INF] KENSİK (76561199467268064 - 94.55.236.0:61991) is attempting to connect (vw_golf_r)
+2026-06-11 01:44:01.891 +03:00 [DBG] KENSİK supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 01:44:01.891 +03:00 [INF] KENSİK (76561199467268064, 34 (vw_golf_r-black)) has connected
+2026-06-11 01:44:15.148 +03:00 [DBG] Disconnecting KENSİK (76561199467268064 - 94.55.236.0:61991)
+2026-06-11 01:44:15.148 +03:00 [INF] KENSİK has disconnected
+2026-06-11 01:44:15.790 +03:00 [INF] Collision between Ardaschumacher (36) and environment, rel. speed 56km/h
+2026-06-11 01:44:29.831 +03:00 [INF] Collision between corp14x3 (32) and environment, rel. speed 12km/h
+2026-06-11 01:45:06.798 +03:00 [INF] KENSİK (76561199467268064 - 94.55.236.0:62035) is attempting to connect (vw_golf_r)
+2026-06-11 01:45:06.798 +03:00 [DBG] KENSİK supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 01:45:06.798 +03:00 [INF] KENSİK (76561199467268064, 34 (vw_golf_r-black)) has connected
+2026-06-11 01:45:20.487 +03:00 [DBG] AI Slot overbooking update - No. players: 4 - No. AI Slots: 30 - Target AI count: 120 - Overbooking: 4 - Rest: 0
+2026-06-11 01:45:21.076 +03:00 [INF] CSP handshake received from KENSİK (34): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=16274150991130116486
+2026-06-11 01:46:03.920 +03:00 [INF] Collision between Ardaschumacher (36) and Pycharm (35), rel. speed 7km/h
+2026-06-11 01:46:03.946 +03:00 [INF] Collision between Pycharm (35) and Ardaschumacher (36), rel. speed 4km/h
+2026-06-11 01:46:11.167 +03:00 [INF] Collision between Pycharm (35) and Ardaschumacher (36), rel. speed 27km/h
+2026-06-11 01:46:11.168 +03:00 [INF] Collision between Ardaschumacher (36) and Pycharm (35), rel. speed 19km/h
+2026-06-11 01:46:44.105 +03:00 [INF] Collision between KENSİK (34) and environment, rel. speed 20km/h
+2026-06-11 01:47:33.693 +03:00 [INF] Collision between Pycharm (35) and Ardaschumacher (36), rel. speed 29km/h
+2026-06-11 01:47:33.697 +03:00 [INF] Collision between Ardaschumacher (36) and Pycharm (35), rel. speed 23km/h
+2026-06-11 01:47:49.756 +03:00 [INF] Collision between KENSİK (34) and environment, rel. speed 26km/h
+2026-06-11 01:48:40.703 +03:00 [INF] Collision between KENSİK (34) and environment, rel. speed 78km/h
+2026-06-11 01:49:21.658 +03:00 [INF] Collision between KENSİK (34) and environment, rel. speed 33km/h
+2026-06-11 01:51:12.038 +03:00 [INF] Collision between corp14x3 (32) and Pycharm (35), rel. speed 0km/h
+2026-06-11 01:51:12.052 +03:00 [INF] Collision between Pycharm (35) and corp14x3 (32), rel. speed 0km/h
+2026-06-11 01:52:23.930 +03:00 [INF] Collision between Pycharm (35) and KENSİK (34), rel. speed 13km/h
+2026-06-11 01:52:23.930 +03:00 [INF] Collision between KENSİK (34) and Pycharm (35), rel. speed 13km/h
+2026-06-11 01:53:13.917 +03:00 [INF] Collision between KENSİK (34) and environment, rel. speed 98km/h
+2026-06-11 01:53:15.958 +03:00 [INF] Collision between KENSİK (34) and Pycharm (35), rel. speed 29km/h
+2026-06-11 01:53:15.970 +03:00 [INF] Collision between Pycharm (35) and KENSİK (34), rel. speed 34km/h
+2026-06-11 01:53:16.857 +03:00 [INF] Collision between KENSİK (34) and environment, rel. speed 53km/h
+2026-06-11 01:53:56.926 +03:00 [DBG] Disconnecting Ardaschumacher (76561198834121069 - 104.28.164.0:33413)
+2026-06-11 01:53:56.926 +03:00 [INF] Ardaschumacher has disconnected
+2026-06-11 01:54:15.695 +03:00 [INF] Collision between KENSİK (34) and environment, rel. speed 12km/h
+2026-06-11 01:54:22.857 +03:00 [INF] Collision between KENSİK (34) and environment, rel. speed 72km/h
+2026-06-11 01:54:26.260 +03:00 [INF] Ardaschumacher (76561198834121069 - 104.28.164.0:34035) is attempting to connect (ism_e346_street_c_gt3_vss)
+2026-06-11 01:54:26.260 +03:00 [DBG] Ardaschumacher supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 01:54:26.260 +03:00 [INF] Ardaschumacher (76561198834121069, 31 (ism_e346_street_c_gt3_vss-Alpine_White_III)) has connected
+2026-06-11 01:54:34.349 +03:00 [INF] Collision between Pycharm (35) and environment, rel. speed 5km/h
+2026-06-11 01:54:58.538 +03:00 [DBG] AI Slot overbooking update - No. players: 4 - No. AI Slots: 30 - Target AI count: 120 - Overbooking: 4 - Rest: 0
+2026-06-11 01:54:59.892 +03:00 [INF] CSP handshake received from Ardaschumacher (31): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=17088649112657117920
+2026-06-11 01:55:02.556 +03:00 [INF] Collision between Pycharm (35) and environment, rel. speed 30km/h
+2026-06-11 01:55:04.175 +03:00 [INF] Collision between Pycharm (35) and KENSİK (34), rel. speed 13km/h
+2026-06-11 01:55:04.176 +03:00 [INF] Collision between KENSİK (34) and Pycharm (35), rel. speed 18km/h
+2026-06-11 01:55:16.513 +03:00 [INF] Collision between Pycharm (35) and environment, rel. speed 3km/h
+2026-06-11 01:55:59.234 +03:00 [INF] Collision between corp14x3 (32) and KENSİK (34), rel. speed 176km/h
+2026-06-11 01:55:59.246 +03:00 [INF] Collision between KENSİK (34) and corp14x3 (32), rel. speed 175km/h
+2026-06-11 01:56:06.743 +03:00 [INF] Collision between Ardaschumacher (31) and environment, rel. speed 40km/h
+2026-06-11 01:56:08.672 +03:00 [INF] Collision between corp14x3 (32) and KENSİK (34), rel. speed 30km/h
+2026-06-11 01:56:08.690 +03:00 [INF] Collision between KENSİK (34) and corp14x3 (32), rel. speed 30km/h
+2026-06-11 01:56:10.673 +03:00 [INF] Collision between corp14x3 (32) and KENSİK (34), rel. speed 24km/h
+2026-06-11 01:56:10.686 +03:00 [INF] Collision between KENSİK (34) and corp14x3 (32), rel. speed 18km/h
+2026-06-11 01:56:13.211 +03:00 [INF] Collision between Ardaschumacher (31) and environment, rel. speed 26km/h
+2026-06-11 01:56:28.150 +03:00 [INF] Collision between Ardaschumacher (31) and environment, rel. speed 8km/h
+2026-06-11 01:56:32.186 +03:00 [INF] Collision between corp14x3 (32) and KENSİK (34), rel. speed 38km/h
+2026-06-11 01:56:32.201 +03:00 [INF] Collision between KENSİK (34) and corp14x3 (32), rel. speed 38km/h
+2026-06-11 01:56:47.081 +03:00 [INF] Collision between Ardaschumacher (31) and environment, rel. speed 36km/h
+2026-06-11 01:57:17.998 +03:00 [INF] Collision between Ardaschumacher (31) and environment, rel. speed 19km/h
+2026-06-11 01:57:38.460 +03:00 [INF] Collision between Pycharm (35) and KENSİK (34), rel. speed 292km/h
+2026-06-11 01:57:38.468 +03:00 [INF] Collision between KENSİK (34) and Pycharm (35), rel. speed 67km/h
+2026-06-11 01:58:03.864 +03:00 [INF] Collision between Ardaschumacher (31) and KENSİK (34), rel. speed 169km/h
+2026-06-11 01:58:03.865 +03:00 [INF] Collision between KENSİK (34) and Ardaschumacher (31), rel. speed 149km/h
+2026-06-11 01:58:11.966 +03:00 [INF] Collision between corp14x3 (32) and KENSİK (34), rel. speed 46km/h
+2026-06-11 01:58:11.981 +03:00 [INF] Collision between KENSİK (34) and corp14x3 (32), rel. speed 47km/h
+2026-06-11 01:58:29.505 +03:00 [INF] Collision between Pycharm (35) and KENSİK (34), rel. speed 132km/h
+2026-06-11 01:58:29.522 +03:00 [INF] Collision between KENSİK (34) and Pycharm (35), rel. speed 109km/h
+2026-06-11 01:58:36.609 +03:00 [INF] Collision between Ardaschumacher (31) and KENSİK (34), rel. speed 176km/h
+2026-06-11 01:58:36.611 +03:00 [INF] Collision between KENSİK (34) and Ardaschumacher (31), rel. speed 156km/h
+2026-06-11 01:58:41.969 +03:00 [INF] Collision between Pycharm (35) and KENSİK (34), rel. speed 66km/h
+2026-06-11 01:58:41.969 +03:00 [INF] Collision between KENSİK (34) and Pycharm (35), rel. speed 60km/h
+2026-06-11 01:58:45.740 +03:00 [INF] Collision between corp14x3 (32) and Ardaschumacher (31), rel. speed 99km/h
+2026-06-11 01:58:45.753 +03:00 [INF] Collision between Ardaschumacher (31) and corp14x3 (32), rel. speed 122km/h
+2026-06-11 01:58:55.384 +03:00 [INF] Collision between Pycharm (35) and Ardaschumacher (31), rel. speed 121km/h
+2026-06-11 01:58:55.390 +03:00 [INF] Collision between Ardaschumacher (31) and Pycharm (35), rel. speed 120km/h
+2026-06-11 01:58:57.247 +03:00 [INF] Collision between KENSİK (34) and Ardaschumacher (31), rel. speed 86km/h
+2026-06-11 01:58:57.254 +03:00 [INF] Collision between Ardaschumacher (31) and KENSİK (34), rel. speed 98km/h
+2026-06-11 01:59:05.415 +03:00 [INF] Collision between corp14x3 (32) and Pycharm (35), rel. speed 86km/h
+2026-06-11 01:59:05.423 +03:00 [INF] Collision between Pycharm (35) and corp14x3 (32), rel. speed 103km/h
+2026-06-11 01:59:08.168 +03:00 [INF] Collision between corp14x3 (32) and Ardaschumacher (31), rel. speed 25km/h
+2026-06-11 01:59:08.223 +03:00 [INF] Collision between Ardaschumacher (31) and corp14x3 (32), rel. speed 37km/h
+2026-06-11 01:59:18.517 +03:00 [INF] Collision between corp14x3 (32) and KENSİK (34), rel. speed 102km/h
+2026-06-11 01:59:18.531 +03:00 [INF] Collision between KENSİK (34) and corp14x3 (32), rel. speed 99km/h
+2026-06-11 01:59:20.258 +03:00 [INF] Collision between corp14x3 (32) and Pycharm (35), rel. speed 86km/h
+2026-06-11 01:59:20.268 +03:00 [INF] Collision between Pycharm (35) and corp14x3 (32), rel. speed 107km/h
+2026-06-11 01:59:25.736 +03:00 [INF] Collision between corp14x3 (32) and KENSİK (34), rel. speed 65km/h
+2026-06-11 01:59:25.758 +03:00 [INF] Collision between KENSİK (34) and corp14x3 (32), rel. speed 65km/h
+2026-06-11 01:59:43.719 +03:00 [INF] Collision between corp14x3 (32) and Pycharm (35), rel. speed 138km/h
+2026-06-11 01:59:43.723 +03:00 [INF] Collision between Pycharm (35) and corp14x3 (32), rel. speed 172km/h
+2026-06-11 01:59:44.613 +03:00 [INF] Collision between corp14x3 (32) and KENSİK (34), rel. speed 104km/h
+2026-06-11 01:59:44.625 +03:00 [INF] Collision between KENSİK (34) and corp14x3 (32), rel. speed 106km/h
+2026-06-11 01:59:44.666 +03:00 [INF] Collision between Pycharm (35) and KENSİK (34), rel. speed 122km/h
+2026-06-11 01:59:44.698 +03:00 [INF] Collision between KENSİK (34) and Pycharm (35), rel. speed 83km/h
+2026-06-11 01:59:53.336 +03:00 [INF] Collision between corp14x3 (32) and KENSİK (34), rel. speed 41km/h
+2026-06-11 01:59:53.348 +03:00 [INF] Collision between KENSİK (34) and corp14x3 (32), rel. speed 89km/h
+2026-06-11 01:59:55.398 +03:00 [INF] Collision between Pycharm (35) and KENSİK (34), rel. speed 116km/h
+2026-06-11 01:59:55.398 +03:00 [INF] Collision between KENSİK (34) and Pycharm (35), rel. speed 102km/h
+2026-06-11 02:00:02.516 +03:00 [INF] Collision between corp14x3 (32) and Pycharm (35), rel. speed 40km/h
+2026-06-11 02:00:02.523 +03:00 [INF] Collision between Pycharm (35) and corp14x3 (32), rel. speed 52km/h
+2026-06-11 02:00:06.543 +03:00 [INF] Collision between Pycharm (35) and KENSİK (34), rel. speed 120km/h
+2026-06-11 02:00:06.543 +03:00 [INF] Collision between KENSİK (34) and Pycharm (35), rel. speed 104km/h
+2026-06-11 02:00:10.227 +03:00 [INF] Collision between corp14x3 (32) and KENSİK (34), rel. speed 68km/h
+2026-06-11 02:00:10.232 +03:00 [INF] Collision between KENSİK (34) and corp14x3 (32), rel. speed 66km/h
+2026-06-11 02:00:14.545 +03:00 [INF] Collision between Pycharm (35) and KENSİK (34), rel. speed 32km/h
+2026-06-11 02:00:14.558 +03:00 [INF] Collision between KENSİK (34) and Pycharm (35), rel. speed 20km/h
+2026-06-11 02:00:37.174 +03:00 [INF] Collision between Pycharm (35) and KENSİK (34), rel. speed 35km/h
+2026-06-11 02:00:37.182 +03:00 [INF] Collision between KENSİK (34) and Pycharm (35), rel. speed 32km/h
+2026-06-11 02:00:42.266 +03:00 [INF] Collision between corp14x3 (32) and KENSİK (34), rel. speed 96km/h
+2026-06-11 02:00:42.280 +03:00 [INF] Collision between KENSİK (34) and corp14x3 (32), rel. speed 102km/h
+2026-06-11 02:00:44.990 +03:00 [INF] Collision between corp14x3 (32) and KENSİK (34), rel. speed 57km/h
+2026-06-11 02:00:45.013 +03:00 [INF] Collision between KENSİK (34) and corp14x3 (32), rel. speed 53km/h
+2026-06-11 02:00:58.832 +03:00 [INF] Collision between corp14x3 (32) and KENSİK (34), rel. speed 132km/h
+2026-06-11 02:00:58.854 +03:00 [INF] Collision between KENSİK (34) and corp14x3 (32), rel. speed 131km/h
+2026-06-11 02:01:02.422 +03:00 [INF] Collision between Pycharm (35) and KENSİK (34), rel. speed 132km/h
+2026-06-11 02:01:02.422 +03:00 [INF] Collision between KENSİK (34) and Pycharm (35), rel. speed 118km/h
+2026-06-11 02:02:39.354 +03:00 [INF] Collision between Ardaschumacher (31) and environment, rel. speed 51km/h
+2026-06-11 02:03:10.459 +03:00 [INF] Collision between Ardaschumacher (31) and environment, rel. speed 26km/h
+2026-06-11 02:03:14.415 +03:00 [INF] Collision between corp14x3 (32) and KENSİK (34), rel. speed 420km/h
+2026-06-11 02:03:14.424 +03:00 [INF] Collision between KENSİK (34) and corp14x3 (32), rel. speed 419km/h
+2026-06-11 02:03:17.227 +03:00 [INF] Collision between Pycharm (35) and KENSİK (34), rel. speed 114km/h
+2026-06-11 02:03:17.240 +03:00 [INF] Collision between KENSİK (34) and Pycharm (35), rel. speed 97km/h
+2026-06-11 02:03:17.444 +03:00 [INF] Collision between corp14x3 (32) and Pycharm (35), rel. speed 98km/h
+2026-06-11 02:03:17.444 +03:00 [INF] Collision between Pycharm (35) and corp14x3 (32), rel. speed 123km/h
+2026-06-11 02:03:22.298 +03:00 [INF] Collision between corp14x3 (32) and KENSİK (34), rel. speed 22km/h
+2026-06-11 02:03:22.311 +03:00 [INF] Collision between KENSİK (34) and corp14x3 (32), rel. speed 22km/h
+2026-06-11 02:03:29.984 +03:00 [INF] Collision between Pycharm (35) and KENSİK (34), rel. speed 65km/h
+2026-06-11 02:03:29.993 +03:00 [INF] Collision between KENSİK (34) and Pycharm (35), rel. speed 51km/h
+2026-06-11 02:03:31.984 +03:00 [INF] Collision between Pycharm (35) and KENSİK (34), rel. speed 11km/h
+2026-06-11 02:03:31.999 +03:00 [INF] Collision between KENSİK (34) and Pycharm (35), rel. speed 7km/h
+2026-06-11 02:03:34.699 +03:00 [INF] Collision between Pycharm (35) and corp14x3 (32), rel. speed 52km/h
+2026-06-11 02:03:34.700 +03:00 [INF] Collision between corp14x3 (32) and Pycharm (35), rel. speed 30km/h
+2026-06-11 02:04:37.271 +03:00 [INF] Collision between Pycharm (35) and KENSİK (34), rel. speed 32km/h
+2026-06-11 02:04:37.283 +03:00 [INF] Collision between KENSİK (34) and Pycharm (35), rel. speed 26km/h
+2026-06-11 02:04:41.394 +03:00 [INF] Collision between Pycharm (35) and KENSİK (34), rel. speed 19km/h
+2026-06-11 02:04:41.408 +03:00 [INF] Collision between KENSİK (34) and Pycharm (35), rel. speed 15km/h
+2026-06-11 02:05:10.340 +03:00 [INF] Collision between Pycharm (35) and KENSİK (34), rel. speed 10km/h
+2026-06-11 02:05:10.360 +03:00 [INF] Collision between KENSİK (34) and Pycharm (35), rel. speed 5km/h
+2026-06-11 02:05:16.286 +03:00 [INF] Collision between Pycharm (35) and KENSİK (34), rel. speed 17km/h
+2026-06-11 02:05:16.299 +03:00 [INF] Collision between KENSİK (34) and Pycharm (35), rel. speed 9km/h
+2026-06-11 02:05:18.842 +03:00 [INF] Collision between Pycharm (35) and KENSİK (34), rel. speed 29km/h
+2026-06-11 02:05:18.850 +03:00 [INF] Collision between KENSİK (34) and Pycharm (35), rel. speed 30km/h
+2026-06-11 02:05:56.927 +03:00 [INF] Collision between Pycharm (35) and KENSİK (34), rel. speed 85km/h
+2026-06-11 02:05:56.929 +03:00 [INF] Collision between KENSİK (34) and Pycharm (35), rel. speed 141km/h
+2026-06-11 02:05:58.406 +03:00 [INF] Collision between corp14x3 (32) and Pycharm (35), rel. speed 17km/h
+2026-06-11 02:05:58.415 +03:00 [INF] Collision between Pycharm (35) and corp14x3 (32), rel. speed 21km/h
+2026-06-11 02:06:00.581 +03:00 [DBG] Received clean exit from corp14x3 (32)
+2026-06-11 02:06:00.581 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 192.168.1.0:60543)
+2026-06-11 02:06:00.581 +03:00 [INF] corp14x3 has disconnected
+2026-06-11 02:06:03.774 +03:00 [DBG] Received clean exit from Pycharm (35)
+2026-06-11 02:06:03.774 +03:00 [DBG] Disconnecting Pycharm (76561198840295673 - 185.20.6.0:25866)
+2026-06-11 02:06:03.774 +03:00 [INF] Pycharm has disconnected
+2026-06-11 02:06:11.454 +03:00 [INF] Collision between KENSİK (34) and Ardaschumacher (31), rel. speed 103km/h
+2026-06-11 02:06:11.457 +03:00 [INF] Collision between Ardaschumacher (31) and KENSİK (34), rel. speed 118km/h
+2026-06-11 02:06:21.115 +03:00 [INF] Collision between Ardaschumacher (31) and KENSİK (34), rel. speed 52km/h
+2026-06-11 02:06:21.125 +03:00 [INF] Collision between KENSİK (34) and Ardaschumacher (31), rel. speed 42km/h
+2026-06-11 02:06:34.641 +03:00 [INF] Collision between KENSİK (34) and Ardaschumacher (31), rel. speed 40km/h
+2026-06-11 02:06:34.767 +03:00 [INF] Collision between Ardaschumacher (31) and KENSİK (34), rel. speed 25km/h
+2026-06-11 02:06:48.628 +03:00 [INF] Collision between Ardaschumacher (31) and environment, rel. speed 23km/h
+2026-06-11 02:07:03.143 +03:00 [INF] AssettoServer 0.0.55-pre35
+2026-06-11 02:07:03.164 +03:00 [DBG] Server was started through Content Manager
+2026-06-11 02:07:03.168 +03:00 [DBG] Loading server_cfg.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Nurbur\server_cfg.ini
+2026-06-11 02:07:03.184 +03:00 [DBG] Loading entry_list.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Nurbur\entry_list.ini
+2026-06-11 02:07:03.388 +03:00 [DBG] Loading extra_cfg.yml from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Nurbur\extra_cfg.yml
+2026-06-11 02:07:03.459 +03:00 [DBG] Using minimum required CSP Version 3879
+2026-06-11 02:07:03.736 +03:00 [INF] Starting server
+2026-06-11 02:07:03.791 +03:00 [INF] Loaded 8 cars
+2026-06-11 02:07:03.798 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2026-06-11 02:07:03.798 +03:00 [DBG] Added checksum for content/tracks/csp/3879/../H/../spa/data/surfaces.ini
+2026-06-11 02:07:03.799 +03:00 [INF] Initialized 2 track checksums
+2026-06-11 02:07:03.801 +03:00 [DBG] Added checksum for mercedes_sls_gt3
+2026-06-11 02:07:03.802 +03:00 [DBG] Added checksum for mclaren_mp412c_gt3
+2026-06-11 02:07:03.803 +03:00 [DBG] Added checksum for bmw_z4_gt3
+2026-06-11 02:07:03.803 +03:00 [DBG] Added checksum for bmw_m4_gt3_acc
+2026-06-11 02:07:03.803 +03:00 [DBG] Added checksum for ac_friends_ferrari_296_gt3
+2026-06-11 02:07:03.804 +03:00 [DBG] Added checksum for toyota_gr_gt3
+2026-06-11 02:07:03.804 +03:00 [DBG] Added checksum for bm_bmw_m6_gt3
+2026-06-11 02:07:03.805 +03:00 [DBG] Added checksum for gue_aston_martin_vantage_gt3
+2026-06-11 02:07:03.806 +03:00 [INF] Initialized 8 car checksums
+2026-06-11 02:07:04.076 +03:00 [INF] Next session: Qualification - Length: 3 minutes
+2026-06-11 02:07:04.077 +03:00 [INF] Switching session to id 0
+2026-06-11 02:07:04.179 +03:00 [INF] Starting HTTP server on port 8081
+2026-06-11 02:07:04.180 +03:00 [INF] Starting UDP server on port 9600
+2026-06-11 02:07:04.180 +03:00 [INF] Starting TCP server on port 9600
+2026-06-11 02:07:04.181 +03:00 [INF] Starting update loop with an update rate of 60hz
+2026-06-11 02:07:04.185 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2026-06-11 02:07:04.188 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2026-06-11 02:07:04.188 +03:00 [DBG] Loaded admins.txt with 0 entries
+2026-06-11 02:07:04.189 +03:00 [INF] Invite link: https://acstuff.club/s/q:race/online/join?ip=212.154.2.92&httpPort=8081
+2026-06-11 02:07:04.189 +03:00 [INF] Server startup completed
+2026-06-11 02:07:19.089 +03:00 [INF] KENSİK (76561199467268064 - 94.55.236.0:62526) is attempting to connect (bmw_z4_gt3)
+2026-06-11 02:07:19.091 +03:00 [DBG] KENSİK supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 02:07:19.095 +03:00 [INF] KENSİK (76561199467268064, 2 (bmw_z4_gt3-Vita4one)) has connected
+2026-06-11 02:07:25.723 +03:00 [INF] CSP handshake received from KENSİK (2): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=16274150991130116486
+2026-06-11 02:07:42.737 +03:00 [INF] corp14x3 (76561199521796457 - 192.168.1.0:50216) is attempting to connect (bmw_m4_gt3_acc)
+2026-06-11 02:07:42.737 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 02:07:42.737 +03:00 [INF] corp14x3 (76561199521796457, 3 (bmw_m4_gt3_acc-0_2022_bmw_82)) has connected
+2026-06-11 02:07:47.036 +03:00 [INF] CSP handshake received from corp14x3 (3): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-06-11 02:08:13.250 +03:00 [INF] Ardaschumacher (76561198834121069 - 104.28.164.0:34322) is attempting to connect (toyota_gr_gt3)
+2026-06-11 02:08:13.250 +03:00 [DBG] Ardaschumacher supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 02:08:13.251 +03:00 [INF] Ardaschumacher (76561198834121069, 5 (toyota_gr_gt3-skin0)) has connected
+2026-06-11 02:08:40.639 +03:00 [INF] CSP handshake received from Ardaschumacher (5): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=17088649112657117920
+2026-06-11 02:09:05.452 +03:00 [INF] Collision between Ardaschumacher (5) and environment, rel. speed 24km/h
+2026-06-11 02:10:12.016 +03:00 [INF] Collision between Ardaschumacher (5) and environment, rel. speed 23km/h
+2026-06-11 02:10:39.486 +03:00 [INF] Lap completed by KENSİK, 0 cuts, laptime 03:14.1630
+2026-06-11 02:11:27.082 +03:00 [INF] Lap completed by corp14x3, 0 cuts, laptime 03:40.3980
+2026-06-11 02:11:35.127 +03:00 [INF] Lap completed by Ardaschumacher, 0 cuts, laptime 02:57.8410
+2026-06-11 02:12:35.193 +03:00 [INF] Next session: Race - Length: 3 laps
+2026-06-11 02:12:35.195 +03:00 [INF] Switching session to id 1
+2026-06-11 02:15:36.033 +03:00 [INF] Lap completed by Ardaschumacher, 0 cuts, laptime 02:30.8250
+2026-06-11 02:15:36.348 +03:00 [INF] Collision between Ardaschumacher (5) and environment, rel. speed 19km/h
+2026-06-11 02:15:37.166 +03:00 [INF] Lap completed by corp14x3, 0 cuts, laptime 02:31.9740
+2026-06-11 02:15:39.351 +03:00 [INF] Lap completed by KENSİK, 0 cuts, laptime 02:34.1400
+2026-06-11 02:15:56.018 +03:00 [INF] Pycharm (76561198840295673 - 185.20.6.0:25993) is attempting to connect (ac_friends_ferrari_296_gt3)
+2026-06-11 02:15:56.019 +03:00 [DBG] Pycharm supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 02:15:56.020 +03:00 [DBG] Disconnecting Pycharm (76561198840295673 - 185.20.6.0:25993)
+2026-06-11 02:16:20.099 +03:00 [INF] Pycharm (76561198840295673 - 185.20.6.0:25715) is attempting to connect (bm_bmw_m6_gt3)
+2026-06-11 02:16:20.100 +03:00 [DBG] Pycharm supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 02:16:20.100 +03:00 [DBG] Disconnecting Pycharm (76561198840295673 - 185.20.6.0:25715)
+2026-06-11 02:16:25.962 +03:00 [INF] Collision between KENSİK (2) and Ardaschumacher (5), rel. speed 16km/h
+2026-06-11 02:16:25.994 +03:00 [INF] Collision between Ardaschumacher (5) and KENSİK (2), rel. speed 8km/h
+2026-06-11 02:16:27.718 +03:00 [INF] Collision between Ardaschumacher (5) and environment, rel. speed 42km/h
+2026-06-11 02:17:06.668 +03:00 [INF] Pycharm (76561198840295673 - 185.20.6.0:25885) is attempting to connect (ac_friends_ferrari_296_gt3)
+2026-06-11 02:17:06.668 +03:00 [DBG] Pycharm supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 02:17:06.668 +03:00 [DBG] Disconnecting Pycharm (76561198840295673 - 185.20.6.0:25885)
+2026-06-11 02:17:09.378 +03:00 [INF] Collision between KENSİK (2) and environment, rel. speed 35km/h
+2026-06-11 02:17:13.480 +03:00 [INF] Collision between KENSİK (2) and environment, rel. speed 40km/h
+2026-06-11 02:18:04.420 +03:00 [INF] Lap completed by corp14x3, 0 cuts, laptime 02:27.2570
+2026-06-11 02:18:18.623 +03:00 [INF] Collision between Ardaschumacher (5) and environment, rel. speed 14km/h
+2026-06-11 02:18:20.679 +03:00 [INF] Collision between KENSİK (2) and environment, rel. speed 6km/h
+2026-06-11 02:18:21.737 +03:00 [INF] Lap completed by Ardaschumacher, 0 cuts, laptime 02:45.7070
+2026-06-11 02:18:25.147 +03:00 [INF] Collision between KENSİK (2) and environment, rel. speed 75km/h
+2026-06-11 02:18:47.893 +03:00 [INF] Collision between KENSİK (2) and environment, rel. speed 6km/h
+2026-06-11 02:18:50.308 +03:00 [INF] Collision between KENSİK (2) and environment, rel. speed 14km/h
+2026-06-11 02:18:50.811 +03:00 [INF] Lap completed by KENSİK, 0 cuts, laptime 03:11.4660
+2026-06-11 02:20:31.349 +03:00 [INF] Lap completed by corp14x3, 0 cuts, laptime 02:26.9280
+2026-06-11 02:20:53.473 +03:00 [INF] Lap completed by Ardaschumacher, 0 cuts, laptime 02:31.7340
+2026-06-11 02:21:17.114 +03:00 [INF] Collision between KENSİK (2) and Ardaschumacher (5), rel. speed 85km/h
+2026-06-11 02:21:17.114 +03:00 [INF] Collision between Ardaschumacher (5) and KENSİK (2), rel. speed 78km/h
+2026-06-11 02:21:23.456 +03:00 [INF] Collision between corp14x3 (3) and KENSİK (2), rel. speed 35km/h
+2026-06-11 02:21:23.470 +03:00 [INF] Collision between KENSİK (2) and corp14x3 (3), rel. speed 38km/h
+2026-06-11 02:21:25.265 +03:00 [DBG] Received clean exit from corp14x3 (3)
+2026-06-11 02:21:25.265 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 192.168.1.0:50216)
+2026-06-11 02:21:25.266 +03:00 [INF] corp14x3 has disconnected
+2026-06-11 02:21:27.963 +03:00 [INF] Pycharm (76561198840295673 - 185.20.6.0:25917) is attempting to connect (ac_friends_ferrari_296_gt3)
+2026-06-11 02:21:27.963 +03:00 [DBG] Pycharm supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 02:21:27.963 +03:00 [DBG] Disconnecting Pycharm (76561198840295673 - 185.20.6.0:25917)
+2026-06-11 02:21:30.406 +03:00 [DBG] Received clean exit from KENSİK (2)
+2026-06-11 02:21:30.406 +03:00 [DBG] Disconnecting KENSİK (76561199467268064 - 94.55.236.0:62526)
+2026-06-11 02:21:30.407 +03:00 [INF] KENSİK has disconnected
+2026-06-11 02:21:30.486 +03:00 [INF] Skipping race session: didn't reach minimum player count before cutoff (1/2). Use 'IS_OPEN=1' to allow joining during the race
+2026-06-11 02:21:30.486 +03:00 [INF] Looping sessions
+2026-06-11 02:21:30.486 +03:00 [INF] Next session: Qualification - Length: 3 minutes
+2026-06-11 02:21:30.486 +03:00 [INF] Switching session to id 0
+2026-06-11 02:21:32.969 +03:00 [INF] AssettoServer 0.0.55-pre35
+2026-06-11 02:21:32.991 +03:00 [DBG] Server was started through Content Manager
+2026-06-11 02:21:32.995 +03:00 [DBG] Loading server_cfg.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Nurbur\server_cfg.ini
+2026-06-11 02:21:33.012 +03:00 [DBG] Loading entry_list.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Nurbur\entry_list.ini
+2026-06-11 02:21:33.225 +03:00 [DBG] Loading extra_cfg.yml from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Nurbur\extra_cfg.yml
+2026-06-11 02:21:33.296 +03:00 [DBG] Using minimum required CSP Version 3879
+2026-06-11 02:21:33.572 +03:00 [INF] Starting server
+2026-06-11 02:21:33.625 +03:00 [INF] Loaded 8 cars
+2026-06-11 02:21:33.632 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2026-06-11 02:21:33.633 +03:00 [DBG] Added checksum for content/tracks/csp/3879/../H/../spa/data/surfaces.ini
+2026-06-11 02:21:33.633 +03:00 [INF] Initialized 2 track checksums
+2026-06-11 02:21:33.634 +03:00 [DBG] Added checksum for mercedes_sls_gt3
+2026-06-11 02:21:33.635 +03:00 [DBG] Added checksum for mclaren_mp412c_gt3
+2026-06-11 02:21:33.635 +03:00 [DBG] Added checksum for bmw_z4_gt3
+2026-06-11 02:21:33.635 +03:00 [DBG] Added checksum for bmw_m4_gt3_acc
+2026-06-11 02:21:33.636 +03:00 [DBG] Added checksum for ac_friends_ferrari_296_gt3
+2026-06-11 02:21:33.636 +03:00 [DBG] Added checksum for toyota_gr_gt3
+2026-06-11 02:21:33.637 +03:00 [DBG] Added checksum for bm_bmw_m6_gt3
+2026-06-11 02:21:33.637 +03:00 [DBG] Added checksum for gue_aston_martin_vantage_gt3
+2026-06-11 02:21:33.638 +03:00 [INF] Initialized 8 car checksums
+2026-06-11 02:21:33.833 +03:00 [INF] Next session: Qualification - Length: 3 minutes
+2026-06-11 02:21:33.834 +03:00 [INF] Switching session to id 0
+2026-06-11 02:21:33.919 +03:00 [INF] Starting HTTP server on port 8081
+2026-06-11 02:21:33.920 +03:00 [INF] Starting UDP server on port 9600
+2026-06-11 02:21:33.920 +03:00 [INF] Starting TCP server on port 9600
+2026-06-11 02:21:33.920 +03:00 [INF] Starting update loop with an update rate of 60hz
+2026-06-11 02:21:33.925 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2026-06-11 02:21:33.927 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2026-06-11 02:21:33.928 +03:00 [DBG] Loaded admins.txt with 0 entries
+2026-06-11 02:21:33.929 +03:00 [INF] Invite link: https://acstuff.club/s/q:race/online/join?ip=212.154.2.92&httpPort=8081
+2026-06-11 02:21:33.929 +03:00 [INF] Server startup completed
+2026-06-11 02:21:43.456 +03:00 [INF] Pycharm (76561198840295673 - 185.20.6.0:25974) is attempting to connect (ac_friends_ferrari_296_gt3)
+2026-06-11 02:21:43.458 +03:00 [DBG] Pycharm supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 02:21:43.462 +03:00 [INF] Pycharm (76561198840295673, 4 (ac_friends_ferrari_296_gt3-2023 #62 Risi Competizione)) has connected
+2026-06-11 02:21:52.484 +03:00 [INF] KENSİK (76561199467268064 - 94.55.236.0:62817) is attempting to connect (bm_bmw_m6_gt3)
+2026-06-11 02:21:52.484 +03:00 [DBG] KENSİK supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 02:21:52.485 +03:00 [INF] KENSİK (76561199467268064, 6 (bm_bmw_m6_gt3-bmw_schnitzer_42)) has connected
+2026-06-11 02:21:56.411 +03:00 [INF] corp14x3 (76561199521796457 - 192.168.1.0:51197) is attempting to connect (bmw_m4_gt3_acc)
+2026-06-11 02:21:56.411 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 02:21:56.412 +03:00 [INF] corp14x3 (76561199521796457, 3 (bmw_m4_gt3_acc-0_2022_bmw_82)) has connected
+2026-06-11 02:21:57.006 +03:00 [INF] Ardaschumacher (76561198834121069 - 104.28.164.0:33227) is attempting to connect (toyota_gr_gt3)
+2026-06-11 02:21:57.006 +03:00 [DBG] Ardaschumacher supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 02:21:57.006 +03:00 [INF] Ardaschumacher (76561198834121069, 5 (toyota_gr_gt3-skin0)) has connected
+2026-06-11 02:21:58.288 +03:00 [INF] CSP handshake received from KENSİK (6): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=16274150991130116486
+2026-06-11 02:22:00.209 +03:00 [INF] CSP handshake received from corp14x3 (3): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-06-11 02:22:01.429 +03:00 [INF] CSP handshake received from Pycharm (4): Version=3879 WeatherFX=true InputMethod="Wheel" RainFX=true HWID=13117711692736825102
+2026-06-11 02:22:10.013 +03:00 [INF] CSP handshake received from Ardaschumacher (5): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=17088649112657117920
+2026-06-11 02:23:50.444 +03:00 [INF] Collision between KENSİK (6) and environment, rel. speed 43km/h
+2026-06-11 02:24:26.834 +03:00 [INF] Collision between KENSİK (6) and environment, rel. speed 55km/h
+2026-06-11 02:24:41.643 +03:00 [INF] Lap completed by corp14x3, 0 cuts, laptime 02:41.7710
+2026-06-11 02:24:47.325 +03:00 [INF] Collision between Ardaschumacher (5) and Pycharm (4), rel. speed 12km/h
+2026-06-11 02:24:47.354 +03:00 [INF] Collision between Pycharm (4) and Ardaschumacher (5), rel. speed 4km/h
+2026-06-11 02:25:29.241 +03:00 [INF] Lap completed by Ardaschumacher, 0 cuts, laptime 03:21.7720
+2026-06-11 02:25:30.314 +03:00 [INF] Lap completed by Pycharm, 0 cuts, laptime 03:29.5930
+2026-06-11 02:25:37.732 +03:00 [INF] Collision between Pycharm (4) and Ardaschumacher (5), rel. speed 78km/h
+2026-06-11 02:25:37.738 +03:00 [INF] Collision between Ardaschumacher (5) and Pycharm (4), rel. speed 79km/h
+2026-06-11 02:26:02.442 +03:00 [INF] Collision between Pycharm (4) and Ardaschumacher (5), rel. speed 29km/h
+2026-06-11 02:26:02.456 +03:00 [INF] Collision between Ardaschumacher (5) and Pycharm (4), rel. speed 25km/h
+2026-06-11 02:26:06.083 +03:00 [INF] Collision between Ardaschumacher (5) and environment, rel. speed 26km/h
+2026-06-11 02:26:54.893 +03:00 [INF] Collision between Ardaschumacher (5) and environment, rel. speed 45km/h
+2026-06-11 02:27:21.470 +03:00 [INF] Collision between Pycharm (4) and Ardaschumacher (5), rel. speed 11km/h
+2026-06-11 02:27:21.477 +03:00 [INF] Collision between Ardaschumacher (5) and Pycharm (4), rel. speed 11km/h
+2026-06-11 02:27:23.202 +03:00 [INF] Collision between Ardaschumacher (5) and environment, rel. speed 41km/h
+2026-06-11 02:27:25.359 +03:00 [INF] Lap completed by KENSİK, 0 cuts, laptime 05:27.4840
+2026-06-11 02:28:25.530 +03:00 [INF] Next session: Race - Length: 3 laps
+2026-06-11 02:28:25.532 +03:00 [INF] Switching session to id 1
+2026-06-11 02:29:05.077 +03:00 [INF] Collision between corp14x3 (3) and Pycharm (4), rel. speed 20km/h
+2026-06-11 02:29:05.091 +03:00 [INF] Collision between Pycharm (4) and corp14x3 (3), rel. speed 18km/h
+2026-06-11 02:29:06.286 +03:00 [INF] Collision between Ardaschumacher (5) and Pycharm (4), rel. speed 29km/h
+2026-06-11 02:29:06.291 +03:00 [INF] Collision between Pycharm (4) and Ardaschumacher (5), rel. speed 19km/h
+2026-06-11 02:29:13.924 +03:00 [INF] Collision between Pycharm (4) and Ardaschumacher (5), rel. speed 6km/h
+2026-06-11 02:29:13.935 +03:00 [INF] Collision between Ardaschumacher (5) and Pycharm (4), rel. speed 8km/h
+2026-06-11 02:29:15.925 +03:00 [INF] Collision between Pycharm (4) and Ardaschumacher (5), rel. speed 29km/h
+2026-06-11 02:29:15.943 +03:00 [INF] Collision between Ardaschumacher (5) and Pycharm (4), rel. speed 19km/h
+2026-06-11 02:29:18.377 +03:00 [INF] Collision between Ardaschumacher (5) and Pycharm (4), rel. speed 16km/h
+2026-06-11 02:29:18.388 +03:00 [INF] Collision between Pycharm (4) and Ardaschumacher (5), rel. speed 15km/h
+2026-06-11 02:29:18.612 +03:00 [INF] Collision between Ardaschumacher (5) and environment, rel. speed 12km/h
+2026-06-11 02:29:18.625 +03:00 [INF] Collision between Pycharm (4) and environment, rel. speed 14km/h
+2026-06-11 02:29:19.287 +03:00 [INF] Collision between Ardaschumacher (5) and KENSİK (6), rel. speed 13km/h
+2026-06-11 02:29:19.295 +03:00 [INF] Collision between KENSİK (6) and Ardaschumacher (5), rel. speed 50km/h
+2026-06-11 02:29:20.378 +03:00 [INF] Collision between Ardaschumacher (5) and Pycharm (4), rel. speed 16km/h
+2026-06-11 02:29:20.389 +03:00 [INF] Collision between Pycharm (4) and Ardaschumacher (5), rel. speed 9km/h
+2026-06-11 02:29:20.616 +03:00 [INF] Collision between Ardaschumacher (5) and environment, rel. speed 2km/h
+2026-06-11 02:29:22.362 +03:00 [INF] Collision between Pycharm (4) and environment, rel. speed 15km/h
+2026-06-11 02:29:22.617 +03:00 [INF] Collision between Ardaschumacher (5) and environment, rel. speed 0km/h
+2026-06-11 02:30:30.223 +03:00 [INF] Collision between corp14x3 (3) and KENSİK (6), rel. speed 52km/h
+2026-06-11 02:30:30.225 +03:00 [INF] Collision between KENSİK (6) and corp14x3 (3), rel. speed 63km/h
+2026-06-11 02:30:36.463 +03:00 [INF] Collision between corp14x3 (3) and KENSİK (6), rel. speed 47km/h
+2026-06-11 02:30:36.480 +03:00 [INF] Collision between KENSİK (6) and corp14x3 (3), rel. speed 50km/h
+2026-06-11 02:31:10.682 +03:00 [DBG] Disconnecting KENSİK (76561199467268064 - 94.55.236.0:62817)
+2026-06-11 02:31:10.683 +03:00 [INF] KENSİK has disconnected
+2026-06-11 02:31:18.141 +03:00 [INF] Collision between Ardaschumacher (5) and environment, rel. speed 9km/h
+2026-06-11 02:31:29.535 +03:00 [INF] KENSİK (76561199467268064 - 94.55.236.0:62982) is attempting to connect (gue_aston_martin_vantage_gt3)
+2026-06-11 02:31:29.535 +03:00 [DBG] KENSİK supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 02:31:29.536 +03:00 [DBG] Disconnecting KENSİK (76561199467268064 - 94.55.236.0:62982)
+2026-06-11 02:31:44.010 +03:00 [INF] Lap completed by Pycharm, 0 cuts, laptime 02:48.4650
+2026-06-11 02:31:45.733 +03:00 [INF] Lap completed by corp14x3, 0 cuts, laptime 02:50.2050
+2026-06-11 02:32:01.021 +03:00 [INF] Collision between corp14x3 (3) and Pycharm (4), rel. speed 8km/h
+2026-06-11 02:32:01.032 +03:00 [INF] Collision between Pycharm (4) and corp14x3 (3), rel. speed 9km/h
+2026-06-11 02:33:11.171 +03:00 [DBG] Received clean exit from Pycharm (4)
+2026-06-11 02:33:11.171 +03:00 [DBG] Disconnecting Pycharm (76561198840295673 - 185.20.6.0:25974)
+2026-06-11 02:33:11.171 +03:00 [INF] Pycharm has disconnected
+2026-06-11 02:33:49.170 +03:00 [INF] Lap completed by Ardaschumacher, 0 cuts, laptime 04:53.6250
+2026-06-11 02:34:13.946 +03:00 [INF] Lap completed by corp14x3, 0 cuts, laptime 02:28.2120
+2026-06-11 02:34:41.253 +03:00 [INF] Collision between Ardaschumacher (5) and environment, rel. speed 34km/h
+2026-06-11 02:35:41.403 +03:00 [DBG] Received clean exit from Ardaschumacher (5)
+2026-06-11 02:35:41.403 +03:00 [DBG] Disconnecting Ardaschumacher (76561198834121069 - 104.28.164.0:33227)
+2026-06-11 02:35:41.403 +03:00 [INF] Ardaschumacher has disconnected
+2026-06-11 02:35:41.430 +03:00 [INF] Skipping race session: didn't reach minimum player count before cutoff (1/2). Use 'IS_OPEN=1' to allow joining during the race
+2026-06-11 02:35:41.430 +03:00 [INF] Looping sessions
+2026-06-11 02:35:41.430 +03:00 [INF] Next session: Qualification - Length: 3 minutes
+2026-06-11 02:35:41.430 +03:00 [INF] Switching session to id 0
+2026-06-11 02:35:50.666 +03:00 [DBG] Received clean exit from corp14x3 (3)
+2026-06-11 02:35:50.666 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 192.168.1.0:51197)
+2026-06-11 02:35:50.666 +03:00 [INF] corp14x3 has disconnected
+2026-06-11 02:50:05.878 +03:00 [INF] AssettoServer 0.0.55-pre35
+2026-06-11 02:50:05.900 +03:00 [DBG] Server was started through Content Manager
+2026-06-11 02:50:05.905 +03:00 [DBG] Loading server_cfg.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Nurbur\server_cfg.ini
+2026-06-11 02:50:05.922 +03:00 [DBG] Loading entry_list.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Nurbur\entry_list.ini
+2026-06-11 02:50:06.144 +03:00 [DBG] Loading extra_cfg.yml from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Nurbur\extra_cfg.yml
+2026-06-11 02:50:06.216 +03:00 [DBG] Using minimum required CSP Version 3879
+2026-06-11 02:50:06.496 +03:00 [INF] Starting server
+2026-06-11 02:50:06.550 +03:00 [INF] Loaded 9 cars
+2026-06-11 02:50:06.557 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2026-06-11 02:50:06.558 +03:00 [DBG] Added checksum for content/tracks/csp/3879/../H/../spa/data/surfaces.ini
+2026-06-11 02:50:06.558 +03:00 [INF] Initialized 2 track checksums
+2026-06-11 02:50:06.559 +03:00 [DBG] Added checksum for mercedes_sls_gt3
+2026-06-11 02:50:06.560 +03:00 [DBG] Added checksum for mclaren_mp412c_gt3
+2026-06-11 02:50:06.560 +03:00 [DBG] Added checksum for bmw_z4_gt3
+2026-06-11 02:50:06.560 +03:00 [DBG] Added checksum for bmw_m4_gt3_acc
+2026-06-11 02:50:06.561 +03:00 [DBG] Added checksum for ac_friends_ferrari_296_gt3
+2026-06-11 02:50:06.561 +03:00 [DBG] Added checksum for toyota_gr_gt3
+2026-06-11 02:50:06.562 +03:00 [DBG] Added checksum for bm_bmw_m6_gt3
+2026-06-11 02:50:06.562 +03:00 [DBG] Added checksum for gue_aston_martin_vantage_gt3
+2026-06-11 02:50:06.563 +03:00 [INF] Initialized 8 car checksums
+2026-06-11 02:50:06.705 +03:00 [INF] Next session: Qualification - Length: 3 minutes
+2026-06-11 02:50:06.706 +03:00 [INF] Switching session to id 0
+2026-06-11 02:50:06.796 +03:00 [INF] Starting HTTP server on port 8081
+2026-06-11 02:50:06.797 +03:00 [INF] Starting UDP server on port 9600
+2026-06-11 02:50:06.797 +03:00 [INF] Starting TCP server on port 9600
+2026-06-11 02:50:06.798 +03:00 [INF] Starting update loop with an update rate of 60hz
+2026-06-11 02:50:06.803 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2026-06-11 02:50:06.805 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2026-06-11 02:50:06.805 +03:00 [DBG] Loaded admins.txt with 0 entries
+2026-06-11 02:50:06.806 +03:00 [INF] Invite link: https://acstuff.club/s/q:race/online/join?ip=212.154.2.92&httpPort=8081
+2026-06-11 02:50:06.806 +03:00 [INF] Server startup completed
+2026-06-11 02:50:14.867 +03:00 [INF] corp14x3 (76561199521796457 - 192.168.1.0:56210) is attempting to connect (bm_bmw_m6_gt3)
+2026-06-11 02:50:14.870 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 02:50:14.874 +03:00 [INF] corp14x3 (76561199521796457, 6 (bm_bmw_m6_gt3-bmw_schnitzer_42)) has connected
+2026-06-11 02:50:18.714 +03:00 [INF] CSP handshake received from corp14x3 (6): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-06-11 02:50:25.777 +03:00 [INF] Ardaschumacher (76561198834121069 - 104.28.164.0:32552) is attempting to connect (bm_bmw_m6_gt3)
+2026-06-11 02:50:25.777 +03:00 [DBG] Ardaschumacher supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 02:50:25.777 +03:00 [INF] Ardaschumacher (76561198834121069, 7 (bm_bmw_m6_gt3-bmw_schnitzer_42)) has connected
+2026-06-11 02:50:36.639 +03:00 [INF] CSP handshake received from Ardaschumacher (7): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=17088649112657117920
+2026-06-11 02:51:34.635 +03:00 [INF] Collision between Ardaschumacher (7) and environment, rel. speed 18km/h
+2026-06-11 02:51:38.382 +03:00 [INF] Collision between Ardaschumacher (7) and environment, rel. speed 1km/h
+2026-06-11 02:51:56.293 +03:00 [INF] Collision between Ardaschumacher (7) and environment, rel. speed 3km/h
+2026-06-11 02:53:02.782 +03:00 [INF] Lap completed by corp14x3, 0 cuts, laptime 02:44.4270
+2026-06-11 02:54:10.734 +03:00 [INF] Lap completed by Ardaschumacher, 0 cuts, laptime 03:34.9210
+2026-06-11 02:54:37.385 +03:00 [INF] Collision between Ardaschumacher (7) and environment, rel. speed 15km/h
+2026-06-11 02:54:49.269 +03:00 [DBG] Received clean exit from Ardaschumacher (7)
+2026-06-11 02:54:49.270 +03:00 [DBG] Disconnecting Ardaschumacher (76561198834121069 - 104.28.164.0:32552)
+2026-06-11 02:54:49.271 +03:00 [INF] Ardaschumacher has disconnected
+2026-06-11 02:55:32.188 +03:00 [INF] Lap completed by corp14x3, 0 cuts, laptime 02:29.4090
+2026-06-11 02:55:40.990 +03:00 [DBG] Received clean exit from corp14x3 (6)
+2026-06-11 02:55:40.991 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 192.168.1.0:56210)
+2026-06-11 02:55:40.991 +03:00 [INF] corp14x3 has disconnected
+2026-06-11 02:56:32.206 +03:00 [INF] Next session: Race - Length: 3 laps
+2026-06-11 02:56:32.208 +03:00 [INF] Switching session to id 1
+2026-06-11 02:56:32.299 +03:00 [INF] Skipping race session: didn't reach minimum player count before cutoff (0/2). Use 'IS_OPEN=1' to allow joining during the race
+2026-06-11 02:56:32.299 +03:00 [INF] Looping sessions
+2026-06-11 02:56:32.299 +03:00 [INF] Next session: Qualification - Length: 3 minutes
+2026-06-11 02:56:32.299 +03:00 [INF] Switching session to id 0
+2026-06-11 18:04:32.671 +03:00 [INF] AssettoServer 0.0.55-pre35
+2026-06-11 18:04:32.694 +03:00 [DBG] Server was started through Content Manager
+2026-06-11 18:04:32.699 +03:00 [DBG] Loading server_cfg.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\server_cfg.ini
+2026-06-11 18:04:32.716 +03:00 [DBG] Loading entry_list.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\entry_list.ini
+2026-06-11 18:04:32.927 +03:00 [DBG] Loading extra_cfg.yml from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\extra_cfg.yml
+2026-06-11 18:04:32.997 +03:00 [DBG] Using minimum required CSP Version 3879
+2026-06-11 18:04:33.269 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2026-06-11 18:04:33.298 +03:00 [INF] Starting server
+2026-06-11 18:04:33.389 +03:00 [INF] Loaded 32 cars
+2026-06-11 18:04:33.396 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2026-06-11 18:04:33.396 +03:00 [DBG] Added checksum for content/tracks/csp/3879/../H/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2026-06-11 18:04:33.396 +03:00 [INF] Initialized 2 track checksums
+2026-06-11 18:04:33.397 +03:00 [DBG] Added checksum for traffic_alfa_159
+2026-06-11 18:04:33.397 +03:00 [DBG] Added checksum for traffic_audi_a4_eu
+2026-06-11 18:04:33.397 +03:00 [DBG] Added checksum for traffic_toyota_priuseu
+2026-06-11 18:04:33.398 +03:00 [DBG] Added checksum for traffic_volvo_v70
+2026-06-11 18:04:33.398 +03:00 [DBG] Added checksum for traffic_audi_a4_jp
+2026-06-11 18:04:33.398 +03:00 [DBG] Added checksum for traffic_isuzu_flatbed
+2026-06-11 18:04:33.398 +03:00 [DBG] Added checksum for traffic_isuzu_hauler
+2026-06-11 18:04:33.399 +03:00 [DBG] Added checksum for traffic_isuzu_haulerb
+2026-06-11 18:04:33.399 +03:00 [DBG] Added checksum for traffic_isuzu_tanker
+2026-06-11 18:04:33.399 +03:00 [DBG] Added checksum for traffic_isuzu_npr
+2026-06-11 18:04:33.399 +03:00 [DBG] Added checksum for traffic_nissan_leaf
+2026-06-11 18:04:33.400 +03:00 [DBG] Added checksum for traffic_toyota_camry
+2026-06-11 18:04:33.400 +03:00 [DBG] Added checksum for traffic_toyota_prius
+2026-06-11 18:04:33.400 +03:00 [DBG] Added checksum for traffic_volvo_v70jp
+2026-06-11 18:04:33.400 +03:00 [DBG] Added checksum for traffic_toyota_rav4
+2026-06-11 18:04:33.401 +03:00 [DBG] Added checksum for traffic_cadillac_escalade
+2026-06-11 18:04:33.401 +03:00 [DBG] Added checksum for traffic_dodge_challenger_srt
+2026-06-11 18:04:33.401 +03:00 [DBG] Added checksum for traffic_dodge_grand_caravan_taxi
+2026-06-11 18:04:33.401 +03:00 [DBG] Added checksum for traffic_crown_vic
+2026-06-11 18:04:33.402 +03:00 [DBG] Added checksum for 06_ygt_53_m4_lci_air
+2026-06-11 18:04:33.402 +03:00 [DBG] Added checksum for hd_f430_scuderiaspider
+2026-06-11 18:04:33.404 +03:00 [INF] Initialized 21 car checksums
+2026-06-11 18:04:33.572 +03:00 [INF] Next session: Practice - Length: 720 minutes
+2026-06-11 18:04:33.573 +03:00 [INF] Switching session to id 0
+2026-06-11 18:04:33.659 +03:00 [INF] Starting HTTP server on port 8081
+2026-06-11 18:04:33.660 +03:00 [INF] Starting UDP server on port 9600
+2026-06-11 18:04:33.660 +03:00 [INF] Starting TCP server on port 9600
+2026-06-11 18:04:33.661 +03:00 [INF] Starting update loop with an update rate of 60hz
+2026-06-11 18:04:33.666 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2026-06-11 18:04:33.669 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2026-06-11 18:04:33.669 +03:00 [DBG] Loaded admins.txt with 0 entries
+2026-06-11 18:04:33.670 +03:00 [INF] Invite link: https://acstuff.club/s/q:race/online/join?ip=212.154.2.92&httpPort=8081
+2026-06-11 18:04:33.670 +03:00 [INF] Server startup completed
+2026-06-11 18:05:22.105 +03:00 [INF] corp14x3 (76561198272199111 - 212.154.2.0:56531) is attempting to connect (06_ygt_53_m4_lci_air)
+2026-06-11 18:05:22.107 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 18:05:22.111 +03:00 [INF] corp14x3 (76561198272199111, 30 (06_ygt_53_m4_lci_air-01_melborune_red)) has connected
+2026-06-11 18:05:45.189 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 30 - Target AI count: 30 - Overbooking: 1 - Rest: 0
+2026-06-11 18:05:45.528 +03:00 [INF] CSP handshake received from corp14x3 (30): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-06-11 18:06:14.381 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-06-11 18:06:17.486 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-06-11 18:06:20.333 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-06-11 18:06:25.694 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-06-11 18:06:33.377 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-06-11 18:06:35.429 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-11 18:06:36.252 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-06-11 18:06:38.870 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 12km/h
+2026-06-11 18:06:44.262 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 8km/h
+2026-06-11 18:06:44.304 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-06-11 18:06:46.263 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:06:47.657 +03:00 [DBG] Car 5 reached spline end, despawning
+2026-06-11 18:06:48.263 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:06:50.264 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:06:52.265 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 4km/h
+2026-06-11 18:06:54.266 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:06:54.794 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-06-11 18:06:56.267 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:06:58.274 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:07:00.271 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:07:02.270 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 4km/h
+2026-06-11 18:07:08.500 +03:00 [DBG] Car 25 reached spline end, despawning
+2026-06-11 18:07:11.775 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-06-11 18:07:17.170 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-06-11 18:07:22.175 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-11 18:07:30.005 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-06-11 18:07:52.279 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 3km/h
+2026-06-11 18:08:37.349 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 6km/h
+2026-06-11 18:08:41.669 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 7km/h
+2026-06-11 18:08:44.237 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 30km/h
+2026-06-11 18:09:09.044 +03:00 [INF] Collision between corp14x3 (30) and Traffic 2 (2), rel. speed 16km/h
+2026-06-11 18:09:25.882 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 30km/h
+2026-06-11 18:09:32.837 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 51km/h
+2026-06-11 18:09:32.883 +03:00 [INF] Collision between corp14x3 (30) and Traffic 22 (22), rel. speed 8km/h
+2026-06-11 18:09:42.506 +03:00 [INF] Collision between corp14x3 (30) and Traffic 4 (4), rel. speed 6km/h
+2026-06-11 18:09:43.449 +03:00 [INF] Collision between corp14x3 (30) and Traffic 18 (18), rel. speed 5km/h
+2026-06-11 18:09:53.106 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 10km/h
+2026-06-11 18:10:01.302 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 10km/h
+2026-06-11 18:10:16.676 +03:00 [INF] Collision between corp14x3 (30) and Traffic 16 (16), rel. speed 14km/h
+2026-06-11 18:10:29.099 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 11km/h
+2026-06-11 18:10:31.126 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 40km/h
+2026-06-11 18:10:52.096 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 25km/h
+2026-06-11 18:10:54.161 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 3km/h
+2026-06-11 18:10:56.941 +03:00 [INF] Collision between corp14x3 (30) and Traffic 24 (24), rel. speed 7km/h
+2026-06-11 18:11:07.859 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 10km/h
+2026-06-11 18:11:24.217 +03:00 [INF] Collision between corp14x3 (30) and Traffic 29 (29), rel. speed 46km/h
+2026-06-11 18:11:26.249 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 14km/h
+2026-06-11 18:11:34.853 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 20km/h
+2026-06-11 18:11:36.854 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 10km/h
+2026-06-11 18:11:38.855 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 5km/h
+2026-06-11 18:11:40.856 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:12:10.337 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 1km/h
+2026-06-11 18:12:12.338 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:13:18.346 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-06-11 18:13:24.050 +03:00 [INF] Collision between corp14x3 (30) and Traffic 21 (21), rel. speed 52km/h
+2026-06-11 18:13:24.732 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 51km/h
+2026-06-11 18:13:38.044 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-06-11 18:13:38.925 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-06-11 18:13:41.168 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-06-11 18:13:44.630 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-06-11 18:13:50.657 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 15km/h
+2026-06-11 18:14:01.617 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-06-11 18:14:02.316 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-06-11 18:14:17.443 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-06-11 18:14:22.290 +03:00 [DBG] Car 8 reached spline end, despawning
+2026-06-11 18:14:28.064 +03:00 [DBG] Car 19 reached spline end, despawning
+2026-06-11 18:14:36.875 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-06-11 18:14:37.452 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-06-11 18:14:40.698 +03:00 [DBG] Car 29 reached spline end, despawning
+2026-06-11 18:14:40.868 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-11 18:14:41.446 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-11 18:14:43.850 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-06-11 18:14:44.734 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-06-11 18:14:47.764 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-06-11 18:14:50.518 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-06-11 18:14:50.892 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-06-11 18:14:55.288 +03:00 [DBG] Car 19 reached spline end, despawning
+2026-06-11 18:14:59.438 +03:00 [DBG] Car 8 reached spline end, despawning
+2026-06-11 18:15:02.719 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-06-11 18:15:16.194 +03:00 [DBG] Car 28 reached spline end, despawning
+2026-06-11 18:15:17.345 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 14km/h
+2026-06-11 18:15:18.720 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-06-11 18:15:22.856 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-06-11 18:15:25.344 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-06-11 18:15:47.244 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 30km/h
+2026-06-11 18:15:50.376 +03:00 [DBG] Car 20 reached spline end, despawning
+2026-06-11 18:15:54.369 +03:00 [DBG] Car 8 reached spline end, despawning
+2026-06-11 18:15:55.066 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-06-11 18:15:56.228 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-06-11 18:15:58.157 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-06-11 18:16:00.021 +03:00 [DBG] Car 22 reached spline end, despawning
+2026-06-11 18:16:06.802 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-06-11 18:16:07.830 +03:00 [DBG] Car 7 reached spline end, despawning
+2026-06-11 18:16:14.024 +03:00 [DBG] Car 20 reached spline end, despawning
+2026-06-11 18:16:19.277 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-06-11 18:16:25.148 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-06-11 18:16:26.720 +03:00 [DBG] Car 28 reached spline end, despawning
+2026-06-11 18:16:27.822 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-06-11 18:16:31.148 +03:00 [DBG] Car 18 reached spline end, despawning
+2026-06-11 18:16:41.290 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-06-11 18:16:41.944 +03:00 [DBG] Car 25 reached spline end, despawning
+2026-06-11 18:16:46.045 +03:00 [DBG] Car 21 reached spline end, despawning
+2026-06-11 18:16:49.276 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-06-11 18:16:50.253 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-06-11 18:16:51.572 +03:00 [DBG] Car 27 reached spline end, despawning
+2026-06-11 18:16:52.300 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-06-11 18:16:53.942 +03:00 [DBG] Car 29 reached spline end, despawning
+2026-06-11 18:16:54.951 +03:00 [DBG] Car 5 reached spline end, despawning
+2026-06-11 18:16:59.550 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-06-11 18:17:03.642 +03:00 [DBG] Car 19 reached spline end, despawning
+2026-06-11 18:17:04.726 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-06-11 18:17:05.740 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-06-11 18:17:05.835 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-06-11 18:17:10.612 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-06-11 18:17:11.979 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-06-11 18:17:18.481 +03:00 [DBG] Car 8 reached spline end, despawning
+2026-06-11 18:17:21.234 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-06-11 18:17:23.056 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-11 18:17:25.863 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-06-11 18:23:21.427 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-06-11 18:23:27.964 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-11 18:23:33.926 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-06-11 18:23:34.596 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-06-11 18:23:39.668 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-06-11 18:23:42.749 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-06-11 18:23:44.913 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-06-11 18:23:56.963 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 5km/h
+2026-06-11 18:23:58.964 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:23:59.175 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-06-11 18:24:01.353 +03:00 [INF] CHAT: corp14x3 (30): /settime 19:00
+2026-06-11 18:24:01.368 +03:00 [INF] Broadcast: Time has been set.
+2026-06-11 18:24:01.923 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-06-11 18:24:05.053 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-06-11 18:24:06.001 +03:00 [DBG] Car 19 reached spline end, despawning
+2026-06-11 18:24:07.617 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-06-11 18:24:14.352 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-06-11 18:24:17.316 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-06-11 18:24:25.236 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-06-11 18:24:39.648 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-06-11 18:24:42.694 +03:00 [DBG] Car 5 reached spline end, despawning
+2026-06-11 18:24:49.172 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-06-11 18:24:52.780 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-06-11 18:24:58.953 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-06-11 18:24:59.945 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-06-11 18:25:02.010 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-06-11 18:25:53.747 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 27km/h
+2026-06-11 18:26:10.220 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 47km/h
+2026-06-11 18:26:44.210 +03:00 [INF] Collision between corp14x3 (30) and Traffic 1 (1), rel. speed 15km/h
+2026-06-11 18:27:19.586 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-06-11 18:27:23.781 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-06-11 18:27:26.062 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 31km/h
+2026-06-11 18:27:37.766 +03:00 [INF] Collision between corp14x3 (30) and Traffic 20 (20), rel. speed 16km/h
+2026-06-11 18:27:38.465 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-06-11 18:28:01.691 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 28km/h
+2026-06-11 18:28:40.873 +03:00 [INF] Collision between corp14x3 (30) and Traffic 13 (13), rel. speed 4km/h
+2026-06-11 18:28:58.387 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-06-11 18:32:13.841 +03:00 [INF] CHAT: corp14x3 (30): /settime 17:00
+2026-06-11 18:32:13.846 +03:00 [INF] Broadcast: Time has been set.
+2026-06-11 18:33:07.826 +03:00 [INF] Collision between corp14x3 (30) and Traffic 12 (12), rel. speed 11km/h
+2026-06-11 18:33:25.133 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 10km/h
+2026-06-11 18:33:32.354 +03:00 [INF] Collision between corp14x3 (30) and Traffic 9 (9), rel. speed 43km/h
+2026-06-11 18:33:48.707 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 47km/h
+2026-06-11 18:33:50.760 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 72km/h
+2026-06-11 18:34:43.298 +03:00 [INF] Collision between corp14x3 (30) and Traffic 3 (3), rel. speed 2km/h
+2026-06-11 18:35:02.264 +03:00 [INF] Collision between corp14x3 (30) and Traffic 4 (4), rel. speed 41km/h
+2026-06-11 18:35:03.626 +03:00 [INF] Collision between corp14x3 (30) and Traffic 14 (14), rel. speed 9km/h
+2026-06-11 18:35:05.297 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 4km/h
+2026-06-11 18:35:05.627 +03:00 [INF] Collision between corp14x3 (30) and Traffic 14 (14), rel. speed 26km/h
+2026-06-11 18:35:09.934 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 8km/h
+2026-06-11 18:35:13.108 +03:00 [DBG] Received clean exit from corp14x3 (30)
+2026-06-11 18:35:13.110 +03:00 [DBG] Disconnecting corp14x3 (76561198272199111 - 212.154.2.0:56531)
+2026-06-11 18:35:13.111 +03:00 [INF] corp14x3 has disconnected
+2026-06-11 18:39:07.065 +03:00 [DBG] Car 28 reached spline end, despawning
+2026-06-11 18:39:10.650 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-06-11 18:39:25.989 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-06-11 18:39:30.095 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-06-11 18:39:30.606 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-06-11 18:39:31.628 +03:00 [DBG] Car 18 reached spline end, despawning
+2026-06-11 18:39:31.628 +03:00 [DBG] Car 20 reached spline end, despawning
+2026-06-11 18:39:32.140 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-06-11 18:39:33.167 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-06-11 18:39:37.780 +03:00 [DBG] Car 7 reached spline end, despawning
+2026-06-11 18:39:44.422 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-06-11 18:39:57.731 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-06-11 18:39:58.243 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-06-11 18:39:58.243 +03:00 [DBG] Car 27 reached spline end, despawning
+2026-06-11 18:39:58.759 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-11 18:40:06.437 +03:00 [DBG] Car 29 reached spline end, despawning
+2026-06-11 18:40:15.632 +03:00 [DBG] Car 8 reached spline end, despawning
+2026-06-11 18:40:26.390 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-06-11 18:40:30.478 +03:00 [DBG] Car 5 reached spline end, despawning
+2026-06-11 18:42:30.656 +03:00 [INF] corp14x3 (76561199521796457 - 212.154.2.0:61770) is attempting to connect (06_ygt_53_m4_lci_air)
+2026-06-11 18:42:30.656 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-11 18:42:30.657 +03:00 [INF] corp14x3 (76561199521796457, 30 (06_ygt_53_m4_lci_air-01_melborune_red)) has connected
+2026-06-11 18:42:48.564 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 30 - Target AI count: 30 - Overbooking: 1 - Rest: 0
+2026-06-11 18:42:48.859 +03:00 [INF] CSP handshake received from corp14x3 (30): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-06-11 18:43:08.861 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-06-11 18:43:14.070 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-06-11 18:43:23.683 +03:00 [DBG] Car 7 reached spline end, despawning
+2026-06-11 18:43:34.770 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 103km/h
+2026-06-11 18:44:04.110 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 2km/h
+2026-06-11 18:44:10.404 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:44:17.107 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 4km/h
+2026-06-11 18:44:19.107 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:44:26.466 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:44:28.467 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:44:30.468 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:44:32.469 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:44:34.471 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:44:36.471 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:44:38.472 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:44:40.473 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:44:42.474 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:44:44.475 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:44:46.476 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:44:48.477 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:45:05.592 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 4km/h
+2026-06-11 18:45:07.608 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:45:09.610 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 4km/h
+2026-06-11 18:45:11.612 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 4km/h
+2026-06-11 18:45:13.611 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 4km/h
+2026-06-11 18:45:15.684 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:45:17.686 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 2km/h
+2026-06-11 18:45:19.686 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 2km/h
+2026-06-11 18:45:21.687 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 3km/h
+2026-06-11 18:45:23.688 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 3km/h
+2026-06-11 18:45:25.689 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 3km/h
+2026-06-11 18:45:27.689 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 3km/h
+2026-06-11 18:45:29.691 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 3km/h
+2026-06-11 18:45:31.692 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 3km/h
+2026-06-11 18:45:33.693 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 2km/h
+2026-06-11 18:45:35.694 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 2km/h
+2026-06-11 18:45:37.695 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 1km/h
+2026-06-11 18:45:39.696 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 2km/h
+2026-06-11 18:45:41.698 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 1km/h
+2026-06-11 18:45:43.698 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 1km/h
+2026-06-11 18:45:45.700 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 1km/h
+2026-06-11 18:45:47.700 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:45:49.701 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:45:51.702 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:45:53.703 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:45:55.704 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:45:57.706 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:45:59.706 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:46:01.707 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:46:03.708 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:46:05.712 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:46:55.014 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 9km/h
+2026-06-11 18:47:23.694 +03:00 [DBG] Car 18 reached spline end, despawning
+2026-06-11 18:47:27.387 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-06-11 18:47:31.106 +03:00 [DBG] Car 22 reached spline end, despawning
+2026-06-11 18:47:39.248 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-06-11 18:47:41.598 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 273km/h
+2026-06-11 18:47:41.662 +03:00 [INF] Collision between corp14x3 (30) and Traffic 25 (25), rel. speed 147km/h
+2026-06-11 18:47:44.052 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 25km/h
+2026-06-11 18:47:56.277 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-06-11 18:48:12.897 +03:00 [INF] CHAT: corp14x3 (30): /settime 17:00
+2026-06-11 18:48:12.897 +03:00 [INF] Broadcast: Time has been set.
+2026-06-11 18:48:44.426 +03:00 [INF] CHAT: corp14x3 (30): /setcspweather 8 0
+2026-06-11 18:48:44.427 +03:00 [INF] CSP weather transitioning to "HeavyRain"
+2026-06-11 18:48:55.712 +03:00 [INF] CHAT: corp14x3 (30): /settime 22:00
+2026-06-11 18:48:55.713 +03:00 [INF] Broadcast: Time has been set.
+2026-06-11 18:49:06.277 +03:00 [DBG] Car 21 reached spline end, despawning
+2026-06-11 18:49:11.099 +03:00 [INF] CHAT: corp14x3 (30): /settime 18:00
+2026-06-11 18:49:11.099 +03:00 [INF] Broadcast: Time has been set.
+2026-06-11 18:49:18.815 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-06-11 18:49:33.583 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 3km/h
+2026-06-11 18:49:39.661 +03:00 [DBG] Car 7 reached spline end, despawning
+2026-06-11 18:49:42.036 +03:00 [DBG] Car 20 reached spline end, despawning
+2026-06-11 18:49:45.391 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-06-11 18:49:49.248 +03:00 [DBG] Car 22 reached spline end, despawning
+2026-06-11 18:49:56.156 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-06-11 18:50:00.761 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-06-11 18:50:02.458 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-06-11 18:50:02.755 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-06-11 18:50:08.606 +03:00 [DBG] Car 21 reached spline end, despawning
+2026-06-11 18:50:13.698 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-06-11 18:50:14.551 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 3km/h
+2026-06-11 18:50:14.909 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-06-11 18:50:16.566 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-11 18:50:20.245 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 1km/h
+2026-06-11 18:52:22.382 +03:00 [DBG] Car 8 reached spline end, despawning
+2026-06-11 18:52:31.647 +03:00 [INF] Collision between corp14x3 (30) and Traffic 27 (27), rel. speed 38km/h
+2026-06-11 18:52:32.868 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 45km/h
+2026-06-11 18:52:40.893 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-06-11 18:52:59.865 +03:00 [INF] Collision between corp14x3 (30) and Traffic 17 (17), rel. speed 74km/h
+2026-06-11 18:53:13.617 +03:00 [INF] Collision between corp14x3 (30) and Traffic 2 (2), rel. speed 48km/h
+2026-06-11 18:53:57.981 +03:00 [INF] Collision between corp14x3 (30) and Traffic 6 (6), rel. speed 128km/h
+2026-06-11 18:55:20.535 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-06-11 18:55:27.115 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-06-11 18:55:32.223 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-06-11 18:55:33.357 +03:00 [DBG] Car 25 reached spline end, despawning
+2026-06-11 18:55:49.150 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-06-11 18:58:21.751 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-06-11 18:58:23.130 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-06-11 18:58:25.620 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-06-11 18:58:25.823 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-06-11 18:58:27.671 +03:00 [DBG] Car 25 reached spline end, despawning
+2026-06-11 18:58:30.807 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-06-11 18:58:33.889 +03:00 [DBG] Car 28 reached spline end, despawning
+2026-06-11 18:58:35.161 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-06-11 18:58:39.513 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-06-11 18:58:42.431 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-11 18:58:43.221 +03:00 [DBG] Car 27 reached spline end, despawning
+2026-06-11 18:58:47.882 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-06-11 18:58:48.791 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-06-11 18:58:54.265 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-06-11 18:59:07.680 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-06-11 18:59:08.689 +03:00 [DBG] Car 5 reached spline end, despawning
+2026-06-11 19:01:23.489 +03:00 [DBG] Received clean exit from corp14x3 (30)
+2026-06-11 19:01:23.489 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 212.154.2.0:61770)
+2026-06-11 19:01:23.489 +03:00 [INF] corp14x3 has disconnected

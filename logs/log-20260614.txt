@@ -1,0 +1,228 @@
+2026-06-14 00:37:23.701 +03:00 [INF] AssettoServer 0.0.55-pre35
+2026-06-14 00:37:23.725 +03:00 [DBG] Server was started through Content Manager
+2026-06-14 00:37:23.730 +03:00 [DBG] Loading server_cfg.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\server_cfg.ini
+2026-06-14 00:37:23.746 +03:00 [DBG] Loading entry_list.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\entry_list.ini
+2026-06-14 00:37:23.979 +03:00 [DBG] Loading extra_cfg.yml from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\extra_cfg.yml
+2026-06-14 00:37:24.057 +03:00 [DBG] Using minimum required CSP Version 3879
+2026-06-14 00:37:24.368 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2026-06-14 00:37:24.399 +03:00 [INF] Starting server
+2026-06-14 00:37:24.495 +03:00 [INF] Loaded 32 cars
+2026-06-14 00:37:24.503 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2026-06-14 00:37:24.503 +03:00 [DBG] Added checksum for content/tracks/csp/3879/../H/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2026-06-14 00:37:24.503 +03:00 [INF] Initialized 2 track checksums
+2026-06-14 00:37:24.504 +03:00 [DBG] Added checksum for traffic_alfa_159
+2026-06-14 00:37:24.504 +03:00 [DBG] Added checksum for traffic_audi_a4_eu
+2026-06-14 00:37:24.505 +03:00 [DBG] Added checksum for traffic_toyota_priuseu
+2026-06-14 00:37:24.505 +03:00 [DBG] Added checksum for traffic_volvo_v70
+2026-06-14 00:37:24.505 +03:00 [DBG] Added checksum for traffic_audi_a4_jp
+2026-06-14 00:37:24.505 +03:00 [DBG] Added checksum for traffic_isuzu_flatbed
+2026-06-14 00:37:24.506 +03:00 [DBG] Added checksum for traffic_isuzu_hauler
+2026-06-14 00:37:24.506 +03:00 [DBG] Added checksum for traffic_isuzu_haulerb
+2026-06-14 00:37:24.506 +03:00 [DBG] Added checksum for traffic_isuzu_tanker
+2026-06-14 00:37:24.506 +03:00 [DBG] Added checksum for traffic_isuzu_npr
+2026-06-14 00:37:24.507 +03:00 [DBG] Added checksum for traffic_nissan_leaf
+2026-06-14 00:37:24.507 +03:00 [DBG] Added checksum for traffic_toyota_camry
+2026-06-14 00:37:24.507 +03:00 [DBG] Added checksum for traffic_toyota_prius
+2026-06-14 00:37:24.507 +03:00 [DBG] Added checksum for traffic_volvo_v70jp
+2026-06-14 00:37:24.508 +03:00 [DBG] Added checksum for traffic_toyota_rav4
+2026-06-14 00:37:24.508 +03:00 [DBG] Added checksum for traffic_cadillac_escalade
+2026-06-14 00:37:24.508 +03:00 [DBG] Added checksum for traffic_dodge_challenger_srt
+2026-06-14 00:37:24.509 +03:00 [DBG] Added checksum for traffic_dodge_grand_caravan_taxi
+2026-06-14 00:37:24.509 +03:00 [DBG] Added checksum for traffic_crown_vic
+2026-06-14 00:37:24.509 +03:00 [DBG] Added checksum for 06_ygt_53_m4_lci_air
+2026-06-14 00:37:24.510 +03:00 [DBG] Added checksum for hd_f430_scuderiaspider
+2026-06-14 00:37:24.511 +03:00 [INF] Initialized 21 car checksums
+2026-06-14 00:37:24.737 +03:00 [INF] Next session: Practice - Length: 720 minutes
+2026-06-14 00:37:24.738 +03:00 [INF] Switching session to id 0
+2026-06-14 00:37:24.833 +03:00 [INF] Starting HTTP server on port 8081
+2026-06-14 00:37:24.833 +03:00 [INF] Starting TCP server on port 9600
+2026-06-14 00:37:24.834 +03:00 [INF] Starting UDP server on port 9600
+2026-06-14 00:37:24.834 +03:00 [INF] Starting update loop with an update rate of 60hz
+2026-06-14 00:37:24.839 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2026-06-14 00:37:24.841 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2026-06-14 00:37:24.842 +03:00 [DBG] Loaded admins.txt with 0 entries
+2026-06-14 00:37:24.843 +03:00 [INF] Invite link: https://acstuff.club/s/q:race/online/join?ip=212.154.2.92&httpPort=8081
+2026-06-14 00:37:24.843 +03:00 [INF] Server startup completed
+2026-06-14 00:38:06.773 +03:00 [INF] corp14x3 (76561199521796457 - 212.154.2.0:57304) is attempting to connect (06_ygt_53_m4_lci_air)
+2026-06-14 00:38:06.777 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-14 00:38:06.788 +03:00 [INF] corp14x3 (76561199521796457, 30 (06_ygt_53_m4_lci_air-01_melborune_red)) has connected
+2026-06-14 00:38:32.378 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 30 - Target AI count: 30 - Overbooking: 1 - Rest: 0
+2026-06-14 00:38:32.772 +03:00 [INF] CSP handshake received from corp14x3 (30): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-06-14 00:40:25.362 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-06-14 00:40:44.227 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 27km/h
+2026-06-14 00:40:46.445 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 33km/h
+2026-06-14 00:40:48.446 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 13km/h
+2026-06-14 00:40:52.513 +03:00 [INF] Collision between corp14x3 (30) and Traffic 29 (29), rel. speed 33km/h
+2026-06-14 00:40:55.769 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 5km/h
+2026-06-14 00:41:17.455 +03:00 [INF] CHAT: corp14x3 (30): /setcspweather 8 0
+2026-06-14 00:41:17.473 +03:00 [INF] CSP weather transitioning to "HeavyRain"
+2026-06-14 00:41:22.460 +03:00 [INF] Collision between corp14x3 (30) and Traffic 18 (18), rel. speed 21km/h
+2026-06-14 00:41:31.216 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 1km/h
+2026-06-14 00:41:33.217 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-14 00:42:26.978 +03:00 [INF] Collision between corp14x3 (30) and Traffic 6 (6), rel. speed 63km/h
+2026-06-14 00:42:27.934 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 5km/h
+2026-06-14 00:42:33.004 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 3km/h
+2026-06-14 00:43:04.958 +03:00 [INF] Collision between corp14x3 (30) and Traffic 20 (20), rel. speed 45km/h
+2026-06-14 00:43:05.240 +03:00 [INF] Collision between corp14x3 (30) and Traffic 28 (28), rel. speed 81km/h
+2026-06-14 00:43:06.184 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 22km/h
+2026-06-14 00:43:23.661 +03:00 [INF] CHAT: corp14x3 (30): /settime 22:00
+2026-06-14 00:43:23.664 +03:00 [INF] Broadcast: Time has been set.
+2026-06-14 00:44:11.997 +03:00 [DBG] Car 27 reached spline end, despawning
+2026-06-14 00:44:14.806 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-06-14 00:44:15.008 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-06-14 00:44:23.015 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-06-14 00:44:27.550 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-06-14 00:44:35.806 +03:00 [DBG] Car 20 reached spline end, despawning
+2026-06-14 00:45:50.549 +03:00 [DBG] Car 8 reached spline end, despawning
+2026-06-14 00:45:51.617 +03:00 [DBG] Car 22 reached spline end, despawning
+2026-06-14 00:47:40.042 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 5km/h
+2026-06-14 00:47:42.045 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-14 00:47:44.045 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-14 00:47:46.045 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-14 00:47:48.184 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-14 00:47:50.185 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-06-14 00:48:54.865 +03:00 [INF] Collision between corp14x3 (30) and Traffic 19 (19), rel. speed 1km/h
+2026-06-14 00:48:56.072 +03:00 [INF] Collision between corp14x3 (30) and Traffic 2 (2), rel. speed 3km/h
+2026-06-14 00:48:56.539 +03:00 [INF] Collision between corp14x3 (30) and Traffic 8 (8), rel. speed 43km/h
+2026-06-14 00:50:19.981 +03:00 [INF] Collision between corp14x3 (30) and Traffic 1 (1), rel. speed 36km/h
+2026-06-14 00:50:20.632 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 68km/h
+2026-06-14 00:50:31.027 +03:00 [DBG] Car 27 reached spline end, despawning
+2026-06-14 00:50:33.324 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-06-14 00:50:33.696 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-06-14 00:50:34.847 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-06-14 00:50:37.573 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-06-14 00:50:57.356 +03:00 [INF] Collision between corp14x3 (30) and Traffic 0 (0), rel. speed 21km/h
+2026-06-14 00:51:12.542 +03:00 [INF] Collision between corp14x3 (30) and Traffic 3 (3), rel. speed 14km/h
+2026-06-14 00:51:19.698 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-06-14 00:51:24.930 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-06-14 00:51:29.112 +03:00 [DBG] Car 27 reached spline end, despawning
+2026-06-14 00:51:30.388 +03:00 [DBG] Car 27 reached spline end, despawning
+2026-06-14 00:51:34.547 +03:00 [DBG] Car 8 reached spline end, despawning
+2026-06-14 00:51:36.913 +03:00 [DBG] Car 25 reached spline end, despawning
+2026-06-14 00:52:16.245 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-06-14 00:52:23.195 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-06-14 00:52:45.059 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-06-14 00:52:53.077 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-06-14 00:53:02.285 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 15km/h
+2026-06-14 00:53:02.773 +03:00 [INF] Collision between corp14x3 (30) and Traffic 27 (27), rel. speed 3km/h
+2026-06-14 00:53:05.300 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-06-14 00:53:05.626 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-06-14 00:53:08.156 +03:00 [INF] Collision between corp14x3 (30) and Traffic 1 (1), rel. speed 10km/h
+2026-06-14 00:53:15.536 +03:00 [DBG] Car 27 reached spline end, despawning
+2026-06-14 00:53:26.034 +03:00 [DBG] Car 5 reached spline end, despawning
+2026-06-14 00:53:26.952 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-06-14 00:53:28.286 +03:00 [INF] Collision between corp14x3 (30) and Traffic 28 (28), rel. speed 14km/h
+2026-06-14 00:53:30.609 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-06-14 00:53:36.131 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 41km/h
+2026-06-14 00:53:41.411 +03:00 [DBG] Car 28 reached spline end, despawning
+2026-06-14 00:53:42.604 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-06-14 00:53:43.658 +03:00 [DBG] Car 19 reached spline end, despawning
+2026-06-14 00:53:44.728 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-06-14 00:53:45.738 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-06-14 00:53:46.688 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-06-14 00:53:51.170 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-06-14 00:54:16.392 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-06-14 00:54:18.059 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-06-14 00:54:30.211 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-06-14 00:54:31.911 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-06-14 00:54:39.202 +03:00 [DBG] Car 19 reached spline end, despawning
+2026-06-14 00:54:39.948 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-06-14 00:54:43.690 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-06-14 00:54:47.945 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 4km/h
+2026-06-14 00:54:48.530 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-06-14 00:54:53.057 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-06-14 00:55:02.573 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-06-14 00:55:10.538 +03:00 [INF] Collision between corp14x3 (30) and Traffic 11 (11), rel. speed 14km/h
+2026-06-14 00:55:10.630 +03:00 [DBG] Received clean exit from corp14x3 (30)
+2026-06-14 00:55:10.632 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 212.154.2.0:57304)
+2026-06-14 00:55:10.633 +03:00 [INF] corp14x3 has disconnected
+2026-06-14 00:55:15.742 +03:00 [DBG] Car 25 reached spline end, despawning
+2026-06-14 00:55:18.298 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-06-14 00:55:20.326 +03:00 [DBG] Car 18 reached spline end, despawning
+2026-06-14 00:57:53.420 +03:00 [INF] AssettoServer 0.0.55-pre35
+2026-06-14 00:57:53.442 +03:00 [DBG] Server was started through Content Manager
+2026-06-14 00:57:53.447 +03:00 [DBG] Loading server_cfg.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\server_cfg.ini
+2026-06-14 00:57:53.464 +03:00 [DBG] Loading entry_list.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\entry_list.ini
+2026-06-14 00:57:53.687 +03:00 [DBG] Loading extra_cfg.yml from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\extra_cfg.yml
+2026-06-14 00:57:53.768 +03:00 [DBG] Using minimum required CSP Version 3879
+2026-06-14 00:57:54.054 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2026-06-14 00:57:54.069 +03:00 [INF] Starting server
+2026-06-14 00:57:54.157 +03:00 [INF] Loaded 32 cars
+2026-06-14 00:57:54.164 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2026-06-14 00:57:54.164 +03:00 [DBG] Added checksum for content/tracks/csp/3879/../H/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2026-06-14 00:57:54.165 +03:00 [INF] Initialized 2 track checksums
+2026-06-14 00:57:54.165 +03:00 [DBG] Added checksum for traffic_alfa_159
+2026-06-14 00:57:54.166 +03:00 [DBG] Added checksum for traffic_audi_a4_eu
+2026-06-14 00:57:54.166 +03:00 [DBG] Added checksum for traffic_toyota_priuseu
+2026-06-14 00:57:54.166 +03:00 [DBG] Added checksum for traffic_volvo_v70
+2026-06-14 00:57:54.167 +03:00 [DBG] Added checksum for traffic_audi_a4_jp
+2026-06-14 00:57:54.167 +03:00 [DBG] Added checksum for traffic_isuzu_flatbed
+2026-06-14 00:57:54.167 +03:00 [DBG] Added checksum for traffic_isuzu_hauler
+2026-06-14 00:57:54.167 +03:00 [DBG] Added checksum for traffic_isuzu_haulerb
+2026-06-14 00:57:54.168 +03:00 [DBG] Added checksum for traffic_isuzu_tanker
+2026-06-14 00:57:54.168 +03:00 [DBG] Added checksum for traffic_isuzu_npr
+2026-06-14 00:57:54.168 +03:00 [DBG] Added checksum for traffic_nissan_leaf
+2026-06-14 00:57:54.168 +03:00 [DBG] Added checksum for traffic_toyota_camry
+2026-06-14 00:57:54.169 +03:00 [DBG] Added checksum for traffic_toyota_prius
+2026-06-14 00:57:54.169 +03:00 [DBG] Added checksum for traffic_volvo_v70jp
+2026-06-14 00:57:54.169 +03:00 [DBG] Added checksum for traffic_toyota_rav4
+2026-06-14 00:57:54.169 +03:00 [DBG] Added checksum for traffic_cadillac_escalade
+2026-06-14 00:57:54.170 +03:00 [DBG] Added checksum for traffic_dodge_challenger_srt
+2026-06-14 00:57:54.170 +03:00 [DBG] Added checksum for traffic_dodge_grand_caravan_taxi
+2026-06-14 00:57:54.170 +03:00 [DBG] Added checksum for traffic_crown_vic
+2026-06-14 00:57:54.171 +03:00 [DBG] Added checksum for 06_ygt_53_m4_lci_air
+2026-06-14 00:57:54.171 +03:00 [DBG] Added checksum for hd_f430_scuderiaspider
+2026-06-14 00:57:54.173 +03:00 [INF] Initialized 21 car checksums
+2026-06-14 00:57:54.443 +03:00 [INF] Next session: Practice - Length: 720 minutes
+2026-06-14 00:57:54.444 +03:00 [INF] Switching session to id 0
+2026-06-14 00:57:54.534 +03:00 [INF] Starting HTTP server on port 8081
+2026-06-14 00:57:54.535 +03:00 [INF] Starting UDP server on port 9600
+2026-06-14 00:57:54.535 +03:00 [INF] Starting TCP server on port 9600
+2026-06-14 00:57:54.536 +03:00 [INF] Starting update loop with an update rate of 60hz
+2026-06-14 00:57:54.541 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2026-06-14 00:57:54.543 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2026-06-14 00:57:54.543 +03:00 [DBG] Loaded admins.txt with 0 entries
+2026-06-14 00:57:54.544 +03:00 [INF] Invite link: https://acstuff.club/s/q:race/online/join?ip=212.154.2.92&httpPort=8081
+2026-06-14 00:57:54.544 +03:00 [INF] Server startup completed
+2026-06-14 00:58:02.077 +03:00 [INF] corp14x3 (76561199521796457 - 212.154.2.0:64201) is attempting to connect (06_ygt_53_m4_lci_air)
+2026-06-14 00:58:02.081 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-14 00:58:02.089 +03:00 [INF] corp14x3 (76561199521796457, 30 (06_ygt_53_m4_lci_air-01_melborune_red)) has connected
+2026-06-14 00:58:24.189 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 30 - Target AI count: 30 - Overbooking: 1 - Rest: 0
+2026-06-14 00:58:24.420 +03:00 [INF] CSP handshake received from corp14x3 (30): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-06-14 00:58:54.657 +03:00 [DBG] Received clean exit from corp14x3 (30)
+2026-06-14 00:58:54.659 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 212.154.2.0:64201)
+2026-06-14 00:58:54.660 +03:00 [INF] corp14x3 has disconnected
+2026-06-14 00:59:11.225 +03:00 [INF] corp14x3 (76561199521796457 - 212.154.2.0:64219) is attempting to connect (06_ygt_53_m4_lci_air)
+2026-06-14 00:59:11.225 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-14 00:59:11.225 +03:00 [INF] corp14x3 (76561199521796457, 30 (06_ygt_53_m4_lci_air-01_melborune_red)) has connected
+2026-06-14 00:59:29.576 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 30 - Target AI count: 30 - Overbooking: 1 - Rest: 0
+2026-06-14 00:59:29.820 +03:00 [INF] CSP handshake received from corp14x3 (30): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-06-14 00:59:48.290 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 8km/h
+2026-06-14 01:00:00.643 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-06-14 01:00:01.294 +03:00 [INF] Collision between corp14x3 (30) and Traffic 5 (5), rel. speed 108km/h
+2026-06-14 01:00:02.945 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 49km/h
+2026-06-14 01:00:14.079 +03:00 [DBG] Car 7 reached spline end, despawning
+2026-06-14 01:00:16.822 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-06-14 01:00:19.926 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-06-14 01:00:36.579 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-06-14 01:00:46.848 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 30km/h
+2026-06-14 01:00:50.477 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 93km/h
+2026-06-14 01:00:54.093 +03:00 [INF] Collision between corp14x3 (30) and Traffic 20 (20), rel. speed 103km/h
+2026-06-14 01:00:56.981 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 36km/h
+2026-06-14 01:01:30.438 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 4km/h
+2026-06-14 01:01:40.992 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 4km/h
+2026-06-14 01:01:43.020 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 1km/h
+2026-06-14 01:01:50.264 +03:00 [INF] Collision between corp14x3 (30) and Traffic 8 (8), rel. speed 9km/h
+2026-06-14 01:02:47.907 +03:00 [INF] Collision between corp14x3 (30) and Traffic 27 (27), rel. speed 23km/h
+2026-06-14 01:02:48.020 +03:00 [INF] Collision between corp14x3 (30) and Traffic 0 (0), rel. speed 17km/h
+2026-06-14 01:02:58.175 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 65km/h
+2026-06-14 01:02:59.113 +03:00 [DBG] Car 5 reached spline end, despawning
+2026-06-14 01:03:02.067 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-06-14 01:03:05.612 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-06-14 01:03:07.727 +03:00 [DBG] Car 22 reached spline end, despawning
+2026-06-14 01:03:16.315 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-06-14 01:03:23.029 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-14 01:03:25.278 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 61km/h
+2026-06-14 01:03:29.258 +03:00 [DBG] Received clean exit from corp14x3 (30)
+2026-06-14 01:03:29.258 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 212.154.2.0:64219)
+2026-06-14 01:03:29.258 +03:00 [INF] corp14x3 has disconnected

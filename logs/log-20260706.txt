@@ -1,0 +1,490 @@
+2026-07-06 07:34:21.669 +03:00 [INF] AssettoServer 0.0.55-pre35
+2026-07-06 07:34:21.693 +03:00 [DBG] Server was started through Content Manager
+2026-07-06 07:34:21.698 +03:00 [DBG] Loading server_cfg.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\underground\server_cfg.ini
+2026-07-06 07:34:21.721 +03:00 [DBG] Loading entry_list.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\underground\entry_list.ini
+2026-07-06 07:34:21.969 +03:00 [DBG] Loading extra_cfg.yml from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\underground\extra_cfg.yml
+2026-07-06 07:34:22.055 +03:00 [DBG] Using minimum required CSP Version 3879
+2026-07-06 07:34:22.471 +03:00 [DBG] Mapping cached AI spline 078D4196FAE3C031.aic1 to memory
+2026-07-06 07:34:22.485 +03:00 [INF] Starting server
+2026-07-06 07:34:22.597 +03:00 [INF] Loaded 31 cars
+2026-07-06 07:34:22.609 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2026-07-06 07:34:22.614 +03:00 [DBG] Added checksum for content/tracks/csp/3879/../H/../nfsu2/data/surfaces.ini
+2026-07-06 07:34:22.615 +03:00 [INF] Initialized 2 track checksums
+2026-07-06 07:34:22.616 +03:00 [DBG] Added checksum for traffic_alfa_159
+2026-07-06 07:34:22.616 +03:00 [DBG] Added checksum for traffic_audi_a4_eu
+2026-07-06 07:34:22.617 +03:00 [DBG] Added checksum for traffic_toyota_priuseu
+2026-07-06 07:34:22.617 +03:00 [DBG] Added checksum for traffic_volvo_v70
+2026-07-06 07:34:22.618 +03:00 [DBG] Added checksum for traffic_audi_a4_jp
+2026-07-06 07:34:22.618 +03:00 [DBG] Added checksum for traffic_isuzu_flatbed
+2026-07-06 07:34:22.618 +03:00 [DBG] Added checksum for traffic_isuzu_hauler
+2026-07-06 07:34:22.619 +03:00 [DBG] Added checksum for traffic_isuzu_haulerb
+2026-07-06 07:34:22.619 +03:00 [DBG] Added checksum for traffic_isuzu_tanker
+2026-07-06 07:34:22.620 +03:00 [DBG] Added checksum for traffic_isuzu_npr
+2026-07-06 07:34:22.620 +03:00 [DBG] Added checksum for traffic_nissan_leaf
+2026-07-06 07:34:22.621 +03:00 [DBG] Added checksum for traffic_toyota_camry
+2026-07-06 07:34:22.621 +03:00 [DBG] Added checksum for traffic_toyota_prius
+2026-07-06 07:34:22.621 +03:00 [DBG] Added checksum for traffic_volvo_v70jp
+2026-07-06 07:34:22.622 +03:00 [DBG] Added checksum for traffic_toyota_rav4
+2026-07-06 07:34:22.622 +03:00 [DBG] Added checksum for traffic_cadillac_escalade
+2026-07-06 07:34:22.623 +03:00 [DBG] Added checksum for traffic_dodge_challenger_srt
+2026-07-06 07:34:22.623 +03:00 [DBG] Added checksum for traffic_dodge_grand_caravan_taxi
+2026-07-06 07:34:22.624 +03:00 [DBG] Added checksum for traffic_crown_vic
+2026-07-06 07:34:22.625 +03:00 [DBG] Added checksum for bkXHM_nissan_gtr_21_RB_KIT
+2026-07-06 07:34:22.626 +03:00 [INF] Initialized 20 car checksums
+2026-07-06 07:34:22.802 +03:00 [INF] Next session: Practice - Length: 720 minutes
+2026-07-06 07:34:22.803 +03:00 [INF] Switching session to id 0
+2026-07-06 07:34:22.812 +03:00 [WRN] Using UTC as default time zone
+2026-07-06 07:34:22.890 +03:00 [INF] Starting HTTP server on port 8081
+2026-07-06 07:34:22.890 +03:00 [INF] Starting UDP server on port 9600
+2026-07-06 07:34:22.890 +03:00 [INF] Starting TCP server on port 9600
+2026-07-06 07:34:22.891 +03:00 [INF] Starting update loop with an update rate of 60hz
+2026-07-06 07:34:22.897 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2026-07-06 07:34:22.898 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2026-07-06 07:34:22.899 +03:00 [DBG] Loaded admins.txt with 0 entries
+2026-07-06 07:34:22.900 +03:00 [INF] Invite link: https://acstuff.club/s/q:race/online/join?ip=212.154.2.92&httpPort=8081
+2026-07-06 07:34:22.900 +03:00 [INF] Server startup completed
+2026-07-06 07:35:08.418 +03:00 [INF] corp14x3 (76561199521796457 - 212.154.2.0:49201) is attempting to connect (bkXHM_nissan_gtr_21_RB_KIT)
+2026-07-06 07:35:08.452 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-07-06 07:35:08.487 +03:00 [INF] corp14x3 (76561199521796457, 30 (bkXHM_nissan_gtr_21_RB_KIT-Black2)) has connected
+2026-07-06 07:35:34.422 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 30 - Target AI count: 30 - Overbooking: 1 - Rest: 0
+2026-07-06 07:35:35.755 +03:00 [INF] CSP handshake received from corp14x3 (30): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-07-06 07:37:29.132 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 11km/h
+2026-07-06 07:37:31.141 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:37:33.392 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 1km/h
+2026-07-06 07:37:35.412 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 2km/h
+2026-07-06 07:37:36.669 +03:00 [INF] CHAT: corp14x3 (30): /setrain 1 1 1
+2026-07-06 07:37:37.408 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:37:39.408 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:37:41.410 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:37:43.413 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:37:45.411 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:37:47.412 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:37:47.603 +03:00 [INF] CHAT: corp14x3 (30): /setrain 0 0 0
+2026-07-06 07:37:49.422 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:37:51.418 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:37:53.416 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:37:55.417 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:37:55.963 +03:00 [INF] CHAT: corp14x3 (30): /setcsp weather 8 0
+2026-07-06 07:37:57.427 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:37:59.418 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:38:01.425 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:38:03.425 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:38:05.422 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:38:07.426 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:38:09.425 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:38:11.428 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:38:13.438 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:38:15.426 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:38:17.428 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:38:19.436 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:38:21.430 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:38:23.436 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:38:25.432 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:38:27.433 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:38:29.435 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:38:31.437 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:38:33.444 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:38:35.439 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:38:37.438 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:38:39.443 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:38:41.444 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:38:43.441 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:38:45.443 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:38:47.453 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:38:49.443 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:38:51.447 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:38:53.450 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:38:55.449 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:38:57.456 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:38:59.456 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:39:01.450 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:39:03.459 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:39:05.453 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:39:07.453 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:39:09.456 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:39:11.466 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:39:13.455 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:39:15.456 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:39:17.458 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:39:19.468 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:39:21.467 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:39:23.468 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:39:25.468 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:39:27.462 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:39:29.464 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:39:31.464 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:39:33.466 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:39:35.466 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:39:37.467 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:39:39.468 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:39:41.473 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:39:43.475 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:39:45.473 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:39:47.478 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:39:49.474 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:39:51.488 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:39:53.476 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:39:55.477 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:39:57.481 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:39:59.482 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:40:01.484 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:40:03.481 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:40:05.482 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:40:07.493 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:40:09.484 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:40:11.484 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:40:13.485 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:40:15.497 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:40:17.488 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:40:19.488 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:40:21.495 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:40:23.495 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:40:25.491 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:40:27.493 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:40:29.494 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:40:31.498 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:40:33.508 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:40:35.507 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:40:37.498 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:40:39.502 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:40:41.512 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:40:43.502 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:40:45.507 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:40:47.502 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:40:49.513 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:40:51.505 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:40:53.522 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:40:55.522 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:40:57.508 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:40:59.510 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:01.519 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:03.519 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:05.512 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:07.521 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:09.515 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:11.515 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:13.515 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:15.526 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:17.530 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:19.519 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:21.520 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:23.524 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:25.524 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:27.522 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:29.530 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:31.531 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:33.529 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:35.526 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:37.527 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:39.533 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:41.542 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:43.534 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:45.538 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:47.532 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:49.533 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:50.580 +03:00 [INF] CHAT: corp14x3 (30): /setcspweather 8 0
+2026-07-06 07:41:50.581 +03:00 [INF] CSP weather transitioning to "HeavyRain"
+2026-07-06 07:41:51.541 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:53.537 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:55.536 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:57.538 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:59.539 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:41:59.762 +03:00 [INF] CHAT: corp14x3 (30): /settime 15:00
+2026-07-06 07:41:59.763 +03:00 [INF] Broadcast: Time has been set.
+2026-07-06 07:42:01.540 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:42:03.545 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:42:05.541 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:42:07.543 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:42:09.549 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:42:09.727 +03:00 [INF] CHAT: corp14x3 (30): /settime 20:00
+2026-07-06 07:42:09.727 +03:00 [INF] Broadcast: Time has been set.
+2026-07-06 07:42:11.547 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:42:13.551 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:42:15.551 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:42:17.552 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:42:19.549 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:42:21.559 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:42:23.550 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:42:25.551 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:42:27.556 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:42:29.555 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:42:31.558 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 07:43:16.474 +03:00 [INF] CHAT: corp14x3 (30): /settime 00:00
+2026-07-06 07:43:16.474 +03:00 [INF] Broadcast: Time has been set.
+2026-07-06 07:43:32.523 +03:00 [INF] CHAT: corp14x3 (30): /settime 01:00
+2026-07-06 07:43:32.524 +03:00 [INF] Broadcast: Time has been set.
+2026-07-06 07:43:37.514 +03:00 [INF] CHAT: corp14x3 (30): /settime 06:00
+2026-07-06 07:43:37.514 +03:00 [INF] Broadcast: Time has been set.
+2026-07-06 07:43:44.899 +03:00 [INF] CHAT: corp14x3 (30): /settime 09:00
+2026-07-06 07:43:44.900 +03:00 [INF] Broadcast: Time has been set.
+2026-07-06 07:45:28.884 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 53km/h
+2026-07-06 07:45:30.893 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 6km/h
+2026-07-06 07:48:35.500 +03:00 [INF] Collision between corp14x3 (30) and Traffic 25 (25), rel. speed 13km/h
+2026-07-06 07:48:41.968 +03:00 [INF] Collision between corp14x3 (30) and Traffic 22 (22), rel. speed 8km/h
+2026-07-06 07:48:43.968 +03:00 [INF] Collision between corp14x3 (30) and Traffic 22 (22), rel. speed 38km/h
+2026-07-06 07:48:45.974 +03:00 [INF] Collision between corp14x3 (30) and Traffic 22 (22), rel. speed 43km/h
+2026-07-06 07:48:47.970 +03:00 [INF] Collision between corp14x3 (30) and Traffic 22 (22), rel. speed 10km/h
+2026-07-06 07:48:51.351 +03:00 [INF] Collision between corp14x3 (30) and Traffic 22 (22), rel. speed 9km/h
+2026-07-06 07:48:53.110 +03:00 [INF] Collision between corp14x3 (30) and Traffic 21 (21), rel. speed 36km/h
+2026-07-06 07:48:53.340 +03:00 [INF] Collision between corp14x3 (30) and Traffic 22 (22), rel. speed 13km/h
+2026-07-06 07:49:07.586 +03:00 [INF] Collision between corp14x3 (30) and Traffic 20 (20), rel. speed 15km/h
+2026-07-06 07:49:22.641 +03:00 [INF] Collision between corp14x3 (30) and Traffic 28 (28), rel. speed 15km/h
+2026-07-06 07:49:28.503 +03:00 [INF] Collision between corp14x3 (30) and Traffic 5 (5), rel. speed 6km/h
+2026-07-06 07:49:30.504 +03:00 [INF] Collision between corp14x3 (30) and Traffic 5 (5), rel. speed 30km/h
+2026-07-06 07:49:32.510 +03:00 [INF] Collision between corp14x3 (30) and Traffic 5 (5), rel. speed 24km/h
+2026-07-06 07:49:35.818 +03:00 [INF] Collision between corp14x3 (30) and Traffic 5 (5), rel. speed 2km/h
+2026-07-06 07:49:40.709 +03:00 [DBG] Received clean exit from corp14x3 (30)
+2026-07-06 07:49:40.710 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 212.154.2.0:49201)
+2026-07-06 07:49:40.712 +03:00 [INF] corp14x3 has disconnected
+2026-07-06 07:56:14.076 +03:00 [INF] corp14x3 (76561199521796457 - 212.154.2.0:65060) is attempting to connect (bkXHM_nissan_gtr_21_RB_KIT)
+2026-07-06 07:56:14.076 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-07-06 07:56:14.077 +03:00 [INF] corp14x3 (76561199521796457, 30 (bkXHM_nissan_gtr_21_RB_KIT-Black2)) has connected
+2026-07-06 07:56:18.349 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 30 - Target AI count: 30 - Overbooking: 1 - Rest: 0
+2026-07-06 07:56:18.622 +03:00 [INF] CSP handshake received from corp14x3 (30): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-07-06 07:58:26.099 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 6km/h
+2026-07-06 08:00:41.222 +03:00 [ERR] Error sending CSPPositionUpdate to corp14x3
+System.Net.Sockets.SocketException (10055): Sistemde yeterli arabellek alanı veya bir sıra dolu olduğundan bir yuva üzerindeki bir işlem gerçekleştirilemedi.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.SendTo(ReadOnlySpan`1 buffer, SocketFlags socketFlags, SocketAddress socketAddress)
+   at AssettoServer.Network.Udp.ACUdpServer.Send(SocketAddress address, Byte[] buffer, Int32 offset, Int32 size) in AssettoServer/Network/Udp/ACUdpServer.cs:line 85
+   at AssettoServer.Network.Tcp.ACTcpClient.SendPacketUdp[TPacket](TPacket& packet) in AssettoServer/Network/Tcp/ACTcpClient.cs:line 290
+2026-07-06 08:00:41.229 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 212.154.2.0:65060)
+2026-07-06 08:00:41.230 +03:00 [INF] corp14x3 has disconnected
+2026-07-06 08:20:41.516 +03:00 [INF] AssettoServer 0.0.55-pre35
+2026-07-06 08:20:41.539 +03:00 [DBG] Server was started through Content Manager
+2026-07-06 08:20:41.544 +03:00 [DBG] Loading server_cfg.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\server_cfg.ini
+2026-07-06 08:20:41.564 +03:00 [DBG] Loading entry_list.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\entry_list.ini
+2026-07-06 08:20:41.803 +03:00 [DBG] Loading extra_cfg.yml from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\extra_cfg.yml
+2026-07-06 08:20:41.887 +03:00 [DBG] Using minimum required CSP Version 3879
+2026-07-06 08:20:42.301 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2026-07-06 08:20:42.337 +03:00 [INF] Starting server
+2026-07-06 08:20:42.449 +03:00 [INF] Loaded 31 cars
+2026-07-06 08:20:42.461 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2026-07-06 08:20:42.466 +03:00 [DBG] Added checksum for content/tracks/csp/3879/../H/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2026-07-06 08:20:42.466 +03:00 [INF] Initialized 2 track checksums
+2026-07-06 08:20:42.467 +03:00 [DBG] Added checksum for traffic_alfa_159
+2026-07-06 08:20:42.468 +03:00 [DBG] Added checksum for traffic_audi_a4_eu
+2026-07-06 08:20:42.468 +03:00 [DBG] Added checksum for traffic_toyota_priuseu
+2026-07-06 08:20:42.469 +03:00 [DBG] Added checksum for traffic_volvo_v70
+2026-07-06 08:20:42.469 +03:00 [DBG] Added checksum for traffic_audi_a4_jp
+2026-07-06 08:20:42.469 +03:00 [DBG] Added checksum for traffic_isuzu_flatbed
+2026-07-06 08:20:42.470 +03:00 [DBG] Added checksum for traffic_isuzu_hauler
+2026-07-06 08:20:42.470 +03:00 [DBG] Added checksum for traffic_isuzu_haulerb
+2026-07-06 08:20:42.470 +03:00 [DBG] Added checksum for traffic_isuzu_tanker
+2026-07-06 08:20:42.471 +03:00 [DBG] Added checksum for traffic_isuzu_npr
+2026-07-06 08:20:42.471 +03:00 [DBG] Added checksum for traffic_nissan_leaf
+2026-07-06 08:20:42.471 +03:00 [DBG] Added checksum for traffic_toyota_camry
+2026-07-06 08:20:42.472 +03:00 [DBG] Added checksum for traffic_toyota_prius
+2026-07-06 08:20:42.472 +03:00 [DBG] Added checksum for traffic_volvo_v70jp
+2026-07-06 08:20:42.473 +03:00 [DBG] Added checksum for traffic_toyota_rav4
+2026-07-06 08:20:42.473 +03:00 [DBG] Added checksum for traffic_cadillac_escalade
+2026-07-06 08:20:42.473 +03:00 [DBG] Added checksum for traffic_dodge_challenger_srt
+2026-07-06 08:20:42.474 +03:00 [DBG] Added checksum for traffic_dodge_grand_caravan_taxi
+2026-07-06 08:20:42.474 +03:00 [DBG] Added checksum for traffic_crown_vic
+2026-07-06 08:20:42.475 +03:00 [DBG] Added checksum for bkXHM_nissan_gtr_21_RB_KIT
+2026-07-06 08:20:42.476 +03:00 [INF] Initialized 20 car checksums
+2026-07-06 08:20:42.640 +03:00 [INF] Next session: Practice - Length: 720 minutes
+2026-07-06 08:20:42.641 +03:00 [INF] Switching session to id 0
+2026-07-06 08:20:42.744 +03:00 [INF] Starting HTTP server on port 8081
+2026-07-06 08:20:42.745 +03:00 [INF] Starting UDP server on port 9600
+2026-07-06 08:20:42.745 +03:00 [INF] Starting TCP server on port 9600
+2026-07-06 08:20:42.745 +03:00 [INF] Starting update loop with an update rate of 60hz
+2026-07-06 08:20:42.751 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2026-07-06 08:20:42.753 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2026-07-06 08:20:42.754 +03:00 [DBG] Loaded admins.txt with 0 entries
+2026-07-06 08:20:42.755 +03:00 [INF] Invite link: https://acstuff.club/s/q:race/online/join?ip=212.154.2.92&httpPort=8081
+2026-07-06 08:20:42.755 +03:00 [INF] Server startup completed
+2026-07-06 08:21:10.315 +03:00 [INF] corp14x3 (76561199521796457 - 212.154.2.0:62776) is attempting to connect (bkXHM_nissan_gtr_21_RB_KIT)
+2026-07-06 08:21:10.322 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-07-06 08:21:10.344 +03:00 [INF] corp14x3 (76561199521796457, 30 (bkXHM_nissan_gtr_21_RB_KIT-Midnight_Purple)) has connected
+2026-07-06 08:21:33.702 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 30 - Target AI count: 30 - Overbooking: 1 - Rest: 0
+2026-07-06 08:21:35.006 +03:00 [INF] CSP handshake received from corp14x3 (30): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-07-06 08:21:58.616 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-07-06 08:22:05.220 +03:00 [DBG] Car 25 reached spline end, despawning
+2026-07-06 08:22:08.162 +03:00 [INF] Collision between corp14x3 (30) and Traffic 6 (6), rel. speed 127km/h
+2026-07-06 08:22:09.903 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 105km/h
+2026-07-06 08:22:12.855 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-07-06 08:23:10.634 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-07-06 08:23:12.329 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-07-06 08:23:38.913 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-07-06 08:23:42.268 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-07-06 08:24:29.996 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-07-06 08:24:47.104 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-07-06 08:24:58.701 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-07-06 08:25:06.155 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-07-06 08:25:17.459 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-07-06 08:25:36.254 +03:00 [DBG] Car 5 reached spline end, despawning
+2026-07-06 08:25:57.356 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-07-06 08:26:04.374 +03:00 [DBG] Received clean exit from corp14x3 (30)
+2026-07-06 08:26:04.376 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 212.154.2.0:62776)
+2026-07-06 08:26:04.377 +03:00 [INF] corp14x3 has disconnected
+2026-07-06 08:34:41.883 +03:00 [INF] AssettoServer 0.0.55-pre35
+2026-07-06 08:34:41.952 +03:00 [DBG] Server was started through Content Manager
+2026-07-06 08:34:41.958 +03:00 [DBG] Loading server_cfg.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\server_cfg.ini
+2026-07-06 08:34:41.981 +03:00 [DBG] Loading entry_list.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\entry_list.ini
+2026-07-06 08:34:42.238 +03:00 [DBG] Loading extra_cfg.yml from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\extra_cfg.yml
+2026-07-06 08:34:42.333 +03:00 [DBG] Using minimum required CSP Version 3879
+2026-07-06 08:34:42.855 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2026-07-06 08:34:42.890 +03:00 [INF] Starting server
+2026-07-06 08:34:42.989 +03:00 [INF] Loaded 31 cars
+2026-07-06 08:34:43.002 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2026-07-06 08:34:43.007 +03:00 [DBG] Added checksum for content/tracks/csp/3879/../H/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2026-07-06 08:34:43.008 +03:00 [INF] Initialized 2 track checksums
+2026-07-06 08:34:43.009 +03:00 [DBG] Added checksum for traffic_alfa_159
+2026-07-06 08:34:43.010 +03:00 [DBG] Added checksum for traffic_audi_a4_eu
+2026-07-06 08:34:43.010 +03:00 [DBG] Added checksum for traffic_toyota_priuseu
+2026-07-06 08:34:43.011 +03:00 [DBG] Added checksum for traffic_volvo_v70
+2026-07-06 08:34:43.011 +03:00 [DBG] Added checksum for traffic_audi_a4_jp
+2026-07-06 08:34:43.012 +03:00 [DBG] Added checksum for traffic_isuzu_flatbed
+2026-07-06 08:34:43.012 +03:00 [DBG] Added checksum for traffic_isuzu_hauler
+2026-07-06 08:34:43.013 +03:00 [DBG] Added checksum for traffic_isuzu_haulerb
+2026-07-06 08:34:43.013 +03:00 [DBG] Added checksum for traffic_isuzu_tanker
+2026-07-06 08:34:43.014 +03:00 [DBG] Added checksum for traffic_isuzu_npr
+2026-07-06 08:34:43.014 +03:00 [DBG] Added checksum for traffic_nissan_leaf
+2026-07-06 08:34:43.015 +03:00 [DBG] Added checksum for traffic_toyota_camry
+2026-07-06 08:34:43.015 +03:00 [DBG] Added checksum for traffic_toyota_prius
+2026-07-06 08:34:43.016 +03:00 [DBG] Added checksum for traffic_volvo_v70jp
+2026-07-06 08:34:43.016 +03:00 [DBG] Added checksum for traffic_toyota_rav4
+2026-07-06 08:34:43.017 +03:00 [DBG] Added checksum for traffic_cadillac_escalade
+2026-07-06 08:34:43.017 +03:00 [DBG] Added checksum for traffic_dodge_challenger_srt
+2026-07-06 08:34:43.018 +03:00 [DBG] Added checksum for traffic_dodge_grand_caravan_taxi
+2026-07-06 08:34:43.018 +03:00 [DBG] Added checksum for traffic_crown_vic
+2026-07-06 08:34:43.019 +03:00 [DBG] Added checksum for bkXHM_nissan_gtr_21_RB_KIT
+2026-07-06 08:34:43.020 +03:00 [INF] Initialized 20 car checksums
+2026-07-06 08:34:43.177 +03:00 [INF] Next session: Practice - Length: 720 minutes
+2026-07-06 08:34:43.178 +03:00 [INF] Switching session to id 0
+2026-07-06 08:34:43.277 +03:00 [INF] Starting HTTP server on port 8081
+2026-07-06 08:34:43.277 +03:00 [INF] Starting UDP server on port 9600
+2026-07-06 08:34:43.277 +03:00 [INF] Starting TCP server on port 9600
+2026-07-06 08:34:43.278 +03:00 [INF] Starting update loop with an update rate of 60hz
+2026-07-06 08:34:43.283 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2026-07-06 08:34:43.285 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2026-07-06 08:34:43.286 +03:00 [DBG] Loaded admins.txt with 0 entries
+2026-07-06 08:34:43.287 +03:00 [INF] Invite link: https://acstuff.club/s/q:race/online/join?ip=212.154.2.92&httpPort=8081
+2026-07-06 08:34:43.287 +03:00 [INF] Server startup completed
+2026-07-06 08:36:10.451 +03:00 [INF] corp14x3 (76561199521796457 - 212.154.2.0:58941) is attempting to connect (bkXHM_nissan_gtr_21_RB_KIT)
+2026-07-06 08:36:10.454 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-07-06 08:36:10.460 +03:00 [INF] corp14x3 (76561199521796457, 30 (bkXHM_nissan_gtr_21_RB_KIT-Midnight_Purple)) has connected
+2026-07-06 08:36:38.815 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 30 - Target AI count: 30 - Overbooking: 1 - Rest: 0
+2026-07-06 08:36:40.126 +03:00 [INF] CSP handshake received from corp14x3 (30): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-07-06 08:37:12.608 +03:00 [INF] Collision between corp14x3 (30) and Traffic 0 (0), rel. speed 61km/h
+2026-07-06 08:37:17.423 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-07-06 08:37:23.471 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-07-06 08:37:26.955 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-07-06 08:37:31.098 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-07-06 08:37:31.846 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-07-06 08:38:15.535 +03:00 [INF] CHAT: corp14x3 (30): /setcspweather 8 0
+2026-07-06 08:38:15.554 +03:00 [INF] CSP weather transitioning to "HeavyRain"
+2026-07-06 08:38:43.864 +03:00 [INF] CHAT: corp14x3 (30): /settime 19:00
+2026-07-06 08:38:43.867 +03:00 [INF] Broadcast: Time has been set.
+2026-07-06 08:39:09.993 +03:00 [DBG] Car 20 reached spline end, despawning
+2026-07-06 08:39:27.636 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-07-06 08:40:23.097 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 30km/h
+2026-07-06 08:40:25.098 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 0km/h
+2026-07-06 08:40:27.098 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 14km/h
+2026-07-06 08:40:29.099 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 6km/h
+2026-07-06 08:40:48.082 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-07-06 08:40:57.097 +03:00 [DBG] Car 25 reached spline end, despawning
+2026-07-06 08:41:18.620 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-07-06 08:41:24.803 +03:00 [DBG] Car 27 reached spline end, despawning
+2026-07-06 08:41:29.148 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-07-06 08:45:37.235 +03:00 [DBG] Car 21 reached spline end, despawning
+2026-07-06 08:46:02.603 +03:00 [INF] Collision between corp14x3 (30) and Traffic 24 (24), rel. speed 41km/h
+2026-07-06 08:46:30.228 +03:00 [INF] Collision between corp14x3 (30) and Traffic 22 (22), rel. speed 216km/h
+2026-07-06 08:46:30.483 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 189km/h
+2026-07-06 08:46:36.333 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 16km/h
+2026-07-06 08:46:50.681 +03:00 [INF] Collision between corp14x3 (30) and Traffic 6 (6), rel. speed 38km/h
+2026-07-06 08:48:34.586 +03:00 [DBG] Car 20 reached spline end, despawning
+2026-07-06 08:48:34.860 +03:00 [DBG] Car 20 reached spline end, despawning
+2026-07-06 08:48:37.130 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-07-06 08:48:38.792 +03:00 [DBG] Car 5 reached spline end, despawning
+2026-07-06 08:48:40.837 +03:00 [DBG] Car 20 reached spline end, despawning
+2026-07-06 08:48:42.519 +03:00 [DBG] Car 5 reached spline end, despawning
+2026-07-06 08:48:45.054 +03:00 [DBG] Car 8 reached spline end, despawning
+2026-07-06 08:48:48.858 +03:00 [DBG] Car 18 reached spline end, despawning
+2026-07-06 08:48:51.302 +03:00 [DBG] Car 27 reached spline end, despawning
+2026-07-06 08:48:53.898 +03:00 [DBG] Car 21 reached spline end, despawning
+2026-07-06 08:48:56.433 +03:00 [DBG] Car 27 reached spline end, despawning
+2026-07-06 08:48:59.285 +03:00 [DBG] Car 25 reached spline end, despawning
+2026-07-06 08:49:00.783 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-07-06 08:49:07.560 +03:00 [INF] Collision between corp14x3 (30) and Traffic 9 (9), rel. speed 107km/h
+2026-07-06 08:49:07.892 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-07-06 08:49:10.637 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 29km/h
+2026-07-06 08:49:10.938 +03:00 [DBG] Car 22 reached spline end, despawning
+2026-07-06 08:49:16.615 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-07-06 08:49:19.441 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-07-06 08:49:23.645 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-07-06 08:49:28.963 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-07-06 08:49:47.839 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-07-06 08:49:57.309 +03:00 [DBG] Car 29 reached spline end, despawning
+2026-07-06 08:49:59.091 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-07-06 08:50:07.759 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-07-06 08:51:42.321 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-07-06 08:51:47.444 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-07-06 08:51:50.785 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-07-06 08:51:51.931 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-07-06 08:52:25.044 +03:00 [INF] Collision between corp14x3 (30) and Traffic 26 (26), rel. speed 162km/h
+2026-07-06 08:52:26.286 +03:00 [INF] Collision between corp14x3 (30) and Traffic 17 (17), rel. speed 78km/h
+2026-07-06 08:52:26.660 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 68km/h
+2026-07-06 08:52:52.240 +03:00 [DBG] Car 28 reached spline end, despawning
+2026-07-06 08:55:31.933 +03:00 [DBG] Received clean exit from corp14x3 (30)
+2026-07-06 08:55:31.935 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 212.154.2.0:58941)
+2026-07-06 08:55:31.936 +03:00 [INF] corp14x3 has disconnected
+2026-07-06 08:56:02.426 +03:00 [INF] corp14x3 (76561199521796457 - 212.154.2.0:50676) is attempting to connect (bkXHM_nissan_gtr_21_RB_KIT)
+2026-07-06 08:56:02.427 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-07-06 08:56:02.427 +03:00 [INF] corp14x3 (76561199521796457, 30 (bkXHM_nissan_gtr_21_RB_KIT-Midnight_Purple)) has connected
+2026-07-06 08:56:25.332 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 30 - Target AI count: 30 - Overbooking: 1 - Rest: 0
+2026-07-06 08:56:26.637 +03:00 [INF] CSP handshake received from corp14x3 (30): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-07-06 08:57:19.193 +03:00 [DBG] Car 19 reached spline end, despawning
+2026-07-06 08:57:32.487 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-07-06 08:58:24.479 +03:00 [DBG] Car 25 reached spline end, despawning
+2026-07-06 08:58:28.810 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-07-06 08:59:15.027 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-07-06 09:00:14.417 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-07-06 09:00:40.834 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-07-06 09:01:16.763 +03:00 [DBG] Received clean exit from corp14x3 (30)
+2026-07-06 09:01:16.779 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 212.154.2.0:50676)
+2026-07-06 09:01:16.780 +03:00 [INF] corp14x3 has disconnected
+2026-07-06 10:35:15.762 +03:00 [INF] AssettoServer 0.0.55-pre35
+2026-07-06 10:35:15.787 +03:00 [DBG] Server was started through Content Manager
+2026-07-06 10:35:15.793 +03:00 [DBG] Loading server_cfg.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\server_cfg.ini
+2026-07-06 10:35:15.811 +03:00 [DBG] Loading entry_list.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\entry_list.ini
+2026-07-06 10:35:16.024 +03:00 [DBG] Loading extra_cfg.yml from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\extra_cfg.yml
+2026-07-06 10:35:16.097 +03:00 [DBG] Using minimum required CSP Version 3879
+2026-07-06 10:35:16.418 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2026-07-06 10:35:16.450 +03:00 [INF] Starting server
+2026-07-06 10:35:16.542 +03:00 [INF] Loaded 31 cars
+2026-07-06 10:35:16.548 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2026-07-06 10:35:16.549 +03:00 [DBG] Added checksum for content/tracks/csp/3879/../H/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2026-07-06 10:35:16.550 +03:00 [INF] Initialized 2 track checksums
+2026-07-06 10:35:16.551 +03:00 [DBG] Added checksum for traffic_alfa_159
+2026-07-06 10:35:16.551 +03:00 [DBG] Added checksum for traffic_audi_a4_eu
+2026-07-06 10:35:16.552 +03:00 [DBG] Added checksum for traffic_toyota_priuseu
+2026-07-06 10:35:16.552 +03:00 [DBG] Added checksum for traffic_volvo_v70
+2026-07-06 10:35:16.553 +03:00 [DBG] Added checksum for traffic_audi_a4_jp
+2026-07-06 10:35:16.553 +03:00 [DBG] Added checksum for traffic_isuzu_flatbed
+2026-07-06 10:35:16.554 +03:00 [DBG] Added checksum for traffic_isuzu_hauler
+2026-07-06 10:35:16.554 +03:00 [DBG] Added checksum for traffic_isuzu_haulerb
+2026-07-06 10:35:16.555 +03:00 [DBG] Added checksum for traffic_isuzu_tanker
+2026-07-06 10:35:16.556 +03:00 [DBG] Added checksum for traffic_isuzu_npr
+2026-07-06 10:35:16.556 +03:00 [DBG] Added checksum for traffic_nissan_leaf
+2026-07-06 10:35:16.557 +03:00 [DBG] Added checksum for traffic_toyota_camry
+2026-07-06 10:35:16.557 +03:00 [DBG] Added checksum for traffic_toyota_prius
+2026-07-06 10:35:16.558 +03:00 [DBG] Added checksum for traffic_volvo_v70jp
+2026-07-06 10:35:16.558 +03:00 [DBG] Added checksum for traffic_toyota_rav4
+2026-07-06 10:35:16.559 +03:00 [DBG] Added checksum for traffic_cadillac_escalade
+2026-07-06 10:35:16.559 +03:00 [DBG] Added checksum for traffic_dodge_challenger_srt
+2026-07-06 10:35:16.560 +03:00 [DBG] Added checksum for traffic_dodge_grand_caravan_taxi
+2026-07-06 10:35:16.560 +03:00 [DBG] Added checksum for traffic_crown_vic
+2026-07-06 10:35:16.561 +03:00 [DBG] Added checksum for bkXHM_nissan_gtr_21_RB_KIT
+2026-07-06 10:35:16.562 +03:00 [INF] Initialized 20 car checksums
+2026-07-06 10:36:56.575 +03:00 [INF] Next session: Practice - Length: 720 minutes
+2026-07-06 10:36:56.576 +03:00 [INF] Switching session to id 0
+2026-07-06 10:36:56.670 +03:00 [INF] Starting HTTP server on port 8081
+2026-07-06 10:36:56.671 +03:00 [INF] Starting TCP server on port 9600
+2026-07-06 10:36:56.671 +03:00 [INF] Starting UDP server on port 9600
+2026-07-06 10:36:56.672 +03:00 [INF] Starting update loop with an update rate of 60hz
+2026-07-06 10:36:56.679 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2026-07-06 10:36:56.680 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2026-07-06 10:36:56.683 +03:00 [DBG] Loaded admins.txt with 0 entries
+2026-07-06 10:36:56.685 +03:00 [INF] Server startup completed

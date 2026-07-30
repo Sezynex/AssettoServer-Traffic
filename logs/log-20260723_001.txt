@@ -1,0 +1,461 @@
+2026-07-23 01:18:26.272 +03:00 [INF] AssettoServer 0.0.55-pre35
+2026-07-23 01:18:26.296 +03:00 [DBG] Server was started through Content Manager
+2026-07-23 01:18:26.302 +03:00 [DBG] Loading server_cfg.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\LA CANYON\server_cfg.ini
+2026-07-23 01:18:26.319 +03:00 [DBG] Loading entry_list.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\LA CANYON\entry_list.ini
+2026-07-23 01:18:26.549 +03:00 [DBG] Loading extra_cfg.yml from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\LA CANYON\extra_cfg.yml
+2026-07-23 01:18:26.623 +03:00 [DBG] Using minimum required CSP Version 3879
+2026-07-23 01:18:27.022 +03:00 [INF] Cached AI spline not found. Generating cache...
+2026-07-23 01:18:27.030 +03:00 [DBG] Loading AI spline fast_lane.ai
+2026-07-23 01:18:27.062 +03:00 [DBG] Parsed content\tracks/csp/3879/../H/../la_canyons/ai/fast_lane.ai, id range 0 - 55256
+2026-07-23 01:18:27.276 +03:00 [INF] Adjacent lane detection...
+2026-07-23 01:18:27.544 +03:00 [INF] Adjacent lane detection completed in 268.1 ms
+2026-07-23 01:18:27.552 +03:00 [DBG] Writing cached AI spline to file
+2026-07-23 01:18:27.568 +03:00 [INF] Generating cache completed in 540.2 ms
+2026-07-23 01:18:27.570 +03:00 [DBG] Mapping cached AI spline 2B03131AFDD9231E.aic1 to memory
+2026-07-23 01:18:27.573 +03:00 [INF] Starting server
+2026-07-23 01:18:27.663 +03:00 [INF] Loaded 36 cars
+2026-07-23 01:18:27.669 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2026-07-23 01:18:27.670 +03:00 [DBG] Added checksum for content/tracks/csp/3879/../H/../la_canyons/freeroam/data/surfaces.ini
+2026-07-23 01:18:27.670 +03:00 [INF] Initialized 2 track checksums
+2026-07-23 01:18:27.673 +03:00 [DBG] Added checksum for traffic_alfa_159
+2026-07-23 01:18:27.676 +03:00 [DBG] Added checksum for traffic_audi_a4_eu
+2026-07-23 01:18:27.679 +03:00 [DBG] Added checksum for traffic_toyota_priuseu
+2026-07-23 01:18:27.694 +03:00 [DBG] Added checksum for traffic_volvo_v70
+2026-07-23 01:18:27.696 +03:00 [DBG] Added checksum for traffic_audi_a4_jp
+2026-07-23 01:18:27.698 +03:00 [DBG] Added checksum for traffic_isuzu_flatbed
+2026-07-23 01:18:27.701 +03:00 [DBG] Added checksum for traffic_isuzu_hauler
+2026-07-23 01:18:27.703 +03:00 [DBG] Added checksum for traffic_isuzu_haulerb
+2026-07-23 01:18:27.706 +03:00 [DBG] Added checksum for traffic_isuzu_tanker
+2026-07-23 01:18:27.708 +03:00 [DBG] Added checksum for traffic_isuzu_npr
+2026-07-23 01:18:27.711 +03:00 [DBG] Added checksum for traffic_nissan_leaf
+2026-07-23 01:18:27.713 +03:00 [DBG] Added checksum for traffic_toyota_camry
+2026-07-23 01:18:27.715 +03:00 [DBG] Added checksum for traffic_toyota_prius
+2026-07-23 01:18:27.718 +03:00 [DBG] Added checksum for traffic_volvo_v70jp
+2026-07-23 01:18:27.720 +03:00 [DBG] Added checksum for traffic_toyota_rav4
+2026-07-23 01:18:27.721 +03:00 [DBG] Added checksum for traffic_cadillac_escalade
+2026-07-23 01:18:27.721 +03:00 [DBG] Added checksum for traffic_dodge_challenger_srt
+2026-07-23 01:18:27.721 +03:00 [DBG] Added checksum for traffic_dodge_grand_caravan_taxi
+2026-07-23 01:18:27.722 +03:00 [DBG] Added checksum for traffic_crown_vic
+2026-07-23 01:18:27.723 +03:00 [DBG] Added checksum for 06_ygt_53_m4_lci_air
+2026-07-23 01:18:27.723 +03:00 [DBG] Added checksum for 06_ygt_53_nissan_350z
+2026-07-23 01:18:27.724 +03:00 [DBG] Added checksum for 06_ygt_53_honda_civic_ies
+2026-07-23 01:18:27.725 +03:00 [INF] Initialized 22 car checksums
+2026-07-23 01:18:27.908 +03:00 [INF] Next session: Practice - Length: 720 minutes
+2026-07-23 01:18:27.909 +03:00 [INF] Switching session to id 0
+2026-07-23 01:18:28.007 +03:00 [FTL] Fatal exception occurred
+System.IO.IOException: Failed to bind to address http://0.0.0.0:8081: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Normal olarak her yuva adresi (iletişim kuralı/ağ adresi/bağlantı noktası) için yalnızca bir kullanıma izin veriliyor.
+ ---> System.Net.Sockets.SocketException (10048): Normal olarak her yuva adresi (iletişim kuralı/ağ adresi/bağlantı noktası) için yalnızca bir kullanıma izin veriliyor.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at AssettoServer.Program.RunServerAsync(String preset, String serverCfgPath, String entryListPath, PortOverrides portOverrides, Boolean useVerboseLogging, CancellationToken token) in AssettoServer/Program.cs:line 195
+2026-07-23 01:18:46.701 +03:00 [INF] AssettoServer 0.0.55-pre35
+2026-07-23 01:18:46.725 +03:00 [DBG] Server was started through Content Manager
+2026-07-23 01:18:46.731 +03:00 [DBG] Loading server_cfg.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\LA CANYON\server_cfg.ini
+2026-07-23 01:18:46.748 +03:00 [DBG] Loading entry_list.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\LA CANYON\entry_list.ini
+2026-07-23 01:18:46.970 +03:00 [DBG] Loading extra_cfg.yml from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\LA CANYON\extra_cfg.yml
+2026-07-23 01:18:47.044 +03:00 [DBG] Using minimum required CSP Version 3879
+2026-07-23 01:18:47.369 +03:00 [DBG] Mapping cached AI spline 2B03131AFDD9231E.aic1 to memory
+2026-07-23 01:18:47.379 +03:00 [INF] Starting server
+2026-07-23 01:18:47.470 +03:00 [INF] Loaded 36 cars
+2026-07-23 01:18:47.477 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2026-07-23 01:18:47.478 +03:00 [DBG] Added checksum for content/tracks/csp/3879/../H/../la_canyons/freeroam/data/surfaces.ini
+2026-07-23 01:18:47.478 +03:00 [INF] Initialized 2 track checksums
+2026-07-23 01:18:47.479 +03:00 [DBG] Added checksum for traffic_alfa_159
+2026-07-23 01:18:47.480 +03:00 [DBG] Added checksum for traffic_audi_a4_eu
+2026-07-23 01:18:47.480 +03:00 [DBG] Added checksum for traffic_toyota_priuseu
+2026-07-23 01:18:47.481 +03:00 [DBG] Added checksum for traffic_volvo_v70
+2026-07-23 01:18:47.481 +03:00 [DBG] Added checksum for traffic_audi_a4_jp
+2026-07-23 01:18:47.482 +03:00 [DBG] Added checksum for traffic_isuzu_flatbed
+2026-07-23 01:18:47.482 +03:00 [DBG] Added checksum for traffic_isuzu_hauler
+2026-07-23 01:18:47.483 +03:00 [DBG] Added checksum for traffic_isuzu_haulerb
+2026-07-23 01:18:47.483 +03:00 [DBG] Added checksum for traffic_isuzu_tanker
+2026-07-23 01:18:47.484 +03:00 [DBG] Added checksum for traffic_isuzu_npr
+2026-07-23 01:18:47.484 +03:00 [DBG] Added checksum for traffic_nissan_leaf
+2026-07-23 01:18:47.485 +03:00 [DBG] Added checksum for traffic_toyota_camry
+2026-07-23 01:18:47.485 +03:00 [DBG] Added checksum for traffic_toyota_prius
+2026-07-23 01:18:47.486 +03:00 [DBG] Added checksum for traffic_volvo_v70jp
+2026-07-23 01:18:47.486 +03:00 [DBG] Added checksum for traffic_toyota_rav4
+2026-07-23 01:18:47.487 +03:00 [DBG] Added checksum for traffic_cadillac_escalade
+2026-07-23 01:18:47.487 +03:00 [DBG] Added checksum for traffic_dodge_challenger_srt
+2026-07-23 01:18:47.488 +03:00 [DBG] Added checksum for traffic_dodge_grand_caravan_taxi
+2026-07-23 01:18:47.488 +03:00 [DBG] Added checksum for traffic_crown_vic
+2026-07-23 01:18:47.489 +03:00 [DBG] Added checksum for 06_ygt_53_m4_lci_air
+2026-07-23 01:18:47.490 +03:00 [DBG] Added checksum for 06_ygt_53_nissan_350z
+2026-07-23 01:18:47.490 +03:00 [DBG] Added checksum for 06_ygt_53_honda_civic_ies
+2026-07-23 01:18:47.492 +03:00 [INF] Initialized 22 car checksums
+2026-07-23 01:18:47.662 +03:00 [INF] Next session: Practice - Length: 720 minutes
+2026-07-23 01:18:47.663 +03:00 [INF] Switching session to id 0
+2026-07-23 01:18:47.762 +03:00 [FTL] Fatal exception occurred
+System.IO.IOException: Failed to bind to address http://0.0.0.0:8081: address already in use.
+ ---> Microsoft.AspNetCore.Connections.AddressInUseException: Normal olarak her yuva adresi (iletişim kuralı/ağ adresi/bağlantı noktası) için yalnızca bir kullanıma izin veriliyor.
+ ---> System.Net.Sockets.SocketException (10048): Normal olarak her yuva adresi (iletişim kuralı/ağ adresi/bağlantı noktası) için yalnızca bir kullanıma izin veriliyor.
+   at System.Net.Sockets.Socket.UpdateStatusAfterSocketErrorAndThrowException(SocketError error, Boolean disconnectOnFailure, String callerName)
+   at System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   at System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportOptions.CreateDefaultBoundListenSocket(EndPoint endpoint)
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketConnectionListener.Bind()
+   at Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.SocketTransportFactory.BindAsync(EndPoint endpoint, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Infrastructure.TransportManager.BindAsync(EndPoint endPoint, ConnectionDelegate connectionDelegate, EndpointConfig endpointConfig, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.<>c__DisplayClass28_0`1.<<StartAsync>g__OnBind|0>d.MoveNext()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   --- End of inner exception stack trace ---
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.BindEndpointAsync(ListenOptions endpoint, AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.ListenOptions.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.AddressBinder.AddressesStrategy.BindAsync(AddressBindContext context, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.BindAsync(CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.KestrelServerImpl.StartAsync[TContext](IHttpApplication`1 application, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.<StartAsync>b__14_1(IHostedService service, CancellationToken token)
+   at Microsoft.Extensions.Hosting.Internal.Host.ForeachService[T](IEnumerable`1 services, CancellationToken token, Boolean concurrent, Boolean abortOnFirstException, List`1 exceptions, Func`3 operation)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at AssettoServer.Program.RunServerAsync(String preset, String serverCfgPath, String entryListPath, PortOverrides portOverrides, Boolean useVerboseLogging, CancellationToken token) in AssettoServer/Program.cs:line 195
+2026-07-23 01:18:56.975 +03:00 [INF] AssettoServer 0.0.55-pre35
+2026-07-23 01:18:56.998 +03:00 [DBG] Server was started through Content Manager
+2026-07-23 01:18:57.003 +03:00 [DBG] Loading server_cfg.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\LA CANYON\server_cfg.ini
+2026-07-23 01:18:57.020 +03:00 [DBG] Loading entry_list.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\LA CANYON\entry_list.ini
+2026-07-23 01:18:57.237 +03:00 [DBG] Loading extra_cfg.yml from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\LA CANYON\extra_cfg.yml
+2026-07-23 01:18:57.311 +03:00 [DBG] Using minimum required CSP Version 3879
+2026-07-23 01:18:57.628 +03:00 [DBG] Mapping cached AI spline 2B03131AFDD9231E.aic1 to memory
+2026-07-23 01:18:57.638 +03:00 [INF] Starting server
+2026-07-23 01:18:57.726 +03:00 [INF] Loaded 36 cars
+2026-07-23 01:18:57.732 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2026-07-23 01:18:57.733 +03:00 [DBG] Added checksum for content/tracks/csp/3879/../H/../la_canyons/freeroam/data/surfaces.ini
+2026-07-23 01:18:57.733 +03:00 [INF] Initialized 2 track checksums
+2026-07-23 01:18:57.734 +03:00 [DBG] Added checksum for traffic_alfa_159
+2026-07-23 01:18:57.735 +03:00 [DBG] Added checksum for traffic_audi_a4_eu
+2026-07-23 01:18:57.735 +03:00 [DBG] Added checksum for traffic_toyota_priuseu
+2026-07-23 01:18:57.736 +03:00 [DBG] Added checksum for traffic_volvo_v70
+2026-07-23 01:18:57.736 +03:00 [DBG] Added checksum for traffic_audi_a4_jp
+2026-07-23 01:18:57.737 +03:00 [DBG] Added checksum for traffic_isuzu_flatbed
+2026-07-23 01:18:57.737 +03:00 [DBG] Added checksum for traffic_isuzu_hauler
+2026-07-23 01:18:57.738 +03:00 [DBG] Added checksum for traffic_isuzu_haulerb
+2026-07-23 01:18:57.738 +03:00 [DBG] Added checksum for traffic_isuzu_tanker
+2026-07-23 01:18:57.739 +03:00 [DBG] Added checksum for traffic_isuzu_npr
+2026-07-23 01:18:57.739 +03:00 [DBG] Added checksum for traffic_nissan_leaf
+2026-07-23 01:18:57.740 +03:00 [DBG] Added checksum for traffic_toyota_camry
+2026-07-23 01:18:57.740 +03:00 [DBG] Added checksum for traffic_toyota_prius
+2026-07-23 01:18:57.741 +03:00 [DBG] Added checksum for traffic_volvo_v70jp
+2026-07-23 01:18:57.741 +03:00 [DBG] Added checksum for traffic_toyota_rav4
+2026-07-23 01:18:57.742 +03:00 [DBG] Added checksum for traffic_cadillac_escalade
+2026-07-23 01:18:57.743 +03:00 [DBG] Added checksum for traffic_dodge_challenger_srt
+2026-07-23 01:18:57.743 +03:00 [DBG] Added checksum for traffic_dodge_grand_caravan_taxi
+2026-07-23 01:18:57.744 +03:00 [DBG] Added checksum for traffic_crown_vic
+2026-07-23 01:18:57.744 +03:00 [DBG] Added checksum for 06_ygt_53_m4_lci_air
+2026-07-23 01:18:57.745 +03:00 [DBG] Added checksum for 06_ygt_53_nissan_350z
+2026-07-23 01:18:57.745 +03:00 [DBG] Added checksum for 06_ygt_53_honda_civic_ies
+2026-07-23 01:18:57.747 +03:00 [INF] Initialized 22 car checksums
+2026-07-23 01:18:57.912 +03:00 [INF] Next session: Practice - Length: 720 minutes
+2026-07-23 01:18:57.913 +03:00 [INF] Switching session to id 0
+2026-07-23 01:18:58.002 +03:00 [INF] Starting HTTP server on port 8081
+2026-07-23 01:18:58.003 +03:00 [INF] Starting TCP server on port 9600
+2026-07-23 01:18:58.003 +03:00 [INF] Starting UDP server on port 9600
+2026-07-23 01:18:58.004 +03:00 [INF] Starting update loop with an update rate of 60hz
+2026-07-23 01:18:58.009 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2026-07-23 01:18:58.011 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2026-07-23 01:18:58.011 +03:00 [DBG] Loaded admins.txt with 0 entries
+2026-07-23 01:18:58.013 +03:00 [INF] Invite link: https://acstuff.club/s/q:race/online/join?ip=212.154.2.92&httpPort=8081
+2026-07-23 01:18:58.013 +03:00 [INF] Server startup completed
+2026-07-23 01:19:20.304 +03:00 [INF] corp14x3 (76561199521796457 - 192.168.1.0:56865) is attempting to connect (06_ygt_53_nissan_350z)
+2026-07-23 01:19:20.309 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3898"]
+2026-07-23 01:19:20.315 +03:00 [INF] corp14x3 (76561199521796457, 32 (06_ygt_53_nissan_350z-00_redline)) has connected
+2026-07-23 01:19:31.571 +03:00 [INF] Master (76561199216760446 - 151.250.233.0:14398) is attempting to connect (06_ygt_53_m4_lci_air)
+2026-07-23 01:19:31.572 +03:00 [DBG] Master supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-07-23 01:19:31.572 +03:00 [INF] Master (76561199216760446, 30 (06_ygt_53_m4_lci_air-03_alpine_white)) has connected
+2026-07-23 01:19:33.486 +03:00 [DBG] AI Slot overbooking update - No. players: 2 - No. AI Slots: 30 - Target AI count: 60 - Overbooking: 2 - Rest: 0
+2026-07-23 01:19:33.831 +03:00 [INF] CSP handshake received from corp14x3 (32): Version=3898 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-07-23 01:19:55.215 +03:00 [DBG] AI Slot overbooking update - No. players: 2 - No. AI Slots: 30 - Target AI count: 60 - Overbooking: 2 - Rest: 0
+2026-07-23 01:19:55.541 +03:00 [INF] CSP handshake received from Master (30): Version=3879 WeatherFX=true InputMethod="Wheel" RainFX=true HWID=515986171497980530
+2026-07-23 01:21:31.207 +03:00 [INF] Collision between Master (30) and Traffic 27 (27), rel. speed 91km/h
+2026-07-23 01:21:33.357 +03:00 [INF] Collision between Master (30) and Traffic 12 (12), rel. speed 45km/h
+2026-07-23 01:21:35.202 +03:00 [INF] Lap completed by corp14x3, 0 cuts, laptime 00:00.0010
+2026-07-23 01:21:48.120 +03:00 [INF] Collision between Master (30) and Traffic 8 (8), rel. speed 12km/h
+2026-07-23 01:22:20.672 +03:00 [INF] Collision between Master (30) and environment, rel. speed 23km/h
+2026-07-23 01:22:22.454 +03:00 [INF] Collision between Master (30) and Traffic 2 (2), rel. speed 149km/h
+2026-07-23 01:22:22.670 +03:00 [INF] Collision between Master (30) and environment, rel. speed 2km/h
+2026-07-23 01:22:27.208 +03:00 [INF] Collision between corp14x3 (32) and environment, rel. speed 8km/h
+2026-07-23 01:22:46.402 +03:00 [INF] Collision between corp14x3 (32) and environment, rel. speed 7km/h
+2026-07-23 01:22:49.475 +03:00 [INF] Collision between Master (30) and environment, rel. speed 13km/h
+2026-07-23 01:22:57.153 +03:00 [INF] Collision between Master (30) and Traffic 7 (7), rel. speed 127km/h
+2026-07-23 01:23:05.838 +03:00 [INF] Collision between Master (30) and Traffic 18 (18), rel. speed 35km/h
+2026-07-23 01:23:08.724 +03:00 [INF] Collision between Master (30) and Traffic 24 (24), rel. speed 46km/h
+2026-07-23 01:23:13.302 +03:00 [INF] Collision between Master (30) and Traffic 17 (17), rel. speed 28km/h
+2026-07-23 01:23:16.874 +03:00 [INF] Collision between Master (30) and Traffic 28 (28), rel. speed 13km/h
+2026-07-23 01:23:17.865 +03:00 [INF] Collision between Master (30) and environment, rel. speed 9km/h
+2026-07-23 01:23:43.214 +03:00 [INF] Collision between Master (30) and Traffic 5 (5), rel. speed 87km/h
+2026-07-23 01:23:49.641 +03:00 [INF] Collision between Master (30) and Traffic 16 (16), rel. speed 8km/h
+2026-07-23 01:24:02.737 +03:00 [INF] Collision between Master (30) and environment, rel. speed 3km/h
+2026-07-23 01:24:21.731 +03:00 [INF] Collision between Master (30) and Traffic 16 (16), rel. speed 4km/h
+2026-07-23 01:24:27.718 +03:00 [INF] Collision between Master (30) and Traffic 22 (22), rel. speed 165km/h
+2026-07-23 01:24:29.156 +03:00 [INF] Collision between Master (30) and environment, rel. speed 7km/h
+2026-07-23 01:24:31.001 +03:00 [INF] Collision between Master (30) and Traffic 24 (24), rel. speed 13km/h
+2026-07-23 01:24:33.383 +03:00 [INF] Collision between Master (30) and Traffic 16 (16), rel. speed 57km/h
+2026-07-23 01:24:37.800 +03:00 [INF] Collision between Master (30) and Traffic 10 (10), rel. speed 69km/h
+2026-07-23 01:25:31.307 +03:00 [INF] Collision between Master (30) and Traffic 26 (26), rel. speed 206km/h
+2026-07-23 01:25:35.619 +03:00 [INF] Collision between Master (30) and Traffic 12 (12), rel. speed 33km/h
+2026-07-23 01:25:38.889 +03:00 [INF] Collision between Master (30) and Traffic 18 (18), rel. speed 38km/h
+2026-07-23 01:25:40.339 +03:00 [INF] Collision between corp14x3 (32) and Traffic 24 (24), rel. speed 33km/h
+2026-07-23 01:25:43.624 +03:00 [INF] Collision between Master (30) and Traffic 6 (6), rel. speed 60km/h
+2026-07-23 01:25:45.442 +03:00 [INF] Collision between Master (30) and Traffic 5 (5), rel. speed 6km/h
+2026-07-23 01:26:06.078 +03:00 [INF] Collision between Master (30) and Traffic 22 (22), rel. speed 135km/h
+2026-07-23 01:26:16.452 +03:00 [INF] Collision between Master (30) and environment, rel. speed 23km/h
+2026-07-23 01:26:30.449 +03:00 [INF] Collision between Master (30) and environment, rel. speed 4km/h
+2026-07-23 01:26:49.076 +03:00 [INF] Collision between Master (30) and Traffic 12 (12), rel. speed 34km/h
+2026-07-23 01:27:07.286 +03:00 [INF] Collision between corp14x3 (32) and Traffic 15 (15), rel. speed 80km/h
+2026-07-23 01:27:08.594 +03:00 [INF] Collision between corp14x3 (32) and Traffic 21 (21), rel. speed 34km/h
+2026-07-23 01:27:08.834 +03:00 [INF] Collision between corp14x3 (32) and Master (30), rel. speed 50km/h
+2026-07-23 01:27:08.841 +03:00 [INF] Collision between Master (30) and corp14x3 (32), rel. speed 51km/h
+2026-07-23 01:27:09.053 +03:00 [INF] Collision between Master (30) and Traffic 21 (21), rel. speed 41km/h
+2026-07-23 01:27:14.596 +03:00 [INF] Collision between Master (30) and Traffic 21 (21), rel. speed 16km/h
+2026-07-23 01:27:50.885 +03:00 [INF] Collision between Master (30) and environment, rel. speed 16km/h
+2026-07-23 01:27:52.913 +03:00 [INF] Collision between Master (30) and environment, rel. speed 10km/h
+2026-07-23 01:27:53.961 +03:00 [INF] Collision between Master (30) and Traffic 14 (14), rel. speed 31km/h
+2026-07-23 01:28:26.836 +03:00 [INF] Collision between corp14x3 (32) and environment, rel. speed 14km/h
+2026-07-23 01:28:28.311 +03:00 [INF] Collision between Master (30) and Traffic 27 (27), rel. speed 152km/h
+2026-07-23 01:28:29.037 +03:00 [INF] Collision between Master (30) and Traffic 10 (10), rel. speed 25km/h
+2026-07-23 01:28:30.405 +03:00 [INF] Collision between Master (30) and Traffic 19 (19), rel. speed 20km/h
+2026-07-23 01:28:35.547 +03:00 [INF] Collision between Master (30) and Traffic 19 (19), rel. speed 12km/h
+2026-07-23 01:28:37.341 +03:00 [INF] Collision between Master (30) and Traffic 3 (3), rel. speed 72km/h
+2026-07-23 01:28:45.310 +03:00 [INF] Collision between Master (30) and Traffic 2 (2), rel. speed 7km/h
+2026-07-23 01:28:46.594 +03:00 [INF] Collision between Master (30) and Traffic 26 (26), rel. speed 8km/h
+2026-07-23 01:28:47.225 +03:00 [INF] Collision between Master (30) and corp14x3 (32), rel. speed 1km/h
+2026-07-23 01:28:47.233 +03:00 [INF] Collision between corp14x3 (32) and Master (30), rel. speed 0km/h
+2026-07-23 01:28:54.976 +03:00 [INF] Collision between Master (30) and Traffic 3 (3), rel. speed 59km/h
+2026-07-23 01:29:14.855 +03:00 [INF] Collision between Master (30) and Traffic 0 (0), rel. speed 107km/h
+2026-07-23 01:30:12.128 +03:00 [INF] Collision between corp14x3 (32) and Traffic 10 (10), rel. speed 77km/h
+2026-07-23 01:30:14.247 +03:00 [INF] Collision between corp14x3 (32) and Traffic 14 (14), rel. speed 42km/h
+2026-07-23 01:30:55.833 +03:00 [INF] Collision between Master (30) and environment, rel. speed 16km/h
+2026-07-23 01:31:05.030 +03:00 [INF] Collision between Master (30) and environment, rel. speed 21km/h
+2026-07-23 01:31:07.031 +03:00 [INF] Collision between Master (30) and environment, rel. speed 0km/h
+2026-07-23 01:31:09.027 +03:00 [INF] Collision between Master (30) and environment, rel. speed 0km/h
+2026-07-23 01:31:11.034 +03:00 [INF] Collision between Master (30) and environment, rel. speed 0km/h
+2026-07-23 01:31:41.145 +03:00 [INF] Collision between Master (30) and Traffic 10 (10), rel. speed 29km/h
+2026-07-23 01:31:42.897 +03:00 [INF] Collision between Master (30) and Traffic 5 (5), rel. speed 59km/h
+2026-07-23 01:31:43.145 +03:00 [INF] Collision between Master (30) and Traffic 10 (10), rel. speed 27km/h
+2026-07-23 01:31:59.530 +03:00 [INF] Collision between corp14x3 (32) and environment, rel. speed 3km/h
+2026-07-23 01:32:10.613 +03:00 [INF] Collision between Master (30) and Traffic 24 (24), rel. speed 60km/h
+2026-07-23 01:32:17.952 +03:00 [INF] Collision between Master (30) and Traffic 15 (15), rel. speed 57km/h
+2026-07-23 01:32:24.996 +03:00 [INF] Collision between Master (30) and Traffic 7 (7), rel. speed 46km/h
+2026-07-23 01:32:51.521 +03:00 [INF] Collision between corp14x3 (32) and environment, rel. speed 82km/h
+2026-07-23 01:32:53.591 +03:00 [INF] Collision between corp14x3 (32) and environment, rel. speed 13km/h
+2026-07-23 01:32:53.720 +03:00 [INF] Collision between corp14x3 (32) and Traffic 4 (4), rel. speed 14km/h
+2026-07-23 01:32:55.850 +03:00 [INF] Collision between corp14x3 (32) and Traffic 4 (4), rel. speed 0km/h
+2026-07-23 01:33:03.074 +03:00 [INF] Collision between Master (30) and Traffic 15 (15), rel. speed 32km/h
+2026-07-23 01:33:03.166 +03:00 [INF] Collision between corp14x3 (32) and environment, rel. speed 5km/h
+2026-07-23 01:33:20.508 +03:00 [INF] Collision between Master (30) and environment, rel. speed 4km/h
+2026-07-23 01:33:26.247 +03:00 [INF] Collision between Master (30) and Traffic 2 (2), rel. speed 183km/h
+2026-07-23 01:33:28.448 +03:00 [INF] Collision between corp14x3 (32) and Traffic 0 (0), rel. speed 101km/h
+2026-07-23 01:33:41.379 +03:00 [INF] Lap completed by Master, 69 cuts, laptime 11:13.7290
+2026-07-23 01:33:48.860 +03:00 [INF] Lap completed by corp14x3, 56 cuts, laptime 11:27.1650
+2026-07-23 01:33:52.844 +03:00 [INF] Collision between Master (30) and environment, rel. speed 13km/h
+2026-07-23 01:34:18.259 +03:00 [INF] Collision between Master (30) and Traffic 1 (1), rel. speed 20km/h
+2026-07-23 01:34:23.657 +03:00 [INF] Collision between corp14x3 (32) and environment, rel. speed 11km/h
+2026-07-23 01:34:25.378 +03:00 [INF] Collision between Master (30) and environment, rel. speed 27km/h
+2026-07-23 01:34:30.884 +03:00 [INF] Collision between Master (30) and Traffic 26 (26), rel. speed 69km/h
+2026-07-23 01:34:31.389 +03:00 [INF] Collision between Master (30) and environment, rel. speed 18km/h
+2026-07-23 01:34:46.787 +03:00 [INF] Collision between corp14x3 (32) and environment, rel. speed 9km/h
+2026-07-23 01:34:50.675 +03:00 [INF] Collision between Master (30) and environment, rel. speed 20km/h
+2026-07-23 01:35:04.998 +03:00 [INF] Collision between Master (30) and environment, rel. speed 24km/h
+2026-07-23 01:35:06.157 +03:00 [INF] Collision between corp14x3 (32) and Traffic 8 (8), rel. speed 50km/h
+2026-07-23 01:35:06.309 +03:00 [INF] Collision between Master (30) and Traffic 0 (0), rel. speed 97km/h
+2026-07-23 01:35:29.043 +03:00 [INF] Collision between Master (30) and environment, rel. speed 25km/h
+2026-07-23 01:35:32.135 +03:00 [INF] Collision between corp14x3 (32) and environment, rel. speed 15km/h
+2026-07-23 01:35:33.331 +03:00 [INF] Collision between Master (30) and Traffic 18 (18), rel. speed 41km/h
+2026-07-23 01:35:33.883 +03:00 [INF] Collision between corp14x3 (32) and Traffic 18 (18), rel. speed 39km/h
+2026-07-23 01:36:30.591 +03:00 [INF] Collision between Master (30) and Traffic 28 (28), rel. speed 26km/h
+2026-07-23 01:36:33.414 +03:00 [INF] Collision between Master (30) and environment, rel. speed 12km/h
+2026-07-23 01:36:33.578 +03:00 [INF] Collision between corp14x3 (32) and Traffic 5 (5), rel. speed 7km/h
+2026-07-23 01:36:38.870 +03:00 [INF] Collision between corp14x3 (32) and Traffic 2 (2), rel. speed 116km/h
+2026-07-23 01:36:47.438 +03:00 [INF] Collision between Master (30) and environment, rel. speed 28km/h
+2026-07-23 01:36:48.085 +03:00 [INF] Collision between corp14x3 (32) and Traffic 25 (25), rel. speed 40km/h
+2026-07-23 01:36:55.755 +03:00 [INF] Collision between Master (30) and Traffic 21 (21), rel. speed 31km/h
+2026-07-23 01:37:00.526 +03:00 [INF] Collision between Master (30) and environment, rel. speed 3km/h
+2026-07-23 01:37:02.479 +03:00 [INF] Collision between Master (30) and Traffic 20 (20), rel. speed 30km/h
+2026-07-23 01:37:02.544 +03:00 [INF] Collision between Master (30) and environment, rel. speed 3km/h
+2026-07-23 01:37:13.647 +03:00 [INF] Collision between Master (30) and environment, rel. speed 16km/h
+2026-07-23 01:37:15.756 +03:00 [INF] Collision between Master (30) and Traffic 13 (13), rel. speed 17km/h
+2026-07-23 01:37:17.370 +03:00 [INF] Collision between Master (30) and Traffic 6 (6), rel. speed 81km/h
+2026-07-23 01:37:20.236 +03:00 [INF] Collision between Master (30) and Traffic 25 (25), rel. speed 22km/h
+2026-07-23 01:37:28.486 +03:00 [INF] Collision between corp14x3 (32) and environment, rel. speed 9km/h
+2026-07-23 01:37:29.233 +03:00 [INF] Collision between Master (30) and Traffic 1 (1), rel. speed 32km/h
+2026-07-23 01:37:31.394 +03:00 [INF] Collision between Master (30) and Traffic 15 (15), rel. speed 9km/h
+2026-07-23 01:37:32.816 +03:00 [INF] Collision between Master (30) and Traffic 9 (9), rel. speed 61km/h
+2026-07-23 01:37:36.511 +03:00 [INF] Collision between Master (30) and Traffic 24 (24), rel. speed 26km/h
+2026-07-23 01:37:38.789 +03:00 [INF] Collision between Master (30) and environment, rel. speed 22km/h
+2026-07-23 01:37:40.286 +03:00 [INF] Collision between Master (30) and Traffic 22 (22), rel. speed 22km/h
+2026-07-23 01:37:41.740 +03:00 [INF] Collision between Master (30) and Traffic 15 (15), rel. speed 21km/h
+2026-07-23 01:37:56.595 +03:00 [INF] Collision between Master (30) and environment, rel. speed 18km/h
+2026-07-23 01:38:14.426 +03:00 [INF] Collision between corp14x3 (32) and Traffic 7 (7), rel. speed 11km/h
+2026-07-23 01:38:44.058 +03:00 [DBG] Received clean exit from corp14x3 (32)
+2026-07-23 01:38:44.059 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 192.168.1.0:56865)
+2026-07-23 01:38:44.060 +03:00 [INF] corp14x3 has disconnected
+2026-07-23 01:38:55.114 +03:00 [INF] Collision between Master (30) and environment, rel. speed 10km/h
+2026-07-23 01:39:00.382 +03:00 [INF] Collision between Master (30) and environment, rel. speed 40km/h
+2026-07-23 01:39:10.742 +03:00 [INF] Collision between Master (30) and Traffic 10 (10), rel. speed 113km/h
+2026-07-23 01:39:13.352 +03:00 [INF] Collision between Master (30) and Traffic 8 (8), rel. speed 13km/h
+2026-07-23 01:39:15.051 +03:00 [INF] Collision between Master (30) and Traffic 7 (7), rel. speed 57km/h
+2026-07-23 01:39:16.191 +03:00 [DBG] Received clean exit from Master (30)
+2026-07-23 01:39:16.191 +03:00 [DBG] Disconnecting Master (76561199216760446 - 151.250.233.0:14398)
+2026-07-23 01:39:16.192 +03:00 [INF] Master has disconnected
+2026-07-23 16:33:38.785 +03:00 [INF] AssettoServer 0.0.55-pre35
+2026-07-23 16:33:38.811 +03:00 [DBG] Server was started through Content Manager
+2026-07-23 16:33:38.816 +03:00 [DBG] Loading server_cfg.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\LA CANYON\server_cfg.ini
+2026-07-23 16:33:38.835 +03:00 [DBG] Loading entry_list.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\LA CANYON\entry_list.ini
+2026-07-23 16:33:39.064 +03:00 [DBG] Loading extra_cfg.yml from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\LA CANYON\extra_cfg.yml
+2026-07-23 16:33:39.143 +03:00 [DBG] Using minimum required CSP Version 3879
+2026-07-23 16:33:39.546 +03:00 [DBG] Mapping cached AI spline 2B03131AFDD9231E.aic1 to memory
+2026-07-23 16:33:39.559 +03:00 [INF] Starting server
+2026-07-23 16:33:39.656 +03:00 [INF] Loaded 36 cars
+2026-07-23 16:33:39.664 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2026-07-23 16:33:39.664 +03:00 [DBG] Added checksum for content/tracks/csp/3879/../H/../la_canyons/freeroam/data/surfaces.ini
+2026-07-23 16:33:39.665 +03:00 [INF] Initialized 2 track checksums
+2026-07-23 16:33:39.666 +03:00 [DBG] Added checksum for traffic_alfa_159
+2026-07-23 16:33:39.666 +03:00 [DBG] Added checksum for traffic_audi_a4_eu
+2026-07-23 16:33:39.667 +03:00 [DBG] Added checksum for traffic_toyota_priuseu
+2026-07-23 16:33:39.667 +03:00 [DBG] Added checksum for traffic_volvo_v70
+2026-07-23 16:33:39.668 +03:00 [DBG] Added checksum for traffic_audi_a4_jp
+2026-07-23 16:33:39.668 +03:00 [DBG] Added checksum for traffic_isuzu_flatbed
+2026-07-23 16:33:39.669 +03:00 [DBG] Added checksum for traffic_isuzu_hauler
+2026-07-23 16:33:39.669 +03:00 [DBG] Added checksum for traffic_isuzu_haulerb
+2026-07-23 16:33:39.670 +03:00 [DBG] Added checksum for traffic_isuzu_tanker
+2026-07-23 16:33:39.670 +03:00 [DBG] Added checksum for traffic_isuzu_npr
+2026-07-23 16:33:39.671 +03:00 [DBG] Added checksum for traffic_nissan_leaf
+2026-07-23 16:33:39.671 +03:00 [DBG] Added checksum for traffic_toyota_camry
+2026-07-23 16:33:39.672 +03:00 [DBG] Added checksum for traffic_toyota_prius
+2026-07-23 16:33:39.672 +03:00 [DBG] Added checksum for traffic_volvo_v70jp
+2026-07-23 16:33:39.673 +03:00 [DBG] Added checksum for traffic_toyota_rav4
+2026-07-23 16:33:39.673 +03:00 [DBG] Added checksum for traffic_cadillac_escalade
+2026-07-23 16:33:39.674 +03:00 [DBG] Added checksum for traffic_dodge_challenger_srt
+2026-07-23 16:33:39.674 +03:00 [DBG] Added checksum for traffic_dodge_grand_caravan_taxi
+2026-07-23 16:33:39.675 +03:00 [DBG] Added checksum for traffic_crown_vic
+2026-07-23 16:33:39.676 +03:00 [DBG] Added checksum for 06_ygt_53_m4_lci_air
+2026-07-23 16:33:39.676 +03:00 [DBG] Added checksum for 06_ygt_53_nissan_350z
+2026-07-23 16:33:39.677 +03:00 [DBG] Added checksum for 06_ygt_53_honda_civic_ies
+2026-07-23 16:33:39.679 +03:00 [INF] Initialized 22 car checksums
+2026-07-23 16:33:39.851 +03:00 [INF] Next session: Practice - Length: 720 minutes
+2026-07-23 16:33:39.852 +03:00 [INF] Switching session to id 0
+2026-07-23 16:33:39.948 +03:00 [INF] Starting HTTP server on port 8081
+2026-07-23 16:33:39.948 +03:00 [INF] Starting TCP server on port 9600
+2026-07-23 16:33:39.949 +03:00 [INF] Starting UDP server on port 9600
+2026-07-23 16:33:39.949 +03:00 [INF] Starting update loop with an update rate of 60hz
+2026-07-23 16:33:39.955 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2026-07-23 16:33:39.958 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2026-07-23 16:33:39.958 +03:00 [DBG] Loaded admins.txt with 0 entries
+2026-07-23 16:33:39.960 +03:00 [INF] Invite link: https://acstuff.club/s/q:race/online/join?ip=212.154.2.92&httpPort=8081
+2026-07-23 16:33:39.960 +03:00 [INF] Server startup completed
+2026-07-23 16:35:49.612 +03:00 [INF] AssettoServer 0.0.55-pre35
+2026-07-23 16:35:49.635 +03:00 [DBG] Server was started through Content Manager
+2026-07-23 16:35:49.641 +03:00 [DBG] Loading server_cfg.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\server_cfg.ini
+2026-07-23 16:35:49.658 +03:00 [DBG] Loading entry_list.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\entry_list.ini
+2026-07-23 16:35:49.886 +03:00 [DBG] Loading extra_cfg.yml from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\extra_cfg.yml
+2026-07-23 16:35:49.963 +03:00 [DBG] Using minimum required CSP Version 3879
+2026-07-23 16:35:50.265 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2026-07-23 16:35:50.296 +03:00 [INF] Starting server
+2026-07-23 16:35:50.385 +03:00 [INF] Loaded 37 cars
+2026-07-23 16:35:50.392 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2026-07-23 16:35:50.393 +03:00 [DBG] Added checksum for content/tracks/csp/3879/../H/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2026-07-23 16:35:50.393 +03:00 [INF] Initialized 2 track checksums
+2026-07-23 16:35:50.394 +03:00 [DBG] Added checksum for traffic_alfa_159
+2026-07-23 16:35:50.395 +03:00 [DBG] Added checksum for traffic_audi_a4_eu
+2026-07-23 16:35:50.395 +03:00 [DBG] Added checksum for traffic_toyota_priuseu
+2026-07-23 16:35:50.396 +03:00 [DBG] Added checksum for traffic_volvo_v70
+2026-07-23 16:35:50.396 +03:00 [DBG] Added checksum for traffic_audi_a4_jp
+2026-07-23 16:35:50.397 +03:00 [DBG] Added checksum for traffic_isuzu_flatbed
+2026-07-23 16:35:50.397 +03:00 [DBG] Added checksum for traffic_isuzu_hauler
+2026-07-23 16:35:50.398 +03:00 [DBG] Added checksum for traffic_isuzu_haulerb
+2026-07-23 16:35:50.398 +03:00 [DBG] Added checksum for traffic_isuzu_tanker
+2026-07-23 16:35:50.399 +03:00 [DBG] Added checksum for traffic_isuzu_npr
+2026-07-23 16:35:50.399 +03:00 [DBG] Added checksum for traffic_nissan_leaf
+2026-07-23 16:35:50.400 +03:00 [DBG] Added checksum for traffic_toyota_camry
+2026-07-23 16:35:50.400 +03:00 [DBG] Added checksum for traffic_toyota_prius
+2026-07-23 16:35:50.401 +03:00 [DBG] Added checksum for traffic_volvo_v70jp
+2026-07-23 16:35:50.401 +03:00 [DBG] Added checksum for traffic_toyota_rav4
+2026-07-23 16:35:50.402 +03:00 [DBG] Added checksum for traffic_cadillac_escalade
+2026-07-23 16:35:50.402 +03:00 [DBG] Added checksum for traffic_dodge_challenger_srt
+2026-07-23 16:35:50.403 +03:00 [DBG] Added checksum for traffic_dodge_grand_caravan_taxi
+2026-07-23 16:35:50.403 +03:00 [DBG] Added checksum for traffic_crown_vic
+2026-07-23 16:35:50.404 +03:00 [DBG] Added checksum for 06_ygt_53_m4_lci_air
+2026-07-23 16:35:50.405 +03:00 [DBG] Added checksum for 06_ygt_53_nissan_350z
+2026-07-23 16:35:50.406 +03:00 [DBG] Added checksum for 06_ygt_53_honda_civic_ies
+2026-07-23 16:35:50.406 +03:00 [DBG] Added checksum for cky_porsche992_gt3rs_2023
+2026-07-23 16:35:50.408 +03:00 [INF] Initialized 23 car checksums
+2026-07-23 16:35:50.656 +03:00 [INF] Next session: Practice - Length: 720 minutes
+2026-07-23 16:35:50.657 +03:00 [INF] Switching session to id 0
+2026-07-23 16:35:50.752 +03:00 [INF] Starting HTTP server on port 8081
+2026-07-23 16:35:50.753 +03:00 [INF] Starting UDP server on port 9600
+2026-07-23 16:35:50.753 +03:00 [INF] Starting TCP server on port 9600
+2026-07-23 16:35:50.754 +03:00 [INF] Starting update loop with an update rate of 60hz
+2026-07-23 16:35:50.760 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2026-07-23 16:35:50.761 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2026-07-23 16:35:50.761 +03:00 [DBG] Loaded admins.txt with 0 entries
+2026-07-23 16:35:50.763 +03:00 [INF] Invite link: https://acstuff.club/s/q:race/online/join?ip=212.154.2.92&httpPort=8081
+2026-07-23 16:35:50.763 +03:00 [INF] Server startup completed
+2026-07-23 16:36:06.481 +03:00 [INF] corp14x3 (76561199521796457 - 212.154.2.0:54144) is attempting to connect (cky_porsche992_gt3rs_2023)
+2026-07-23 16:36:06.511 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3898"]
+2026-07-23 16:36:06.545 +03:00 [INF] corp14x3 (76561199521796457, 36 (cky_porsche992_gt3rs_2023-01_white'n'black)) has connected
+2026-07-23 16:36:38.913 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 30 - Target AI count: 30 - Overbooking: 1 - Rest: 0
+2026-07-23 16:36:39.477 +03:00 [INF] CSP handshake received from corp14x3 (36): Version=3898 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-07-23 16:39:28.385 +03:00 [DBG] Car 7 reached spline end, despawning
+2026-07-23 16:39:32.572 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-07-23 16:39:35.036 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-07-23 16:39:36.673 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-07-23 16:39:39.166 +03:00 [DBG] Car 25 reached spline end, despawning
+2026-07-23 16:39:42.688 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-07-23 16:40:41.149 +03:00 [INF] Collision between corp14x3 (36) and environment, rel. speed 157km/h
+2026-07-23 16:41:57.201 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-07-23 16:42:20.663 +03:00 [INF] Collision between corp14x3 (36) and environment, rel. speed 40km/h
+2026-07-23 16:42:20.792 +03:00 [INF] Collision between corp14x3 (36) and Traffic 26 (26), rel. speed 46km/h
+2026-07-23 16:42:23.591 +03:00 [DBG] Received clean exit from corp14x3 (36)
+2026-07-23 16:42:23.592 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 212.154.2.0:54144)
+2026-07-23 16:42:23.593 +03:00 [INF] corp14x3 has disconnected
+2026-07-23 16:47:08.739 +03:00 [DBG] Car 18 reached spline end, despawning
+2026-07-23 16:47:32.824 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-07-23 16:48:02.465 +03:00 [DBG] Car 7 reached spline end, despawning
+2026-07-23 16:48:02.980 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-07-23 16:48:08.101 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-07-23 16:48:08.614 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-07-23 16:48:12.185 +03:00 [DBG] Car 8 reached spline end, despawning
+2026-07-23 16:48:26.890 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-07-23 16:48:27.404 +03:00 [DBG] Car 20 reached spline end, despawning
+2026-07-23 16:48:28.425 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-07-23 16:48:36.110 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-07-23 16:48:36.626 +03:00 [DBG] Car 25 reached spline end, despawning
+2026-07-23 16:48:37.655 +03:00 [DBG] Car 19 reached spline end, despawning
+2026-07-23 16:48:38.169 +03:00 [DBG] Car 21 reached spline end, despawning
+2026-07-23 16:48:39.196 +03:00 [DBG] Car 5 reached spline end, despawning
+2026-07-23 16:48:40.222 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-07-23 16:51:41.966 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-07-23 16:51:47.107 +03:00 [DBG] Car 28 reached spline end, despawning
+2026-07-23 16:52:22.406 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-07-23 16:52:39.285 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-07-23 16:56:47.572 +03:00 [DBG] Car 27 reached spline end, despawning
+2026-07-23 16:57:37.782 +03:00 [DBG] Car 29 reached spline end, despawning
+2026-07-23 16:57:46.990 +03:00 [DBG] Car 22 reached spline end, despawning
+2026-07-23 16:57:47.502 +03:00 [DBG] Car 23 reached spline end, despawning

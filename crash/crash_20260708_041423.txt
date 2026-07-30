@@ -1,0 +1,694 @@
+# AssettoServer Crash Report generated on 07/08/2026 04:14
+Server Version: 0.0.55-pre35  
+Operating System: Microsoft Windows NT 10.0.26200.0 (X64)  
+Content Manager: Yes  
+
+## Exception
+```
+Autofac.Core.DependencyResolutionException: An error occurred while attempting to automatically activate registration 'Autofac.Core.ServiceRegistration'. See the inner exception for information on the source of the failure.
+ ---> Autofac.Core.DependencyResolutionException: An exception was thrown while activating AssettoServer.Server.Ai.AiUpdater -> AssettoServer.Server.ACServer -> λ:AssettoServer.Server.Ai.Splines.AiSpline.
+ ---> AssettoServer.Server.Configuration.ConfigurationException: No ai folder found. Please put at least one AI spline fast_lane.ai(p) into C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\content\tracks\union_island\ai\
+   at AssettoServer.Server.Ai.Splines.AiSplineLocator.GenerateCacheKey(String folder) in AssettoServer/Server/Ai/Splines/AiSplineLocator.cs:line 94
+   at AssettoServer.Server.Ai.Splines.AiSplineLocator.LocateInternal(String track, String trackConfig) in AssettoServer/Server/Ai/Splines/AiSplineLocator.cs:line 59
+   at AssettoServer.Server.Ai.Splines.AiSplineLocator.Locate() in AssettoServer/Server/Ai/Splines/AiSplineLocator.cs:line 34
+   at AssettoServer.Server.Ai.AiModule.<>c.<Load>b__2_0(AiSplineLocator locator) in AssettoServer/Server/Ai/AiModule.cs:line 36
+   at Autofac.Core.Resolving.DelegateInvokers.DelegateInvoker1`2.ResolveWithDelegate(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Builder.RegistrationBuilder.<>c__DisplayClass0_0`1.<ForDelegate>b__0(IComponentContext c, IEnumerable`1 p)
+   at Autofac.Core.Activators.Delegate.DelegateActivator.ActivateInstance(IComponentContext context, IEnumerable`1 parameters)
+   at Autofac.Core.Activators.Delegate.DelegateActivator.<ConfigurePipeline>b__2_0(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Middleware.DelegateMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass15_0.<BuildPipeline>b__1(ResolveRequestContext context)
+   at Autofac.Core.Resolving.Middleware.DisposalTrackingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass15_0.<BuildPipeline>b__1(ResolveRequestContext context)
+   at Autofac.Extensions.DependencyInjection.KeyedServiceMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass15_0.<BuildPipeline>b__1(ResolveRequestContext context)
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   --- End of inner exception stack trace ---
+   at Autofac.Core.Resolving.Middleware.ActivatorErrorHandlingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass15_0.<BuildPipeline>b__1(ResolveRequestContext context)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext context)
+   at Autofac.Core.Resolving.Middleware.RegistrationPipelineInvokeMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass15_0.<BuildPipeline>b__1(ResolveRequestContext context)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.<>c__DisplayClass5_0.<Execute>b__0()
+   at Autofac.Core.Lifetime.LifetimeScope.CreateSharedInstance(Guid id, Func`1 creator)
+   at Autofac.Core.Lifetime.LifetimeScope.CreateSharedInstance(Guid primaryId, Nullable`1 qualifyingId, Func`1 creator)
+   at Autofac.Core.Resolving.Middleware.SharingMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass15_0.<BuildPipeline>b__1(ResolveRequestContext context)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass15_0.<BuildPipeline>b__1(ResolveRequestContext context)
+   at Autofac.Core.Resolving.Middleware.CircularDependencyDetectorMiddleware.Execute(ResolveRequestContext context, Action`1 next)
+   at Autofac.Core.Resolving.Pipeline.ResolvePipelineBuilder.<>c__DisplayClass15_0.<BuildPipeline>b__1(ResolveRequestContext context)
+   at Autofac.Core.Pipeline.ResolvePipeline.Invoke(ResolveRequestContext context)
+   at Autofac.Core.Resolving.ResolveOperation.GetOrCreateInstance(ISharingLifetimeScope currentOperationScope, ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.ExecuteOperation(ResolveRequest& request)
+   at Autofac.Core.Resolving.ResolveOperation.Execute(ResolveRequest& request)
+   at Autofac.Core.Lifetime.LifetimeScope.ResolveComponent(ResolveRequest& request)
+   at Autofac.Core.Container.ResolveComponent(ResolveRequest& request)
+   at Autofac.Core.Container.Autofac.IComponentContext.ResolveComponent(ResolveRequest& request)
+   at Autofac.Builder.StartableManager.StartStartableComponents(IDictionary`2 properties, IComponentContext componentContext)
+   --- End of inner exception stack trace ---
+   at Autofac.Builder.StartableManager.StartStartableComponents(IDictionary`2 properties, IComponentContext componentContext)
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.InitializeServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at AssettoServer.Program.RunServerAsync(String preset, String serverCfgPath, String entryListPath, PortOverrides portOverrides, Boolean useVerboseLogging, CancellationToken token) in AssettoServer/Program.cs:line 176
+   at Autofac.Builder.StartableManager.StartStartableComponents(IDictionary`2 properties, IComponentContext componentContext)
+   at Autofac.ContainerBuilder.Build(ContainerBuildOptions options)
+   at Autofac.Extensions.DependencyInjection.AutofacServiceProviderFactory.CreateServiceProvider(ContainerBuilder containerBuilder)
+   at Microsoft.Extensions.Hosting.HostBuilder.InitializeServiceProvider()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at AssettoServer.Program.RunServerAsync(String preset, String serverCfgPath, String entryListPath, PortOverrides portOverrides, Boolean useVerboseLogging, CancellationToken token) in AssettoServer/Program.cs:line 176
+```
+
+## extra_cfg.yml
+```yml
+# yaml-language-server: $schema=..\..\cfg\schemas\extra_cfg.schema.json
+
+# Override minimum CSP version required to join this server. Leave this empty to not require CSP.
+MinimumCSPVersion: 2651
+# Enable Steam ticket validation. Requires CSP 0.1.75+ and a recent version of Content Manager
+UseSteamAuth: false
+# List of DLC App IDs that are required to join. Steam auth must be enabled. Possible values: https://steamdb.info/app/244210/dlc/
+ValidateDlcOwnership: []
+# Force headlights on for all cars
+ForceLights: false
+# Enable usage of /resetcar to teleport the player to the closest spline point. Requires CSP v0.2.8 (3424) or later
+EnableCarReset: false
+# Enable vanilla server voting for: Session skip; Session restart
+EnableSessionVote: true
+# Enable vanilla server voting to kick a player
+EnableKickPlayerVote: true
+# Minimum number of connected players for session and kick voting to work. Default is 5
+VoteKickMinimumConnectedPlayers: 3
+# Enable global usage of DRS. Recommended to disable for Qualification and Race sessions
+EnableGlobalDrs: true
+# Enable unlimited usage of Push-to-Pass. Recommended to disable for Qualification and Race sessions
+EnableUnlimitedP2P: true
+# Distance for network optimizations. Players outside of this range will send less updates to reduce network traffic
+NetworkBubbleDistance: 500
+# Refresh rate for players outside of the network bubble
+OutsideNetworkBubbleRefreshRateHz: 4
+# Enable server details in CM. Required for server description
+EnableServerDetails: true
+# Server description shown in Content Manager. EnableServerDetails must be on
+ServerDescription: ''
+# Link server time to real map time. For correct timezones there must be an entry for the map here: https://github.com/ac-custom-shaders-patch/acc-extension-config/blob/master/config/data_track_params.ini
+EnableRealTime: false
+# Enable new CSP weather handling. Allows rain and smooth weather transitions. Requires CSP 0.1.76+
+EnableWeatherFx: true
+# Lock server date to real date. This stops server time "running away" when using a high time multiplier, so that in-game sunrise/sunset times are based on the current date
+LockServerDate: true
+# Reduce track grip when the track is wet. This is much worse than proper CSP rain physics but allows you to run clients with public/Patreon CSP at the same time
+RainTrackGripReductionPercent: 0
+# Enable AI traffic
+EnableAi: true
+# List of plugins to enable
+EnablePlugins: 
+# Ignore some common configuration errors. More info: https://assettoserver.org/docs/common-configuration-errors
+IgnoreConfigurationErrors:
+  MissingCarChecksums: false
+  MissingTrackParams: false
+  UnsafeAdminWhitelist: false
+# Enable CSP client messages feature. Requires CSP 0.1.77+
+EnableClientMessages: true
+# Enable CSP UDP client messages feature. Required for VR head/hand syncing. Requires CSP 0.2.0+
+EnableUdpClientMessages: true
+# Enable CSP custom position updates. This is an improved version of batched position updates, reducing network traffic even further. Requires CSP 0.1.77+
+EnableCustomUpdate: true
+# Maximum time a player can spend on the loading screen before being disconnected
+PlayerLoadingTimeoutMinutes: 10
+# Maximum time the server will wait for a checksum response before disconnecting the player
+PlayerChecksumTimeoutSeconds: 40
+# Port to control the server using Source RCON protocol. 0 to disable.
+RconPort: 0
+# Force clients to use track params (coordinates, time zone) specified on the server. Requires CSP 0.1.79+
+ForceServerTrackParams: false
+# Allow cars to have multiple data checksums. Instead of a single checksummed data.acd, you can have multiple data*.acd files in the car folder and players can join with any of these files
+EnableAlternativeCarChecksums: false
+# Enable the AC UDP plugin interface compatible with Kunos acServer plugins
+EnableLegacyPluginInterface: false
+# List of URLs for custom loading screen images. A random image will be picked from this list. Requires CSP 0.2.0+ and a recent version of Content Manager
+LoadingImageUrls: 
+# Anonymize player IP addresses in outputs
+RedactIpAddresses: true
+# Name and path of file-based user groups
+UserGroups:
+  default_blacklist: blacklist.txt
+  default_whitelist: whitelist.txt
+  default_admins: admins.txt
+# Name of user group to be used for blacklist
+BlacklistUserGroup: default_blacklist
+# Name of user group to be used for whitelist
+WhitelistUserGroup: default_whitelist
+# Name of user group to be used for admins
+AdminUserGroup: default_admins
+# Allow a user group to execute specific admin commands
+UserGroupCommandPermissions: 
+AiParams:
+  # Automatically assign traffic cars based on the car folder name
+  AutoAssignTrafficCars: true
+  # Radius around a player in which AI cars won't despawn
+  PlayerRadiusMeters: 200
+  # Offset the player radius in direction of the velocity of the player so AI cars will despawn earlier behind a player
+  PlayerPositionOffsetMeters: 100
+  # AFK timeout for players. Players who are AFK longer than this won't spawn AI cars
+  PlayerAfkTimeoutSeconds: 10
+  # Maximum distance to the AI spline for a player to spawn AI cars. This helps with parts of the map without traffic so AI cars won't spawn far away from players
+  MaxPlayerDistanceToAiSplineMeters: 7
+  # Minimum amount of spline points in front of a player where AI cars will spawn
+  MinSpawnDistancePoints: 100
+  # Maximum amount of spline points in front of a player where AI cars will spawn
+  MaxSpawnDistancePoints: 400
+  # Minimum distance between AI cars
+  MinAiSafetyDistanceMeters: 20
+  # Maximum distance between AI cars
+  MaxAiSafetyDistanceMeters: 70
+  # Minimum spawn distance for AI states of the same car slot. If you set this too low you risk AI states despawning or AI states becoming invisible for some players when multiple states are close together
+  StateSpawnDistanceMeters: 1000
+  # Minimum distance between AI states of the same car slot. If states get closer than this one of them will be forced to despawn
+  MinStateDistanceMeters: 200
+  # Minimum spawn distance to players
+  SpawnSafetyDistanceToPlayerMeters: 150
+  # Minimum time in which a newly spawned AI car cannot despawn
+  MinSpawnProtectionTimeSeconds: 4
+  # Maximum time in which a newly spawned AI car cannot despawn
+  MaxSpawnProtectionTimeSeconds: 8
+  # Minimum time an AI car will stop/slow down after a collision
+  MinCollisionStopTimeSeconds: 1
+  # Maximum time an AI car will stop/slow down after a collision
+  MaxCollisionStopTimeSeconds: 3
+  # Default maximum AI speed. This is not an absolute maximum and can be overridden with RightLaneOffsetKph and MaxSpeedVariationPercent
+  MaxSpeedKph: 80
+  # Speed offset for right lanes. Will be added to MaxSpeedKph
+  RightLaneOffsetKph: 10
+  # Maximum speed variation
+  MaxSpeedVariationPercent: 0.15
+  # Soft player limit, the server will stop accepting new players when this many players are reached. Use this to ensure a minimum amount of AI cars. 0 to disable.
+  MaxPlayerCount: 0
+  # Hide AI car nametags and make them invisible on the minimap. Broken on CSP versions < 0.1.78
+  HideAiCars: true
+  # Lane width for adjacent lane detection
+  LaneWidthMeters: 3
+  # Enable two way traffic. This will allow AI cars to spawn in lanes with the opposite direction of travel to the player.
+  TwoWayTraffic: false
+  # Enable traffic spawning if the player is driving the wrong way. Only takes effect when TwoWayTraffic is set to false.
+  WrongWayTraffic: true
+  # Name prefix for AI cars. Names will be in the form of '<NamePrefix> <SessionId>'
+  NamePrefix: Traffic
+  # Ignore obstacles for some time if the AI car is stopped for longer than x seconds
+  IgnoreObstaclesAfterSeconds: 10
+  # Dynamic (hourly) traffic density. List must have exactly 24 entries in the format [0.2, 0.5, 1, 0.7, ...]
+  HourlyTrafficDensity: 
+  # Apply some smoothing to AI spline camber
+  SmoothCamber: true
+  # Update interval for AI spawn point finder
+  AiBehaviorUpdateIntervalHz: 2
+  # Enable AI car headlights during the day
+  EnableDaytimeLights: false
+  # AI cars inside these areas will ignore all player obstacles
+  IgnorePlayerObstacleSpheres: 
+  # Override some settings for newly spawned cars based on the number of lanes
+  LaneCountSpecificOverrides: {}
+  # Override some settings for specific car models
+  CarSpecificOverrides: []
+  # Default AI car deceleration for obstacle/collision detection (m/s^2)
+  DefaultDeceleration: 8.5
+  # Default AI car acceleration for obstacle/collision detection (m/s^2)
+  DefaultAcceleration: 2.5
+  # AI spline height offset. Use this if the AI spline is too close to the ground
+  SplineHeightOffsetMeters: 0
+  # AI cornering speed factor. Lower = AI cars will drive slower around corners.
+  CorneringSpeedFactor: 0.65
+  # AI cornering brake distance factor. Lower = AI cars will brake later for corners.
+  CorneringBrakeDistanceFactor: 3
+  # AI cornering brake force factor. This is multiplied with DefaultDeceleration. Lower = AI cars will brake less hard for corners.
+  CorneringBrakeForceFactor: 0.5
+  # Apply scale to some traffic density related settings. Increasing this DOES NOT magically increase your traffic density, it is dependent on your other settings. Values higher than 1 not recommended.
+  TrafficDensity: 1
+  # Tyre diameter of AI cars in meters, shouldn't have to be changed unless some cars are creating lots of smoke.
+  TyreDiameterMeters: 0.65
+
+```
+
+## server_cfg.ini
+```ini
+[__CM_BOOK_OFF]
+NAME=SRP Tatsumi PA Traffic
+TIME=10
+IS_OPEN=1
+
+[SERVER]
+SLEEP_TIME=1
+QUALIFY_MAX_WAIT_PERC=120
+RACE_EXTRA_LAP=0
+REVERSED_GRID_RACE_POSITIONS=0
+RACE_OVER_TIME=60
+RESULT_SCREEN_TIME=60
+__CM_RACE_PIT_WINDOW_START_OFF=0
+__CM_RACE_PIT_WINDOW_END_OFF=0
+REGISTER_TO_LOBBY=0
+LOOP_MODE=1
+PICKUP_MODE_ENABLED=1
+LOCKED_ENTRY_LIST=0
+MAX_CLIENTS=40
+UDP_PORT=9600
+TCP_PORT=9600
+HTTP_PORT=8081
+CLIENT_SEND_INTERVAL_HZ=60
+NUM_THREADS=8
+TRACK=csp/3879/../H/../union_island
+CONFIG_TRACK=freeroam
+CARS=traffic_alfa_159;traffic_audi_a4_eu;traffic_toyota_priuseu;traffic_volvo_v70;traffic_audi_a4_jp;traffic_isuzu_flatbed;traffic_isuzu_hauler;traffic_isuzu_haulerb;traffic_isuzu_tanker;traffic_isuzu_npr;traffic_nissan_leaf;traffic_toyota_camry;traffic_toyota_prius;traffic_volvo_v70jp;traffic_toyota_rav4;traffic_cadillac_escalade;traffic_dodge_challenger_srt;traffic_dodge_grand_caravan_taxi;traffic_crown_vic;bkXHM_nissan_gtr_21_RB_KIT
+ABS_ALLOWED=2
+TC_ALLOWED=1
+STABILITY_ALLOWED=0
+AUTOCLUTCH_ALLOWED=0
+TYRE_BLANKETS_ALLOWED=0
+FORCE_VIRTUAL_MIRROR=0
+FUEL_RATE=0
+DAMAGE_MULTIPLIER=0
+TYRE_WEAR_RATE=0
+ALLOWED_TYRES_OUT=0
+MAX_BALLAST_KG=0
+START_RULE=0
+RACE_GAS_PENALTY_DISABLED=1
+SUN_ANGLE=80
+TIME_OF_DAY_MULT=0
+KICK_QUORUM=0
+VOTING_QUORUM=0
+VOTE_DURATION=0
+BLACKLIST_MODE=0
+MAX_CONTACTS_PER_KM=0
+ADMIN_PASSWORD=redacted
+NAME=UNION
+UDP_PLUGIN_LOCAL_PORT=
+PASSWORD=redacted
+WELCOME_MESSAGE=cfg/welcome_UNION ISLAND.txt
+
+[PRACTICE]
+NAME=Practice
+TIME=720
+IS_OPEN=1
+
+[__CM_RACE_OFF]
+NAME=Race
+TIME=0
+IS_OPEN=2
+WAIT_TIME=60
+LAPS=5
+__CM_TIME_OFF=10
+
+[__CM_SERVER]
+DISABLE_CHECKSUMS=0
+REGISTER_TO_CM_LOBBY=0
+
+[__CM_DYNAMIC_TRACK_OFF]
+SESSION_START=100
+RANDOMNESS=0
+LAP_GAIN=1
+SESSION_TRANSFER=100
+
+[__CM_PLUGIN]
+ACTIVE=0
+REAL_CONDITIONS=0
+REAL_CONDITIONS_PARAMS=eyJ1c2VSZWFsQ29uZGl0aW9ucyI6dHJ1ZSwidGltZU9mZnNldCI6IjAwOjAwOjAwIiwidXNlRml4ZWRTdGFydGluZ1RpbWUiOmZhbHNlLCJmaXhlZFN0YXJ0aW5nVGltZSI6NDMyMDAsImZpeGVkU3RhcnRpbmdEYXRlIjoiMjAyNi0wNS0xM1QwMToxMjoxMi45MTE1NzIxKzAzOjAwIiwidGltZU11bHRpcGxpZXIiOjEuMCwidGVtcGVyYXR1cmVPZmZzZXQiOjAuMCwidXNlRml4ZWRBaXJUZW1wZXJhdHVyZSI6ZmFsc2UsImZpeGVkQWlyVGVtcGVyYXR1cmUiOjI1LjAsIndlYXRoZXJUeXBlQ2hhbmdlUGVyaW9kIjoiMDA6MDU6MDAiLCJ3ZWF0aGVyVHlwZUNoYW5nZVRvTmVpZ2hib3Vyc09ubHkiOnRydWUsIndlYXRoZXJSYWluQ2hhbmNlIjowLjA1LCJ3ZWF0aGVyVGh1bmRlckNoYW5jZSI6MC4wMDUsInN0YXJ0aW5nVHJhY2tHcmlwIjo5OS4wLCJ0cmFja0dyaXBJbmNyZWFzZVBlckxhcCI6MC4wNSwidHJhY2tHcmlwVHJhbnNmZXIiOjgwLjAsInJhaW5UaW1lTXVsdGlwbGllciI6MS4wLCJyYWluV2V0bmVzc0luY3JlYXNlVGltZSI6IjAwOjAzOjAwIiwicmFpbldldG5lc3NEZWNyZWFzZVRpbWUiOiIwMDoxNTowMCIsInJhaW5XYXRlckluY3JlYXNlVGltZSI6IjAwOjMwOjAwIiwicmFpbldhdGVyRGVjcmVhc2VUaW1lIjoiMDI6MDA6MDAifQ
+
+[DATA]
+WELCOME_PATH=C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\UNION ISLAND\cm_welcome.txt
+
+[FTP]
+__CM_CLEAR_BEFORE_UPLOAD=0
+__CM_DATA_ONLY=0
+LINUX=0
+
+[__CM_QUALIFY_OFF]
+NAME=Qualification
+TIME=10
+IS_OPEN=1
+
+[WEATHER_0]
+GRAPHICS=3_clear_type=29
+BASE_TEMPERATURE_AMBIENT=12
+BASE_TEMPERATURE_ROAD=0
+VARIATION_AMBIENT=0
+VARIATION_ROAD=0
+WIND_BASE_SPEED_MIN=0
+WIND_BASE_SPEED_MAX=52.6
+WIND_BASE_DIRECTION=0
+WIND_VARIATION_DIRECTION=0
+__CM_WFX_DATE=1778624612
+__CM_WFX_USE_CUSTOM_DATE=0
+__CM_WFX_TIME_MULT=1
+__CM_WFX_TIME=43200
+__CM_WFX_USE_CUSTOM_TIME=0
+__CM_WFX_TYPE=29
+__CM_GRAPHICS=3_clear
+
+
+```
+
+## entry_list.ini
+```ini
+[CAR_0]
+MODEL=traffic_alfa_159
+SKIN=Perla_Moonlight
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+AI=FIXED
+
+[CAR_1]
+MODEL=traffic_alfa_159
+SKIN=Nero
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+AI=FIXED
+
+[CAR_2]
+MODEL=traffic_audi_a4_eu
+SKIN=04_floret_silver_metallic_br
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+AI=FIXED
+
+[CAR_3]
+MODEL=traffic_toyota_priuseu
+SKIN=generated-1
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+AI=FIXED
+
+[CAR_4]
+MODEL=traffic_volvo_v70
+SKIN=generated-4
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+AI=FIXED
+
+[CAR_5]
+MODEL=traffic_audi_a4_jp
+SKIN=01_vegas_yellow_br
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+AI=FIXED
+
+[CAR_6]
+MODEL=traffic_isuzu_flatbed
+SKIN=grey
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+AI=FIXED
+
+[CAR_7]
+MODEL=traffic_isuzu_hauler
+SKIN=green
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+AI=FIXED
+
+[CAR_8]
+MODEL=traffic_isuzu_haulerb
+SKIN=white
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+AI=FIXED
+
+[CAR_9]
+MODEL=traffic_isuzu_tanker
+SKIN=green
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+AI=FIXED
+
+[CAR_10]
+MODEL=traffic_isuzu_npr
+SKIN=green
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+AI=FIXED
+
+[CAR_11]
+MODEL=traffic_nissan_leaf
+SKIN=generated-8
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+AI=FIXED
+
+[CAR_12]
+MODEL=traffic_toyota_camry
+SKIN=generated-2
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+AI=FIXED
+
+[CAR_13]
+MODEL=traffic_toyota_prius
+SKIN=generated-8
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+AI=FIXED
+
+[CAR_14]
+MODEL=traffic_volvo_v70jp
+SKIN=generated-2
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+AI=FIXED
+
+[CAR_15]
+MODEL=traffic_toyota_rav4
+SKIN=04_floret_silver_metallic_br
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+AI=FIXED
+
+[CAR_16]
+MODEL=traffic_cadillac_escalade
+SKIN=generated
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+AI=FIXED
+
+[CAR_17]
+MODEL=traffic_dodge_challenger_srt
+SKIN=01_vegas_yellow_br
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+AI=FIXED
+
+[CAR_18]
+MODEL=traffic_dodge_grand_caravan_taxi
+SKIN=taxi
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+AI=FIXED
+
+[CAR_19]
+MODEL=traffic_crown_vic
+SKIN=generated-6
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+AI=FIXED
+
+[CAR_20]
+MODEL=traffic_alfa_159
+SKIN=Nero_Etna
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+AI=FIXED
+
+[CAR_21]
+MODEL=traffic_alfa_159
+SKIN=Rosso_Competizione
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+AI=FIXED
+
+[CAR_22]
+MODEL=traffic_audi_a4_eu
+SKIN=18_brilliant_black_br
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+AI=FIXED
+
+[CAR_23]
+MODEL=traffic_toyota_priuseu
+SKIN=generated-8
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+AI=FIXED
+
+[CAR_24]
+MODEL=traffic_volvo_v70
+SKIN=generated-6
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+AI=FIXED
+
+[CAR_25]
+MODEL=traffic_audi_a4_jp
+SKIN=03_scuba_blue_metallic_br
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+AI=FIXED
+
+[CAR_26]
+MODEL=traffic_isuzu_flatbed
+SKIN=white
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+AI=FIXED
+
+[CAR_27]
+MODEL=traffic_isuzu_hauler
+SKIN=white
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+AI=FIXED
+
+[CAR_28]
+MODEL=traffic_isuzu_haulerb
+SKIN=black
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+AI=FIXED
+
+[CAR_29]
+MODEL=traffic_isuzu_tanker
+SKIN=red
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+AI=FIXED
+
+[CAR_30]
+MODEL=bkXHM_nissan_gtr_21_RB_KIT
+SKIN=Midnight_Purple
+SPECTATOR_MODE=0
+DRIVERNAME=
+TEAM=
+GUID=
+BALLAST=0
+RESTRICTOR=0
+
+
+```
+

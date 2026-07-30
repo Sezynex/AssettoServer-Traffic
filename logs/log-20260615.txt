@@ -1,0 +1,631 @@
+2026-06-15 19:07:15.032 +03:00 [INF] AssettoServer 0.0.55-pre35
+2026-06-15 19:07:15.055 +03:00 [DBG] Server was started through Content Manager
+2026-06-15 19:07:15.059 +03:00 [DBG] Loading server_cfg.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\server_cfg.ini
+2026-06-15 19:07:15.076 +03:00 [DBG] Loading entry_list.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\entry_list.ini
+2026-06-15 19:07:15.301 +03:00 [DBG] Loading extra_cfg.yml from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\extra_cfg.yml
+2026-06-15 19:07:15.373 +03:00 [DBG] Using minimum required CSP Version 3879
+2026-06-15 19:07:15.668 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2026-06-15 19:07:15.698 +03:00 [INF] Starting server
+2026-06-15 19:07:15.791 +03:00 [INF] Loaded 32 cars
+2026-06-15 19:07:15.799 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2026-06-15 19:07:15.799 +03:00 [DBG] Added checksum for content/tracks/csp/3879/../H/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2026-06-15 19:07:15.800 +03:00 [INF] Initialized 2 track checksums
+2026-06-15 19:07:15.800 +03:00 [DBG] Added checksum for traffic_alfa_159
+2026-06-15 19:07:15.801 +03:00 [DBG] Added checksum for traffic_audi_a4_eu
+2026-06-15 19:07:15.801 +03:00 [DBG] Added checksum for traffic_toyota_priuseu
+2026-06-15 19:07:15.801 +03:00 [DBG] Added checksum for traffic_volvo_v70
+2026-06-15 19:07:15.802 +03:00 [DBG] Added checksum for traffic_audi_a4_jp
+2026-06-15 19:07:15.802 +03:00 [DBG] Added checksum for traffic_isuzu_flatbed
+2026-06-15 19:07:15.802 +03:00 [DBG] Added checksum for traffic_isuzu_hauler
+2026-06-15 19:07:15.802 +03:00 [DBG] Added checksum for traffic_isuzu_haulerb
+2026-06-15 19:07:15.803 +03:00 [DBG] Added checksum for traffic_isuzu_tanker
+2026-06-15 19:07:15.803 +03:00 [DBG] Added checksum for traffic_isuzu_npr
+2026-06-15 19:07:15.803 +03:00 [DBG] Added checksum for traffic_nissan_leaf
+2026-06-15 19:07:15.804 +03:00 [DBG] Added checksum for traffic_toyota_camry
+2026-06-15 19:07:15.804 +03:00 [DBG] Added checksum for traffic_toyota_prius
+2026-06-15 19:07:15.804 +03:00 [DBG] Added checksum for traffic_volvo_v70jp
+2026-06-15 19:07:15.804 +03:00 [DBG] Added checksum for traffic_toyota_rav4
+2026-06-15 19:07:15.805 +03:00 [DBG] Added checksum for traffic_cadillac_escalade
+2026-06-15 19:07:15.805 +03:00 [DBG] Added checksum for traffic_dodge_challenger_srt
+2026-06-15 19:07:15.805 +03:00 [DBG] Added checksum for traffic_dodge_grand_caravan_taxi
+2026-06-15 19:07:15.805 +03:00 [DBG] Added checksum for traffic_crown_vic
+2026-06-15 19:07:15.806 +03:00 [DBG] Added checksum for 06_ygt_53_m4_lci_air
+2026-06-15 19:07:15.807 +03:00 [INF] Initialized 20 car checksums
+2026-06-15 19:07:15.985 +03:00 [INF] Next session: Practice - Length: 720 minutes
+2026-06-15 19:07:15.985 +03:00 [INF] Switching session to id 0
+2026-06-15 19:07:16.076 +03:00 [INF] Starting HTTP server on port 8081
+2026-06-15 19:07:16.077 +03:00 [INF] Starting UDP server on port 9600
+2026-06-15 19:07:16.077 +03:00 [INF] Starting TCP server on port 9600
+2026-06-15 19:07:16.078 +03:00 [INF] Starting update loop with an update rate of 60hz
+2026-06-15 19:07:16.083 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2026-06-15 19:07:16.085 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2026-06-15 19:07:16.086 +03:00 [DBG] Loaded admins.txt with 0 entries
+2026-06-15 19:07:16.088 +03:00 [INF] Invite link: https://acstuff.club/s/q:race/online/join?ip=212.154.2.92&httpPort=8081
+2026-06-15 19:07:16.088 +03:00 [INF] Server startup completed
+2026-06-15 19:07:41.484 +03:00 [INF] Han Raikkonen (76561198141951438 - 95.70.205.0:52772) is attempting to connect (06_ygt_53_m4_lci_air)
+2026-06-15 19:07:41.487 +03:00 [DBG] Han Raikkonen supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-15 19:07:41.491 +03:00 [INF] Han Raikkonen (76561198141951438, 30 (06_ygt_53_m4_lci_air-01_melborune_red)) has connected
+2026-06-15 19:08:13.316 +03:00 [INF] corp14x3 (76561199521796457 - 212.154.2.0:56882) is attempting to connect (06_ygt_53_m4_lci_air)
+2026-06-15 19:08:13.317 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-15 19:08:13.317 +03:00 [INF] corp14x3 (76561199521796457, 31 (06_ygt_53_m4_lci_air-01_melborune_red)) has connected
+2026-06-15 19:08:21.717 +03:00 [DBG] AI Slot overbooking update - No. players: 2 - No. AI Slots: 30 - Target AI count: 60 - Overbooking: 2 - Rest: 0
+2026-06-15 19:08:24.451 +03:00 [INF] CSP handshake received from Han Raikkonen (30): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=7242084248448088884
+2026-06-15 19:08:36.105 +03:00 [DBG] AI Slot overbooking update - No. players: 2 - No. AI Slots: 30 - Target AI count: 60 - Overbooking: 2 - Rest: 0
+2026-06-15 19:08:36.431 +03:00 [INF] CSP handshake received from corp14x3 (31): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-06-15 19:08:42.674 +03:00 [DBG] Received clean exit from corp14x3 (31)
+2026-06-15 19:08:42.676 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 212.154.2.0:56882)
+2026-06-15 19:08:42.677 +03:00 [INF] corp14x3 has disconnected
+2026-06-15 19:08:57.445 +03:00 [INF] corp14x3 (76561199521796457 - 212.154.2.0:57070) is attempting to connect (06_ygt_53_m4_lci_air)
+2026-06-15 19:08:57.445 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-06-15 19:08:57.445 +03:00 [INF] corp14x3 (76561199521796457, 31 (06_ygt_53_m4_lci_air-01_melborune_red)) has connected
+2026-06-15 19:09:11.466 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-06-15 19:09:16.964 +03:00 [DBG] AI Slot overbooking update - No. players: 2 - No. AI Slots: 30 - Target AI count: 60 - Overbooking: 2 - Rest: 0
+2026-06-15 19:09:17.177 +03:00 [INF] CSP handshake received from corp14x3 (31): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-06-15 19:09:19.482 +03:00 [DBG] Car 5 reached spline end, despawning
+2026-06-15 19:09:20.387 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-06-15 19:09:22.893 +03:00 [DBG] Car 5 reached spline end, despawning
+2026-06-15 19:09:25.468 +03:00 [DBG] Car 8 reached spline end, despawning
+2026-06-15 19:09:30.275 +03:00 [DBG] Car 18 reached spline end, despawning
+2026-06-15 19:09:31.143 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-06-15 19:09:31.982 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-06-15 19:09:35.746 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-06-15 19:09:38.114 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-06-15 19:09:43.332 +03:00 [DBG] Car 19 reached spline end, despawning
+2026-06-15 19:09:45.114 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 13km/h
+2026-06-15 19:09:49.780 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-06-15 19:09:50.479 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-06-15 19:09:59.649 +03:00 [DBG] Car 7 reached spline end, despawning
+2026-06-15 19:10:00.348 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-15 19:10:01.231 +03:00 [DBG] Car 25 reached spline end, despawning
+2026-06-15 19:10:06.765 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-06-15 19:10:08.913 +03:00 [DBG] Car 18 reached spline end, despawning
+2026-06-15 19:10:18.402 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-06-15 19:10:25.241 +03:00 [DBG] Car 22 reached spline end, despawning
+2026-06-15 19:10:26.066 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-06-15 19:10:28.282 +03:00 [DBG] Car 28 reached spline end, despawning
+2026-06-15 19:10:34.473 +03:00 [DBG] Car 27 reached spline end, despawning
+2026-06-15 19:10:37.955 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-06-15 19:10:39.149 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-15 19:10:39.320 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-06-15 19:10:41.950 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-06-15 19:10:46.098 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-06-15 19:10:48.584 +03:00 [DBG] Car 25 reached spline end, despawning
+2026-06-15 19:10:51.350 +03:00 [DBG] Car 5 reached spline end, despawning
+2026-06-15 19:10:56.800 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-06-15 19:10:57.882 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-06-15 19:10:59.557 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-06-15 19:11:02.058 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-06-15 19:11:02.384 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-06-15 19:11:03.405 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-06-15 19:11:04.180 +03:00 [DBG] Car 25 reached spline end, despawning
+2026-06-15 19:11:08.532 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-06-15 19:11:11.488 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-06-15 19:11:12.788 +03:00 [DBG] Car 8 reached spline end, despawning
+2026-06-15 19:11:17.460 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-06-15 19:11:19.974 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-06-15 19:11:20.783 +03:00 [DBG] Car 22 reached spline end, despawning
+2026-06-15 19:11:21.607 +03:00 [DBG] Car 7 reached spline end, despawning
+2026-06-15 19:11:37.636 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-06-15 19:11:38.889 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 13 (13), rel. speed 156km/h
+2026-06-15 19:11:40.485 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 17 (17), rel. speed 56km/h
+2026-06-15 19:11:40.490 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 52km/h
+2026-06-15 19:11:41.520 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-06-15 19:11:42.823 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 41km/h
+2026-06-15 19:11:44.823 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 1km/h
+2026-06-15 19:12:35.572 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-06-15 19:12:53.307 +03:00 [DBG] Car 25 reached spline end, despawning
+2026-06-15 19:13:00.530 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 29km/h
+2026-06-15 19:14:03.281 +03:00 [INF] Collision between corp14x3 (31) and Han Raikkonen (30), rel. speed 39km/h
+2026-06-15 19:14:03.285 +03:00 [INF] Collision between Han Raikkonen (30) and corp14x3 (31), rel. speed 40km/h
+2026-06-15 19:14:08.233 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 9 (9), rel. speed 60km/h
+2026-06-15 19:14:08.987 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 12km/h
+2026-06-15 19:14:13.788 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 9 (9), rel. speed 21km/h
+2026-06-15 19:15:39.591 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 21 (21), rel. speed 90km/h
+2026-06-15 19:15:39.888 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 39km/h
+2026-06-15 19:15:41.811 +03:00 [INF] Collision between Han Raikkonen (30) and corp14x3 (31), rel. speed 19km/h
+2026-06-15 19:15:41.849 +03:00 [INF] Collision between corp14x3 (31) and Han Raikkonen (30), rel. speed 6km/h
+2026-06-15 19:15:42.107 +03:00 [INF] Collision between corp14x3 (31) and Traffic 29 (29), rel. speed 53km/h
+2026-06-15 19:15:43.364 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 31km/h
+2026-06-15 19:16:01.799 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 14 (14), rel. speed 94km/h
+2026-06-15 19:16:02.255 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-06-15 19:16:05.947 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-15 19:16:08.869 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 27km/h
+2026-06-15 19:16:09.203 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-06-15 19:17:13.581 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 2km/h
+2026-06-15 19:17:18.048 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 5 (5), rel. speed 99km/h
+2026-06-15 19:17:18.327 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 182km/h
+2026-06-15 19:17:21.706 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 15km/h
+2026-06-15 19:18:03.232 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 19km/h
+2026-06-15 19:18:03.988 +03:00 [INF] Collision between corp14x3 (31) and Han Raikkonen (30), rel. speed 18km/h
+2026-06-15 19:18:03.992 +03:00 [INF] Collision between Han Raikkonen (30) and corp14x3 (31), rel. speed 21km/h
+2026-06-15 19:18:05.396 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 57km/h
+2026-06-15 19:19:17.053 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 14km/h
+2026-06-15 19:19:19.146 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 48km/h
+2026-06-15 19:19:24.708 +03:00 [DBG] Car 8 reached spline end, despawning
+2026-06-15 19:19:26.747 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-06-15 19:19:27.867 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-06-15 19:19:30.385 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-06-15 19:19:30.975 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-06-15 19:19:31.206 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-06-15 19:19:32.868 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-15 19:19:34.528 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-06-15 19:19:37.016 +03:00 [DBG] Car 20 reached spline end, despawning
+2026-06-15 19:19:37.341 +03:00 [DBG] Car 20 reached spline end, despawning
+2026-06-15 19:19:39.482 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-06-15 19:19:40.804 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-06-15 19:19:42.027 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-06-15 19:19:43.673 +03:00 [DBG] Car 7 reached spline end, despawning
+2026-06-15 19:19:57.306 +03:00 [DBG] Car 19 reached spline end, despawning
+2026-06-15 19:19:58.702 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-06-15 19:20:00.622 +03:00 [INF] Collision between corp14x3 (31) and Traffic 18 (18), rel. speed 9km/h
+2026-06-15 19:20:01.376 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 13km/h
+2026-06-15 19:20:02.614 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-06-15 19:20:04.829 +03:00 [DBG] Car 28 reached spline end, despawning
+2026-06-15 19:20:04.986 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-06-15 19:20:05.563 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-06-15 19:20:06.355 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-06-15 19:20:07.846 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-06-15 19:20:09.460 +03:00 [DBG] Car 5 reached spline end, despawning
+2026-06-15 19:20:09.834 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-06-15 19:20:09.859 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 6km/h
+2026-06-15 19:20:12.090 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-06-15 19:20:14.084 +03:00 [DBG] Car 25 reached spline end, despawning
+2026-06-15 19:20:14.568 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-06-15 19:20:14.677 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-06-15 19:20:17.063 +03:00 [DBG] Car 20 reached spline end, despawning
+2026-06-15 19:20:17.607 +03:00 [DBG] Car 20 reached spline end, despawning
+2026-06-15 19:20:20.560 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-15 19:20:21.182 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-06-15 19:20:23.014 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-15 19:20:23.559 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-06-15 19:20:25.050 +03:00 [DBG] Car 27 reached spline end, despawning
+2026-06-15 19:20:26.744 +03:00 [DBG] Car 21 reached spline end, despawning
+2026-06-15 19:20:27.848 +03:00 [DBG] Car 21 reached spline end, despawning
+2026-06-15 19:20:28.563 +03:00 [DBG] Car 22 reached spline end, despawning
+2026-06-15 19:20:28.927 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 57km/h
+2026-06-15 19:20:29.370 +03:00 [DBG] Car 21 reached spline end, despawning
+2026-06-15 19:20:30.500 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-06-15 19:20:33.761 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-06-15 19:20:34.864 +03:00 [DBG] Car 21 reached spline end, despawning
+2026-06-15 19:20:37.742 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-06-15 19:20:40.864 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-06-15 19:20:42.267 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-15 19:20:43.044 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-06-15 19:20:44.315 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-15 19:20:45.687 +03:00 [DBG] Car 21 reached spline end, despawning
+2026-06-15 19:20:49.727 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-06-15 19:20:50.584 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-06-15 19:20:53.084 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-06-15 19:20:53.084 +03:00 [DBG] Car 28 reached spline end, despawning
+2026-06-15 19:20:53.547 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 51km/h
+2026-06-15 19:20:55.904 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 5km/h
+2026-06-15 19:20:55.911 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 5km/h
+2026-06-15 19:20:56.033 +03:00 [INF] Collision between corp14x3 (31) and Han Raikkonen (30), rel. speed 33km/h
+2026-06-15 19:20:56.046 +03:00 [INF] Collision between Han Raikkonen (30) and corp14x3 (31), rel. speed 32km/h
+2026-06-15 19:20:56.578 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-06-15 19:20:58.798 +03:00 [DBG] Car 18 reached spline end, despawning
+2026-06-15 19:21:01.676 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-06-15 19:21:04.226 +03:00 [DBG] Car 29 reached spline end, despawning
+2026-06-15 19:21:05.036 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-06-15 19:21:05.285 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-06-15 19:21:16.865 +03:00 [DBG] Car 7 reached spline end, despawning
+2026-06-15 19:21:17.982 +03:00 [DBG] Car 20 reached spline end, despawning
+2026-06-15 19:21:23.392 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-06-15 19:21:28.507 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 3km/h
+2026-06-15 19:21:47.776 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 95km/h
+2026-06-15 19:21:49.171 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 11 (11), rel. speed 107km/h
+2026-06-15 19:21:53.159 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 51km/h
+2026-06-15 19:22:16.397 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 42km/h
+2026-06-15 19:22:17.552 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 21 (21), rel. speed 76km/h
+2026-06-15 19:22:18.515 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 27km/h
+2026-06-15 19:22:21.701 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 10km/h
+2026-06-15 19:22:32.266 +03:00 [INF] Collision between corp14x3 (31) and Traffic 19 (19), rel. speed 83km/h
+2026-06-15 19:22:33.182 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 21km/h
+2026-06-15 19:22:44.886 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 21km/h
+2026-06-15 19:22:57.736 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 29 (29), rel. speed 132km/h
+2026-06-15 19:22:58.912 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 11 (11), rel. speed 94km/h
+2026-06-15 19:22:59.682 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 28km/h
+2026-06-15 19:23:31.910 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 34km/h
+2026-06-15 19:23:35.762 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 10km/h
+2026-06-15 19:23:37.761 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 3km/h
+2026-06-15 19:23:39.835 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 1km/h
+2026-06-15 19:23:46.766 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 92km/h
+2026-06-15 19:23:49.502 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 17km/h
+2026-06-15 19:23:52.171 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 6km/h
+2026-06-15 19:23:54.356 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 2km/h
+2026-06-15 19:23:56.449 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 8km/h
+2026-06-15 19:24:28.499 +03:00 [INF] Collision between corp14x3 (31) and Traffic 26 (26), rel. speed 40km/h
+2026-06-15 19:24:28.565 +03:00 [INF] Collision between corp14x3 (31) and Traffic 29 (29), rel. speed 8km/h
+2026-06-15 19:24:29.342 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 43km/h
+2026-06-15 19:24:40.154 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 2km/h
+2026-06-15 19:24:48.597 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 7km/h
+2026-06-15 19:25:13.490 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 14 (14), rel. speed 6km/h
+2026-06-15 19:25:44.585 +03:00 [INF] Collision between corp14x3 (31) and Traffic 5 (5), rel. speed 47km/h
+2026-06-15 19:25:58.515 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 2 (2), rel. speed 62km/h
+2026-06-15 19:26:01.541 +03:00 [INF] Collision between corp14x3 (31) and Traffic 20 (20), rel. speed 147km/h
+2026-06-15 19:26:02.317 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 43km/h
+2026-06-15 19:26:04.020 +03:00 [INF] Collision between corp14x3 (31) and Traffic 26 (26), rel. speed 87km/h
+2026-06-15 19:26:05.071 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 26km/h
+2026-06-15 19:26:31.565 +03:00 [INF] Collision between corp14x3 (31) and Traffic 2 (2), rel. speed 57km/h
+2026-06-15 19:26:43.093 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 51km/h
+2026-06-15 19:26:49.283 +03:00 [INF] Collision between corp14x3 (31) and Traffic 13 (13), rel. speed 4km/h
+2026-06-15 19:27:02.016 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 70km/h
+2026-06-15 19:27:05.110 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 2 (2), rel. speed 19km/h
+2026-06-15 19:27:05.880 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 73km/h
+2026-06-15 19:27:19.868 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 64km/h
+2026-06-15 19:27:20.978 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 59km/h
+2026-06-15 19:27:36.826 +03:00 [INF] Collision between corp14x3 (31) and Traffic 1 (1), rel. speed 32km/h
+2026-06-15 19:27:54.880 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-15 19:27:57.817 +03:00 [DBG] Car 19 reached spline end, despawning
+2026-06-15 19:28:02.574 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-06-15 19:28:04.503 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-06-15 19:28:10.118 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-06-15 19:28:10.677 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-15 19:28:10.925 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 25 (25), rel. speed 9km/h
+2026-06-15 19:28:12.501 +03:00 [DBG] Car 7 reached spline end, despawning
+2026-06-15 19:28:13.387 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-06-15 19:28:26.197 +03:00 [DBG] Car 18 reached spline end, despawning
+2026-06-15 19:28:29.189 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-06-15 19:28:30.201 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-06-15 19:28:36.831 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 107km/h
+2026-06-15 19:28:37.323 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-06-15 19:28:38.584 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-06-15 19:28:43.278 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 1 (1), rel. speed 141km/h
+2026-06-15 19:28:57.961 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 3 (3), rel. speed 150km/h
+2026-06-15 19:28:59.235 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 110km/h
+2026-06-15 19:29:16.145 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-06-15 19:29:19.110 +03:00 [DBG] Car 27 reached spline end, despawning
+2026-06-15 19:29:22.247 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-06-15 19:29:37.031 +03:00 [DBG] Car 7 reached spline end, despawning
+2026-06-15 19:30:07.868 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-06-15 19:30:10.555 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-06-15 19:30:12.266 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-06-15 19:30:12.652 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-06-15 19:30:12.683 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-06-15 19:30:14.528 +03:00 [DBG] Car 29 reached spline end, despawning
+2026-06-15 19:30:15.043 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-06-15 19:30:15.074 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-06-15 19:30:16.196 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-06-15 19:30:18.616 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-06-15 19:30:19.346 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-06-15 19:30:21.980 +03:00 [DBG] Car 22 reached spline end, despawning
+2026-06-15 19:30:32.324 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-06-15 19:30:33.089 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 13km/h
+2026-06-15 19:30:37.414 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-06-15 19:30:40.389 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-06-15 19:30:50.077 +03:00 [DBG] Car 5 reached spline end, despawning
+2026-06-15 19:30:50.662 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 0 (0), rel. speed 102km/h
+2026-06-15 19:30:51.420 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 12km/h
+2026-06-15 19:30:52.125 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 13 (13), rel. speed 102km/h
+2026-06-15 19:30:52.922 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 7km/h
+2026-06-15 19:30:53.279 +03:00 [INF] Collision between corp14x3 (31) and Traffic 13 (13), rel. speed 78km/h
+2026-06-15 19:30:54.073 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 33km/h
+2026-06-15 19:30:56.790 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-06-15 19:30:58.063 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 6km/h
+2026-06-15 19:31:00.749 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 8 (8), rel. speed 34km/h
+2026-06-15 19:31:01.244 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 8km/h
+2026-06-15 19:31:02.750 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 8 (8), rel. speed 23km/h
+2026-06-15 19:31:03.244 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 0km/h
+2026-06-15 19:31:04.750 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 8 (8), rel. speed 24km/h
+2026-06-15 19:31:05.244 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 0km/h
+2026-06-15 19:31:06.752 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 8 (8), rel. speed 26km/h
+2026-06-15 19:31:08.903 +03:00 [INF] Collision between corp14x3 (31) and Han Raikkonen (30), rel. speed 10km/h
+2026-06-15 19:31:08.914 +03:00 [INF] Collision between Han Raikkonen (30) and corp14x3 (31), rel. speed 9km/h
+2026-06-15 19:31:16.225 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 24km/h
+2026-06-15 19:31:28.335 +03:00 [DBG] Car 29 reached spline end, despawning
+2026-06-15 19:31:29.158 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-06-15 19:31:36.760 +03:00 [DBG] Car 28 reached spline end, despawning
+2026-06-15 19:31:40.340 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 9km/h
+2026-06-15 19:31:40.894 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 1 (1), rel. speed 126km/h
+2026-06-15 19:31:42.235 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-06-15 19:32:10.121 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 17 (17), rel. speed 19km/h
+2026-06-15 19:32:36.939 +03:00 [DBG] Car 8 reached spline end, despawning
+2026-06-15 19:32:37.147 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 21km/h
+2026-06-15 19:32:39.464 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 70km/h
+2026-06-15 19:32:40.151 +03:00 [INF] Collision between corp14x3 (31) and Traffic 27 (27), rel. speed 6km/h
+2026-06-15 19:32:46.010 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-06-15 19:33:15.725 +03:00 [INF] Collision between corp14x3 (31) and Han Raikkonen (30), rel. speed 22km/h
+2026-06-15 19:33:15.727 +03:00 [INF] Collision between Han Raikkonen (30) and corp14x3 (31), rel. speed 23km/h
+2026-06-15 19:33:30.398 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 18 (18), rel. speed 26km/h
+2026-06-15 19:33:31.340 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 21 (21), rel. speed 45km/h
+2026-06-15 19:33:55.031 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 21km/h
+2026-06-15 19:33:55.762 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 5 (5), rel. speed 53km/h
+2026-06-15 19:33:56.629 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 25km/h
+2026-06-15 19:33:58.920 +03:00 [INF] Collision between corp14x3 (31) and Traffic 5 (5), rel. speed 1km/h
+2026-06-15 19:34:00.485 +03:00 [INF] Collision between corp14x3 (31) and Traffic 29 (29), rel. speed 6km/h
+2026-06-15 19:34:17.213 +03:00 [INF] Collision between corp14x3 (31) and Traffic 11 (11), rel. speed 3km/h
+2026-06-15 19:35:08.165 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 11 (11), rel. speed 26km/h
+2026-06-15 19:35:08.279 +03:00 [INF] Collision between corp14x3 (31) and Traffic 1 (1), rel. speed 6km/h
+2026-06-15 19:35:08.975 +03:00 [INF] Collision between corp14x3 (31) and Traffic 11 (11), rel. speed 60km/h
+2026-06-15 19:35:22.493 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 22 (22), rel. speed 41km/h
+2026-06-15 19:35:25.121 +03:00 [INF] Collision between corp14x3 (31) and Traffic 22 (22), rel. speed 159km/h
+2026-06-15 19:35:59.576 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 86km/h
+2026-06-15 19:36:01.086 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 0 (0), rel. speed 145km/h
+2026-06-15 19:36:01.969 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 25 (25), rel. speed 83km/h
+2026-06-15 19:36:02.609 +03:00 [INF] Collision between corp14x3 (31) and Han Raikkonen (30), rel. speed 85km/h
+2026-06-15 19:36:02.615 +03:00 [INF] Collision between Han Raikkonen (30) and corp14x3 (31), rel. speed 82km/h
+2026-06-15 19:36:02.786 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 39km/h
+2026-06-15 19:36:13.060 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-06-15 19:36:21.940 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-06-15 19:36:24.944 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-06-15 19:36:25.316 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-06-15 19:36:28.225 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 23km/h
+2026-06-15 19:36:28.535 +03:00 [DBG] Car 19 reached spline end, despawning
+2026-06-15 19:36:30.330 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 24 (24), rel. speed 83km/h
+2026-06-15 19:36:30.481 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 5 (5), rel. speed 39km/h
+2026-06-15 19:36:30.958 +03:00 [INF] Collision between corp14x3 (31) and Traffic 5 (5), rel. speed 41km/h
+2026-06-15 19:36:31.177 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-06-15 19:36:33.450 +03:00 [INF] Collision between corp14x3 (31) and Traffic 23 (23), rel. speed 16km/h
+2026-06-15 19:36:34.326 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-06-15 19:36:35.866 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-06-15 19:36:39.074 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-06-15 19:36:39.758 +03:00 [DBG] Car 20 reached spline end, despawning
+2026-06-15 19:36:41.857 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-06-15 19:36:43.157 +03:00 [INF] Collision between corp14x3 (31) and Traffic 16 (16), rel. speed 48km/h
+2026-06-15 19:36:43.346 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 10km/h
+2026-06-15 19:36:44.047 +03:00 [DBG] Car 28 reached spline end, despawning
+2026-06-15 19:36:44.908 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 59km/h
+2026-06-15 19:36:46.290 +03:00 [DBG] Car 25 reached spline end, despawning
+2026-06-15 19:36:46.935 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 19km/h
+2026-06-15 19:36:49.796 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-06-15 19:36:54.536 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-06-15 19:36:56.263 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-06-15 19:36:58.912 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-06-15 19:37:00.107 +03:00 [DBG] Car 5 reached spline end, despawning
+2026-06-15 19:37:01.132 +03:00 [DBG] Car 21 reached spline end, despawning
+2026-06-15 19:37:04.213 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-06-15 19:37:13.121 +03:00 [INF] Collision between corp14x3 (31) and Traffic 29 (29), rel. speed 21km/h
+2026-06-15 19:37:37.691 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-06-15 19:37:38.018 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 25 (25), rel. speed 88km/h
+2026-06-15 19:37:38.387 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 140km/h
+2026-06-15 19:37:41.009 +03:00 [INF] Collision between corp14x3 (31) and Traffic 25 (25), rel. speed 121km/h
+2026-06-15 19:37:41.512 +03:00 [INF] Collision between corp14x3 (31) and Traffic 5 (5), rel. speed 4km/h
+2026-06-15 19:38:12.722 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 43km/h
+2026-06-15 19:38:25.836 +03:00 [INF] Collision between corp14x3 (31) and Traffic 4 (4), rel. speed 12km/h
+2026-06-15 19:38:39.281 +03:00 [INF] Collision between corp14x3 (31) and Traffic 2 (2), rel. speed 6km/h
+2026-06-15 19:38:41.332 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 19 (19), rel. speed 2km/h
+2026-06-15 19:38:41.594 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 24km/h
+2026-06-15 19:38:56.509 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 66km/h
+2026-06-15 19:39:12.451 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 67km/h
+2026-06-15 19:39:20.492 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 81km/h
+2026-06-15 19:39:31.136 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 51km/h
+2026-06-15 19:39:33.117 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 47km/h
+2026-06-15 19:40:04.525 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 10 (10), rel. speed 5km/h
+2026-06-15 19:40:11.301 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 6km/h
+2026-06-15 19:40:12.528 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 0 (0), rel. speed 86km/h
+2026-06-15 19:40:15.279 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 21km/h
+2026-06-15 19:40:16.139 +03:00 [INF] Collision between corp14x3 (31) and Han Raikkonen (30), rel. speed 9km/h
+2026-06-15 19:40:17.354 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 1km/h
+2026-06-15 19:40:29.225 +03:00 [DBG] Car 19 reached spline end, despawning
+2026-06-15 19:40:29.274 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 11 (11), rel. speed 8km/h
+2026-06-15 19:40:32.773 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-06-15 19:40:34.171 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-06-15 19:40:35.197 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 13 (13), rel. speed 8km/h
+2026-06-15 19:40:35.955 +03:00 [DBG] Car 22 reached spline end, despawning
+2026-06-15 19:40:36.977 +03:00 [INF] Collision between corp14x3 (31) and Traffic 13 (13), rel. speed 54km/h
+2026-06-15 19:40:38.713 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-06-15 19:40:38.830 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 65km/h
+2026-06-15 19:40:41.046 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-15 19:40:42.917 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-06-15 19:40:43.955 +03:00 [DBG] Car 27 reached spline end, despawning
+2026-06-15 19:40:46.676 +03:00 [DBG] Car 19 reached spline end, despawning
+2026-06-15 19:40:48.910 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-06-15 19:40:50.093 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-06-15 19:40:51.630 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-06-15 19:40:53.161 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-06-15 19:40:54.467 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-06-15 19:40:55.384 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-06-15 19:40:56.536 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-15 19:40:58.825 +03:00 [DBG] Car 18 reached spline end, despawning
+2026-06-15 19:41:01.352 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-06-15 19:41:03.624 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-06-15 19:41:04.758 +03:00 [DBG] Car 28 reached spline end, despawning
+2026-06-15 19:41:05.520 +03:00 [DBG] Car 28 reached spline end, despawning
+2026-06-15 19:41:06.933 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-06-15 19:41:07.461 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-06-15 19:41:10.893 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-06-15 19:41:13.870 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 8km/h
+2026-06-15 19:41:14.307 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-06-15 19:41:16.230 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 40km/h
+2026-06-15 19:41:16.396 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-06-15 19:41:17.052 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-06-15 19:41:17.640 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-06-15 19:41:18.278 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-06-15 19:41:19.088 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-06-15 19:41:20.411 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-06-15 19:41:20.783 +03:00 [INF] Collision between corp14x3 (31) and Traffic 27 (27), rel. speed 8km/h
+2026-06-15 19:41:20.831 +03:00 [DBG] Car 25 reached spline end, despawning
+2026-06-15 19:41:20.954 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-06-15 19:41:21.684 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-06-15 19:41:22.814 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-06-15 19:41:24.246 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-06-15 19:41:25.130 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-06-15 19:41:25.658 +03:00 [DBG] Car 29 reached spline end, despawning
+2026-06-15 19:41:27.075 +03:00 [DBG] Car 27 reached spline end, despawning
+2026-06-15 19:41:27.169 +03:00 [DBG] Car 27 reached spline end, despawning
+2026-06-15 19:41:27.420 +03:00 [DBG] Car 19 reached spline end, despawning
+2026-06-15 19:41:30.695 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-06-15 19:41:31.503 +03:00 [DBG] Car 21 reached spline end, despawning
+2026-06-15 19:41:31.938 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-06-15 19:41:33.261 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-06-15 19:41:34.839 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-06-15 19:41:35.444 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-15 19:41:36.325 +03:00 [DBG] Car 7 reached spline end, despawning
+2026-06-15 19:41:36.932 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-15 19:41:37.477 +03:00 [DBG] Car 7 reached spline end, despawning
+2026-06-15 19:41:37.789 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-15 19:41:37.835 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 133km/h
+2026-06-15 19:41:38.473 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-06-15 19:41:39.077 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-15 19:41:40.352 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-06-15 19:41:41.452 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-06-15 19:41:43.662 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-06-15 19:41:43.708 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-06-15 19:41:45.091 +03:00 [DBG] Car 8 reached spline end, despawning
+2026-06-15 19:41:45.705 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 15 (15), rel. speed 20km/h
+2026-06-15 19:41:46.848 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 27km/h
+2026-06-15 19:41:47.794 +03:00 [DBG] Car 21 reached spline end, despawning
+2026-06-15 19:41:50.886 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 6km/h
+2026-06-15 19:41:51.213 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-06-15 19:41:51.414 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-06-15 19:41:54.890 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-06-15 19:41:57.113 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-06-15 19:42:00.254 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-06-15 19:42:03.515 +03:00 [DBG] Car 21 reached spline end, despawning
+2026-06-15 19:42:04.757 +03:00 [DBG] Car 21 reached spline end, despawning
+2026-06-15 19:42:07.901 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-06-15 19:42:08.957 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-06-15 19:42:12.428 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 80km/h
+2026-06-15 19:42:14.428 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 2km/h
+2026-06-15 19:42:15.152 +03:00 [DBG] Car 25 reached spline end, despawning
+2026-06-15 19:42:19.204 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-06-15 19:42:19.555 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 50km/h
+2026-06-15 19:42:19.861 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-06-15 19:42:22.702 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-15 19:42:24.536 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-06-15 19:42:24.738 +03:00 [DBG] Car 25 reached spline end, despawning
+2026-06-15 19:42:25.234 +03:00 [DBG] Car 25 reached spline end, despawning
+2026-06-15 19:42:28.540 +03:00 [DBG] Car 19 reached spline end, despawning
+2026-06-15 19:42:28.975 +03:00 [DBG] Car 8 reached spline end, despawning
+2026-06-15 19:42:29.131 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-06-15 19:42:29.241 +03:00 [DBG] Car 19 reached spline end, despawning
+2026-06-15 19:42:30.457 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 2km/h
+2026-06-15 19:42:31.025 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-06-15 19:42:31.476 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-06-15 19:42:31.974 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-06-15 19:42:32.175 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-06-15 19:42:34.785 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-06-15 19:42:35.592 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-06-15 19:42:38.724 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-06-15 19:42:40.042 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-06-15 19:42:40.415 +03:00 [DBG] Car 7 reached spline end, despawning
+2026-06-15 19:42:42.558 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-06-15 19:42:45.544 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-06-15 19:42:46.368 +03:00 [INF] Collision between corp14x3 (31) and Han Raikkonen (30), rel. speed 21km/h
+2026-06-15 19:42:46.372 +03:00 [INF] Collision between Han Raikkonen (30) and corp14x3 (31), rel. speed 23km/h
+2026-06-15 19:42:47.048 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 6km/h
+2026-06-15 19:42:47.892 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-06-15 19:42:49.632 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-06-15 19:42:51.557 +03:00 [DBG] Car 22 reached spline end, despawning
+2026-06-15 19:42:52.393 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-06-15 19:42:54.600 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-06-15 19:42:55.158 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-06-15 19:42:57.585 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-15 19:42:57.632 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-06-15 19:42:59.434 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-15 19:43:00.866 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-06-15 19:43:01.830 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-06-15 19:43:03.304 +03:00 [DBG] Car 25 reached spline end, despawning
+2026-06-15 19:43:06.320 +03:00 [DBG] Car 21 reached spline end, despawning
+2026-06-15 19:43:07.987 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-06-15 19:43:15.570 +03:00 [DBG] Car 5 reached spline end, despawning
+2026-06-15 19:43:16.410 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-06-15 19:43:17.278 +03:00 [DBG] Car 22 reached spline end, despawning
+2026-06-15 19:43:19.186 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-06-15 19:43:22.642 +03:00 [DBG] Car 20 reached spline end, despawning
+2026-06-15 19:43:23.358 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 8 (8), rel. speed 10km/h
+2026-06-15 19:43:24.187 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-06-15 19:43:24.981 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-06-15 19:43:37.115 +03:00 [INF] Collision between corp14x3 (31) and Traffic 21 (21), rel. speed 5km/h
+2026-06-15 19:43:39.263 +03:00 [DBG] Car 7 reached spline end, despawning
+2026-06-15 19:43:41.029 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 9 (9), rel. speed 17km/h
+2026-06-15 19:43:41.520 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 10 (10), rel. speed 11km/h
+2026-06-15 19:43:45.011 +03:00 [INF] Collision between corp14x3 (31) and Traffic 5 (5), rel. speed 84km/h
+2026-06-15 19:43:54.930 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 13 (13), rel. speed 51km/h
+2026-06-15 19:44:00.432 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 15km/h
+2026-06-15 19:46:12.868 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 19km/h
+2026-06-15 19:46:20.509 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 6km/h
+2026-06-15 19:46:22.509 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 7km/h
+2026-06-15 19:46:51.016 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 10 (10), rel. speed 12km/h
+2026-06-15 19:46:51.988 +03:00 [INF] Collision between corp14x3 (31) and Traffic 10 (10), rel. speed 9km/h
+2026-06-15 19:47:02.784 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 27 (27), rel. speed 19km/h
+2026-06-15 19:47:03.608 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 52km/h
+2026-06-15 19:47:03.922 +03:00 [INF] Collision between corp14x3 (31) and Traffic 27 (27), rel. speed 60km/h
+2026-06-15 19:47:17.162 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 20km/h
+2026-06-15 19:47:48.702 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 36km/h
+2026-06-15 19:47:50.701 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 4km/h
+2026-06-15 19:47:50.987 +03:00 [INF] Collision between corp14x3 (31) and Han Raikkonen (30), rel. speed 75km/h
+2026-06-15 19:47:51.000 +03:00 [INF] Collision between Han Raikkonen (30) and corp14x3 (31), rel. speed 67km/h
+2026-06-15 19:47:51.529 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 15km/h
+2026-06-15 19:48:23.702 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 19km/h
+2026-06-15 19:48:32.119 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 55km/h
+2026-06-15 19:48:42.679 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 148km/h
+2026-06-15 19:48:44.938 +03:00 [INF] Collision between corp14x3 (31) and Traffic 2 (2), rel. speed 72km/h
+2026-06-15 19:48:52.172 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 21km/h
+2026-06-15 19:49:06.590 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 4km/h
+2026-06-15 19:49:08.591 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 0km/h
+2026-06-15 19:49:10.591 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 0km/h
+2026-06-15 19:49:12.593 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 0km/h
+2026-06-15 19:49:12.755 +03:00 [INF] Collision between corp14x3 (31) and Han Raikkonen (30), rel. speed 24km/h
+2026-06-15 19:49:12.758 +03:00 [INF] Collision between Han Raikkonen (30) and corp14x3 (31), rel. speed 24km/h
+2026-06-15 19:50:11.908 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 4 (4), rel. speed 27km/h
+2026-06-15 19:50:14.664 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-06-15 19:50:16.232 +03:00 [DBG] Car 27 reached spline end, despawning
+2026-06-15 19:50:19.432 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-06-15 19:50:19.928 +03:00 [DBG] Car 25 reached spline end, despawning
+2026-06-15 19:50:23.326 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-06-15 19:50:23.368 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 16 (16), rel. speed 48km/h
+2026-06-15 19:50:23.494 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 6 (6), rel. speed 89km/h
+2026-06-15 19:50:25.649 +03:00 [INF] Collision between corp14x3 (31) and Traffic 16 (16), rel. speed 157km/h
+2026-06-15 19:50:26.021 +03:00 [INF] Collision between corp14x3 (31) and Traffic 6 (6), rel. speed 169km/h
+2026-06-15 19:50:27.056 +03:00 [DBG] Car 8 reached spline end, despawning
+2026-06-15 19:50:27.881 +03:00 [DBG] Car 8 reached spline end, despawning
+2026-06-15 19:50:29.753 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-06-15 19:50:30.468 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-06-15 19:50:32.920 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 4 (4), rel. speed 102km/h
+2026-06-15 19:50:32.988 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 11 (11), rel. speed 15km/h
+2026-06-15 19:50:33.562 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-06-15 19:50:35.463 +03:00 [DBG] Car 20 reached spline end, despawning
+2026-06-15 19:50:35.680 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-06-15 19:50:36.299 +03:00 [DBG] Car 18 reached spline end, despawning
+2026-06-15 19:50:36.751 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 13km/h
+2026-06-15 19:50:37.325 +03:00 [INF] Collision between corp14x3 (31) and Traffic 11 (11), rel. speed 68km/h
+2026-06-15 19:50:37.375 +03:00 [INF] Collision between corp14x3 (31) and Traffic 4 (4), rel. speed 46km/h
+2026-06-15 19:50:38.430 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-06-15 19:50:38.803 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 90km/h
+2026-06-15 19:50:39.782 +03:00 [DBG] Car 29 reached spline end, despawning
+2026-06-15 19:50:41.698 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-06-15 19:50:43.192 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-06-15 19:50:50.245 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-06-15 19:50:53.073 +03:00 [DBG] Car 28 reached spline end, despawning
+2026-06-15 19:50:54.924 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-06-15 19:50:55.002 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-06-15 19:50:56.170 +03:00 [DBG] Car 25 reached spline end, despawning
+2026-06-15 19:50:58.820 +03:00 [DBG] Car 22 reached spline end, despawning
+2026-06-15 19:51:03.071 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-06-15 19:51:04.265 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-06-15 19:51:09.377 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-06-15 19:51:09.733 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-06-15 19:51:10.480 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-06-15 19:51:14.582 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 8km/h
+2026-06-15 19:51:16.583 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 1km/h
+2026-06-15 19:51:16.590 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-06-15 19:51:17.446 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-06-15 19:51:17.912 +03:00 [DBG] Car 29 reached spline end, despawning
+2026-06-15 19:51:18.584 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 0km/h
+2026-06-15 19:51:19.957 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-06-15 19:51:30.459 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-06-15 19:51:33.385 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-06-15 19:51:33.963 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-06-15 19:51:35.873 +03:00 [DBG] Car 27 reached spline end, despawning
+2026-06-15 19:51:38.060 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-06-15 19:51:38.776 +03:00 [DBG] Car 20 reached spline end, despawning
+2026-06-15 19:51:47.359 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-06-15 19:51:47.779 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-06-15 19:51:47.841 +03:00 [DBG] Car 5 reached spline end, despawning
+2026-06-15 19:51:48.400 +03:00 [DBG] Car 18 reached spline end, despawning
+2026-06-15 19:51:57.853 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-06-15 19:51:58.539 +03:00 [DBG] Car 28 reached spline end, despawning
+2026-06-15 19:52:06.986 +03:00 [DBG] Car 25 reached spline end, despawning
+2026-06-15 19:52:08.476 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 65km/h
+2026-06-15 19:52:11.319 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 59km/h
+2026-06-15 19:52:32.492 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 9 (9), rel. speed 48km/h
+2026-06-15 19:52:33.947 +03:00 [INF] Collision between corp14x3 (31) and Traffic 6 (6), rel. speed 38km/h
+2026-06-15 19:52:34.525 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 55km/h
+2026-06-15 19:52:36.742 +03:00 [DBG] Received clean exit from Han Raikkonen (30)
+2026-06-15 19:52:36.742 +03:00 [DBG] Disconnecting Han Raikkonen (76561198141951438 - 95.70.205.0:52772)
+2026-06-15 19:52:36.742 +03:00 [INF] Han Raikkonen has disconnected
+2026-06-15 19:52:41.672 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 36km/h
+2026-06-15 19:52:43.097 +03:00 [DBG] Received clean exit from corp14x3 (31)
+2026-06-15 19:52:43.097 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 212.154.2.0:57070)
+2026-06-15 19:52:43.097 +03:00 [INF] corp14x3 has disconnected

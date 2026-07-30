@@ -1,0 +1,353 @@
+2026-07-28 18:43:53.643 +03:00 [INF] AssettoServer 0.0.55-pre35
+2026-07-28 18:43:53.668 +03:00 [DBG] Server was started through Content Manager
+2026-07-28 18:43:53.673 +03:00 [DBG] Loading server_cfg.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\UTE PAPA\server_cfg.ini
+2026-07-28 18:43:53.690 +03:00 [DBG] Loading entry_list.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\UTE PAPA\entry_list.ini
+2026-07-28 18:43:53.909 +03:00 [DBG] Loading extra_cfg.yml from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\UTE PAPA\extra_cfg.yml
+2026-07-28 18:43:53.983 +03:00 [DBG] Using minimum required CSP Version 3879
+2026-07-28 18:43:54.301 +03:00 [INF] Starting server
+2026-07-28 18:43:54.362 +03:00 [INF] Loaded 4 cars
+2026-07-28 18:43:54.371 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2026-07-28 18:43:54.371 +03:00 [DBG] Added checksum for content/tracks/csp/3879/../H/../drift/data/surfaces.ini
+2026-07-28 18:43:54.372 +03:00 [INF] Initialized 2 track checksums
+2026-07-28 18:43:54.373 +03:00 [DBG] Added checksum for 06_ygt_53_nissan_350z
+2026-07-28 18:43:54.374 +03:00 [DBG] Added checksum for 06_ygt_53_m4_lci_air
+2026-07-28 18:43:54.375 +03:00 [INF] Initialized 2 car checksums
+2026-07-28 18:43:54.559 +03:00 [INF] Next session: Practice - Length: 720 minutes
+2026-07-28 18:43:54.560 +03:00 [INF] Switching session to id 0
+2026-07-28 18:43:54.647 +03:00 [INF] Starting HTTP server on port 8081
+2026-07-28 18:43:54.648 +03:00 [INF] Starting UDP server on port 9600
+2026-07-28 18:43:54.648 +03:00 [INF] Starting TCP server on port 9600
+2026-07-28 18:43:54.649 +03:00 [INF] Starting update loop with an update rate of 60hz
+2026-07-28 18:43:54.656 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2026-07-28 18:43:54.657 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2026-07-28 18:43:54.657 +03:00 [DBG] Loaded admins.txt with 0 entries
+2026-07-28 18:43:54.659 +03:00 [INF] Invite link: https://acstuff.club/s/q:race/online/join?ip=212.154.2.92&httpPort=8081
+2026-07-28 18:43:54.659 +03:00 [INF] Server startup completed
+2026-07-28 18:44:26.923 +03:00 [INF] corp14x3 (76561199521796457 - 212.154.2.0:58222) is attempting to connect (06_ygt_53_m4_lci_air)
+2026-07-28 18:44:26.933 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3898"]
+2026-07-28 18:44:26.954 +03:00 [INF] corp14x3 (76561199521796457, 2 (06_ygt_53_m4_lci_air-01_melborune_red)) has connected
+2026-07-28 18:44:47.248 +03:00 [INF] CSP handshake received from corp14x3 (2): Version=3898 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-07-28 18:53:37.326 +03:00 [INF] Lap completed by corp14x3, 30 cuts, laptime 08:50.4700
+2026-07-28 18:54:42.794 +03:00 [INF] Lap completed by corp14x3, 2 cuts, laptime 01:05.4710
+2026-07-28 18:56:06.203 +03:00 [DBG] Received clean exit from corp14x3 (2)
+2026-07-28 18:56:06.205 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 212.154.2.0:58222)
+2026-07-28 18:56:06.206 +03:00 [INF] corp14x3 has disconnected
+2026-07-28 19:40:28.354 +03:00 [INF] AssettoServer 0.0.55-pre35
+2026-07-28 19:40:28.377 +03:00 [DBG] Server was started through Content Manager
+2026-07-28 19:40:28.383 +03:00 [DBG] Loading server_cfg.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\server_cfg.ini
+2026-07-28 19:40:28.400 +03:00 [DBG] Loading entry_list.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\entry_list.ini
+2026-07-28 19:40:28.623 +03:00 [DBG] Loading extra_cfg.yml from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\extra_cfg.yml
+2026-07-28 19:40:28.697 +03:00 [DBG] Using minimum required CSP Version 3879
+2026-07-28 19:40:29.008 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2026-07-28 19:40:29.039 +03:00 [INF] Starting server
+2026-07-28 19:40:29.127 +03:00 [INF] Loaded 37 cars
+2026-07-28 19:40:29.134 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2026-07-28 19:40:29.134 +03:00 [DBG] Added checksum for content/tracks/csp/3879/../H/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2026-07-28 19:40:29.135 +03:00 [INF] Initialized 2 track checksums
+2026-07-28 19:40:29.136 +03:00 [DBG] Added checksum for traffic_alfa_159
+2026-07-28 19:40:29.137 +03:00 [DBG] Added checksum for traffic_audi_a4_eu
+2026-07-28 19:40:29.137 +03:00 [DBG] Added checksum for traffic_toyota_priuseu
+2026-07-28 19:40:29.138 +03:00 [DBG] Added checksum for traffic_volvo_v70
+2026-07-28 19:40:29.138 +03:00 [DBG] Added checksum for traffic_audi_a4_jp
+2026-07-28 19:40:29.139 +03:00 [DBG] Added checksum for traffic_isuzu_flatbed
+2026-07-28 19:40:29.139 +03:00 [DBG] Added checksum for traffic_isuzu_hauler
+2026-07-28 19:40:29.139 +03:00 [DBG] Added checksum for traffic_isuzu_haulerb
+2026-07-28 19:40:29.140 +03:00 [DBG] Added checksum for traffic_isuzu_tanker
+2026-07-28 19:40:29.141 +03:00 [DBG] Added checksum for traffic_isuzu_npr
+2026-07-28 19:40:29.141 +03:00 [DBG] Added checksum for traffic_nissan_leaf
+2026-07-28 19:40:29.142 +03:00 [DBG] Added checksum for traffic_toyota_camry
+2026-07-28 19:40:29.142 +03:00 [DBG] Added checksum for traffic_toyota_prius
+2026-07-28 19:40:29.143 +03:00 [DBG] Added checksum for traffic_volvo_v70jp
+2026-07-28 19:40:29.143 +03:00 [DBG] Added checksum for traffic_toyota_rav4
+2026-07-28 19:40:29.144 +03:00 [DBG] Added checksum for traffic_cadillac_escalade
+2026-07-28 19:40:29.144 +03:00 [DBG] Added checksum for traffic_dodge_challenger_srt
+2026-07-28 19:40:29.145 +03:00 [DBG] Added checksum for traffic_dodge_grand_caravan_taxi
+2026-07-28 19:40:29.145 +03:00 [DBG] Added checksum for traffic_crown_vic
+2026-07-28 19:40:29.146 +03:00 [DBG] Added checksum for 06_ygt_53_m4_lci_air
+2026-07-28 19:40:29.147 +03:00 [DBG] Added checksum for 06_ygt_53_nissan_350z
+2026-07-28 19:40:29.147 +03:00 [DBG] Added checksum for 06_ygt_53_honda_civic_ies
+2026-07-28 19:40:29.148 +03:00 [DBG] Added checksum for cky_porsche992_gt3rs_2023
+2026-07-28 19:40:29.150 +03:00 [INF] Initialized 23 car checksums
+2026-07-28 19:40:29.328 +03:00 [INF] Next session: Practice - Length: 720 minutes
+2026-07-28 19:40:29.329 +03:00 [INF] Switching session to id 0
+2026-07-28 19:40:29.419 +03:00 [INF] Starting HTTP server on port 8081
+2026-07-28 19:40:29.420 +03:00 [INF] Starting TCP server on port 9600
+2026-07-28 19:40:29.420 +03:00 [INF] Starting UDP server on port 9600
+2026-07-28 19:40:29.421 +03:00 [INF] Starting update loop with an update rate of 60hz
+2026-07-28 19:40:29.426 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2026-07-28 19:40:29.429 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2026-07-28 19:40:29.430 +03:00 [DBG] Loaded admins.txt with 0 entries
+2026-07-28 19:40:29.431 +03:00 [INF] Invite link: https://acstuff.club/s/q:race/online/join?ip=212.154.2.92&httpPort=8081
+2026-07-28 19:40:29.431 +03:00 [INF] Server startup completed
+2026-07-28 19:40:50.593 +03:00 [INF] corp14x3 (76561199521796457 - 212.154.2.0:54018) is attempting to connect (cky_porsche992_gt3rs_2023)
+2026-07-28 19:40:50.595 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3898"]
+2026-07-28 19:40:50.600 +03:00 [INF] corp14x3 (76561199521796457, 36 (cky_porsche992_gt3rs_2023-01_white'n'black)) has connected
+2026-07-28 19:41:19.674 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 30 - Target AI count: 30 - Overbooking: 1 - Rest: 0
+2026-07-28 19:41:20.067 +03:00 [INF] CSP handshake received from corp14x3 (36): Version=3898 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-07-28 19:42:00.770 +03:00 [INF] CHAT: corp14x3 (36): /settime 22:00
+2026-07-28 19:42:00.786 +03:00 [INF] Broadcast: Time has been set.
+2026-07-28 19:42:38.887 +03:00 [DBG] Car 29 reached spline end, despawning
+2026-07-28 19:43:48.543 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-07-28 19:50:31.744 +03:00 [INF] CHAT: corp14x3 (36): /setcspweather 8 0
+2026-07-28 19:50:31.746 +03:00 [INF] CSP weather transitioning to "HeavyRain"
+2026-07-28 19:51:04.758 +03:00 [INF] Collision between corp14x3 (36) and environment, rel. speed 9km/h
+2026-07-28 19:51:11.769 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-07-28 19:51:25.148 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-07-28 19:51:28.115 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-07-28 19:51:38.503 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-07-28 19:51:42.912 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-07-28 19:51:44.655 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-07-28 19:51:51.461 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-07-28 19:51:54.533 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-07-28 19:51:57.141 +03:00 [DBG] Received clean exit from corp14x3 (36)
+2026-07-28 19:51:57.143 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 212.154.2.0:54018)
+2026-07-28 19:51:57.144 +03:00 [INF] corp14x3 has disconnected
+2026-07-28 19:51:57.659 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-07-28 19:52:12.989 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-07-28 19:52:14.003 +03:00 [DBG] Car 19 reached spline end, despawning
+2026-07-28 19:54:39.313 +03:00 [DBG] Car 7 reached spline end, despawning
+2026-07-28 19:55:11.080 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-07-28 19:55:13.116 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-07-28 19:55:26.959 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-07-28 19:55:53.041 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-07-28 19:55:53.555 +03:00 [DBG] Car 18 reached spline end, despawning
+2026-07-28 20:01:39.132 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-07-28 20:01:56.562 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-07-28 20:02:28.763 +03:00 [DBG] Car 20 reached spline end, despawning
+2026-07-28 20:03:01.020 +03:00 [DBG] Car 5 reached spline end, despawning
+2026-07-28 20:03:06.146 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-07-28 20:04:18.842 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-07-28 20:04:28.044 +03:00 [DBG] Car 27 reached spline end, despawning
+2026-07-28 20:04:47.025 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-07-28 20:10:11.405 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-07-28 20:10:32.880 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-07-28 20:12:00.939 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-07-28 20:12:00.939 +03:00 [DBG] Car 22 reached spline end, despawning
+2026-07-28 20:12:09.106 +03:00 [DBG] Car 25 reached spline end, despawning
+2026-07-28 20:13:21.830 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-07-28 20:13:29.994 +03:00 [DBG] Car 29 reached spline end, despawning
+2026-07-28 20:13:30.508 +03:00 [DBG] Car 21 reached spline end, despawning
+2026-07-28 20:13:46.855 +03:00 [DBG] Car 28 reached spline end, despawning
+2026-07-28 20:17:51.922 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-07-28 22:53:56.455 +03:00 [INF] AssettoServer 0.0.55-pre35
+2026-07-28 22:53:56.479 +03:00 [DBG] Server was started through Content Manager
+2026-07-28 22:53:56.485 +03:00 [DBG] Loading server_cfg.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Drift\server_cfg.ini
+2026-07-28 22:53:56.502 +03:00 [DBG] Loading entry_list.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Drift\entry_list.ini
+2026-07-28 22:53:56.725 +03:00 [DBG] Loading extra_cfg.yml from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Drift\extra_cfg.yml
+2026-07-28 22:53:56.757 +03:00 [FTL] Fatal exception occurred
+AssettoServer.Server.Configuration.ConfigurationParsingException: Error parsing configuration file C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Drift\extra_cfg.yml
+ ---> (Line: 8, Col: 1, Idx: 485) - (Line: 8, Col: 14, Idx: 498): Property 'EnableAntiAfk' not found on type 'AssettoServer.Server.Configuration.Extra.ACExtraConfiguration'.
+   --- End of inner exception stack trace ---
+   at AssettoServer.Server.Configuration.ACServerConfiguration.LoadExtraConfig(String path, String schemaPath) in AssettoServer/Server/Configuration/ACServerConfiguration.cs:line 401
+   at AssettoServer.Server.Configuration.ACServerConfiguration..ctor(String preset, ConfigurationLocations locations, Boolean loadPluginsFromWorkdir, Boolean generatePluginConfigs, PortOverrides portOverrides) in AssettoServer/Server/Configuration/ACServerConfiguration.cs:line 74
+   at AssettoServer.Program.RunServerAsync(String preset, String serverCfgPath, String entryListPath, PortOverrides portOverrides, Boolean useVerboseLogging, CancellationToken token) in AssettoServer/Program.cs:line 166
+2026-07-28 22:54:06.315 +03:00 [INF] AssettoServer 0.0.55-pre35
+2026-07-28 22:54:06.337 +03:00 [DBG] Server was started through Content Manager
+2026-07-28 22:54:06.342 +03:00 [DBG] Loading server_cfg.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\server_cfg.ini
+2026-07-28 22:54:06.360 +03:00 [DBG] Loading entry_list.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\entry_list.ini
+2026-07-28 22:54:06.581 +03:00 [DBG] Loading extra_cfg.yml from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\extra_cfg.yml
+2026-07-28 22:54:06.656 +03:00 [DBG] Using minimum required CSP Version 3879
+2026-07-28 22:54:06.971 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2026-07-28 22:54:07.001 +03:00 [INF] Starting server
+2026-07-28 22:54:07.095 +03:00 [INF] Loaded 37 cars
+2026-07-28 22:54:07.102 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2026-07-28 22:54:07.103 +03:00 [DBG] Added checksum for content/tracks/csp/3879/../H/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2026-07-28 22:54:07.103 +03:00 [INF] Initialized 2 track checksums
+2026-07-28 22:54:07.104 +03:00 [DBG] Added checksum for traffic_alfa_159
+2026-07-28 22:54:07.105 +03:00 [DBG] Added checksum for traffic_audi_a4_eu
+2026-07-28 22:54:07.105 +03:00 [DBG] Added checksum for traffic_toyota_priuseu
+2026-07-28 22:54:07.112 +03:00 [DBG] Added checksum for traffic_volvo_v70
+2026-07-28 22:54:07.112 +03:00 [DBG] Added checksum for traffic_audi_a4_jp
+2026-07-28 22:54:07.113 +03:00 [DBG] Added checksum for traffic_isuzu_flatbed
+2026-07-28 22:54:07.114 +03:00 [DBG] Added checksum for traffic_isuzu_hauler
+2026-07-28 22:54:07.114 +03:00 [DBG] Added checksum for traffic_isuzu_haulerb
+2026-07-28 22:54:07.115 +03:00 [DBG] Added checksum for traffic_isuzu_tanker
+2026-07-28 22:54:07.115 +03:00 [DBG] Added checksum for traffic_isuzu_npr
+2026-07-28 22:54:07.115 +03:00 [DBG] Added checksum for traffic_nissan_leaf
+2026-07-28 22:54:07.116 +03:00 [DBG] Added checksum for traffic_toyota_camry
+2026-07-28 22:54:07.116 +03:00 [DBG] Added checksum for traffic_toyota_prius
+2026-07-28 22:54:07.117 +03:00 [DBG] Added checksum for traffic_volvo_v70jp
+2026-07-28 22:54:07.117 +03:00 [DBG] Added checksum for traffic_toyota_rav4
+2026-07-28 22:54:07.118 +03:00 [DBG] Added checksum for traffic_cadillac_escalade
+2026-07-28 22:54:07.119 +03:00 [DBG] Added checksum for traffic_dodge_challenger_srt
+2026-07-28 22:54:07.119 +03:00 [DBG] Added checksum for traffic_dodge_grand_caravan_taxi
+2026-07-28 22:54:07.120 +03:00 [DBG] Added checksum for traffic_crown_vic
+2026-07-28 22:54:07.120 +03:00 [DBG] Added checksum for 06_ygt_53_m4_lci_air
+2026-07-28 22:54:07.121 +03:00 [DBG] Added checksum for 06_ygt_53_nissan_350z
+2026-07-28 22:54:07.122 +03:00 [DBG] Added checksum for 06_ygt_53_honda_civic_ies
+2026-07-28 22:54:07.122 +03:00 [DBG] Added checksum for cky_porsche992_gt3rs_2023
+2026-07-28 22:54:07.124 +03:00 [INF] Initialized 23 car checksums
+2026-07-28 22:54:07.362 +03:00 [INF] Next session: Practice - Length: 720 minutes
+2026-07-28 22:54:07.363 +03:00 [INF] Switching session to id 0
+2026-07-28 22:54:07.449 +03:00 [INF] Starting HTTP server on port 8081
+2026-07-28 22:54:07.450 +03:00 [INF] Starting TCP server on port 9600
+2026-07-28 22:54:07.450 +03:00 [INF] Starting UDP server on port 9600
+2026-07-28 22:54:07.451 +03:00 [INF] Starting update loop with an update rate of 60hz
+2026-07-28 22:54:07.456 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2026-07-28 22:54:07.459 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2026-07-28 22:54:07.459 +03:00 [DBG] Loaded admins.txt with 0 entries
+2026-07-28 22:54:07.460 +03:00 [INF] Invite link: https://acstuff.club/s/q:race/online/join?ip=212.154.2.92&httpPort=8081
+2026-07-28 22:54:07.461 +03:00 [INF] Server startup completed
+2026-07-28 22:56:48.421 +03:00 [INF] AssettoServer 0.0.55-pre35
+2026-07-28 22:56:48.445 +03:00 [DBG] Server was started through Content Manager
+2026-07-28 22:56:48.451 +03:00 [DBG] Loading server_cfg.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Nurbur\server_cfg.ini
+2026-07-28 22:56:48.468 +03:00 [DBG] Loading entry_list.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Nurbur\entry_list.ini
+2026-07-28 22:56:48.690 +03:00 [DBG] Loading extra_cfg.yml from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Nurbur\extra_cfg.yml
+2026-07-28 22:56:48.767 +03:00 [DBG] Using minimum required CSP Version 3879
+2026-07-28 22:56:49.063 +03:00 [INF] Starting server
+2026-07-28 22:56:49.120 +03:00 [INF] Loaded 9 cars
+2026-07-28 22:56:49.127 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2026-07-28 22:56:49.127 +03:00 [DBG] Added checksum for content/tracks/csp/3879/../H/../spa/data/surfaces.ini
+2026-07-28 22:56:49.128 +03:00 [INF] Initialized 2 track checksums
+2026-07-28 22:56:49.133 +03:00 [DBG] Added checksum for mercedes_sls_gt3
+2026-07-28 22:56:49.138 +03:00 [DBG] Added checksum for mclaren_mp412c_gt3
+2026-07-28 22:56:49.142 +03:00 [DBG] Added checksum for bmw_z4_gt3
+2026-07-28 22:56:49.143 +03:00 [DBG] Added checksum for bmw_m4_gt3_acc
+2026-07-28 22:56:49.144 +03:00 [DBG] Added checksum for ac_friends_ferrari_296_gt3
+2026-07-28 22:56:49.144 +03:00 [DBG] Added checksum for toyota_gr_gt3
+2026-07-28 22:56:49.145 +03:00 [DBG] Added checksum for bm_bmw_m6_gt3
+2026-07-28 22:56:49.146 +03:00 [DBG] Added checksum for gue_aston_martin_vantage_gt3
+2026-07-28 22:56:49.147 +03:00 [INF] Initialized 8 car checksums
+2026-07-28 22:56:49.333 +03:00 [INF] Next session: Qualification - Length: 3 minutes
+2026-07-28 22:56:49.333 +03:00 [INF] Switching session to id 0
+2026-07-28 22:56:49.421 +03:00 [INF] Starting HTTP server on port 8081
+2026-07-28 22:56:49.422 +03:00 [INF] Starting TCP server on port 9600
+2026-07-28 22:56:49.422 +03:00 [INF] Starting UDP server on port 9600
+2026-07-28 22:56:49.423 +03:00 [INF] Starting update loop with an update rate of 60hz
+2026-07-28 22:56:49.428 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2026-07-28 22:56:49.430 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2026-07-28 22:56:49.431 +03:00 [DBG] Loaded admins.txt with 0 entries
+2026-07-28 22:56:49.432 +03:00 [INF] Invite link: https://acstuff.club/s/q:race/online/join?ip=212.154.2.92&httpPort=8081
+2026-07-28 22:56:49.432 +03:00 [INF] Server startup completed
+2026-07-28 22:57:13.072 +03:00 [INF] corp14x3 (76561199521796457 - 212.154.2.0:65209) is attempting to connect (gue_aston_martin_vantage_gt3)
+2026-07-28 22:57:13.076 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3898"]
+2026-07-28 22:57:13.081 +03:00 [INF] corp14x3 (76561199521796457, 8 (gue_aston_martin_vantage_gt3-#77_snake)) has connected
+2026-07-28 22:57:21.825 +03:00 [INF] CSP handshake received from corp14x3 (8): Version=3898 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-07-28 23:00:09.750 +03:00 [INF] Lap completed by corp14x3, 0 cuts, laptime 02:48.3500
+2026-07-28 23:00:12.326 +03:00 [DBG] Received clean exit from corp14x3 (8)
+2026-07-28 23:00:12.328 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 212.154.2.0:65209)
+2026-07-28 23:00:12.329 +03:00 [INF] corp14x3 has disconnected
+2026-07-28 23:00:21.615 +03:00 [INF] AssettoServer 0.0.55-pre35
+2026-07-28 23:00:21.638 +03:00 [DBG] Server was started through Content Manager
+2026-07-28 23:00:21.643 +03:00 [DBG] Loading server_cfg.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Nurbur\server_cfg.ini
+2026-07-28 23:00:21.661 +03:00 [DBG] Loading entry_list.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Nurbur\entry_list.ini
+2026-07-28 23:00:21.892 +03:00 [DBG] Loading extra_cfg.yml from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Nurbur\extra_cfg.yml
+2026-07-28 23:00:21.967 +03:00 [DBG] Using minimum required CSP Version 3879
+2026-07-28 23:00:22.269 +03:00 [INF] Starting server
+2026-07-28 23:00:22.328 +03:00 [INF] Loaded 9 cars
+2026-07-28 23:00:22.336 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2026-07-28 23:00:22.337 +03:00 [DBG] Added checksum for content/tracks/csp/3879/../H/../spa/data/surfaces.ini
+2026-07-28 23:00:22.337 +03:00 [INF] Initialized 2 track checksums
+2026-07-28 23:00:22.339 +03:00 [DBG] Added checksum for mercedes_sls_gt3
+2026-07-28 23:00:22.340 +03:00 [DBG] Added checksum for mclaren_mp412c_gt3
+2026-07-28 23:00:22.340 +03:00 [DBG] Added checksum for bmw_z4_gt3
+2026-07-28 23:00:22.341 +03:00 [DBG] Added checksum for bmw_m4_gt3_acc
+2026-07-28 23:00:22.342 +03:00 [DBG] Added checksum for ac_friends_ferrari_296_gt3
+2026-07-28 23:00:22.343 +03:00 [DBG] Added checksum for toyota_gr_gt3
+2026-07-28 23:00:22.343 +03:00 [DBG] Added checksum for bm_bmw_m6_gt3
+2026-07-28 23:00:22.344 +03:00 [DBG] Added checksum for gue_aston_martin_vantage_gt3
+2026-07-28 23:00:22.346 +03:00 [INF] Initialized 8 car checksums
+2026-07-28 23:00:22.518 +03:00 [INF] Next session: Qualification - Length: 3 minutes
+2026-07-28 23:00:22.519 +03:00 [INF] Switching session to id 0
+2026-07-28 23:00:22.612 +03:00 [INF] Starting HTTP server on port 8081
+2026-07-28 23:00:22.613 +03:00 [INF] Starting TCP server on port 9600
+2026-07-28 23:00:22.613 +03:00 [INF] Starting UDP server on port 9600
+2026-07-28 23:00:22.614 +03:00 [INF] Starting update loop with an update rate of 60hz
+2026-07-28 23:00:22.619 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2026-07-28 23:00:22.621 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2026-07-28 23:00:22.622 +03:00 [DBG] Loaded admins.txt with 0 entries
+2026-07-28 23:00:22.623 +03:00 [INF] Invite link: https://acstuff.club/s/q:race/online/join?ip=212.154.2.92&httpPort=8081
+2026-07-28 23:00:22.623 +03:00 [INF] Server startup completed
+2026-07-28 23:00:33.963 +03:00 [INF] corp14x3 (76561199521796457 - 212.154.2.0:49235) is attempting to connect (bmw_m4_gt3_acc)
+2026-07-28 23:00:33.966 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3898"]
+2026-07-28 23:00:33.972 +03:00 [INF] corp14x3 (76561199521796457, 3 (bmw_m4_gt3_acc-0_2022_bmw_82)) has connected
+2026-07-28 23:00:38.553 +03:00 [INF] CSP handshake received from corp14x3 (3): Version=3898 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-07-28 23:03:18.290 +03:00 [INF] Lap completed by corp14x3, 0 cuts, laptime 02:40.1880
+2026-07-28 23:05:44.359 +03:00 [INF] Lap completed by corp14x3, 0 cuts, laptime 02:26.0700
+2026-07-28 23:06:24.134 +03:00 [DBG] Received clean exit from corp14x3 (3)
+2026-07-28 23:06:24.136 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 212.154.2.0:49235)
+2026-07-28 23:06:24.137 +03:00 [INF] corp14x3 has disconnected
+2026-07-28 23:06:44.423 +03:00 [INF] Next session: Race - Length: 3 laps
+2026-07-28 23:06:44.424 +03:00 [INF] Switching session to id 1
+2026-07-28 23:06:44.517 +03:00 [INF] Skipping race session: didn't reach minimum player count before cutoff (0/2). Use 'IS_OPEN=1' to allow joining during the race
+2026-07-28 23:06:44.517 +03:00 [INF] Looping sessions
+2026-07-28 23:06:44.517 +03:00 [INF] Next session: Qualification - Length: 3 minutes
+2026-07-28 23:06:44.517 +03:00 [INF] Switching session to id 0
+2026-07-28 23:10:44.624 +03:00 [INF] Next session: Race - Length: 3 laps
+2026-07-28 23:10:44.624 +03:00 [INF] Switching session to id 1
+2026-07-28 23:10:44.716 +03:00 [INF] Skipping race session: didn't reach minimum player count before cutoff (0/2). Use 'IS_OPEN=1' to allow joining during the race
+2026-07-28 23:10:44.717 +03:00 [INF] Looping sessions
+2026-07-28 23:10:44.717 +03:00 [INF] Next session: Qualification - Length: 3 minutes
+2026-07-28 23:10:44.717 +03:00 [INF] Switching session to id 0
+2026-07-28 23:14:44.818 +03:00 [INF] Next session: Race - Length: 3 laps
+2026-07-28 23:14:44.818 +03:00 [INF] Switching session to id 1
+2026-07-28 23:14:44.926 +03:00 [INF] Skipping race session: didn't reach minimum player count before cutoff (0/2). Use 'IS_OPEN=1' to allow joining during the race
+2026-07-28 23:14:44.926 +03:00 [INF] Looping sessions
+2026-07-28 23:14:44.926 +03:00 [INF] Next session: Qualification - Length: 3 minutes
+2026-07-28 23:14:44.927 +03:00 [INF] Switching session to id 0
+2026-07-28 23:18:45.115 +03:00 [INF] Next session: Race - Length: 3 laps
+2026-07-28 23:18:45.115 +03:00 [INF] Switching session to id 1
+2026-07-28 23:18:45.225 +03:00 [INF] Skipping race session: didn't reach minimum player count before cutoff (0/2). Use 'IS_OPEN=1' to allow joining during the race
+2026-07-28 23:18:45.225 +03:00 [INF] Looping sessions
+2026-07-28 23:18:45.225 +03:00 [INF] Next session: Qualification - Length: 3 minutes
+2026-07-28 23:18:45.226 +03:00 [INF] Switching session to id 0
+2026-07-28 23:22:45.426 +03:00 [INF] Next session: Race - Length: 3 laps
+2026-07-28 23:22:45.426 +03:00 [INF] Switching session to id 1
+2026-07-28 23:22:45.518 +03:00 [INF] Skipping race session: didn't reach minimum player count before cutoff (0/2). Use 'IS_OPEN=1' to allow joining during the race
+2026-07-28 23:22:45.519 +03:00 [INF] Looping sessions
+2026-07-28 23:22:45.519 +03:00 [INF] Next session: Qualification - Length: 3 minutes
+2026-07-28 23:22:45.519 +03:00 [INF] Switching session to id 0
+2026-07-28 23:26:45.628 +03:00 [INF] Next session: Race - Length: 3 laps
+2026-07-28 23:26:45.629 +03:00 [INF] Switching session to id 1
+2026-07-28 23:26:45.721 +03:00 [INF] Skipping race session: didn't reach minimum player count before cutoff (0/2). Use 'IS_OPEN=1' to allow joining during the race
+2026-07-28 23:26:45.722 +03:00 [INF] Looping sessions
+2026-07-28 23:26:45.722 +03:00 [INF] Next session: Qualification - Length: 3 minutes
+2026-07-28 23:26:45.722 +03:00 [INF] Switching session to id 0
+2026-07-28 23:30:45.924 +03:00 [INF] Next session: Race - Length: 3 laps
+2026-07-28 23:30:45.924 +03:00 [INF] Switching session to id 1
+2026-07-28 23:30:46.017 +03:00 [INF] Skipping race session: didn't reach minimum player count before cutoff (0/2). Use 'IS_OPEN=1' to allow joining during the race
+2026-07-28 23:30:46.017 +03:00 [INF] Looping sessions
+2026-07-28 23:30:46.018 +03:00 [INF] Next session: Qualification - Length: 3 minutes
+2026-07-28 23:30:46.018 +03:00 [INF] Switching session to id 0
+2026-07-28 23:34:46.021 +03:00 [INF] Next session: Race - Length: 3 laps
+2026-07-28 23:34:46.022 +03:00 [INF] Switching session to id 1
+2026-07-28 23:34:46.115 +03:00 [INF] Skipping race session: didn't reach minimum player count before cutoff (0/2). Use 'IS_OPEN=1' to allow joining during the race
+2026-07-28 23:34:46.115 +03:00 [INF] Looping sessions
+2026-07-28 23:34:46.115 +03:00 [INF] Next session: Qualification - Length: 3 minutes
+2026-07-28 23:34:46.130 +03:00 [INF] Switching session to id 0
+2026-07-28 23:38:46.126 +03:00 [INF] Next session: Race - Length: 3 laps
+2026-07-28 23:38:46.127 +03:00 [INF] Switching session to id 1
+2026-07-28 23:38:46.219 +03:00 [INF] Skipping race session: didn't reach minimum player count before cutoff (0/2). Use 'IS_OPEN=1' to allow joining during the race
+2026-07-28 23:38:46.220 +03:00 [INF] Looping sessions
+2026-07-28 23:38:46.220 +03:00 [INF] Next session: Qualification - Length: 3 minutes
+2026-07-28 23:38:46.220 +03:00 [INF] Switching session to id 0
+2026-07-28 23:42:46.314 +03:00 [INF] Next session: Race - Length: 3 laps
+2026-07-28 23:42:46.314 +03:00 [INF] Switching session to id 1
+2026-07-28 23:42:46.421 +03:00 [INF] Skipping race session: didn't reach minimum player count before cutoff (0/2). Use 'IS_OPEN=1' to allow joining during the race
+2026-07-28 23:42:46.422 +03:00 [INF] Looping sessions
+2026-07-28 23:42:46.422 +03:00 [INF] Next session: Qualification - Length: 3 minutes
+2026-07-28 23:42:46.422 +03:00 [INF] Switching session to id 0
+2026-07-28 23:46:46.529 +03:00 [INF] Next session: Race - Length: 3 laps
+2026-07-28 23:46:46.529 +03:00 [INF] Switching session to id 1
+2026-07-28 23:46:46.621 +03:00 [INF] Skipping race session: didn't reach minimum player count before cutoff (0/2). Use 'IS_OPEN=1' to allow joining during the race
+2026-07-28 23:46:46.621 +03:00 [INF] Looping sessions
+2026-07-28 23:46:46.621 +03:00 [INF] Next session: Qualification - Length: 3 minutes
+2026-07-28 23:46:46.621 +03:00 [INF] Switching session to id 0
+2026-07-28 23:50:46.721 +03:00 [INF] Next session: Race - Length: 3 laps
+2026-07-28 23:50:46.722 +03:00 [INF] Switching session to id 1
+2026-07-28 23:50:46.814 +03:00 [INF] Skipping race session: didn't reach minimum player count before cutoff (0/2). Use 'IS_OPEN=1' to allow joining during the race
+2026-07-28 23:50:46.814 +03:00 [INF] Looping sessions
+2026-07-28 23:50:46.814 +03:00 [INF] Next session: Qualification - Length: 3 minutes
+2026-07-28 23:50:46.814 +03:00 [INF] Switching session to id 0
+2026-07-28 23:54:46.927 +03:00 [INF] Next session: Race - Length: 3 laps
+2026-07-28 23:54:46.928 +03:00 [INF] Switching session to id 1
+2026-07-28 23:54:47.021 +03:00 [INF] Skipping race session: didn't reach minimum player count before cutoff (0/2). Use 'IS_OPEN=1' to allow joining during the race
+2026-07-28 23:54:47.021 +03:00 [INF] Looping sessions
+2026-07-28 23:54:47.021 +03:00 [INF] Next session: Qualification - Length: 3 minutes
+2026-07-28 23:54:47.021 +03:00 [INF] Switching session to id 0
+2026-07-28 23:58:47.219 +03:00 [INF] Next session: Race - Length: 3 laps
+2026-07-28 23:58:47.220 +03:00 [INF] Switching session to id 1
+2026-07-28 23:58:47.313 +03:00 [INF] Skipping race session: didn't reach minimum player count before cutoff (0/2). Use 'IS_OPEN=1' to allow joining during the race
+2026-07-28 23:58:47.314 +03:00 [INF] Looping sessions
+2026-07-28 23:58:47.314 +03:00 [INF] Next session: Qualification - Length: 3 minutes
+2026-07-28 23:58:47.314 +03:00 [INF] Switching session to id 0

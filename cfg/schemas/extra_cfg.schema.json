@@ -1,0 +1,882 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "ACExtraConfiguration",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "MinimumCSPVersion": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "description": "Override minimum CSP version required to join this server. Leave this empty to not require CSP.",
+      "default": 2651
+    },
+    "UseSteamAuth": {
+      "type": "boolean",
+      "description": "Enable Steam ticket validation. Requires CSP 0.1.75+ and a recent version of Content Manager",
+      "default": false
+    },
+    "EnableACProSupport": {
+      "type": "boolean",
+      "description": "Enable generation of Guid from name instead of SteamID. Required for ACPro",
+      "default": false
+    },
+    "SteamWebApiKey": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "description": "Steam Web API key for Steam authentication. You only need this on platforms that don't support Steam natively (e.g. ARM64)"
+    },
+    "ValidateDlcOwnership": {
+      "type": "array",
+      "description": "List of DLC App IDs that are required to join. Steam auth must be enabled. Possible values: https://steamdb.info/app/244210/dlc/",
+      "default": [],
+      "items": {
+        "type": "integer",
+        "format": "int32"
+      }
+    },
+    "MandatoryClientSecurityLevel": {
+      "type": "integer",
+      "description": "Enable protection against cheats/hacks. 0 = No protection. 1 = Block all public cheats as of 2023-11-18 (ClientSecurityPlugin and CSP 0.2.0+ required)",
+      "format": "int32",
+      "default": 0
+    },
+    "ForceLights": {
+      "type": "boolean",
+      "description": "Force headlights on for all cars",
+      "default": false
+    },
+    "EnableCarReset": {
+      "type": "boolean",
+      "description": "Enable usage of /resetcar to teleport the player to the closest spline point. Requires CSP v0.2.8 (3424) or later",
+      "default": false
+    },
+    "EnableSessionVote": {
+      "type": "boolean",
+      "description": "Enable vanilla server voting for: Session skip; Session restart",
+      "default": true
+    },
+    "EnableKickPlayerVote": {
+      "type": "boolean",
+      "description": "Enable vanilla server voting to kick a player",
+      "default": true
+    },
+    "VoteKickMinimumConnectedPlayers": {
+      "type": "integer",
+      "description": "Minimum number of connected players for session and kick voting to work. Default is 5",
+      "default": 3
+    },
+    "EnableGlobalDrs": {
+      "type": "boolean",
+      "description": "Enable global usage of DRS. Recommended to disable for Qualification and Race sessions",
+      "default": true
+    },
+    "EnableUnlimitedP2P": {
+      "type": "boolean",
+      "description": "Enable unlimited usage of Push-to-Pass. Recommended to disable for Qualification and Race sessions",
+      "default": true
+    },
+    "NetworkBubbleDistance": {
+      "type": "number",
+      "description": "Distance for network optimizations. Players outside of this range will send less updates to reduce network traffic",
+      "format": "float",
+      "default": 500.0
+    },
+    "OutsideNetworkBubbleRefreshRateHz": {
+      "type": "integer",
+      "description": "Refresh rate for players outside of the network bubble",
+      "format": "int32",
+      "default": 4
+    },
+    "EnableServerDetails": {
+      "type": "boolean",
+      "description": "Enable server details in CM. Required for server description",
+      "default": true
+    },
+    "ServerDescription": {
+      "type": "string",
+      "description": "Server description shown in Content Manager. EnableServerDetails must be on",
+      "default": ""
+    },
+    "EnableRealTime": {
+      "type": "boolean",
+      "description": "Link server time to real map time. For correct timezones there must be an entry for the map here: https://github.com/ac-custom-shaders-patch/acc-extension-config/blob/master/config/data_track_params.ini",
+      "default": false
+    },
+    "EnableWeatherFx": {
+      "type": "boolean",
+      "description": "Enable new CSP weather handling. Allows rain and smooth weather transitions. Requires CSP 0.1.76+",
+      "default": true
+    },
+    "LockServerDate": {
+      "type": "boolean",
+      "description": "Lock server date to real date. This stops server time \"running away\" when using a high time multiplier, so that in-game sunrise/sunset times are based on the current date",
+      "default": true
+    },
+    "RainTrackGripReductionPercent": {
+      "type": "number",
+      "description": "Reduce track grip when the track is wet. This is much worse than proper CSP rain physics but allows you to run clients with public/Patreon CSP at the same time",
+      "format": "double",
+      "default": 0.0
+    },
+    "EnableAi": {
+      "type": "boolean",
+      "description": "Enable AI traffic",
+      "default": false
+    },
+    "GeoParamsCountryOverride": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "description": "Override the country shown in CM. Please do not use this unless the autodetected country is wrong",
+      "items": {
+        "type": "string"
+      }
+    },
+    "EnablePlugins": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "description": "List of plugins to enable",
+      "items": {
+        "type": "string"
+      }
+    },
+    "IgnoreConfigurationErrors": {
+      "description": "Ignore some common configuration errors. More info: https://assettoserver.org/docs/common-configuration-errors",
+      "oneOf": [
+        {
+          "$ref": "#/definitions/IgnoreConfigurationErrors"
+        }
+      ]
+    },
+    "EnableClientMessages": {
+      "type": "boolean",
+      "description": "Enable CSP client messages feature. Requires CSP 0.1.77+",
+      "default": true
+    },
+    "EnableUdpClientMessages": {
+      "type": "boolean",
+      "description": "Enable CSP UDP client messages feature. Required for VR head/hand syncing. Requires CSP 0.2.0+",
+      "default": true
+    },
+    "DebugClientMessages": {
+      "type": "boolean",
+      "description": "Log unknown CSP Lua client messages / online events",
+      "default": false
+    },
+    "EnableCustomUpdate": {
+      "type": "boolean",
+      "description": "Enable CSP custom position updates. This is an improved version of batched position updates, reducing network traffic even further. Requires CSP 0.1.77+",
+      "default": true
+    },
+    "PlayerLoadingTimeoutMinutes": {
+      "type": "integer",
+      "description": "Maximum time a player can spend on the loading screen before being disconnected",
+      "format": "int32",
+      "default": 10
+    },
+    "PlayerChecksumTimeoutSeconds": {
+      "type": "integer",
+      "description": "Maximum time the server will wait for a checksum response before disconnecting the player",
+      "format": "int32",
+      "default": 40
+    },
+    "LokiSettings": {
+      "description": "Send logs to a Loki instance, e.g. Grafana Cloud",
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "$ref": "#/definitions/LokiSettings"
+        }
+      ]
+    },
+    "RconPort": {
+      "type": "integer",
+      "description": "Port to control the server using Source RCON protocol. 0 to disable.",
+      "default": 0
+    },
+    "DebugWelcomeMessage": {
+      "type": "boolean",
+      "description": "Dump contents of welcome message and CSP extra options to a file. For debug purposes only.",
+      "default": false
+    },
+    "DebugScriptUserGroup": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "description": "Server scripts for this user group will be loaded locally and script checksums disabled. For debug purposes only."
+    },
+    "ForceServerTrackParams": {
+      "type": "boolean",
+      "description": "Force clients to use track params (coordinates, time zone) specified on the server. Requires CSP 0.1.79+",
+      "default": false
+    },
+    "EnableAlternativeCarChecksums": {
+      "type": "boolean",
+      "description": "Allow cars to have multiple data checksums. Instead of a single checksummed data.acd, you can have multiple data*.acd files in the car folder and players can join with any of these files",
+      "default": false
+    },
+    "EnableLegacyPluginInterface": {
+      "type": "boolean",
+      "description": "Enable the AC UDP plugin interface compatible with Kunos acServer plugins",
+      "default": false
+    },
+    "EnableUPnP": {
+      "type": [
+        "boolean",
+        "null"
+      ],
+      "description": "Automatically configure port forwards using UPnP or NAT-PMP. Empty = Enable on Windows when lobby registration is enabled. true = Always enable, detailed error log. false = Always disable"
+    },
+    "LoadingImageUrls": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "description": "List of URLs for custom loading screen images. A random image will be picked from this list. Requires CSP 0.2.0+ and a recent version of Content Manager",
+      "items": {
+        "type": "string"
+      }
+    },
+    "RedactIpAddresses": {
+      "type": "boolean",
+      "description": "Anonymize player IP addresses in outputs",
+      "default": true
+    },
+    "UserGroups": {
+      "type": "object",
+      "description": "Name and path of file-based user groups",
+      "additionalProperties": {
+        "type": "string"
+      }
+    },
+    "BlacklistUserGroup": {
+      "type": "string",
+      "description": "Name of user group to be used for blacklist",
+      "default": "default_blacklist"
+    },
+    "WhitelistUserGroup": {
+      "type": "string",
+      "description": "Name of user group to be used for whitelist",
+      "default": "default_whitelist"
+    },
+    "AdminUserGroup": {
+      "type": "string",
+      "description": "Name of user group to be used for admins",
+      "default": "default_admins"
+    },
+    "CorsAllowedOrigins": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "description": "List of allowed origins for Cross-Origin Resource Sharing. Use this if you want to query this server from a website",
+      "items": {
+        "type": "string"
+      }
+    },
+    "UserGroupCommandPermissions": {
+      "type": [
+        "array",
+        "null"
+      ],
+      "description": "Allow a user group to execute specific admin commands",
+      "items": {
+        "$ref": "#/definitions/UserGroupCommandPermissions"
+      }
+    },
+    "AiParams": {
+      "$ref": "#/definitions/AiParams"
+    }
+  },
+  "definitions": {
+    "IgnoreConfigurationErrors": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "MissingCarChecksums": {
+          "type": "boolean",
+          "default": false
+        },
+        "MissingTrackParams": {
+          "type": "boolean",
+          "default": false
+        },
+        "UnsafeAdminWhitelist": {
+          "type": "boolean",
+          "default": false
+        }
+      }
+    },
+    "LokiSettings": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "Url": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "Login": {
+          "type": [
+            "null",
+            "string"
+          ]
+        },
+        "Password": {
+          "type": [
+            "null",
+            "string"
+          ]
+        }
+      }
+    },
+    "UserGroupCommandPermissions": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "UserGroup": {
+          "type": "string",
+          "description": "Name of the user group"
+        },
+        "Commands": {
+          "type": "array",
+          "description": "List of commands without slash prefix",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "AiParams": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "AutoAssignTrafficCars": {
+          "type": "boolean",
+          "description": "Automatically assign traffic cars based on the car folder name",
+          "default": true
+        },
+        "PlayerRadiusMeters": {
+          "type": "number",
+          "description": "Radius around a player in which AI cars won't despawn",
+          "format": "float",
+          "default": 200.0
+        },
+        "PlayerPositionOffsetMeters": {
+          "type": "number",
+          "description": "Offset the player radius in direction of the velocity of the player so AI cars will despawn earlier behind a player",
+          "format": "float",
+          "default": 100.0
+        },
+        "PlayerAfkTimeoutSeconds": {
+          "type": "integer",
+          "description": "AFK timeout for players. Players who are AFK longer than this won't spawn AI cars",
+          "format": "int64",
+          "default": 10
+        },
+        "MaxPlayerDistanceToAiSplineMeters": {
+          "type": "number",
+          "description": "Maximum distance to the AI spline for a player to spawn AI cars. This helps with parts of the map without traffic so AI cars won't spawn far away from players",
+          "format": "float",
+          "default": 7.0
+        },
+        "MinSpawnDistancePoints": {
+          "type": "integer",
+          "description": "Minimum amount of spline points in front of a player where AI cars will spawn",
+          "format": "int32",
+          "default": 100
+        },
+        "MaxSpawnDistancePoints": {
+          "type": "integer",
+          "description": "Maximum amount of spline points in front of a player where AI cars will spawn",
+          "format": "int32",
+          "default": 400
+        },
+        "MinAiSafetyDistanceMeters": {
+          "type": "integer",
+          "description": "Minimum distance between AI cars",
+          "format": "int32",
+          "default": 20
+        },
+        "MaxAiSafetyDistanceMeters": {
+          "type": "integer",
+          "description": "Maximum distance between AI cars",
+          "format": "int32",
+          "default": 70
+        },
+        "StateSpawnDistanceMeters": {
+          "type": "number",
+          "description": "Minimum spawn distance for AI states of the same car slot. If you set this too low you risk AI states despawning or AI states becoming invisible for some players when multiple states are close together",
+          "format": "float",
+          "default": 1000.0
+        },
+        "MinStateDistanceMeters": {
+          "type": "number",
+          "description": "Minimum distance between AI states of the same car slot. If states get closer than this one of them will be forced to despawn",
+          "format": "float",
+          "default": 200.0
+        },
+        "SpawnSafetyDistanceToPlayerMeters": {
+          "type": "number",
+          "description": "Minimum spawn distance to players",
+          "format": "float",
+          "default": 150.0
+        },
+        "MinSpawnProtectionTimeSeconds": {
+          "type": "integer",
+          "description": "Minimum time in which a newly spawned AI car cannot despawn",
+          "format": "int32",
+          "default": 4
+        },
+        "MaxSpawnProtectionTimeSeconds": {
+          "type": "integer",
+          "description": "Maximum time in which a newly spawned AI car cannot despawn",
+          "format": "int32",
+          "default": 8
+        },
+        "MinCollisionStopTimeSeconds": {
+          "type": "integer",
+          "description": "Minimum time an AI car will stop/slow down after a collision",
+          "format": "int32",
+          "default": 1
+        },
+        "MaxCollisionStopTimeSeconds": {
+          "type": "integer",
+          "description": "Maximum time an AI car will stop/slow down after a collision",
+          "format": "int32",
+          "default": 3
+        },
+        "MaxSpeedKph": {
+          "type": "number",
+          "description": "Default maximum AI speed. This is not an absolute maximum and can be overridden with RightLaneOffsetKph and MaxSpeedVariationPercent",
+          "format": "float",
+          "default": 80.0
+        },
+        "RightLaneOffsetKph": {
+          "type": "number",
+          "description": "Speed offset for right lanes. Will be added to MaxSpeedKph",
+          "format": "float",
+          "default": 10.0
+        },
+        "MaxSpeedVariationPercent": {
+          "type": "number",
+          "description": "Maximum speed variation",
+          "format": "float",
+          "default": 0.15
+        },
+        "MaxPlayerCount": {
+          "type": "integer",
+          "description": "Soft player limit, the server will stop accepting new players when this many players are reached. Use this to ensure a minimum amount of AI cars. 0 to disable.",
+          "format": "int32",
+          "default": 0
+        },
+        "HideAiCars": {
+          "type": "boolean",
+          "description": "Hide AI car nametags and make them invisible on the minimap. Broken on CSP versions < 0.1.78",
+          "default": true
+        },
+        "LaneWidthMeters": {
+          "type": "number",
+          "description": "Lane width for adjacent lane detection",
+          "format": "float",
+          "default": 3.0
+        },
+        "TwoWayTraffic": {
+          "type": "boolean",
+          "description": "Enable two way traffic. This will allow AI cars to spawn in lanes with the opposite direction of travel to the player.",
+          "default": false
+        },
+        "WrongWayTraffic": {
+          "type": "boolean",
+          "description": "Enable traffic spawning if the player is driving the wrong way. Only takes effect when TwoWayTraffic is set to false.",
+          "default": true
+        },
+        "NamePrefix": {
+          "type": "string",
+          "description": "Name prefix for AI cars. Names will be in the form of '<NamePrefix> <SessionId>'",
+          "default": "Traffic"
+        },
+        "IgnoreObstaclesAfterSeconds": {
+          "type": "integer",
+          "description": "Ignore obstacles for some time if the AI car is stopped for longer than x seconds",
+          "format": "int32",
+          "default": 10
+        },
+        "HourlyTrafficDensity": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "description": "Dynamic (hourly) traffic density. List must have exactly 24 entries in the format [0.2, 0.5, 1, 0.7, ...]",
+          "items": {
+            "type": "number",
+            "format": "float"
+          }
+        },
+        "SmoothCamber": {
+          "type": "boolean",
+          "description": "Apply some smoothing to AI spline camber",
+          "default": true
+        },
+        "Debug": {
+          "type": "boolean",
+          "description": "Show debug overlay for AI cars",
+          "default": false
+        },
+        "AiBehaviorUpdateIntervalHz": {
+          "type": "integer",
+          "description": "Update interval for AI spawn point finder",
+          "format": "int32",
+          "default": 2
+        },
+        "EnableDaytimeLights": {
+          "type": "boolean",
+          "description": "Enable AI car headlights during the day",
+          "default": false
+        },
+        "IgnorePlayerObstacleSpheres": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "description": "AI cars inside these areas will ignore all player obstacles",
+          "items": {
+            "$ref": "#/definitions/Sphere"
+          }
+        },
+        "LaneCountSpecificOverrides": {
+          "type": "object",
+          "description": "Override some settings for newly spawned cars based on the number of lanes",
+          "additionalProperties": {
+            "$ref": "#/definitions/LaneCountSpecificOverrides"
+          }
+        },
+        "CarSpecificOverrides": {
+          "type": "array",
+          "description": "Override some settings for specific car models",
+          "default": [],
+          "items": {
+            "$ref": "#/definitions/CarSpecificOverrides"
+          }
+        },
+        "DefaultDeceleration": {
+          "type": "number",
+          "description": "Default AI car deceleration for obstacle/collision detection (m/s^2)",
+          "format": "float",
+          "default": 8.5
+        },
+        "DefaultAcceleration": {
+          "type": "number",
+          "description": "Default AI car acceleration for obstacle/collision detection (m/s^2)",
+          "format": "float",
+          "default": 2.5
+        },
+        "MaxAiTargetCount": {
+          "type": "integer",
+          "description": "Maximum AI car target count for AI slot overbooking. This is not an absolute maximum and might be slightly higher (0 = auto/best)",
+          "format": "int32",
+          "default": 0
+        },
+        "AiPerPlayerTargetCount": {
+          "type": "integer",
+          "description": "Number of AI cars per player the server will try to keep (0 = auto/best)",
+          "format": "int32",
+          "default": 0
+        },
+        "SplineHeightOffsetMeters": {
+          "type": "number",
+          "description": "AI spline height offset. Use this if the AI spline is too close to the ground",
+          "format": "float",
+          "default": 0.0
+        },
+        "CorneringSpeedFactor": {
+          "type": "number",
+          "description": "AI cornering speed factor. Lower = AI cars will drive slower around corners.",
+          "format": "float",
+          "default": 0.65
+        },
+        "CorneringBrakeDistanceFactor": {
+          "type": "number",
+          "description": "AI cornering brake distance factor. Lower = AI cars will brake later for corners.",
+          "format": "float",
+          "default": 3.0
+        },
+        "CorneringBrakeForceFactor": {
+          "type": "number",
+          "description": "AI cornering brake force factor. This is multiplied with DefaultDeceleration. Lower = AI cars will brake less hard for corners.",
+          "format": "float",
+          "default": 0.5
+        },
+        "TrafficDensity": {
+          "type": "number",
+          "description": "Apply scale to some traffic density related settings. Increasing this DOES NOT magically increase your traffic density, it is dependent on your other settings. Values higher than 1 not recommended.",
+          "format": "float",
+          "default": 1.0
+        },
+        "TyreDiameterMeters": {
+          "type": "number",
+          "description": "Tyre diameter of AI cars in meters, shouldn't have to be changed unless some cars are creating lots of smoke.",
+          "format": "float",
+          "default": 0.65
+        }
+      }
+    },
+    "Sphere": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "Center": {
+          "$ref": "#/definitions/Vector3"
+        },
+        "RadiusMeters": {
+          "type": "number",
+          "format": "float",
+          "default": 0.0
+        }
+      }
+    },
+    "Vector3": {
+      "type": "object",
+      "properties": {
+        "X": {
+          "type": "number",
+          "format": "float"
+        },
+        "Y": {
+          "type": "number",
+          "format": "float"
+        },
+        "Z": {
+          "type": "number",
+          "format": "float"
+        }
+      }
+    },
+    "LaneCountSpecificOverrides": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "MinAiSafetyDistanceMeters": {
+          "type": "integer",
+          "description": "Minimum distance between AI cars",
+          "format": "int32",
+          "default": 0
+        },
+        "MaxAiSafetyDistanceMeters": {
+          "type": "integer",
+          "description": "Maximum distance between AI cars",
+          "format": "int32",
+          "default": 0
+        }
+      }
+    },
+    "CarSpecificOverrides": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "Model": {
+          "type": [
+            "null",
+            "string"
+          ],
+          "description": "Car model to match for these overrides"
+        },
+        "SplineHeightOffsetMeters": {
+          "type": [
+            "null",
+            "number"
+          ],
+          "description": "AI spline height offset. Use this if the AI spline is too close to the ground",
+          "format": "float"
+        },
+        "EngineIdleRpm": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "description": "AI engine idle RPM",
+          "format": "int32"
+        },
+        "EngineMaxRpm": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "description": "AI engine max RPM",
+          "format": "int32"
+        },
+        "Acceleration": {
+          "type": [
+            "null",
+            "number"
+          ],
+          "description": "AI car deceleration for obstacle/collision detection (m/s^2)",
+          "format": "float"
+        },
+        "Deceleration": {
+          "type": [
+            "null",
+            "number"
+          ],
+          "description": "AI car acceleration for obstacle/collision detection (m/s^2)",
+          "format": "float"
+        },
+        "CorneringSpeedFactor": {
+          "type": [
+            "null",
+            "number"
+          ],
+          "description": "AI cornering speed factor. Lower = AI cars will drive slower around corners.",
+          "format": "float"
+        },
+        "CorneringBrakeDistanceFactor": {
+          "type": [
+            "null",
+            "number"
+          ],
+          "description": "AI cornering brake distance factor. Lower = AI cars will brake later for corners.",
+          "format": "float"
+        },
+        "CorneringBrakeForceFactor": {
+          "type": [
+            "null",
+            "number"
+          ],
+          "description": "AI cornering brake force factor. This is multiplied with Deceleration. Lower = AI cars will brake less hard for corners.",
+          "format": "float"
+        },
+        "TyreDiameterMeters": {
+          "type": [
+            "null",
+            "number"
+          ],
+          "description": "Tyre diameter of AI cars in meters, shouldn't have to be changed unless cars are creating lots of smoke.",
+          "format": "float"
+        },
+        "MaxOverbooking": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "description": "Maximum number of AI states for a car slot of this car model",
+          "format": "int32"
+        },
+        "MinSpawnProtectionTimeSeconds": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "description": "Minimum time in which a newly spawned AI car cannot despawn",
+          "format": "int32"
+        },
+        "MaxSpawnProtectionTimeSeconds": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "description": "Maximum time in which a newly spawned AI car cannot despawn",
+          "format": "int32"
+        },
+        "MinLaneCount": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "description": "Minimum number of lanes needed to spawn a car of this car model",
+          "format": "int32"
+        },
+        "MaxLaneCount": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "description": "Maximum number of lanes needed to spawn a car of this car model",
+          "format": "int32"
+        },
+        "MinCollisionStopTimeSeconds": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "description": "Minimum time an AI car will stop/slow down after a collision",
+          "format": "int32"
+        },
+        "MaxCollisionStopTimeSeconds": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "description": "Maximum time an AI car will stop/slow down after a collision",
+          "format": "int32"
+        },
+        "VehicleLengthPreMeters": {
+          "type": [
+            "null",
+            "number"
+          ],
+          "description": "Length of this vehicle in front of car origin",
+          "format": "float"
+        },
+        "VehicleLengthPostMeters": {
+          "type": [
+            "null",
+            "number"
+          ],
+          "description": "Length of this vehicle behind car origin",
+          "format": "float"
+        },
+        "MinAiSafetyDistanceMeters": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "description": "Minimum distance between AI cars",
+          "format": "int32"
+        },
+        "MaxAiSafetyDistanceMeters": {
+          "type": [
+            "integer",
+            "null"
+          ],
+          "description": "Maximum distance between AI cars",
+          "format": "int32"
+        },
+        "AllowedLanes": {
+          "type": [
+            "array",
+            "null"
+          ],
+          "description": "List of allowed lanes for this car model. Possible values Left, Middle, Right",
+          "items": {
+            "$ref": "#/definitions/LaneSpawnBehavior"
+          }
+        }
+      }
+    },
+    "LaneSpawnBehavior": {
+      "type": "string",
+      "description": "",
+      "x-enumNames": [
+        "Left",
+        "Middle",
+        "Right"
+      ],
+      "enum": [
+        "Left",
+        "Middle",
+        "Right"
+      ]
+    }
+  }
+}

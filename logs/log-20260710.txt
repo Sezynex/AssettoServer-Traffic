@@ -1,0 +1,486 @@
+2026-07-10 11:01:21.289 +03:00 [INF] AssettoServer 0.0.55-pre35
+2026-07-10 11:01:21.313 +03:00 [DBG] Server was started through Content Manager
+2026-07-10 11:01:21.317 +03:00 [DBG] Loading server_cfg.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\UNION ISLAND\server_cfg.ini
+2026-07-10 11:01:21.334 +03:00 [DBG] Loading entry_list.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\UNION ISLAND\entry_list.ini
+2026-07-10 11:01:21.558 +03:00 [DBG] Loading extra_cfg.yml from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\UNION ISLAND\extra_cfg.yml
+2026-07-10 11:01:21.634 +03:00 [DBG] Using minimum required CSP Version 3879
+2026-07-10 11:01:21.947 +03:00 [DBG] Mapping cached AI spline 0B316900947766EE.aic1 to memory
+2026-07-10 11:01:21.956 +03:00 [INF] Starting server
+2026-07-10 11:01:22.052 +03:00 [INF] Loaded 31 cars
+2026-07-10 11:01:22.059 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2026-07-10 11:01:22.060 +03:00 [DBG] Added checksum for content/tracks/csp/3879/../H/../union_island/freeroam/data/surfaces.ini
+2026-07-10 11:01:22.060 +03:00 [INF] Initialized 2 track checksums
+2026-07-10 11:01:22.061 +03:00 [DBG] Added checksum for traffic_alfa_159
+2026-07-10 11:01:22.061 +03:00 [DBG] Added checksum for traffic_audi_a4_eu
+2026-07-10 11:01:22.061 +03:00 [DBG] Added checksum for traffic_toyota_priuseu
+2026-07-10 11:01:22.062 +03:00 [DBG] Added checksum for traffic_volvo_v70
+2026-07-10 11:01:22.062 +03:00 [DBG] Added checksum for traffic_audi_a4_jp
+2026-07-10 11:01:22.063 +03:00 [DBG] Added checksum for traffic_isuzu_flatbed
+2026-07-10 11:01:22.063 +03:00 [DBG] Added checksum for traffic_isuzu_hauler
+2026-07-10 11:01:22.063 +03:00 [DBG] Added checksum for traffic_isuzu_haulerb
+2026-07-10 11:01:22.064 +03:00 [DBG] Added checksum for traffic_isuzu_tanker
+2026-07-10 11:01:22.064 +03:00 [DBG] Added checksum for traffic_isuzu_npr
+2026-07-10 11:01:22.064 +03:00 [DBG] Added checksum for traffic_nissan_leaf
+2026-07-10 11:01:22.065 +03:00 [DBG] Added checksum for traffic_toyota_camry
+2026-07-10 11:01:22.065 +03:00 [DBG] Added checksum for traffic_toyota_prius
+2026-07-10 11:01:22.065 +03:00 [DBG] Added checksum for traffic_volvo_v70jp
+2026-07-10 11:01:22.066 +03:00 [DBG] Added checksum for traffic_toyota_rav4
+2026-07-10 11:01:22.066 +03:00 [DBG] Added checksum for traffic_cadillac_escalade
+2026-07-10 11:01:22.067 +03:00 [DBG] Added checksum for traffic_dodge_challenger_srt
+2026-07-10 11:01:22.067 +03:00 [DBG] Added checksum for traffic_dodge_grand_caravan_taxi
+2026-07-10 11:01:22.067 +03:00 [DBG] Added checksum for traffic_crown_vic
+2026-07-10 11:01:22.068 +03:00 [DBG] Added checksum for bkXHM_nissan_gtr_21_RB_KIT
+2026-07-10 11:01:22.070 +03:00 [INF] Initialized 20 car checksums
+2026-07-10 11:01:22.271 +03:00 [INF] Next session: Practice - Length: 720 minutes
+2026-07-10 11:01:22.272 +03:00 [INF] Switching session to id 0
+2026-07-10 11:01:22.365 +03:00 [INF] Starting HTTP server on port 8081
+2026-07-10 11:01:22.366 +03:00 [INF] Starting TCP server on port 9600
+2026-07-10 11:01:22.366 +03:00 [INF] Starting UDP server on port 9600
+2026-07-10 11:01:22.367 +03:00 [INF] Starting update loop with an update rate of 60hz
+2026-07-10 11:01:22.373 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2026-07-10 11:01:22.375 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2026-07-10 11:01:22.376 +03:00 [DBG] Loaded admins.txt with 0 entries
+2026-07-10 11:01:22.377 +03:00 [INF] Invite link: https://acstuff.club/s/q:race/online/join?ip=212.154.2.92&httpPort=8081
+2026-07-10 11:01:22.377 +03:00 [INF] Server startup completed
+2026-07-10 11:02:07.004 +03:00 [INF] corp14x3 (76561199521796457 - 212.154.2.0:50013) is attempting to connect (bkXHM_nissan_gtr_21_RB_KIT)
+2026-07-10 11:02:07.007 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-07-10 11:02:07.015 +03:00 [INF] corp14x3 (76561199521796457, 30 (bkXHM_nissan_gtr_21_RB_KIT-Midnight_Purple)) has connected
+2026-07-10 11:02:12.545 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 30 - Target AI count: 30 - Overbooking: 1 - Rest: 0
+2026-07-10 11:02:12.954 +03:00 [INF] CSP handshake received from corp14x3 (30): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-07-10 11:03:49.653 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 13km/h
+2026-07-10 11:04:25.319 +03:00 [INF] Collision between corp14x3 (30) and Traffic 9 (9), rel. speed 8km/h
+2026-07-10 11:05:04.690 +03:00 [INF] Collision between corp14x3 (30) and Traffic 5 (5), rel. speed 7km/h
+2026-07-10 11:05:06.691 +03:00 [INF] Collision between corp14x3 (30) and Traffic 5 (5), rel. speed 13km/h
+2026-07-10 11:05:33.311 +03:00 [INF] Collision between corp14x3 (30) and Traffic 8 (8), rel. speed 7km/h
+2026-07-10 11:05:34.765 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 18km/h
+2026-07-10 11:06:34.031 +03:00 [INF] Collision between corp14x3 (30) and Traffic 14 (14), rel. speed 22km/h
+2026-07-10 11:06:45.175 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 58km/h
+2026-07-10 11:06:48.702 +03:00 [DBG] Received clean exit from corp14x3 (30)
+2026-07-10 11:06:48.704 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 212.154.2.0:50013)
+2026-07-10 11:06:48.705 +03:00 [INF] corp14x3 has disconnected
+2026-07-10 11:11:03.432 +03:00 [INF] AssettoServer 0.0.55-pre35
+2026-07-10 11:11:03.455 +03:00 [DBG] Server was started through Content Manager
+2026-07-10 11:11:03.460 +03:00 [DBG] Loading server_cfg.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\UNION ISLAND\server_cfg.ini
+2026-07-10 11:11:03.479 +03:00 [DBG] Loading entry_list.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\UNION ISLAND\entry_list.ini
+2026-07-10 11:11:03.722 +03:00 [DBG] Loading extra_cfg.yml from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\UNION ISLAND\extra_cfg.yml
+2026-07-10 11:11:03.795 +03:00 [DBG] Using minimum required CSP Version 3879
+2026-07-10 11:11:04.100 +03:00 [DBG] Mapping cached AI spline 0B316900947766EE.aic1 to memory
+2026-07-10 11:11:04.109 +03:00 [INF] Starting server
+2026-07-10 11:11:04.199 +03:00 [INF] Loaded 31 cars
+2026-07-10 11:11:04.206 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2026-07-10 11:11:04.206 +03:00 [DBG] Added checksum for content/tracks/csp/3879/../H/../union_island/freeroam/data/surfaces.ini
+2026-07-10 11:11:04.207 +03:00 [INF] Initialized 2 track checksums
+2026-07-10 11:11:04.208 +03:00 [DBG] Added checksum for traffic_alfa_159
+2026-07-10 11:11:04.208 +03:00 [DBG] Added checksum for traffic_audi_a4_eu
+2026-07-10 11:11:04.208 +03:00 [DBG] Added checksum for traffic_toyota_priuseu
+2026-07-10 11:11:04.209 +03:00 [DBG] Added checksum for traffic_volvo_v70
+2026-07-10 11:11:04.209 +03:00 [DBG] Added checksum for traffic_audi_a4_jp
+2026-07-10 11:11:04.209 +03:00 [DBG] Added checksum for traffic_isuzu_flatbed
+2026-07-10 11:11:04.210 +03:00 [DBG] Added checksum for traffic_isuzu_hauler
+2026-07-10 11:11:04.210 +03:00 [DBG] Added checksum for traffic_isuzu_haulerb
+2026-07-10 11:11:04.211 +03:00 [DBG] Added checksum for traffic_isuzu_tanker
+2026-07-10 11:11:04.211 +03:00 [DBG] Added checksum for traffic_isuzu_npr
+2026-07-10 11:11:04.211 +03:00 [DBG] Added checksum for traffic_nissan_leaf
+2026-07-10 11:11:04.212 +03:00 [DBG] Added checksum for traffic_toyota_camry
+2026-07-10 11:11:04.212 +03:00 [DBG] Added checksum for traffic_toyota_prius
+2026-07-10 11:11:04.212 +03:00 [DBG] Added checksum for traffic_volvo_v70jp
+2026-07-10 11:11:04.213 +03:00 [DBG] Added checksum for traffic_toyota_rav4
+2026-07-10 11:11:04.213 +03:00 [DBG] Added checksum for traffic_cadillac_escalade
+2026-07-10 11:11:04.213 +03:00 [DBG] Added checksum for traffic_dodge_challenger_srt
+2026-07-10 11:11:04.214 +03:00 [DBG] Added checksum for traffic_dodge_grand_caravan_taxi
+2026-07-10 11:11:04.214 +03:00 [DBG] Added checksum for traffic_crown_vic
+2026-07-10 11:11:04.215 +03:00 [DBG] Added checksum for bkXHM_nissan_gtr_21_RB_KIT
+2026-07-10 11:11:04.216 +03:00 [INF] Initialized 20 car checksums
+2026-07-10 11:11:04.387 +03:00 [INF] Next session: Practice - Length: 720 minutes
+2026-07-10 11:11:04.388 +03:00 [INF] Switching session to id 0
+2026-07-10 11:11:04.489 +03:00 [INF] Starting HTTP server on port 8081
+2026-07-10 11:11:04.490 +03:00 [INF] Starting TCP server on port 9600
+2026-07-10 11:11:04.490 +03:00 [INF] Starting UDP server on port 9600
+2026-07-10 11:11:04.491 +03:00 [INF] Starting update loop with an update rate of 60hz
+2026-07-10 11:11:04.496 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2026-07-10 11:11:04.498 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2026-07-10 11:11:04.498 +03:00 [DBG] Loaded admins.txt with 0 entries
+2026-07-10 11:11:04.500 +03:00 [INF] Invite link: https://acstuff.club/s/q:race/online/join?ip=212.154.2.92&httpPort=8081
+2026-07-10 11:11:04.500 +03:00 [INF] Server startup completed
+2026-07-10 11:11:14.779 +03:00 [INF] corp14x3 (76561199521796457 - 212.154.2.0:59084) is attempting to connect (bkXHM_nissan_gtr_21_RB_KIT)
+2026-07-10 11:11:14.784 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-07-10 11:11:14.793 +03:00 [INF] corp14x3 (76561199521796457, 30 (bkXHM_nissan_gtr_21_RB_KIT-Midnight_Purple)) has connected
+2026-07-10 11:11:19.069 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 30 - Target AI count: 30 - Overbooking: 1 - Rest: 0
+2026-07-10 11:11:19.471 +03:00 [INF] CSP handshake received from corp14x3 (30): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-07-10 11:14:01.988 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 24km/h
+2026-07-10 11:14:21.306 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 82km/h
+2026-07-10 11:14:39.755 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 6km/h
+2026-07-10 11:14:43.683 +03:00 [INF] Collision between corp14x3 (30) and Traffic 6 (6), rel. speed 63km/h
+2026-07-10 11:14:44.796 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 164km/h
+2026-07-10 11:20:31.118 +03:00 [INF] Collision between corp14x3 (30) and Traffic 6 (6), rel. speed 20km/h
+2026-07-10 11:20:36.639 +03:00 [INF] Collision between corp14x3 (30) and Traffic 10 (10), rel. speed 15km/h
+2026-07-10 11:20:36.814 +03:00 [INF] Lap completed by corp14x3, 0 cuts, laptime 09:17.8660
+2026-07-10 11:20:56.477 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 101km/h
+2026-07-10 11:21:29.451 +03:00 [INF] Collision between corp14x3 (30) and Traffic 1 (1), rel. speed 93km/h
+2026-07-10 11:21:36.411 +03:00 [INF] Collision between corp14x3 (30) and Traffic 29 (29), rel. speed 13km/h
+2026-07-10 11:21:43.685 +03:00 [INF] Collision between corp14x3 (30) and Traffic 22 (22), rel. speed 5km/h
+2026-07-10 11:22:12.285 +03:00 [INF] Collision between corp14x3 (30) and Traffic 24 (24), rel. speed 3km/h
+2026-07-10 11:23:13.725 +03:00 [INF] Collision between corp14x3 (30) and Traffic 10 (10), rel. speed 24km/h
+2026-07-10 11:23:14.633 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 53km/h
+2026-07-10 11:23:45.561 +03:00 [INF] Collision between corp14x3 (30) and Traffic 12 (12), rel. speed 36km/h
+2026-07-10 11:23:54.604 +03:00 [INF] Collision between corp14x3 (30) and Traffic 19 (19), rel. speed 0km/h
+2026-07-10 11:24:00.261 +03:00 [INF] Collision between corp14x3 (30) and Traffic 24 (24), rel. speed 21km/h
+2026-07-10 11:24:40.012 +03:00 [INF] Collision between corp14x3 (30) and Traffic 22 (22), rel. speed 6km/h
+2026-07-10 11:24:41.938 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 26km/h
+2026-07-10 11:25:39.677 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 10km/h
+2026-07-10 11:25:42.194 +03:00 [INF] Collision between corp14x3 (30) and Traffic 16 (16), rel. speed 5km/h
+2026-07-10 11:26:02.394 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 70km/h
+2026-07-10 11:26:09.679 +03:00 [INF] Collision between corp14x3 (30) and environment, rel. speed 151km/h
+2026-07-10 11:26:17.885 +03:00 [DBG] Received clean exit from corp14x3 (30)
+2026-07-10 11:26:17.886 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 212.154.2.0:59084)
+2026-07-10 11:26:17.887 +03:00 [INF] corp14x3 has disconnected
+2026-07-10 11:27:00.848 +03:00 [INF] AssettoServer 0.0.55-pre35
+2026-07-10 11:27:00.871 +03:00 [DBG] Server was started through Content Manager
+2026-07-10 11:27:00.877 +03:00 [DBG] Loading server_cfg.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\server_cfg.ini
+2026-07-10 11:27:00.896 +03:00 [DBG] Loading entry_list.ini from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\entry_list.ini
+2026-07-10 11:27:01.127 +03:00 [DBG] Loading extra_cfg.yml from C:\Program Files (x86)\Steam\steamapps\common\assettocorsa\server\presets\Shutoko Tatsumi PA\extra_cfg.yml
+2026-07-10 11:27:01.204 +03:00 [DBG] Using minimum required CSP Version 3879
+2026-07-10 11:27:01.501 +03:00 [DBG] Mapping cached AI spline B1A0482E65F6B121.aic1 to memory
+2026-07-10 11:27:01.531 +03:00 [INF] Starting server
+2026-07-10 11:27:01.620 +03:00 [INF] Loaded 33 cars
+2026-07-10 11:27:01.626 +03:00 [DBG] Added checksum for system/data/surfaces.ini
+2026-07-10 11:27:01.627 +03:00 [DBG] Added checksum for content/tracks/csp/3879/../H/../shuto_revival_project_beta/tatsumi_pa/data/surfaces.ini
+2026-07-10 11:27:01.627 +03:00 [INF] Initialized 2 track checksums
+2026-07-10 11:27:01.628 +03:00 [DBG] Added checksum for traffic_alfa_159
+2026-07-10 11:27:01.628 +03:00 [DBG] Added checksum for traffic_audi_a4_eu
+2026-07-10 11:27:01.629 +03:00 [DBG] Added checksum for traffic_toyota_priuseu
+2026-07-10 11:27:01.629 +03:00 [DBG] Added checksum for traffic_volvo_v70
+2026-07-10 11:27:01.629 +03:00 [DBG] Added checksum for traffic_audi_a4_jp
+2026-07-10 11:27:01.630 +03:00 [DBG] Added checksum for traffic_isuzu_flatbed
+2026-07-10 11:27:01.630 +03:00 [DBG] Added checksum for traffic_isuzu_hauler
+2026-07-10 11:27:01.630 +03:00 [DBG] Added checksum for traffic_isuzu_haulerb
+2026-07-10 11:27:01.631 +03:00 [DBG] Added checksum for traffic_isuzu_tanker
+2026-07-10 11:27:01.631 +03:00 [DBG] Added checksum for traffic_isuzu_npr
+2026-07-10 11:27:01.632 +03:00 [DBG] Added checksum for traffic_nissan_leaf
+2026-07-10 11:27:01.632 +03:00 [DBG] Added checksum for traffic_toyota_camry
+2026-07-10 11:27:01.632 +03:00 [DBG] Added checksum for traffic_toyota_prius
+2026-07-10 11:27:01.633 +03:00 [DBG] Added checksum for traffic_volvo_v70jp
+2026-07-10 11:27:01.633 +03:00 [DBG] Added checksum for traffic_toyota_rav4
+2026-07-10 11:27:01.633 +03:00 [DBG] Added checksum for traffic_cadillac_escalade
+2026-07-10 11:27:01.634 +03:00 [DBG] Added checksum for traffic_dodge_challenger_srt
+2026-07-10 11:27:01.634 +03:00 [DBG] Added checksum for traffic_dodge_grand_caravan_taxi
+2026-07-10 11:27:01.634 +03:00 [DBG] Added checksum for traffic_crown_vic
+2026-07-10 11:27:01.635 +03:00 [DBG] Added checksum for 06_ygt_53_m4_lci_air
+2026-07-10 11:27:01.636 +03:00 [DBG] Added checksum for bkXHM_nissan_gtr_21_RB_KIT
+2026-07-10 11:27:01.636 +03:00 [DBG] Added checksum for Nissan_r34_hellspec
+2026-07-10 11:27:01.638 +03:00 [INF] Initialized 22 car checksums
+2026-07-10 11:27:01.811 +03:00 [INF] Next session: Practice - Length: 720 minutes
+2026-07-10 11:27:01.812 +03:00 [INF] Switching session to id 0
+2026-07-10 11:27:01.897 +03:00 [INF] Starting HTTP server on port 8081
+2026-07-10 11:27:01.898 +03:00 [INF] Starting TCP server on port 9600
+2026-07-10 11:27:01.898 +03:00 [INF] Starting UDP server on port 9600
+2026-07-10 11:27:01.899 +03:00 [INF] Starting update loop with an update rate of 60hz
+2026-07-10 11:27:01.905 +03:00 [DBG] Loaded blacklist.txt with 0 entries
+2026-07-10 11:27:01.907 +03:00 [DBG] Loaded whitelist.txt with 0 entries
+2026-07-10 11:27:01.908 +03:00 [DBG] Loaded admins.txt with 0 entries
+2026-07-10 11:27:01.909 +03:00 [INF] Invite link: https://acstuff.club/s/q:race/online/join?ip=212.154.2.92&httpPort=8081
+2026-07-10 11:27:01.909 +03:00 [INF] Server startup completed
+2026-07-10 11:27:11.641 +03:00 [INF] corp14x3 (76561199521796457 - 212.154.2.0:59255) is attempting to connect (Nissan_r34_hellspec)
+2026-07-10 11:27:11.643 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-07-10 11:27:11.647 +03:00 [INF] corp14x3 (76561199521796457, 32 (Nissan_r34_hellspec-midnight_purple_ii)) has connected
+2026-07-10 11:27:36.898 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 30 - Target AI count: 30 - Overbooking: 1 - Rest: 0
+2026-07-10 11:27:37.395 +03:00 [INF] CSP handshake received from corp14x3 (32): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-07-10 11:28:12.236 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-07-10 11:29:03.303 +03:00 [INF] Collision between corp14x3 (32) and Traffic 2 (2), rel. speed 169km/h
+2026-07-10 11:29:03.383 +03:00 [INF] Collision between corp14x3 (32) and Traffic 24 (24), rel. speed 66km/h
+2026-07-10 11:29:04.808 +03:00 [INF] Collision between corp14x3 (32) and environment, rel. speed 21km/h
+2026-07-10 11:29:06.839 +03:00 [INF] Collision between corp14x3 (32) and Traffic 12 (12), rel. speed 45km/h
+2026-07-10 11:29:27.817 +03:00 [INF] Collision between corp14x3 (32) and environment, rel. speed 4km/h
+2026-07-10 11:29:44.032 +03:00 [INF] CHAT: corp14x3 (32): /settime 22:00
+2026-07-10 11:29:44.048 +03:00 [INF] Broadcast: Time has been set.
+2026-07-10 11:29:45.134 +03:00 [INF] Collision between corp14x3 (32) and environment, rel. speed 3km/h
+2026-07-10 11:29:47.134 +03:00 [INF] Collision between corp14x3 (32) and environment, rel. speed 0km/h
+2026-07-10 11:30:40.565 +03:00 [INF] Collision between corp14x3 (32) and Traffic 16 (16), rel. speed 19km/h
+2026-07-10 11:33:02.363 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-07-10 11:33:09.156 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-07-10 11:33:10.810 +03:00 [DBG] Car 22 reached spline end, despawning
+2026-07-10 11:33:32.061 +03:00 [DBG] Car 8 reached spline end, despawning
+2026-07-10 11:33:32.821 +03:00 [DBG] Car 8 reached spline end, despawning
+2026-07-10 11:33:33.722 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-07-10 11:33:36.178 +03:00 [DBG] Car 22 reached spline end, despawning
+2026-07-10 11:33:45.176 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-07-10 11:33:55.995 +03:00 [DBG] Car 20 reached spline end, despawning
+2026-07-10 11:33:57.897 +03:00 [DBG] Car 21 reached spline end, despawning
+2026-07-10 11:33:59.495 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-07-10 11:34:03.393 +03:00 [DBG] Car 7 reached spline end, despawning
+2026-07-10 11:34:04.591 +03:00 [DBG] Car 28 reached spline end, despawning
+2026-07-10 11:34:10.817 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-07-10 11:34:15.608 +03:00 [DBG] Car 21 reached spline end, despawning
+2026-07-10 11:34:18.975 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-07-10 11:34:22.708 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-07-10 11:34:25.970 +03:00 [DBG] Car 27 reached spline end, despawning
+2026-07-10 11:34:32.363 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-07-10 11:34:33.735 +03:00 [DBG] Car 19 reached spline end, despawning
+2026-07-10 11:34:33.992 +03:00 [DBG] Car 19 reached spline end, despawning
+2026-07-10 11:34:39.985 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-07-10 11:34:42.194 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-07-10 11:34:46.518 +03:00 [DBG] Car 8 reached spline end, despawning
+2026-07-10 11:35:01.969 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-07-10 11:35:03.279 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-07-10 11:35:09.326 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-07-10 11:35:14.111 +03:00 [DBG] Car 27 reached spline end, despawning
+2026-07-10 11:35:15.055 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-07-10 11:36:01.207 +03:00 [DBG] Car 8 reached spline end, despawning
+2026-07-10 11:36:03.565 +03:00 [DBG] Car 19 reached spline end, despawning
+2026-07-10 11:36:05.878 +03:00 [DBG] Car 22 reached spline end, despawning
+2026-07-10 11:36:07.279 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-07-10 11:36:08.239 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-07-10 11:36:15.014 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-07-10 11:36:20.293 +03:00 [DBG] Car 28 reached spline end, despawning
+2026-07-10 11:36:22.975 +03:00 [DBG] Car 7 reached spline end, despawning
+2026-07-10 11:36:28.413 +03:00 [DBG] Car 29 reached spline end, despawning
+2026-07-10 11:36:39.653 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-07-10 11:36:44.673 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-07-10 11:36:48.772 +03:00 [DBG] Car 7 reached spline end, despawning
+2026-07-10 11:36:48.972 +03:00 [DBG] Car 22 reached spline end, despawning
+2026-07-10 11:36:51.223 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-07-10 11:36:52.607 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-07-10 11:36:55.633 +03:00 [DBG] Car 29 reached spline end, despawning
+2026-07-10 11:36:57.538 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-07-10 11:36:59.834 +03:00 [DBG] Car 18 reached spline end, despawning
+2026-07-10 11:37:04.719 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-07-10 11:37:11.388 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-07-10 11:37:25.902 +03:00 [INF] Collision between corp14x3 (32) and Traffic 29 (29), rel. speed 18km/h
+2026-07-10 11:38:17.697 +03:00 [INF] Collision between corp14x3 (32) and Traffic 2 (2), rel. speed 3km/h
+2026-07-10 11:38:21.469 +03:00 [INF] Han Raikkonen (76561198141951438 - 95.70.205.0:52836) is attempting to connect (bkXHM_nissan_gtr_21_RB_KIT)
+2026-07-10 11:38:21.469 +03:00 [DBG] Han Raikkonen supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-07-10 11:38:21.469 +03:00 [INF] Han Raikkonen (76561198141951438, 31 (bkXHM_nissan_gtr_21_RB_KIT-Midnight_Purple)) has connected
+2026-07-10 11:38:49.499 +03:00 [INF] Collision between corp14x3 (32) and Traffic 28 (28), rel. speed 146km/h
+2026-07-10 11:38:49.582 +03:00 [INF] Collision between corp14x3 (32) and Traffic 23 (23), rel. speed 33km/h
+2026-07-10 11:38:57.199 +03:00 [INF] Collision between corp14x3 (32) and environment, rel. speed 67km/h
+2026-07-10 11:39:05.303 +03:00 [DBG] Disconnecting Han Raikkonen (76561198141951438 - 95.70.205.0:52836)
+2026-07-10 11:39:05.305 +03:00 [INF] Han Raikkonen has disconnected
+2026-07-10 11:39:18.186 +03:00 [DBG] Received clean exit from corp14x3 (32)
+2026-07-10 11:39:18.186 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 212.154.2.0:59255)
+2026-07-10 11:39:18.187 +03:00 [INF] corp14x3 has disconnected
+2026-07-10 11:42:02.304 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-07-10 11:42:09.387 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-07-10 11:42:20.534 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-07-10 11:42:21.043 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-07-10 11:42:22.052 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-07-10 11:42:38.236 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-07-10 11:42:46.838 +03:00 [DBG] Car 22 reached spline end, despawning
+2026-07-10 11:42:47.347 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-07-10 11:42:55.459 +03:00 [DBG] Car 28 reached spline end, despawning
+2026-07-10 11:42:55.967 +03:00 [DBG] Car 19 reached spline end, despawning
+2026-07-10 11:42:56.482 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-07-10 11:43:03.575 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-07-10 11:43:08.629 +03:00 [DBG] Car 5 reached spline end, despawning
+2026-07-10 11:43:09.133 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-07-10 11:43:10.146 +03:00 [DBG] Car 27 reached spline end, despawning
+2026-07-10 11:43:15.202 +03:00 [DBG] Car 29 reached spline end, despawning
+2026-07-10 11:43:17.736 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-07-10 11:43:18.243 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-07-10 11:43:40.033 +03:00 [DBG] Car 18 reached spline end, despawning
+2026-07-10 11:43:48.668 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-07-10 11:43:49.680 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-07-10 11:43:50.186 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-07-10 11:43:51.201 +03:00 [DBG] Car 21 reached spline end, despawning
+2026-07-10 11:43:51.708 +03:00 [DBG] Car 7 reached spline end, despawning
+2026-07-10 11:43:52.217 +03:00 [DBG] Car 8 reached spline end, despawning
+2026-07-10 11:44:24.948 +03:00 [INF] Han Raikkonen (76561198141951438 - 95.70.205.0:52808) is attempting to connect (bkXHM_nissan_gtr_21_RB_KIT)
+2026-07-10 11:44:24.948 +03:00 [DBG] Han Raikkonen supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-07-10 11:44:24.948 +03:00 [INF] Han Raikkonen (76561198141951438, 31 (bkXHM_nissan_gtr_21_RB_KIT-Midnight_Purple)) has connected
+2026-07-10 11:44:41.671 +03:00 [INF] corp14x3 (76561199521796457 - 212.154.2.0:59846) is attempting to connect (Nissan_r34_hellspec)
+2026-07-10 11:44:41.671 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-07-10 11:44:41.671 +03:00 [INF] corp14x3 (76561199521796457, 32 (Nissan_r34_hellspec-midnight_purple_ii)) has connected
+2026-07-10 11:44:58.768 +03:00 [DBG] Disconnecting Han Raikkonen (76561198141951438 - 95.70.205.0:52808)
+2026-07-10 11:44:58.768 +03:00 [INF] Han Raikkonen has disconnected
+2026-07-10 11:45:02.794 +03:00 [DBG] AI Slot overbooking update - No. players: 1 - No. AI Slots: 30 - Target AI count: 30 - Overbooking: 1 - Rest: 0
+2026-07-10 11:45:03.142 +03:00 [INF] CSP handshake received from corp14x3 (32): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-07-10 11:45:17.906 +03:00 [DBG] Received clean exit from corp14x3 (32)
+2026-07-10 11:45:17.906 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 212.154.2.0:59846)
+2026-07-10 11:45:17.906 +03:00 [INF] corp14x3 has disconnected
+2026-07-10 11:45:28.442 +03:00 [INF] Han Raikkonen (76561198141951438 - 95.70.205.0:53866) is attempting to connect (06_ygt_53_m4_lci_air)
+2026-07-10 11:45:28.443 +03:00 [DBG] Han Raikkonen supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-07-10 11:45:28.443 +03:00 [INF] Han Raikkonen (76561198141951438, 30 (06_ygt_53_m4_lci_air-03_alpine_white)) has connected
+2026-07-10 11:45:38.294 +03:00 [INF] corp14x3 (76561199521796457 - 212.154.2.0:50252) is attempting to connect (bkXHM_nissan_gtr_21_RB_KIT)
+2026-07-10 11:45:38.295 +03:00 [DBG] corp14x3 supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-07-10 11:45:38.295 +03:00 [INF] corp14x3 (76561199521796457, 31 (bkXHM_nissan_gtr_21_RB_KIT-Midnight_Purple)) has connected
+2026-07-10 11:45:38.423 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-07-10 11:45:46.808 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-07-10 11:45:47.621 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-07-10 11:45:49.059 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-07-10 11:45:58.279 +03:00 [DBG] AI Slot overbooking update - No. players: 2 - No. AI Slots: 30 - Target AI count: 60 - Overbooking: 2 - Rest: 0
+2026-07-10 11:45:58.693 +03:00 [INF] CSP handshake received from corp14x3 (31): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=361513746063044730
+2026-07-10 11:46:00.700 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-07-10 11:46:01.509 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-07-10 11:46:01.815 +03:00 [DBG] AI Slot overbooking update - No. players: 2 - No. AI Slots: 30 - Target AI count: 60 - Overbooking: 2 - Rest: 0
+2026-07-10 11:46:02.553 +03:00 [INF] CSP handshake received from Han Raikkonen (30): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=7242084248448088884
+2026-07-10 11:46:24.743 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-07-10 11:46:25.459 +03:00 [DBG] Car 8 reached spline end, despawning
+2026-07-10 11:46:26.325 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-07-10 11:46:33.109 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-07-10 11:46:34.055 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-07-10 11:46:37.000 +03:00 [DBG] Car 20 reached spline end, despawning
+2026-07-10 11:46:40.064 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-07-10 11:46:41.463 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-07-10 11:46:46.319 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-07-10 11:46:46.593 +03:00 [DBG] Car 8 reached spline end, despawning
+2026-07-10 11:46:47.385 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-07-10 11:46:47.506 +03:00 [DBG] Car 19 reached spline end, despawning
+2026-07-10 11:46:48.271 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-07-10 11:46:52.517 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-07-10 11:47:02.434 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-07-10 11:47:02.649 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-07-10 11:47:08.171 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 2km/h
+2026-07-10 11:47:09.775 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-07-10 11:47:09.851 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-07-10 11:47:12.249 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-07-10 11:47:20.523 +03:00 [DBG] Car 7 reached spline end, despawning
+2026-07-10 11:47:27.412 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-07-10 11:47:34.290 +03:00 [DBG] Car 18 reached spline end, despawning
+2026-07-10 11:47:38.334 +03:00 [DBG] Car 19 reached spline end, despawning
+2026-07-10 11:47:39.215 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-07-10 11:47:40.892 +03:00 [DBG] Car 20 reached spline end, despawning
+2026-07-10 11:47:41.562 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-07-10 11:47:47.999 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-07-10 11:47:53.640 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-07-10 11:47:56.840 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-07-10 11:47:57.736 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-07-10 11:48:01.409 +03:00 [DBG] Car 29 reached spline end, despawning
+2026-07-10 11:48:02.246 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-07-10 11:48:04.514 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-07-10 11:48:05.717 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-07-10 11:48:06.552 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-07-10 11:48:12.354 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-07-10 11:48:20.350 +03:00 [DBG] Car 27 reached spline end, despawning
+2026-07-10 11:48:27.495 +03:00 [DBG] Car 7 reached spline end, despawning
+2026-07-10 11:48:33.897 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-07-10 11:48:55.085 +03:00 [DBG] Car 5 reached spline end, despawning
+2026-07-10 11:48:56.333 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-07-10 11:49:05.428 +03:00 [DBG] Car 28 reached spline end, despawning
+2026-07-10 11:49:12.407 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-07-10 11:49:13.141 +03:00 [DBG] Car 18 reached spline end, despawning
+2026-07-10 11:49:13.980 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-07-10 11:49:14.696 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-07-10 11:49:15.503 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-07-10 11:49:19.625 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-07-10 11:49:35.189 +03:00 [INF] Collision between corp14x3 (31) and Han Raikkonen (30), rel. speed 104km/h
+2026-07-10 11:49:35.196 +03:00 [INF] Collision between Han Raikkonen (30) and corp14x3 (31), rel. speed 102km/h
+2026-07-10 11:49:35.309 +03:00 [INF] Collision between Han Raikkonen (30) and environment, rel. speed 88km/h
+2026-07-10 11:49:35.388 +03:00 [INF] Collision between corp14x3 (31) and Traffic 13 (13), rel. speed 121km/h
+2026-07-10 11:49:35.529 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 19km/h
+2026-07-10 11:49:35.653 +03:00 [INF] Collision between Han Raikkonen (30) and Traffic 13 (13), rel. speed 46km/h
+2026-07-10 11:49:36.276 +03:00 [INF] Collision between corp14x3 (31) and Traffic 2 (2), rel. speed 26km/h
+2026-07-10 11:49:38.108 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 62km/h
+2026-07-10 11:49:40.842 +03:00 [INF] Collision between corp14x3 (31) and Han Raikkonen (30), rel. speed 16km/h
+2026-07-10 11:49:40.848 +03:00 [INF] Collision between Han Raikkonen (30) and corp14x3 (31), rel. speed 14km/h
+2026-07-10 11:49:50.426 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-07-10 11:50:02.206 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-07-10 11:50:06.220 +03:00 [DBG] Received clean exit from Han Raikkonen (30)
+2026-07-10 11:50:06.220 +03:00 [DBG] Disconnecting Han Raikkonen (76561198141951438 - 95.70.205.0:53866)
+2026-07-10 11:50:06.220 +03:00 [INF] Han Raikkonen has disconnected
+2026-07-10 11:50:09.155 +03:00 [INF] Collision between corp14x3 (31) and Traffic 24 (24), rel. speed 104km/h
+2026-07-10 11:50:14.830 +03:00 [INF] Han Raikkonen (76561198141951438 - 95.70.205.0:53262) is attempting to connect (Nissan_r34_hellspec)
+2026-07-10 11:50:14.830 +03:00 [DBG] Han Raikkonen supports extra CSP features: ["STEAM_TICKET","CLIENT_MESSAGES","SPECTATING_AWARE","WEATHERFX_V1","WEATHERFX_V2","WEATHERFX_V3","BATCH_FIX_V2","CUSTOM_UPDATE","CUSTOM_UPDATE_V2","CLIENT_UDP_MESSAGES","BATCH_MESSAGES","EXPLICIT_ADMIN_STATE","3879"]
+2026-07-10 11:50:14.830 +03:00 [INF] Han Raikkonen (76561198141951438, 32 (Nissan_r34_hellspec-midnight_purple_ii)) has connected
+2026-07-10 11:50:23.295 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-07-10 11:50:31.704 +03:00 [INF] Collision between corp14x3 (31) and Traffic 14 (14), rel. speed 5km/h
+2026-07-10 11:50:33.705 +03:00 [INF] Collision between corp14x3 (31) and Traffic 14 (14), rel. speed 29km/h
+2026-07-10 11:50:38.231 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-07-10 11:50:46.026 +03:00 [INF] Collision between corp14x3 (31) and Traffic 6 (6), rel. speed 13km/h
+2026-07-10 11:50:52.292 +03:00 [DBG] AI Slot overbooking update - No. players: 2 - No. AI Slots: 30 - Target AI count: 60 - Overbooking: 2 - Rest: 0
+2026-07-10 11:50:54.800 +03:00 [INF] CSP handshake received from Han Raikkonen (32): Version=3879 WeatherFX=true InputMethod="Keyboard" RainFX=true HWID=7242084248448088884
+2026-07-10 11:51:01.086 +03:00 [INF] Collision between corp14x3 (31) and Traffic 5 (5), rel. speed 21km/h
+2026-07-10 11:51:02.945 +03:00 [INF] Collision between corp14x3 (31) and Traffic 12 (12), rel. speed 16km/h
+2026-07-10 11:51:15.804 +03:00 [INF] Collision between corp14x3 (31) and Traffic 23 (23), rel. speed 14km/h
+2026-07-10 11:51:30.966 +03:00 [INF] Collision between corp14x3 (31) and Traffic 27 (27), rel. speed 7km/h
+2026-07-10 11:51:45.792 +03:00 [INF] Collision between corp14x3 (31) and Traffic 9 (9), rel. speed 7km/h
+2026-07-10 11:51:51.725 +03:00 [INF] Collision between corp14x3 (31) and Traffic 2 (2), rel. speed 48km/h
+2026-07-10 11:51:58.979 +03:00 [INF] Collision between corp14x3 (31) and Traffic 11 (11), rel. speed 33km/h
+2026-07-10 11:52:07.240 +03:00 [INF] Collision between corp14x3 (31) and Traffic 8 (8), rel. speed 20km/h
+2026-07-10 11:52:34.425 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-07-10 11:52:36.285 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-07-10 11:52:39.462 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-07-10 11:52:48.600 +03:00 [DBG] Car 22 reached spline end, despawning
+2026-07-10 11:52:55.330 +03:00 [DBG] Car 21 reached spline end, despawning
+2026-07-10 11:52:56.487 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-07-10 11:52:56.867 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-07-10 11:53:00.258 +03:00 [INF] Collision between Han Raikkonen (32) and corp14x3 (31), rel. speed 4km/h
+2026-07-10 11:53:11.038 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-07-10 11:53:14.584 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-07-10 11:53:15.345 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-07-10 11:53:21.758 +03:00 [DBG] Car 20 reached spline end, despawning
+2026-07-10 11:53:28.145 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-07-10 11:53:31.215 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-07-10 11:53:51.843 +03:00 [INF] Collision between Han Raikkonen (32) and corp14x3 (31), rel. speed 16km/h
+2026-07-10 11:53:51.852 +03:00 [INF] Collision between corp14x3 (31) and Han Raikkonen (32), rel. speed 12km/h
+2026-07-10 11:53:52.251 +03:00 [INF] Collision between Han Raikkonen (32) and Traffic 22 (22), rel. speed 201km/h
+2026-07-10 11:53:53.958 +03:00 [INF] Collision between Han Raikkonen (32) and environment, rel. speed 78km/h
+2026-07-10 11:54:02.055 +03:00 [INF] Collision between Han Raikkonen (32) and Traffic 22 (22), rel. speed 6km/h
+2026-07-10 11:54:24.134 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-07-10 11:54:36.472 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-07-10 11:54:38.574 +03:00 [DBG] Car 27 reached spline end, despawning
+2026-07-10 11:54:46.798 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-07-10 11:54:51.121 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-07-10 11:55:01.392 +03:00 [INF] Collision between corp14x3 (31) and Traffic 6 (6), rel. speed 165km/h
+2026-07-10 11:55:04.310 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 114km/h
+2026-07-10 11:55:04.363 +03:00 [INF] Collision between corp14x3 (31) and Traffic 2 (2), rel. speed 63km/h
+2026-07-10 11:56:12.366 +03:00 [INF] Collision between Han Raikkonen (32) and Traffic 2 (2), rel. speed 117km/h
+2026-07-10 11:56:37.770 +03:00 [INF] Collision between corp14x3 (31) and Han Raikkonen (32), rel. speed 14km/h
+2026-07-10 11:56:37.789 +03:00 [INF] Collision between Han Raikkonen (32) and corp14x3 (31), rel. speed 16km/h
+2026-07-10 11:57:00.783 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 233km/h
+2026-07-10 11:57:45.871 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-07-10 11:57:46.305 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 10km/h
+2026-07-10 11:57:46.437 +03:00 [INF] Collision between Han Raikkonen (32) and corp14x3 (31), rel. speed 146km/h
+2026-07-10 11:57:46.445 +03:00 [INF] Collision between corp14x3 (31) and Han Raikkonen (32), rel. speed 89km/h
+2026-07-10 11:57:46.765 +03:00 [INF] Collision between Han Raikkonen (32) and environment, rel. speed 78km/h
+2026-07-10 11:57:50.376 +03:00 [INF] Collision between Han Raikkonen (32) and environment, rel. speed 31km/h
+2026-07-10 11:57:51.237 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 35km/h
+2026-07-10 11:58:05.808 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-07-10 11:58:18.834 +03:00 [DBG] Car 5 reached spline end, despawning
+2026-07-10 11:58:23.267 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-07-10 11:58:28.424 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-07-10 11:58:29.094 +03:00 [DBG] Car 18 reached spline end, despawning
+2026-07-10 11:58:31.460 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-07-10 11:58:36.663 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-07-10 11:58:38.413 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-07-10 11:58:43.801 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-07-10 11:58:52.809 +03:00 [DBG] Car 28 reached spline end, despawning
+2026-07-10 11:58:53.798 +03:00 [DBG] Car 20 reached spline end, despawning
+2026-07-10 11:59:02.467 +03:00 [DBG] Car 5 reached spline end, despawning
+2026-07-10 11:59:08.183 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-07-10 11:59:11.119 +03:00 [DBG] Car 19 reached spline end, despawning
+2026-07-10 11:59:19.672 +03:00 [DBG] Car 22 reached spline end, despawning
+2026-07-10 11:59:27.425 +03:00 [INF] Collision between corp14x3 (31) and Traffic 21 (21), rel. speed 46km/h
+2026-07-10 11:59:28.166 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 57km/h
+2026-07-10 11:59:31.809 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 95km/h
+2026-07-10 11:59:37.226 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 22km/h
+2026-07-10 11:59:38.154 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-07-10 11:59:39.229 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 1km/h
+2026-07-10 11:59:41.229 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 0km/h
+2026-07-10 11:59:43.229 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 0km/h
+2026-07-10 12:00:19.972 +03:00 [DBG] Car 22 reached spline end, despawning
+2026-07-10 12:00:26.345 +03:00 [INF] Collision between corp14x3 (31) and Traffic 1 (1), rel. speed 207km/h
+2026-07-10 12:01:14.887 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-07-10 12:01:16.991 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-07-10 12:01:21.743 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-07-10 12:01:30.939 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-07-10 12:01:35.677 +03:00 [DBG] Car 8 reached spline end, despawning
+2026-07-10 12:01:44.101 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-07-10 12:01:46.293 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-07-10 12:01:47.815 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-07-10 12:01:55.334 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 44km/h
+2026-07-10 12:02:06.374 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-07-10 12:03:20.904 +03:00 [INF] Collision between Han Raikkonen (32) and corp14x3 (31), rel. speed 11km/h
+2026-07-10 12:03:20.909 +03:00 [INF] Collision between corp14x3 (31) and Han Raikkonen (32), rel. speed 8km/h
+2026-07-10 12:03:40.745 +03:00 [INF] Collision between Han Raikkonen (32) and environment, rel. speed 11km/h
+2026-07-10 12:04:29.352 +03:00 [INF] Collision between Han Raikkonen (32) and environment, rel. speed 45km/h
+2026-07-10 12:04:46.637 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-07-10 12:04:47.070 +03:00 [INF] Collision between corp14x3 (31) and Traffic 19 (19), rel. speed 100km/h
+2026-07-10 12:04:47.522 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 275km/h
+2026-07-10 12:04:55.054 +03:00 [INF] Collision between Han Raikkonen (32) and corp14x3 (31), rel. speed 4km/h
+2026-07-10 12:04:56.137 +03:00 [INF] Collision between corp14x3 (31) and Han Raikkonen (32), rel. speed 5km/h
+2026-07-10 12:04:57.517 +03:00 [DBG] Received clean exit from Han Raikkonen (32)
+2026-07-10 12:04:57.517 +03:00 [DBG] Disconnecting Han Raikkonen (76561198141951438 - 95.70.205.0:53262)
+2026-07-10 12:04:57.518 +03:00 [INF] Han Raikkonen has disconnected
+2026-07-10 12:05:02.210 +03:00 [INF] Collision between corp14x3 (31) and environment, rel. speed 23km/h
+2026-07-10 12:05:08.908 +03:00 [DBG] Received clean exit from corp14x3 (31)
+2026-07-10 12:05:08.908 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 212.154.2.0:50252)
+2026-07-10 12:05:08.908 +03:00 [INF] corp14x3 has disconnected

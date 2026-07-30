@@ -1,0 +1,116 @@
+2026-07-30 00:00:07.779 +03:00 [DBG] Car 18 reached spline end, despawning
+2026-07-30 00:00:42.777 +03:00 [DBG] Car 29 reached spline end, despawning
+2026-07-30 00:00:43.901 +03:00 [DBG] Car 21 reached spline end, despawning
+2026-07-30 00:00:44.323 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-07-30 00:00:58.806 +03:00 [DBG] AI Slot overbooking update - No. players: 2 - No. AI Slots: 30 - Target AI count: 60 - Overbooking: 2 - Rest: 0
+2026-07-30 00:01:03.567 +03:00 [INF] CSP handshake received from mvlegends3 (32): Version=3898 WeatherFX=true InputMethod="Keyboard" RainFX=false HWID=18026503295026130775
+2026-07-30 00:01:11.823 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-07-30 00:01:52.020 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-07-30 00:01:55.603 +03:00 [DBG] Car 21 reached spline end, despawning
+2026-07-30 00:01:57.312 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-07-30 00:01:58.809 +03:00 [DBG] Car 5 reached spline end, despawning
+2026-07-30 00:02:05.979 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-07-30 00:02:10.005 +03:00 [DBG] Car 18 reached spline end, despawning
+2026-07-30 00:02:10.974 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-07-30 00:02:14.613 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-07-30 00:02:17.078 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-07-30 00:02:17.634 +03:00 [INF] Collision between mvlegends3 (32) and environment, rel. speed 9km/h
+2026-07-30 00:02:22.372 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-07-30 00:02:24.325 +03:00 [DBG] Car 18 reached spline end, despawning
+2026-07-30 00:02:24.528 +03:00 [DBG] Car 22 reached spline end, despawning
+2026-07-30 00:02:25.881 +03:00 [DBG] Car 20 reached spline end, despawning
+2026-07-30 00:02:26.503 +03:00 [DBG] Car 5 reached spline end, despawning
+2026-07-30 00:02:32.872 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-07-30 00:02:33.907 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-07-30 00:02:34.251 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-07-30 00:02:36.015 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-07-30 00:02:37.641 +03:00 [DBG] Car 20 reached spline end, despawning
+2026-07-30 00:02:38.635 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-07-30 00:02:39.376 +03:00 [INF] Collision between corp14x3 (36) and environment, rel. speed 19km/h
+2026-07-30 00:02:41.983 +03:00 [DBG] Car 8 reached spline end, despawning
+2026-07-30 00:02:42.639 +03:00 [DBG] Car 29 reached spline end, despawning
+2026-07-30 00:02:43.638 +03:00 [DBG] Car 22 reached spline end, despawning
+2026-07-30 00:02:46.035 +03:00 [DBG] Car 1 reached spline end, despawning
+2026-07-30 00:02:48.022 +03:00 [INF] Collision between mvlegends3 (32) and environment, rel. speed 26km/h
+2026-07-30 00:02:48.149 +03:00 [DBG] Car 13 reached spline end, despawning
+2026-07-30 00:02:48.429 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-07-30 00:02:49.239 +03:00 [DBG] Car 28 reached spline end, despawning
+2026-07-30 00:02:49.796 +03:00 [DBG] Car 19 reached spline end, despawning
+2026-07-30 00:02:49.812 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-07-30 00:02:52.704 +03:00 [DBG] Car 0 reached spline end, despawning
+2026-07-30 00:02:53.559 +03:00 [DBG] Car 17 reached spline end, despawning
+2026-07-30 00:02:55.642 +03:00 [DBG] Car 10 reached spline end, despawning
+2026-07-30 00:02:55.948 +03:00 [INF] Collision between mvlegends3 (32) and environment, rel. speed 2km/h
+2026-07-30 00:02:58.865 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-07-30 00:02:58.866 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-07-30 00:02:59.692 +03:00 [DBG] Car 25 reached spline end, despawning
+2026-07-30 00:03:01.985 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-07-30 00:03:02.486 +03:00 [DBG] Car 27 reached spline end, despawning
+2026-07-30 00:03:04.820 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-07-30 00:03:08.913 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-07-30 00:03:09.537 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-07-30 00:03:09.598 +03:00 [DBG] Car 23 reached spline end, despawning
+2026-07-30 00:03:10.415 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-07-30 00:03:14.072 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-07-30 00:03:14.744 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-07-30 00:03:15.429 +03:00 [INF] Collision between corp14x3 (36) and environment, rel. speed 11km/h
+2026-07-30 00:03:16.201 +03:00 [DBG] Car 7 reached spline end, despawning
+2026-07-30 00:03:16.527 +03:00 [DBG] Car 28 reached spline end, despawning
+2026-07-30 00:03:17.502 +03:00 [DBG] Car 5 reached spline end, despawning
+2026-07-30 00:03:28.633 +03:00 [DBG] Car 20 reached spline end, despawning
+2026-07-30 00:03:30.543 +03:00 [INF] Collision between corp14x3 (36) and environment, rel. speed 4km/h
+2026-07-30 00:03:31.208 +03:00 [DBG] Car 21 reached spline end, despawning
+2026-07-30 00:03:32.544 +03:00 [INF] Collision between corp14x3 (36) and environment, rel. speed 0km/h
+2026-07-30 00:03:34.545 +03:00 [INF] Collision between corp14x3 (36) and environment, rel. speed 0km/h
+2026-07-30 00:03:35.513 +03:00 [DBG] Car 22 reached spline end, despawning
+2026-07-30 00:03:36.371 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-07-30 00:03:36.549 +03:00 [INF] Collision between corp14x3 (36) and environment, rel. speed 0km/h
+2026-07-30 00:03:37.212 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-07-30 00:03:38.547 +03:00 [INF] Collision between corp14x3 (36) and environment, rel. speed 0km/h
+2026-07-30 00:03:40.550 +03:00 [INF] Collision between corp14x3 (36) and environment, rel. speed 0km/h
+2026-07-30 00:03:42.548 +03:00 [INF] Collision between corp14x3 (36) and environment, rel. speed 0km/h
+2026-07-30 00:03:44.549 +03:00 [INF] Collision between corp14x3 (36) and environment, rel. speed 0km/h
+2026-07-30 00:03:45.891 +03:00 [DBG] Car 20 reached spline end, despawning
+2026-07-30 00:03:46.550 +03:00 [INF] Collision between corp14x3 (36) and environment, rel. speed 0km/h
+2026-07-30 00:03:50.971 +03:00 [DBG] Car 22 reached spline end, despawning
+2026-07-30 00:03:56.412 +03:00 [DBG] Car 5 reached spline end, despawning
+2026-07-30 00:04:01.251 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-07-30 00:04:06.937 +03:00 [DBG] Car 18 reached spline end, despawning
+2026-07-30 00:04:12.342 +03:00 [DBG] Car 12 reached spline end, despawning
+2026-07-30 00:04:16.560 +03:00 [INF] Collision between mvlegends3 (32) and Traffic 26 (26), rel. speed 118km/h
+2026-07-30 00:04:17.821 +03:00 [INF] Collision between mvlegends3 (32) and environment, rel. speed 17km/h
+2026-07-30 00:04:17.921 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-07-30 00:04:18.686 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-07-30 00:04:19.467 +03:00 [DBG] Car 9 reached spline end, despawning
+2026-07-30 00:04:20.252 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-07-30 00:04:43.898 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-07-30 00:04:45.636 +03:00 [INF] Collision between mvlegends3 (32) and Traffic 5 (5), rel. speed 130km/h
+2026-07-30 00:04:47.576 +03:00 [INF] Collision between mvlegends3 (32) and environment, rel. speed 30km/h
+2026-07-30 00:04:51.361 +03:00 [DBG] Car 16 reached spline end, despawning
+2026-07-30 00:04:59.601 +03:00 [INF] Collision between mvlegends3 (32) and environment, rel. speed 4km/h
+2026-07-30 00:05:07.961 +03:00 [DBG] Car 2 reached spline end, despawning
+2026-07-30 00:05:15.270 +03:00 [DBG] Car 28 reached spline end, despawning
+2026-07-30 00:05:18.652 +03:00 [INF] Collision between mvlegends3 (32) and environment, rel. speed 33km/h
+2026-07-30 00:05:18.798 +03:00 [DBG] Car 8 reached spline end, despawning
+2026-07-30 00:05:21.154 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-07-30 00:05:23.548 +03:00 [INF] Collision between mvlegends3 (32) and environment, rel. speed 1km/h
+2026-07-30 00:05:26.607 +03:00 [DBG] Received clean exit from mvlegends3 (32)
+2026-07-30 00:05:26.607 +03:00 [DBG] Disconnecting mvlegends3 (76561199235489856 - 195.174.133.0:57758)
+2026-07-30 00:05:26.607 +03:00 [INF] mvlegends3 has disconnected
+2026-07-30 00:05:29.965 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-07-30 00:05:30.711 +03:00 [DBG] Car 25 reached spline end, despawning
+2026-07-30 00:05:41.936 +03:00 [DBG] Car 11 reached spline end, despawning
+2026-07-30 00:05:46.520 +03:00 [INF] Collision between corp14x3 (36) and environment, rel. speed 7km/h
+2026-07-30 00:05:52.395 +03:00 [DBG] Car 4 reached spline end, despawning
+2026-07-30 00:05:54.728 +03:00 [DBG] Car 14 reached spline end, despawning
+2026-07-30 00:05:55.742 +03:00 [DBG] Car 3 reached spline end, despawning
+2026-07-30 00:06:03.615 +03:00 [DBG] Car 6 reached spline end, despawning
+2026-07-30 00:06:29.535 +03:00 [DBG] Car 26 reached spline end, despawning
+2026-07-30 00:06:29.871 +03:00 [DBG] Received clean exit from corp14x3 (36)
+2026-07-30 00:06:29.871 +03:00 [DBG] Disconnecting corp14x3 (76561199521796457 - 212.154.2.0:61387)
+2026-07-30 00:06:29.871 +03:00 [INF] corp14x3 has disconnected
+2026-07-30 00:06:44.166 +03:00 [DBG] Car 7 reached spline end, despawning
+2026-07-30 00:06:46.732 +03:00 [DBG] Car 22 reached spline end, despawning
+2026-07-30 00:06:51.336 +03:00 [DBG] Car 24 reached spline end, despawning
+2026-07-30 00:06:55.887 +03:00 [DBG] Car 15 reached spline end, despawning
+2026-07-30 00:06:57.893 +03:00 [DBG] Car 13 reached spline end, despawning
