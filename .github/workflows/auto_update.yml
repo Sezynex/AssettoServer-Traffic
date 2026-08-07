@@ -55,7 +55,7 @@ jobs:
 
       - name: Release İçin Zip Paketini /tmp Dizininde Oluştur
         run: |
-          # Zip dosyasını repo dışında (/tmp) oluşturuyoruz ki 'git add .' bunu yakalamasın
+          # Zip dosyasını repo dışında (/tmp) oluşturuyoruz
           zip -r /tmp/AssettoServer-Hazir-Sunucu.zip ./* -x ".git/*" ".github/*"
 
       - name: Değişiklikleri Repoya Pushla (LFS ile)
@@ -66,8 +66,16 @@ jobs:
           git add .gitattributes
           git add .
           
-          # Değişiklik varsa commit ve push yap
-          git diff-index --quiet HEAD || (git commit -m "Otomatik Güncelleme: acServer.exe güncellendi" && git push)
+          # Remote değişiklikleri çekip rebase yap, çakışmayı önle
+          git pull origin main --rebase || true
+          
+          # Değişiklik varsa commit at ve pushla
+          if ! git diff-index --quiet HEAD; then
+            git commit -m "Otomatik Güncelleme: acServer.exe güncellendi"
+            git push origin main
+          else
+            echo "Herhangi bir değişiklik yok, push atılmadı."
+          fi
 
       - name: GitHub Release Yayınla / Güncelle
         uses: softprops/action-gh-release@v2
