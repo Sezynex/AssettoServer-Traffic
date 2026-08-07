@@ -2,12 +2,11 @@ name: AssettoServer Otomatik Güncelleme (LFS + Release)
 
 on:
   schedule:
-    # Her gün gece 00:00'da otomatik kontrol eder
     - cron: '0 0 * * *'
-  workflow_dispatch: # Manuel tetikleme
+  workflow_dispatch:
 
 permissions:
-  contents: write # Release oluşturabilmesi için yazma izni gereklidir
+  contents: write
 
 jobs:
   sync-release:
@@ -41,7 +40,7 @@ jobs:
           
           curl -L "$DOWNLOAD_URL" -o assetto_latest.zip
 
-      - name: Zip İçeriğini Çıkart, İsim Değiştir ve Mevcut Klasörle Eşitle
+      - name: Zip İçeriğini Çıkart ve Düzenle
         run: |
           mkdir -p temp_extract
           unzip -o assetto_latest.zip -d temp_extract
@@ -52,11 +51,12 @@ jobs:
           
           # Ana dizine kopyala
           cp -rf temp_extract/* ./
-          
-          # Kullanıcılar için kuruluma hazır release zip'i oluştur
-          zip -r AssettoServer-Hazir-Sunucu.zip ./* -x "temp_extract/*" "assetto_latest.zip" ".git/*"
-          
           rm -rf assetto_latest.zip temp_extract
+
+      - name: Release İçin Zip Paketini /tmp Dizininde Oluştur
+        run: |
+          # Zip dosyasını repo dışında (/tmp) oluşturuyoruz ki 'git add .' bunu yakalamasın
+          zip -r /tmp/AssettoServer-Hazir-Sunucu.zip ./* -x ".git/*" ".github/*"
 
       - name: Değişiklikleri Repoya Pushla (LFS ile)
         run: |
@@ -78,7 +78,6 @@ jobs:
           draft: false
           prerelease: false
           files: |
-            AssettoServer-Hazir-Sunucu.zip
-            acServer.exe
+            /tmp/AssettoServer-Hazir-Sunucu.zip
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
