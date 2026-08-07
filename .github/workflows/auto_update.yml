@@ -49,13 +49,12 @@ jobs:
             mv temp_extract/AssettoServer.exe temp_extract/acServer.exe
           fi
           
-          # Ana dizine kopyala
           cp -rf temp_extract/* ./
           rm -rf assetto_latest.zip temp_extract
 
       - name: Release İçin Zip Paketini /tmp Dizininde Oluştur
         run: |
-          # Zip dosyasını repo dışında (/tmp) oluşturuyoruz
+          # Zip dosyasını repo DIŞINDA (/tmp) oluşturuyoruz
           zip -r /tmp/AssettoServer-Hazir-Sunucu.zip ./* -x ".git/*" ".github/*"
 
       - name: Değişiklikleri Repoya Pushla (LFS ile)
@@ -66,16 +65,15 @@ jobs:
           git add .gitattributes
           git add .
           
-          # Remote değişiklikleri çekip rebase yap
+          # Remote ile yerel geçmişi sıfırlayıp çakışmayı önle
           git fetch origin main
-          git rebase origin/main || git rebase --skip
+          git reset --soft origin/main
           
-          # Değişiklik varsa commit at ve pushla
           if ! git diff-index --quiet HEAD; then
             git commit -m "Otomatik Güncelleme: acServer.exe güncellendi"
             git push origin main
           else
-            echo "Herhangi bir değişiklik yok, push atılmadı."
+            echo "Değişiklik yok, push atılmadı."
           fi
 
       - name: GitHub Release Yayınla / Güncelle
