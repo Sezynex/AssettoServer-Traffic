@@ -42,11 +42,17 @@ jobs:
           echo "İndirilecek URL: $DOWNLOAD_URL"
           curl -L "$DOWNLOAD_URL" -o assetto_latest.zip
 
-      - name: Zip İçeriğini Çıkart ve Mevcut Klasörle Eşitle
+      - name: Zip İçeriğini Çıkart, İsim Değiştir ve Mevcut Klasörle Eşitle
         run: |
           # Geçici klasör oluşturup zip'i oraya açıyoruz
           mkdir -p temp_extract
           unzip -o assetto_latest.zip -d temp_extract
+          
+          # Eğer zip içinde AssettoServer.exe varsa adını acServer.exe yapıyoruz
+          if [ -f "temp_extract/AssettoServer.exe" ]; then
+            echo "AssettoServer.exe bulundu, acServer.exe olarak değiştiriliyor..."
+            mv temp_extract/AssettoServer.exe temp_extract/acServer.exe
+          fi
           
           # İndirilen dosyaları ana dizine kopyalıyoruz (mevcutların üzerine yazar)
           cp -r temp_extract/* ./
@@ -64,4 +70,4 @@ jobs:
           git add .
           
           # Eğer karşı repoda güncelleme olduysa ve dosya içerikleri değiştiyse commit atıp pushla
-          git diff-index --quiet HEAD || (git commit -m "Otomatik Güncelleme: AssettoServer son sürüm dosyaları çekildi (LFS)" && git push)
+          git diff-index --quiet HEAD || (git commit -m "Otomatik Güncelleme: AssettoServer son sürüm dosyaları çekildi (acServer.exe olarak eklendi)" && git push)
