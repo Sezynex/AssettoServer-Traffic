@@ -66,8 +66,9 @@ jobs:
           git add .gitattributes
           git add .
           
-          # Remote değişiklikleri çekip rebase yap, çakışmayı önle
-          git pull origin main --rebase || true
+          # Remote değişiklikleri çekip rebase yap
+          git fetch origin main
+          git rebase origin/main || git rebase --skip
           
           # Değişiklik varsa commit at ve pushla
           if ! git diff-index --quiet HEAD; then
