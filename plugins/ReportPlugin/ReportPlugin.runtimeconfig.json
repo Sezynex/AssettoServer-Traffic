@@ -1,19 +1,18 @@
 {
   "runtimeOptions": {
-    "tfm": "net9.0",
+    "tfm": "net8.0",
     "rollForward": "LatestMinor",
     "frameworks": [
       {
         "name": "Microsoft.NETCore.App",
-        "version": "9.0.0"
+        "version": "8.0.0"
       },
       {
         "name": "Microsoft.AspNetCore.App",
-        "version": "9.0.0"
+        "version": "8.0.0"
       }
     ],
     "configProperties": {
-      "MVVMTOOLKIT_ENABLE_INOTIFYPROPERTYCHANGING_SUPPORT": true,
       "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": false
     }
