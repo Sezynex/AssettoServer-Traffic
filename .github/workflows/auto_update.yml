@@ -26,19 +26,37 @@ jobs:
           git lfs track "*.exe"
           git lfs track "*.dll"
 
-      - name: En Güncel Windows Release Zip Dosyasını Tespit Et ve İndir
+      - name: En Güncel Stable veya Preview Release'i Tespit Et ve İndir
         run: |
-          echo "Hedef repodan son sürüm bilgileri alınıyor..."
-          LATEST_RELEASE_JSON=$(curl -s https://api.github.com/repos/compujuckel/AssettoServer/releases/latest)
-          
-          DOWNLOAD_URL=$(echo "$LATEST_RELEASE_JSON" | grep -oE "https://github.com/[^\"]+/assetto-server-win-x64\.zip" | head -n 1)
-          
-          if [ -z "$DOWNLOAD_URL" ]; then
+          echo "Stable + Preview dahil en güncel release aranıyor..."
+
+          RELEASES_JSON=$(curl -s \
+          -H "Accept: application/vnd.github+json" \
+          https://api.github.com/repos/compujuckel/AssettoServer/releases?per_page=100)
+
+          # Draft olmayan en yeni release'i al.
+          # prerelease=true olan Preview sürümler de DAHİLDİR.
+          LATEST_RELEASE_JSON=$(echo "$RELEASES_JSON" | jq 'map(select(.draft == false)) | .[0]')
+
+          RELEASE_TAG=$(echo "$LATEST_RELEASE_JSON" | jq -r '.tag_name')
+          IS_PRERELEASE=$(echo "$LATEST_RELEASE_JSON" | jq -r '.prerelease')
+
+          echo "Bulunan en güncel sürüm: $RELEASE_TAG"
+          echo "Preview / Prerelease: $IS_PRERELEASE"
+
+          DOWNLOAD_URL=$(echo "$LATEST_RELEASE_JSON" | \
+            jq -r '.assets[] | select(.name == "assetto-server-win-x64.zip") | .browser_download_url' | \
+            head -n 1)
+
+          if [ -z "$DOWNLOAD_URL" ] || [ "$DOWNLOAD_URL" = "null" ]; then
             echo "Hata: assetto-server-win-x64.zip dosyası release içinde bulunamadı!"
             exit 1
           fi
-          
-          curl -L "$DOWNLOAD_URL" -o assetto_latest.zip
+
+          echo "İndiriliyor:"
+          echo "$DOWNLOAD_URL"
+
+          curl -fL "$DOWNLOAD_URL" -o assetto_latest.zip
 
       - name: Zip İçeriğini Çıkart ve Düzenle
         run: |
